@@ -1,0 +1,23 @@
+12V PowerBoard Connections
+
+Incoming
+
+1. Horizontal Stacked Anderson: Pin 4: VDD 
+
+2. Horizontal Stacked Anderson: Pin 1: GND 
+
+Outgoing
+
+1. Vertical Side by Side Anderson: Pin 2: 12V Logic
+
+2. Vertical Side by Side Anderson: Pin 2: 12V Actuation
+
+4. Vertical Male 1.27mm PinHeaders: Pin 2: ACT_IMES
+
+6. Vertical Male 1.27mm PinHeaders: Pin 6: LOG_CRTL
+
+7. Vertical Male 1.27mm PinHeaders: Pin 8: ACT_CRTL
+
+8. Vertical Male 1.27mm PinHeaders: Pin 10: LOG_IMES
+
+9. Vertical Male 1.27mm PinHeaders: Pin 1: GND

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PowerBoard_Hardware)(type KiCad)(uri ${PROJECT_LIBRARY}/Packages/PowerBoard_Hardware.pretty)(options "")(descr ""))
+)

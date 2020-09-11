@@ -1,0 +1,6 @@
+TIVA Connections
+
+PE_4:A1_2: Analog In: ACT_IMES
+PC_5:A1_4: Digital Out: LOG_CRTL 
+PC_6:A1_5: Digital Out: ACT_CRTL
+PE_5:A1_6: Analog In: LOG_IMES
