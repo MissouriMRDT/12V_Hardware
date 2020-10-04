@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -31,6 +31,6 @@ $Sheet
 S 6350 1850 1500 2750
 U 5F74F4A3
 F0 "Tiva In/Outputs" 79
-F1 "Tiva In/Outputs.sch" 79
+F1 "Tiva.sch" 79
 $EndSheet
 $EndSCHEMATC
