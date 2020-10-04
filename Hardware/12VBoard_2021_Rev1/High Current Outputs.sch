@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Converter_DCDC:BD9611MUV U?
-U 1 1 5F7A443F
-P 2800 2300
-F 0 "U?" H 2800 2400 50  0000 C CNN
-F 1 "BD9611MUV" H 2800 2300 50  0000 C CNN
-F 2 "" H 2800 2450 50  0001 C CNN
-F 3 "" H 2800 2450 50  0001 C CNN
-	1    2800 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5F7A8A51
@@ -89,5 +79,16 @@ F 2 "" H 1650 3000 50  0001 C CNN
 F 3 "~" H 1650 3000 50  0001 C CNN
 	1    1650 3000
 	0    -1   -1   0   
+$EndComp
+$Comp
+L 12VBoard_2021_Rev1:BD9611MUV U?
+U 1 1 5F7A09D5
+P 2550 1400
+F 0 "U?" H 2550 2200 50  0000 C CNN
+F 1 "BD9611MUV" H 2550 2000 50  0000 C CNN
+F 2 "" H 2550 1400 50  0001 C CNN
+F 3 "" H 2550 1400 50  0001 C CNN
+	1    2550 1400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
