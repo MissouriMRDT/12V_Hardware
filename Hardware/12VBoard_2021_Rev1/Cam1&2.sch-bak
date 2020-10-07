@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Devices:LM2576D2TR4 U?
+U 1 1 5F7D90ED
+P 4500 2900
+AR Path="/5F74F223/5F7D1238/5F7D90ED" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5F7D90ED" Ref="U?"  Part="1" 
+F 0 "U?" H 4500 3325 50  0000 C CNN
+F 1 "LM2576D2TR4" H 4500 3234 50  0000 C CNN
+F 2 "" H 4500 3350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 4500 3350 50  0001 C CNN
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 4900 2300 0    79   Input ~ 16
+33.6V
+$Comp
+L power:GND #PWR?
+U 1 1 5F7DAC07
+P 5000 1700
+AR Path="/5F74F223/5F7D1238/5F7DAC07" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5F7DAC07" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5000 1450 50  0001 C CNN
+F 1 "GND" H 5005 1527 50  0000 C CNN
+F 2 "" H 5000 1700 50  0001 C CNN
+F 3 "" H 5000 1700 50  0001 C CNN
+	1    5000 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5F7D9CB5
+P 5000 2000
+AR Path="/5F74F223/5F7D1238/5F7D9CB5" Ref="C?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5F7D9CB5" Ref="C?"  Part="1" 
+F 0 "C?" H 4885 1954 50  0000 R CNN
+F 1 "100 uF" H 4885 2045 50  0000 R CNN
+F 2 "" H 5000 2000 50  0001 C CNN
+F 3 "~" H 5000 2000 50  0001 C CNN
+	1    5000 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 1850 5000 1700
+$Comp
+L Device:L L?
+U 1 1 5F7DB776
+P 5650 2850
+AR Path="/5F74F223/5F7D1238/5F7DB776" Ref="L?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5F7DB776" Ref="L?"  Part="1" 
+F 0 "L?" V 5469 2850 50  0000 C CNN
+F 1 "100 uH" V 5560 2850 50  0000 C CNN
+F 2 "" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5F7DC1E9
+P 6000 2550
+AR Path="/5F74F223/5F7D1238/5F7DC1E9" Ref="C?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5F7DC1E9" Ref="C?"  Part="1" 
+F 0 "C?" H 6115 2596 50  0000 L CNN
+F 1 "CP1" H 6115 2505 50  0000 L CNN
+F 2 "" H 6000 2550 50  0001 C CNN
+F 3 "~" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F7DCF47
+P 5300 2550
+AR Path="/5F74F223/5F7D1238/5F7DCF47" Ref="D?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5F7DCF47" Ref="D?"  Part="1" 
+F 0 "D?" V 5254 2630 50  0000 L CNN
+F 1 "D" V 5345 2630 50  0000 L CNN
+F 2 "" H 5300 2550 50  0001 C CNN
+F 3 "~" H 5300 2550 50  0001 C CNN
+	1    5300 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2150 5000 2300
+Wire Wire Line
+	4900 2300 5000 2300
+Connection ~ 5000 2300
+Wire Wire Line
+	5000 2300 5000 2700
+Wire Wire Line
+	5000 2850 5300 2850
+Wire Wire Line
+	5800 2850 6000 2850
+Wire Wire Line
+	6000 2850 6000 2700
+Wire Wire Line
+	5300 2700 5300 2850
+Connection ~ 5300 2850
+Wire Wire Line
+	5300 2850 5500 2850
+Wire Wire Line
+	6000 2850 6150 2850
+Connection ~ 6000 2850
+Wire Wire Line
+	5000 3000 6150 3000
+Wire Wire Line
+	6150 3000 6150 2850
+Connection ~ 6150 2850
+Text HLabel 6600 2850 2    79   Output ~ 16
+12V3A
+Wire Wire Line
+	6150 2850 6600 2850
+$EndSCHEMATC
