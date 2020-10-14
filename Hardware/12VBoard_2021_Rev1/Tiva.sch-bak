@@ -13,4 +13,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn?
+U 1 1 5F9BCEA4
+P 6550 4600
+F 0 "Conn?" H 6678 5158 60  0000 L CNN
+F 1 "Molex_SL_10" H 6678 5052 60  0000 L CNN
+F 2 "" H 6550 5100 60  0001 C CNN
+F 3 "" H 6550 5100 60  0001 C CNN
+	1    6550 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 5850 4950 0    79   ~ 0
+Tiva 4 analog(current sense)/ \n5 toggles(digital write)
 $EndSCHEMATC
