@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 13
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -1088,19 +1088,6 @@ Wire Wire Line
 	3950 4700 3950 4650
 Wire Wire Line
 	4000 4450 3950 4450
-$Comp
-L Device:Fuse F?
-U 1 1 5F92ED48
-P 4500 3150
-AR Path="/5F74F36B/5F821EB2/5F92ED48" Ref="F?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5F92ED48" Ref="F?"  Part="1" 
-F 0 "F?" V 4303 3150 50  0000 C CNN
-F 1 "Fuse" V 4394 3150 50  0000 C CNN
-F 2 "" V 4430 3150 50  0001 C CNN
-F 3 "~" H 4500 3150 50  0001 C CNN
-	1    4500 3150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4650 3150 4700 3150
 Connection ~ 4700 3150
@@ -1273,4 +1260,17 @@ Text GLabel 4500 4050 1    50   Input ~ 0
 5V
 Wire Wire Line
 	3000 3800 2950 3800
+$Comp
+L Device:Fuse F?
+U 1 1 5F92ED48
+P 4500 3150
+AR Path="/5F74F36B/5F821EB2/5F92ED48" Ref="F?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5F92ED48" Ref="F?"  Part="1" 
+F 0 "F?" V 4303 3150 50  0000 C CNN
+F 1 "Fuse" V 4394 3150 50  0000 C CNN
+F 2 "" V 4430 3150 50  0001 C CNN
+F 3 "~" H 4500 3150 50  0001 C CNN
+	1    4500 3150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
