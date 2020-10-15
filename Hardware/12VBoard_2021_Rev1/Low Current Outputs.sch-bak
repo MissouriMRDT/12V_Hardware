@@ -61,21 +61,6 @@ F 3 "~" H 4925 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
-U 1 1 5F850755
-P 4125 1450
-AR Path="/5F74F223/5F7D1238/5F850755" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F850755" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F850755" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F850755" Ref="D?"  Part="1" 
-F 0 "D?" V 4079 1530 50  0000 L CNN
-F 1 "12V" V 4170 1530 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4125 1450 50  0001 C CNN
-F 3 "~" H 4125 1450 50  0001 C CNN
-	1    4125 1450
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F85075C
 P 4525 1700
@@ -257,21 +242,6 @@ F 3 "~" H 4950 2725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
-U 1 1 5F853A33
-P 4150 2725
-AR Path="/5F74F223/5F7D1238/5F853A33" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F853A33" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F853A33" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F853A33" Ref="D?"  Part="1" 
-F 0 "D?" V 4104 2805 50  0000 L CNN
-F 1 "12V" V 4195 2805 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 2725 50  0001 C CNN
-F 3 "~" H 4150 2725 50  0001 C CNN
-	1    4150 2725
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F853A3A
 P 4550 2975
@@ -431,21 +401,6 @@ F 3 "~" H 4975 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
-U 1 1 5F85809F
-P 4175 3975
-AR Path="/5F74F223/5F7D1238/5F85809F" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F85809F" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85809F" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F85809F" Ref="D?"  Part="1" 
-F 0 "D?" V 4129 4055 50  0000 L CNN
-F 1 "12V" V 4220 4055 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4175 3975 50  0001 C CNN
-F 3 "~" H 4175 3975 50  0001 C CNN
-	1    4175 3975
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F8580A6
 P 4575 4225
@@ -544,8 +499,6 @@ Connection ~ 4175 3750
 Wire Wire Line
 	4175 3750 4375 3750
 Wire Wire Line
-	4175 3750 4175 3825
-Wire Wire Line
 	4975 4125 4975 4175
 Wire Wire Line
 	4975 4175 4575 4175
@@ -623,21 +576,6 @@ F 2 "" H 5025 5300 50  0001 C CNN
 F 3 "~" H 5025 5300 50  0001 C CNN
 	1    5025 5300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5F85F736
-P 4225 5300
-AR Path="/5F74F223/5F7D1238/5F85F736" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F85F736" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F736" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F85F736" Ref="D?"  Part="1" 
-F 0 "D?" V 4179 5380 50  0000 L CNN
-F 1 "12V" V 4270 5380 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4225 5300 50  0001 C CNN
-F 3 "~" H 4225 5300 50  0001 C CNN
-	1    4225 5300
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -817,21 +755,6 @@ F 2 "" H 5075 6750 50  0001 C CNN
 F 3 "~" H 5075 6750 50  0001 C CNN
 	1    5075 6750
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5F86A2D3
-P 4275 6750
-AR Path="/5F74F223/5F7D1238/5F86A2D3" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F86A2D3" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F86A2D3" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F86A2D3" Ref="D?"  Part="1" 
-F 0 "D?" V 4229 6830 50  0000 L CNN
-F 1 "12V" V 4320 6830 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4275 6750 50  0001 C CNN
-F 3 "~" H 4275 6750 50  0001 C CNN
-	1    4275 6750
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -1627,4 +1550,61 @@ Wire Wire Line
 	6425 4225 6425 4375
 Wire Wire Line
 	6425 5525 6425 5700
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F88AAB0
+P 4125 1450
+F 0 "D?" V 4079 1530 50  0000 L CNN
+F 1 "D_Schottky" V 4170 1530 50  0000 L CNN
+F 2 "" H 4125 1450 50  0001 C CNN
+F 3 "~" H 4125 1450 50  0001 C CNN
+	1    4125 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F88BCE9
+P 4150 2725
+F 0 "D?" V 4104 2805 50  0000 L CNN
+F 1 "D_Schottky" V 4195 2805 50  0000 L CNN
+F 2 "" H 4150 2725 50  0001 C CNN
+F 3 "~" H 4150 2725 50  0001 C CNN
+	1    4150 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F88D34D
+P 4175 3975
+F 0 "D?" V 4129 4055 50  0000 L CNN
+F 1 "D_Schottky" V 4220 4055 50  0000 L CNN
+F 2 "" H 4175 3975 50  0001 C CNN
+F 3 "~" H 4175 3975 50  0001 C CNN
+	1    4175 3975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4175 3750 4175 3825
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F88F5BA
+P 4225 5300
+F 0 "D?" V 4179 5380 50  0000 L CNN
+F 1 "D_Schottky" V 4270 5380 50  0000 L CNN
+F 2 "" H 4225 5300 50  0001 C CNN
+F 3 "~" H 4225 5300 50  0001 C CNN
+	1    4225 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F88FCBF
+P 4275 6750
+F 0 "D?" V 4229 6830 50  0000 L CNN
+F 1 "D_Schottky" V 4320 6830 50  0000 L CNN
+F 2 "" H 4275 6750 50  0001 C CNN
+F 3 "~" H 4275 6750 50  0001 C CNN
+	1    4275 6750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
