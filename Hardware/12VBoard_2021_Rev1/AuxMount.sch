@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -191,8 +191,6 @@ F 3 "~" H 3600 900 50  0001 C CNN
 	1    3600 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 3250 1750 0    50   Input ~ 0
-CTL1
 $Comp
 L pspice:CAP C?
 U 1 1 5F844364
@@ -1037,8 +1035,6 @@ Wire Wire Line
 	3950 3900 3950 3850
 Wire Wire Line
 	3950 3850 3750 3850
-Text GLabel 3100 3850 0    50   Input ~ 0
-5V
 Wire Wire Line
 	3150 3850 3100 3850
 Wire Wire Line
@@ -1046,4 +1042,16 @@ Wire Wire Line
 Wire Wire Line
 	3750 3200 3600 3200
 Connection ~ 3600 3200
+Text HLabel 3100 3850 0    50   Output ~ 0
+5V
+Text HLabel 4500 3200 2    50   Input ~ 0
+12V15AAuxMount
+Text HLabel 3500 4350 2    49   Output ~ 0
+AuxMountSense
+Wire Wire Line
+	3450 4250 3450 4350
+Wire Wire Line
+	3450 4350 3500 4350
+Text HLabel 3250 1750 0    49   Input ~ 0
+AuxMountSense
 $EndSCHEMATC

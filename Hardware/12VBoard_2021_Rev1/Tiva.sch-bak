@@ -46,28 +46,24 @@ Text Notes 7550 4525 2    50   ~ 0
 Multimedia/Extra CTL
 Text Notes 6725 4225 0    49   ~ 0
 Gimbal CTL
-Text HLabel 6050 3700 0    49   Output ~ 0
+Text HLabel 6050 3700 0    49   Input ~ 0
 DriveSense
 Wire Wire Line
 	6400 3700 6050 3700
-Text HLabel 6050 3800 0    49   Output ~ 0
+Text HLabel 6050 3800 0    49   Input ~ 0
 AuxMountSense
 Wire Wire Line
 	6400 3800 6050 3800
-Text HLabel 6050 3900 0    49   Output ~ 0
+Text HLabel 6050 3900 0    49   Input ~ 0
 MulitmediaSense
 Wire Wire Line
 	6400 3900 6050 3900
-Text HLabel 6050 4000 0    49   Output ~ 0
+Text HLabel 6050 4000 0    49   Input ~ 0
 LowCurrentSense
 Wire Wire Line
 	6400 4000 6050 4000
-Text HLabel 6050 4200 0    49   Output ~ 0
-GimbalCTL
 Wire Wire Line
 	6400 4200 6050 4200
-Text HLabel 6050 4300 0    49   Output ~ 0
-NavBoardCTL
 Wire Wire Line
 	6400 4300 6050 4300
 Text HLabel 6050 4400 0    49   Output ~ 0
@@ -83,4 +79,8 @@ AuxCTL
 Wire Wire Line
 	6400 4600 6050 4600
 NoConn ~ 6400 4100
+Text HLabel 6050 4300 0    49   Output ~ 0
+NavBoardCTL
+Text HLabel 6050 4200 0    49   Output ~ 0
+GimbalCTL
 $EndSCHEMATC

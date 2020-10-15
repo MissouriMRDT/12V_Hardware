@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -186,8 +186,6 @@ F 3 "~" H 3500 850 50  0001 C CNN
 	1    3500 850 
 	1    0    0    -1  
 $EndComp
-Text GLabel 3150 1700 0    50   Input ~ 0
-CTL1
 $Comp
 L pspice:CAP C?
 U 1 1 5F844364
@@ -960,8 +958,8 @@ $Comp
 L Device:CP1 C?
 U 1 1 5F8CAF09
 P 6050 4600
-F 0 "C?" H 6165 4646 50  0000 L CNN
-F 1 "CP1" H 6165 4555 50  0000 L CNN
+F 0 "C?" H 5900 4500 50  0000 L CNN
+F 1 "CP1" H 5900 4400 50  0000 L CNN
 F 2 "" H 6050 4600 50  0001 C CNN
 F 3 "~" H 6050 4600 50  0001 C CNN
 	1    6050 4600
@@ -1094,53 +1092,50 @@ Connection ~ 4700 3150
 $Comp
 L Device:R R?
 U 1 1 5F945D14
-P 6550 4250
+P 6300 4250
 AR Path="/5F74F36B/5F821EB2/5F945D14" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F945D14" Ref="R?"  Part="1" 
-F 0 "R?" H 6620 4296 50  0000 L CNN
-F 1 "1k" H 6620 4205 50  0000 L CNN
-F 2 "" V 6480 4250 50  0001 C CNN
-F 3 "~" H 6550 4250 50  0001 C CNN
-	1    6550 4250
+F 0 "R?" H 6370 4296 50  0000 L CNN
+F 1 "1k" H 6370 4205 50  0000 L CNN
+F 2 "" V 6230 4250 50  0001 C CNN
+F 3 "~" H 6300 4250 50  0001 C CNN
+	1    6300 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F945D1A
-P 6550 4500
+P 6300 4500
 AR Path="/5F74F36B/5F821EB2/5F945D1A" Ref="#PWR?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F945D1A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6550 4250 50  0001 C CNN
-F 1 "GND" H 6555 4327 50  0000 C CNN
-F 2 "" H 6550 4500 50  0001 C CNN
-F 3 "" H 6550 4500 50  0001 C CNN
-	1    6550 4500
+F 0 "#PWR?" H 6300 4250 50  0001 C CNN
+F 1 "GND" H 6305 4327 50  0000 C CNN
+F 2 "" H 6300 4500 50  0001 C CNN
+F 3 "" H 6300 4500 50  0001 C CNN
+	1    6300 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5F945D20
-P 6550 3850
+P 6300 3850
 AR Path="/5F74F36B/5F821EB2/5F945D20" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F945D20" Ref="D?"  Part="1" 
-F 0 "D?" V 6589 3733 50  0000 R CNN
-F 1 "LED" V 6498 3733 50  0000 R CNN
-F 2 "" H 6550 3850 50  0001 C CNN
-F 3 "~" H 6550 3850 50  0001 C CNN
-	1    6550 3850
+F 0 "D?" V 6339 3733 50  0000 R CNN
+F 1 "LED" V 6248 3733 50  0000 R CNN
+F 2 "" H 6300 3850 50  0001 C CNN
+F 3 "~" H 6300 3850 50  0001 C CNN
+	1    6300 3850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6550 4500 6550 4400
+	6300 4500 6300 4400
 Wire Wire Line
-	6550 4100 6550 4000
+	6300 4100 6300 4000
 Wire Wire Line
-	6550 3700 6550 3650
+	6300 3700 6300 3650
 Wire Wire Line
-	5800 3650 6550 3650
-Wire Wire Line
-	6550 3650 6600 3650
-Connection ~ 6550 3650
+	5800 3650 6300 3650
 $Comp
 L Device:R R?
 U 1 1 5F955B34
@@ -1191,7 +1186,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3150 7000 3150
 Connection ~ 6950 3150
-Text Notes 6600 3750 0    50   ~ 0
+Text Notes 6350 3750 0    50   ~ 0
 Green
 Text Notes 7000 3250 0    50   ~ 0
 Green
@@ -1252,12 +1247,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 3150 3450 3150
 Connection ~ 3450 3150
-Text GLabel 2950 3800 0    50   Input ~ 0
-5V
-Text GLabel 3950 4450 0    50   Input ~ 0
-5V
-Text GLabel 4500 4050 1    50   Input ~ 0
-5V
 Wire Wire Line
 	3000 3800 2950 3800
 $Comp
@@ -1273,4 +1262,27 @@ F 3 "~" H 4500 3150 50  0001 C CNN
 	1    4500 3150
 	0    1    1    0   
 $EndComp
+Text HLabel 2950 3800 0    50   Output ~ 0
+5V
+Text HLabel 3950 4450 0    50   Output ~ 0
+5V
+Text HLabel 4450 4050 0    50   Output ~ 0
+5V
+Wire Wire Line
+	4500 4050 4450 4050
+Text HLabel 6350 3650 2    50   Input ~ 0
+12V15AExtra
+Text HLabel 7000 3150 2    50   Input ~ 0
+12V15AMultimedia
+Wire Wire Line
+	6350 3650 6300 3650
+Connection ~ 6300 3650
+Text HLabel 3250 4250 0    49   Output ~ 0
+MultimediaExtraSense
+Wire Wire Line
+	3300 4200 3300 4250
+Wire Wire Line
+	3300 4250 3250 4250
+Text HLabel 3150 1700 0    49   Input ~ 0
+CTL_AuxMount
 $EndSCHEMATC

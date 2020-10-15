@@ -48,15 +48,7 @@ F0 "Drive" 50
 F1 "Drive.sch" 50
 F2 "12V15ADrive" O R 2950 3100 50 
 F3 "DriveSense" O R 2950 3200 50 
-$EndSheet
-$Sheet
-S 3250 2950 1250 1450
-U 5F8222BE
-F0 "AuxMount" 50
-F1 "AuxMount.sch" 50
-F2 "12V15AAuxMount" O R 4500 3100 50 
-F3 "CTL_AuxMount" O R 4500 3200 50 
-F4 "AuxMountSense" O R 4500 3300 50 
+F4 "5V" O L 1700 4150 49 
 $EndSheet
 $Sheet
 S 4750 2950 1250 1450
@@ -67,6 +59,7 @@ F2 "12V15AMultimedia" O R 6000 3100 50
 F3 "CTL_MultimediaExtra" O R 6000 3300 50 
 F4 "12V15AExtra" O R 6000 3200 50 
 F5 "MultimediaExtraSense" O R 6000 3400 50 
+F6 "5V" O L 4750 4200 49 
 $EndSheet
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
@@ -264,4 +257,68 @@ Wire Wire Line
 	6000 3200 6200 3200
 Wire Wire Line
 	6200 3200 6200 2300
+Text HLabel 1400 4900 0    79   Input ~ 16
+5V
+$Sheet
+S 3250 2950 1250 1450
+U 5F8222BE
+F0 "AuxMount" 50
+F1 "AuxMount.sch" 50
+F2 "12V15AAuxMount" O R 4500 3100 50 
+F3 "CTL_AuxMount" O R 4500 3200 50 
+F4 "AuxMountSense" O R 4500 3300 50 
+F5 "5V" O L 3250 4200 49 
+$EndSheet
+Wire Wire Line
+	1400 4900 1550 4900
+Wire Wire Line
+	4600 4900 4600 4200
+Wire Wire Line
+	4600 4200 4750 4200
+Wire Wire Line
+	3250 4200 3100 4200
+Wire Wire Line
+	3100 4200 3100 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	3100 4900 4600 4900
+Wire Wire Line
+	1700 4150 1550 4150
+Wire Wire Line
+	1550 4150 1550 4900
+Connection ~ 1550 4900
+Wire Wire Line
+	1550 4900 3100 4900
+Text Notes 1950 2700 0    79   ~ 16
+Delete Drive
+Text HLabel 4650 3350 3    49   Output ~ 0
+AuxCTL
+Text HLabel 4550 3350 3    49   Output ~ 0
+AuxMountSense
+Wire Wire Line
+	4550 3350 4550 3300
+Wire Wire Line
+	4550 3300 4500 3300
+Wire Wire Line
+	4500 3200 4650 3200
+Wire Wire Line
+	4650 3200 4650 3350
+Text HLabel 6050 3450 3    49   Input ~ 0
+MultimediaSense
+Text HLabel 6150 3450 3    49   Output ~ 0
+MultimediaCTL
+Wire Wire Line
+	6050 3450 6050 3400
+Wire Wire Line
+	6050 3400 6000 3400
+Wire Wire Line
+	6000 3300 6150 3300
+Wire Wire Line
+	6150 3300 6150 3450
+Text HLabel 3000 3250 3    49   Input ~ 0
+DriveSense
+Wire Wire Line
+	3000 3250 3000 3200
+Wire Wire Line
+	3000 3200 2950 3200
 $EndSCHEMATC

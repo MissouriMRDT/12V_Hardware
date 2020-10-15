@@ -62,36 +62,18 @@ Text HLabel 8775 5575 2    79   Output ~ 16
 $Comp
 L power:GND #PWR?
 U 1 1 5F8AC7A9
-P 4275 4875
+P 4700 5200
 AR Path="/5F74F223/5F7D1238/5F8AC7A9" Ref="#PWR?"  Part="1" 
 AR Path="/5F74F223/5F7D14F6/5F8AC7A9" Ref="#PWR?"  Part="1" 
 AR Path="/5F74F223/5F8AC7A9" Ref="#PWR?"  Part="1" 
 AR Path="/5F8031F1/5F8AC7A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4275 4625 50  0001 C CNN
-F 1 "GND" H 4275 4725 50  0000 C CNN
-F 2 "" H 4275 4875 50  0001 C CNN
-F 3 "" H 4275 4875 50  0001 C CNN
-	1    4275 4875
+F 0 "#PWR?" H 4700 4950 50  0001 C CNN
+F 1 "GND" H 4700 5050 50  0000 C CNN
+F 2 "" H 4700 5200 50  0001 C CNN
+F 3 "" H 4700 5200 50  0001 C CNN
+	1    4700 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 4950 4400 4950
-Connection ~ 4550 4950
-Wire Wire Line
-	4550 5100 4550 4950
-Wire Wire Line
-	4750 5100 4550 5100
-Wire Wire Line
-	4400 4800 4275 4800
-Connection ~ 4400 4800
-Wire Wire Line
-	4400 4950 4400 4800
-Wire Wire Line
-	4750 4950 4550 4950
-Wire Wire Line
-	4275 4800 4275 4875
-Wire Wire Line
-	4750 4800 4400 4800
 Wire Wire Line
 	5925 4525 5925 4800
 Wire Wire Line
@@ -255,4 +237,18 @@ F 3 "" H 7625 5375 50  0001 C CNN
 	1    7625 5375
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 4800 4700 4800
+Wire Wire Line
+	4700 4800 4700 4950
+Wire Wire Line
+	4750 5100 4700 5100
+Connection ~ 4700 5100
+Wire Wire Line
+	4700 5100 4700 5200
+Wire Wire Line
+	4750 4950 4700 4950
+Connection ~ 4700 4950
+Wire Wire Line
+	4700 4950 4700 5100
 $EndSCHEMATC

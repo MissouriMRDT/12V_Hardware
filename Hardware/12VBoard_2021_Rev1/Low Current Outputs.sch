@@ -271,22 +271,6 @@ F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 3125 3000 50
 	1    3125 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F853A46
-P 2225 2375
-AR Path="/5F74F223/5F7D1238/5F853A46" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F853A46" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F853A46" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2225 2125 50  0001 C CNN
-F 1 "GND" H 2230 2202 50  0000 C CNN
-F 2 "" H 2225 2375 50  0001 C CNN
-F 3 "" H 2225 2375 50  0001 C CNN
-	1    2225 2375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2625 2650 2500 2650
 Wire Wire Line
 	5500 2825 5500 2925
 $Comp
@@ -969,22 +953,6 @@ Text HLabel 2250 1225 0    79   Input ~ 0
 CameraToggle
 Wire Wire Line
 	2250 1225 2600 1225
-Wire Wire Line
-	2625 2500 2500 2500
-Wire Wire Line
-	2625 2350 2425 2350
-Wire Wire Line
-	2225 2350 2225 2375
-Wire Wire Line
-	2425 2500 2425 2350
-Connection ~ 2425 2350
-Wire Wire Line
-	2425 2350 2225 2350
-Wire Wire Line
-	2500 2650 2500 2500
-Connection ~ 2500 2500
-Wire Wire Line
-	2500 2500 2425 2500
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 2 1 5FA336BA
@@ -1535,7 +1503,7 @@ P 6100 7250
 AR Path="/5F74F36B/5F8236F9/5F928AA0" Ref="R?"  Part="1" 
 AR Path="/5F74F223/5F928AA0" Ref="R?"  Part="1" 
 F 0 "R?" V 5893 7250 50  0000 C CNN
-F 1 "5m" V 5984 7250 50  0000 C CNN
+F 1 "25m" V 5984 7250 50  0000 C CNN
 F 2 "" V 6030 7250 50  0001 C CNN
 F 3 "~" H 6100 7250 50  0001 C CNN
 	1    6100 7250
@@ -1640,4 +1608,36 @@ Wire Wire Line
 	8125 6425 9000 6425
 Wire Wire Line
 	9000 6250 9000 6425
+Wire Wire Line
+	2500 2500 2425 2500
+Wire Wire Line
+	2500 2650 2500 2500
+Wire Wire Line
+	2425 2350 2225 2350
+Wire Wire Line
+	2425 2500 2425 2350
+Wire Wire Line
+	2225 2350 2225 2375
+Connection ~ 2425 2350
+Wire Wire Line
+	2625 2350 2425 2350
+Connection ~ 2500 2500
+Wire Wire Line
+	2625 2500 2500 2500
+Wire Wire Line
+	2625 2650 2500 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5F853A46
+P 2225 2375
+AR Path="/5F74F223/5F7D1238/5F853A46" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5F853A46" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F853A46" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2225 2125 50  0001 C CNN
+F 1 "GND" H 2230 2202 50  0000 C CNN
+F 2 "" H 2225 2375 50  0001 C CNN
+F 3 "" H 2225 2375 50  0001 C CNN
+	1    2225 2375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

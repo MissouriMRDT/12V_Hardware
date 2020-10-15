@@ -1105,11 +1105,19 @@ Wire Wire Line
 	4100 4050 4100 4000
 Wire Wire Line
 	4100 4000 3900 4000
-Text GLabel 3250 4000 0    50   Input ~ 0
-5V
 Wire Wire Line
 	3300 4000 3250 4000
 Wire Wire Line
 	3850 3350 3750 3350
 Connection ~ 3750 3350
+Text HLabel 3250 4000 0    50   Output ~ 0
+5V
+Text HLabel 4750 3350 2    49   Output ~ 0
+12V15ADrive
+Text HLabel 3550 4500 0    49   Output ~ 0
+DriveSense
+Wire Wire Line
+	3600 4400 3600 4500
+Wire Wire Line
+	3600 4500 3550 4500
 $EndSCHEMATC
