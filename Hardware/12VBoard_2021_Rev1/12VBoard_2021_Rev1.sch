@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7100 6950 0    197  ~ 39
-12 Volt 'THE Distro' Board
+Text Notes 7025 6950 0    197  ~ 39
+12 Volt 'THE DISTRO' Board
 $Sheet
 S 5000 2000 2000 2000
 U 5F74F4A3

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -15,25 +15,14 @@ Comment4 ""
 $EndDescr
 Text HLabel 1400 4700 0    79   Input ~ 16
 PackVoltage
-Text HLabel 1700 4250 2    50   Input ~ 0
-PackVoltage
 Text HLabel 3250 4300 2    50   Input ~ 0
 PackVoltage
 Text HLabel 4750 4300 2    50   Input ~ 0
 PackVoltage
 Wire Wire Line
-	1400 4700 1600 4700
-Wire Wire Line
-	1700 4250 1600 4250
-Wire Wire Line
-	1600 4250 1600 4700
-Connection ~ 1600 4700
-Wire Wire Line
 	4650 4700 4650 4300
 Wire Wire Line
 	4650 4300 4750 4300
-Wire Wire Line
-	1600 4700 3150 4700
 Wire Wire Line
 	3250 4300 3150 4300
 Wire Wire Line
@@ -41,15 +30,6 @@ Wire Wire Line
 Connection ~ 3150 4700
 Wire Wire Line
 	3150 4700 4650 4700
-$Sheet
-S 1700 2950 1250 1450
-U 5F821EB2
-F0 "Drive" 50
-F1 "Drive.sch" 50
-F2 "12V15ADrive" O R 2950 3100 50 
-F3 "DriveSense" O R 2950 3200 50 
-F4 "5V" O L 1700 4150 49 
-$EndSheet
 $Sheet
 S 4750 2950 1250 1450
 U 5F8236F9
@@ -61,55 +41,6 @@ F4 "12V15AExtra" O R 6000 3200 50
 F5 "MultimediaExtraSense" O R 6000 3400 50 
 F6 "5V" O L 4750 4200 49 
 $EndSheet
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5F9BB8B5
-P 3600 1800
-AR Path="/5F74F36B/5F821EB2/5F9BB8B5" Ref="Conn?"  Part="1" 
-AR Path="/5F74F36B/5F9BB8B5" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 3572 1847 60  0000 R CNN
-F 1 "AndersonPP" H 3572 1953 60  0000 R CNN
-F 2 "" H 3450 1250 60  0001 C CNN
-F 3 "" H 3450 1250 60  0001 C CNN
-	1    3600 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5F9BB8BB
-P 3600 1550
-AR Path="/5F74F36B/5F821EB2/5F9BB8BB" Ref="Conn?"  Part="2" 
-AR Path="/5F74F36B/5F9BB8BB" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 3572 1597 60  0000 R CNN
-F 1 "AndersonPP" H 3572 1703 60  0000 R CNN
-F 2 "" H 3450 1000 60  0001 C CNN
-F 3 "" H 3450 1000 60  0001 C CNN
-	2    3600 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F9BB8C1
-P 3150 1950
-AR Path="/5F74F36B/5F821EB2/5F9BB8C1" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F9BB8C1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3150 1700 50  0001 C CNN
-F 1 "GND" H 3155 1777 50  0000 C CNN
-F 2 "" H 3150 1950 50  0001 C CNN
-F 3 "" H 3150 1950 50  0001 C CNN
-	1    3150 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 1900 3150 1900
-Wire Wire Line
-	3150 1900 3150 1950
-Wire Wire Line
-	2950 3100 3050 3100
-Wire Wire Line
-	3050 3100 3050 1650
-Wire Wire Line
-	3050 1650 3200 1650
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F9C014B
@@ -270,8 +201,6 @@ F4 "AuxMountSense" O R 4500 3300 50
 F5 "5V" O L 3250 4200 49 
 $EndSheet
 Wire Wire Line
-	1400 4900 1550 4900
-Wire Wire Line
 	4600 4900 4600 4200
 Wire Wire Line
 	4600 4200 4750 4200
@@ -282,15 +211,6 @@ Wire Wire Line
 Connection ~ 3100 4900
 Wire Wire Line
 	3100 4900 4600 4900
-Wire Wire Line
-	1700 4150 1550 4150
-Wire Wire Line
-	1550 4150 1550 4900
-Connection ~ 1550 4900
-Wire Wire Line
-	1550 4900 3100 4900
-Text Notes 1950 2700 0    79   ~ 16
-Delete Drive
 Text HLabel 4650 3350 3    49   Output ~ 0
 AuxCTL
 Text HLabel 4550 3350 3    49   Output ~ 0
@@ -315,10 +235,8 @@ Wire Wire Line
 	6000 3300 6150 3300
 Wire Wire Line
 	6150 3300 6150 3450
-Text HLabel 3000 3250 3    49   Input ~ 0
-DriveSense
 Wire Wire Line
-	3000 3250 3000 3200
+	1400 4700 3150 4700
 Wire Wire Line
-	3000 3200 2950 3200
+	1400 4900 3100 4900
 $EndSCHEMATC

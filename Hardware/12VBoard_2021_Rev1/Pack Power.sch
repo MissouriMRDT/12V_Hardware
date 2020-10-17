@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -22,17 +22,6 @@ F 1 "AndersonPP" H 2408 3581 60  0000 C CNN
 F 2 "" H 2050 2750 60  0001 C CNN
 F 3 "" H 2050 2750 60  0001 C CNN
 	1    2200 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn1
-U 2 1 5F803698
-P 2200 3800
-F 0 "Conn1" H 2408 4187 60  0000 C CNN
-F 1 "AndersonPP" H 2408 4081 60  0000 C CNN
-F 2 "" H 2050 3250 60  0001 C CNN
-F 3 "" H 2050 3250 60  0001 C CNN
-	2    2200 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -174,22 +163,6 @@ F 3 "" H 6675 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
-U 1 1 5F8A9EF7
-P 6275 5175
-AR Path="/5F74F223/5F7D1238/5F8A9EF7" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F8A9EF7" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F8A9EF7" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5F8A9EF7" Ref="D?"  Part="1" 
-AR Path="/5F8031F1/5F8A9EF7" Ref="D?"  Part="1" 
-F 0 "D?" V 6229 5255 50  0000 L CNN
-F 1 "12V" V 6320 5255 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6275 5175 50  0001 C CNN
-F 3 "~" H 6275 5175 50  0001 C CNN
-	1    6275 5175
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:CP1 C?
 U 1 1 5F8A9EF1
 P 7075 5175
@@ -251,4 +224,26 @@ Wire Wire Line
 Connection ~ 4700 4950
 Wire Wire Line
 	4700 4950 4700 5100
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5F8CAA91
+P 2200 3800
+F 0 "Conn?" H 2408 4187 60  0000 C CNN
+F 1 "AndersonPP" H 2408 4081 60  0000 C CNN
+F 2 "" H 2050 3250 60  0001 C CNN
+F 3 "" H 2050 3250 60  0001 C CNN
+	4    2200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5F8CB96B
+P 6275 5175
+F 0 "D?" V 6229 5255 50  0000 L CNN
+F 1 "D_Schottky" V 6320 5255 50  0000 L CNN
+F 2 "" H 6275 5175 50  0001 C CNN
+F 3 "~" H 6275 5175 50  0001 C CNN
+	1    6275 5175
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
