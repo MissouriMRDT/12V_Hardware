@@ -944,15 +944,15 @@ Connection ~ 725  1850
 Text HLabel 2350 5075 0    79   Input ~ 0
 GimbalToggle
 Wire Wire Line
-	2350 5075 2700 5075
+	2350 5075 2450 5075
 Text HLabel 2300 3750 0    79   Input ~ 0
 NavToggle
 Wire Wire Line
-	2300 3750 2650 3750
+	2300 3750 2450 3750
 Text HLabel 2250 1225 0    79   Input ~ 0
 CameraToggle
 Wire Wire Line
-	2250 1225 2600 1225
+	2250 1225 2400 1225
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 2 1 5FA336BA
@@ -1640,4 +1640,66 @@ F 3 "" H 2225 2375 50  0001 C CNN
 	1    2225 2375
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F90B4C6
+P 6100 6000
+F 0 "TP?" H 6158 6118 50  0000 L CNN
+F 1 "TestPoint" H 6158 6027 50  0000 L CNN
+F 2 "" H 6300 6000 50  0001 C CNN
+F 3 "~" H 6300 6000 50  0001 C CNN
+	1    6100 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 6100 6100 6000
+Connection ~ 6100 6100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F9264D0
+P 2450 5200
+F 0 "TP?" H 2508 5318 50  0000 L CNN
+F 1 "TestPoint" H 2508 5227 50  0000 L CNN
+F 2 "" H 2650 5200 50  0001 C CNN
+F 3 "~" H 2650 5200 50  0001 C CNN
+	1    2450 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F933AA4
+P 2450 3900
+F 0 "TP?" H 2508 4018 50  0000 L CNN
+F 1 "TestPoint" H 2508 3927 50  0000 L CNN
+F 2 "" H 2650 3900 50  0001 C CNN
+F 3 "~" H 2650 3900 50  0001 C CNN
+	1    2450 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F940F94
+P 2400 1350
+F 0 "TP?" H 2458 1468 50  0000 L CNN
+F 1 "TestPoint" H 2458 1377 50  0000 L CNN
+F 2 "" H 2600 1350 50  0001 C CNN
+F 3 "~" H 2600 1350 50  0001 C CNN
+	1    2400 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 3900 2450 3750
+Connection ~ 2450 3750
+Wire Wire Line
+	2450 3750 2650 3750
+Wire Wire Line
+	2450 5075 2450 5200
+Connection ~ 2450 5075
+Wire Wire Line
+	2450 5075 2700 5075
+Wire Wire Line
+	2400 1350 2400 1225
+Connection ~ 2400 1225
+Wire Wire Line
+	2400 1225 2600 1225
 $EndSCHEMATC

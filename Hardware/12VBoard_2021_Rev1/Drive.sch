@@ -1120,4 +1120,18 @@ Wire Wire Line
 	3600 4400 3600 4500
 Wire Wire Line
 	3600 4500 3550 4500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8F4FF6
+P 3650 4500
+F 0 "TP?" V 3800 4600 50  0000 L CNN
+F 1 "TestPoint" V 3708 4527 50  0000 L CNN
+F 2 "" H 3850 4500 50  0001 C CNN
+F 3 "~" H 3850 4500 50  0001 C CNN
+	1    3650 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 4500 3600 4500
+Connection ~ 3600 4500
 $EndSCHEMATC

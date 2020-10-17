@@ -377,8 +377,6 @@ F 3 "" H 3800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 1700 3250 1700
-Wire Wire Line
 	3250 1800 3150 1800
 Wire Wire Line
 	3150 1800 3150 1850
@@ -1283,6 +1281,38 @@ Wire Wire Line
 	3300 4200 3300 4250
 Wire Wire Line
 	3300 4250 3250 4250
-Text HLabel 3150 1700 0    49   Input ~ 0
+Text HLabel 2850 1700 0    49   Input ~ 0
 CTL_AuxMount
+Wire Wire Line
+	2850 1700 3050 1700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8C03AE
+P 3050 1750
+F 0 "TP?" H 3250 1800 50  0000 R CNN
+F 1 "TestPoint" H 3250 1650 50  0000 R CNN
+F 2 "" H 3250 1750 50  0001 C CNN
+F 3 "~" H 3250 1750 50  0001 C CNN
+	1    3050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 1750 3050 1700
+Connection ~ 3050 1700
+Wire Wire Line
+	3050 1700 3250 1700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8CA23D
+P 3350 4250
+F 0 "TP?" V 3450 4350 50  0000 R CNN
+F 1 "TestPoint" V 3550 4450 50  0000 R CNN
+F 2 "" H 3550 4250 50  0001 C CNN
+F 3 "~" H 3550 4250 50  0001 C CNN
+	1    3350 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4250 3300 4250
+Connection ~ 3300 4250
 $EndSCHEMATC

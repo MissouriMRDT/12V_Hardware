@@ -397,8 +397,6 @@ F 3 "" H 3900 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 1750 3350 1750
-Wire Wire Line
 	3350 1850 3250 1850
 Wire Wire Line
 	3250 1850 3250 1900
@@ -1052,6 +1050,38 @@ Wire Wire Line
 	3450 4250 3450 4350
 Wire Wire Line
 	3450 4350 3500 4350
-Text HLabel 3250 1750 0    49   Input ~ 0
+Text HLabel 2900 1750 0    49   Input ~ 0
 AuxMountSense
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8E001D
+P 3300 4350
+F 0 "TP?" V 3358 4468 50  0000 L CNN
+F 1 "TestPoint" V 3200 4350 50  0000 L CNN
+F 2 "" H 3500 4350 50  0001 C CNN
+F 3 "~" H 3500 4350 50  0001 C CNN
+	1    3300 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 4350 3300 4350
+Connection ~ 3450 4350
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8E6C9C
+P 3200 1800
+F 0 "TP?" H 3258 1918 50  0000 L CNN
+F 1 "TestPoint" H 3258 1827 50  0000 L CNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "~" H 3400 1800 50  0001 C CNN
+	1    3200 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 1750 3200 1750
+Wire Wire Line
+	3200 1800 3200 1750
+Connection ~ 3200 1750
+Wire Wire Line
+	3200 1750 3350 1750
 $EndSCHEMATC
