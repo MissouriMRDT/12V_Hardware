@@ -21,14 +21,14 @@ U 5F74F4A3
 F0 "Tiva In/Outputs" 79
 F1 "Tiva.sch" 79
 F2 "DriveSense" I R 7000 2150 79 
-F3 "GimbalCTL" O L 5000 2375 79 
-F4 "LowCurrentSense" I L 5000 2125 79 
-F5 "AuxMountSense" I R 7000 2250 79 
-F6 "CameraCTL" O L 5000 2250 79 
-F7 "MultimediaSense" I R 7000 2350 79 
-F8 "NavBoardCTL" O L 5000 2500 79 
-F9 "AuxCTL" O R 7000 2450 79 
-F10 "MultimediaCTL" O R 7000 2550 79 
+F3 "LowCurrentSense" I L 5000 2125 79 
+F4 "AuxMountSense" I R 7000 2250 79 
+F5 "CameraCTL" O L 5000 2250 79 
+F6 "MultimediaSense" I R 7000 2350 79 
+F7 "NavBoardCTL" O L 5000 2500 79 
+F8 "AuxCTL" O R 7000 2450 79 
+F9 "MultimediaCTL" O R 7000 2550 79 
+F10 "ExtraCTL" O L 5000 2625 79 
 $EndSheet
 $Sheet
 S 5500 5000 950  1300
@@ -61,9 +61,9 @@ F1 "Low Current Outputs.sch" 79
 F2 "PackVoltage" I R 4000 3900 79 
 F3 "5V" I R 4000 3625 79 
 F4 "CameraToggle" I R 4000 2250 79 
-F5 "GimbalToggle" I R 4000 2375 79 
-F6 "NavToggle" I R 4000 2500 79 
-F7 "CurrentSense" O R 4000 2125 79 
+F5 "NavToggle" I R 4000 2500 79 
+F6 "CurrentSense" O R 4000 2125 79 
+F7 "ExtraToggle" I R 4000 2625 79 
 $EndSheet
 Wire Wire Line
 	6150 5000 6150 4525
@@ -96,8 +96,6 @@ $EndSheet
 Wire Wire Line
 	5000 2250 4000 2250
 Wire Wire Line
-	5000 2375 4000 2375
-Wire Wire Line
 	4000 2500 5000 2500
 Wire Wire Line
 	5000 2125 4000 2125
@@ -111,4 +109,6 @@ Wire Wire Line
 	7000 2450 8000 2450
 Wire Wire Line
 	7000 2550 8000 2550
+Wire Wire Line
+	5000 2625 4000 2625
 $EndSCHEMATC

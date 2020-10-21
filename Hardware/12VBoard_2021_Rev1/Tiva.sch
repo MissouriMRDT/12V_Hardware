@@ -39,7 +39,7 @@ Camera CTL
 Text Notes 7250 4325 2    50   ~ 0
 NavBoard CTL
 Text Notes 7075 4125 2    50   ~ 0
-Extra Pin
+Extra CTL
 Text Notes 7300 4625 2    50   ~ 0
 Aux Mount CTL
 Text Notes 7550 4525 2    50   ~ 0
@@ -78,9 +78,12 @@ Text HLabel 6050 4600 0    49   Output ~ 0
 AuxCTL
 Wire Wire Line
 	6400 4600 6050 4600
-NoConn ~ 6400 4100
 Text HLabel 6050 4300 0    49   Output ~ 0
 NavBoardCTL
 Text HLabel 6050 4200 0    49   Output ~ 0
 GimbalCTL
+Text HLabel 6050 4100 0    49   Output ~ 0
+ExtraCTL
+Wire Wire Line
+	6400 4100 6050 4100
 $EndSCHEMATC
