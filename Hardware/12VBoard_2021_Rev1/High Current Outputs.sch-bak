@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -35,9 +35,9 @@ S 4750 2950 1250 1450
 U 5F8236F9
 F0 "Multimedia/Extra" 50
 F1 "MultimediaExtra.sch" 50
-F2 "12V15AMultimedia" O R 6000 3100 50 
+F2 "12V10AMultimedia" O R 6000 3100 50 
 F3 "CTL_MultimediaExtra" O R 6000 3300 50 
-F4 "12V15AExtra" O R 6000 3200 50 
+F4 "12V10AExtra" O R 6000 3200 50 
 F5 "MultimediaExtraSense" O R 6000 3400 50 
 F6 "5V" O L 4750 4200 49 
 $EndSheet
@@ -195,7 +195,7 @@ S 3250 2950 1250 1450
 U 5F8222BE
 F0 "AuxMount" 50
 F1 "AuxMount.sch" 50
-F2 "12V15AAuxMount" O R 4500 3100 50 
+F2 "12V10AAuxMount" O R 4500 3100 50 
 F3 "CTL_AuxMount" O R 4500 3200 50 
 F4 "AuxMountSense" O R 4500 3300 50 
 F5 "5V" O L 3250 4200 49 
@@ -239,4 +239,67 @@ Wire Wire Line
 	1400 4700 3150 4700
 Wire Wire Line
 	1400 4900 3100 4900
+$Sheet
+S 1700 2950 1100 1450
+U 5F971CD6
+F0 "Gimbal" 50
+F1 "Gimbal.sch" 50
+F2 "CTL_Gimbal" I R 2800 3200 49 
+F3 "12V5AGimbal" O R 2800 3100 49 
+$EndSheet
+Text HLabel 2900 3250 3    50   Input ~ 0
+GimbalCTL
+Wire Wire Line
+	2900 3250 2900 3200
+Wire Wire Line
+	2900 3200 2800 3200
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F978C0F
+P 3450 1800
+AR Path="/5F74F36B/5F821EB2/5F978C0F" Ref="Conn?"  Part="1" 
+AR Path="/5F74F36B/5F978C0F" Ref="Conn?"  Part="1" 
+F 0 "Conn?" H 3422 1847 60  0000 R CNN
+F 1 "AndersonPP" H 3422 1953 60  0000 R CNN
+F 2 "" H 3300 1250 60  0001 C CNN
+F 3 "" H 3300 1250 60  0001 C CNN
+	1    3450 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5F978C15
+P 3450 1550
+AR Path="/5F74F36B/5F821EB2/5F978C15" Ref="Conn?"  Part="2" 
+AR Path="/5F74F36B/5F978C15" Ref="Conn?"  Part="2" 
+F 0 "Conn?" H 3422 1597 60  0000 R CNN
+F 1 "AndersonPP" H 3422 1703 60  0000 R CNN
+F 2 "" H 3300 1000 60  0001 C CNN
+F 3 "" H 3300 1000 60  0001 C CNN
+	2    3450 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F978C1B
+P 3000 1950
+AR Path="/5F74F36B/5F821EB2/5F978C1B" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F978C1B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 1700 50  0001 C CNN
+F 1 "GND" H 3005 1777 50  0000 C CNN
+F 2 "" H 3000 1950 50  0001 C CNN
+F 3 "" H 3000 1950 50  0001 C CNN
+	1    3000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1900 3000 1900
+Wire Wire Line
+	3000 1900 3000 1950
+Wire Wire Line
+	2900 3100 2900 1650
+Wire Wire Line
+	2900 1650 3050 1650
+Wire Wire Line
+	2900 3100 2800 3100
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 725  6825 3    79   Input ~ 16
+Text HLabel 1300 7675 0    79   Input ~ 16
 PackVoltage
 $Comp
 L power:GND #PWR?
@@ -467,168 +467,6 @@ Wire Wire Line
 	3825 3600 5525 3600
 $Comp
 L power:GND #PWR?
-U 1 1 5F85F724
-P 5575 5500
-AR Path="/5F74F223/5F7D1238/5F85F724" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F85F724" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F724" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F85F724" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5575 5250 50  0001 C CNN
-F 1 "GND" H 5575 5350 50  0000 C CNN
-F 2 "" H 5575 5500 50  0001 C CNN
-F 3 "" H 5575 5500 50  0001 C CNN
-	1    5575 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L?
-U 1 1 5F85F72A
-P 4575 5075
-AR Path="/5F74F223/5F7D1238/5F85F72A" Ref="L?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F85F72A" Ref="L?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F72A" Ref="L?"  Part="1" 
-AR Path="/5F74F223/5F85F72A" Ref="L?"  Part="1" 
-F 0 "L?" V 4394 5075 50  0000 C CNN
-F 1 "100 uH" V 4485 5075 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4575 5075 50  0001 C CNN
-F 3 "~" H 4575 5075 50  0001 C CNN
-	1    4575 5075
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5F85F730
-P 5025 5300
-AR Path="/5F74F223/5F7D1238/5F85F730" Ref="C?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F85F730" Ref="C?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F730" Ref="C?"  Part="1" 
-AR Path="/5F74F223/5F85F730" Ref="C?"  Part="1" 
-F 0 "C?" V 4800 5250 50  0000 L CNN
-F 1 "1000 uF" V 4875 5175 50  0000 L CNN
-F 2 "" H 5025 5300 50  0001 C CNN
-F 3 "~" H 5025 5300 50  0001 C CNN
-	1    5025 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F85F73D
-P 4625 5550
-AR Path="/5F74F223/5F7D1238/5F85F73D" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F73D" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F85F73D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4625 5300 50  0001 C CNN
-F 1 "GND" H 4625 5400 50  0000 C CNN
-F 2 "" H 4625 5550 50  0001 C CNN
-F 3 "" H 4625 5550 50  0001 C CNN
-	1    4625 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 12VBoard_2021_Rev1-rescue:LM2576D2TR4-MRDT_Devices U?
-U 1 1 5F85F743
-P 3200 5125
-AR Path="/5F74F223/5F7D1238/5F85F743" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5F85F743" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F743" Ref="U?"  Part="1" 
-AR Path="/5F85F743" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5F85F743" Ref="U?"  Part="1" 
-F 0 "U?" H 3200 5550 50  0000 C CNN
-F 1 "LM2576D2TR4" H 3200 5459 50  0000 C CNN
-F 2 "MRDT_Devices:LM2576" H 3200 5575 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 3200 5575 50  0001 C CNN
-	1    3200 5125
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F85F749
-P 2600 4800
-AR Path="/5F74F223/5F7D1238/5F85F749" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F749" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F85F749" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2600 4550 50  0001 C CNN
-F 1 "GND" H 2605 4627 50  0000 C CNN
-F 2 "" H 2600 4800 50  0001 C CNN
-F 3 "" H 2600 4800 50  0001 C CNN
-	1    2600 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 4925 2700 4725
-Wire Wire Line
-	2700 4725 2600 4725
-Wire Wire Line
-	2600 4725 2600 4800
-$Comp
-L power:GND #PWR?
-U 1 1 5F85F76A
-P 2575 5525
-AR Path="/5F74F223/5F7D1238/5F85F76A" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F85F76A" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F85F76A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2575 5275 50  0001 C CNN
-F 1 "GND" H 2580 5352 50  0000 C CNN
-F 2 "" H 2575 5525 50  0001 C CNN
-F 3 "" H 2575 5525 50  0001 C CNN
-	1    2575 5525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 5225 2575 5225
-Wire Wire Line
-	2575 5225 2575 5525
-Wire Wire Line
-	5575 4925 5575 5100
-Wire Wire Line
-	3700 4925 3875 4925
-Wire Wire Line
-	3700 5075 4225 5075
-Wire Wire Line
-	4725 5075 5025 5075
-Wire Wire Line
-	5025 5075 5025 5150
-Connection ~ 4225 5075
-Wire Wire Line
-	4225 5075 4425 5075
-Wire Wire Line
-	4225 5075 4225 5150
-Wire Wire Line
-	5025 5450 5025 5500
-Wire Wire Line
-	5025 5500 4625 5500
-Wire Wire Line
-	4625 5500 4625 5550
-Wire Wire Line
-	4625 5500 4225 5500
-Wire Wire Line
-	4225 5500 4225 5450
-Connection ~ 4625 5500
-Wire Wire Line
-	5025 5075 5150 5075
-Wire Wire Line
-	5150 5075 5150 5700
-Connection ~ 5025 5075
-Wire Wire Line
-	3700 5225 4125 5225
-Wire Wire Line
-	4125 5225 4125 5800
-Wire Wire Line
-	6725 5700 6725 5525
-Wire Wire Line
-	4125 5800 5150 5800
-Connection ~ 5150 5700
-Wire Wire Line
-	5150 5700 5150 5800
-Wire Wire Line
-	2425 4600 3875 4600
-Wire Wire Line
-	3875 4600 3875 4925
-Connection ~ 3875 4925
-Wire Wire Line
-	3875 4925 5575 4925
-$Comp
-L power:GND #PWR?
 U 1 1 5F86A2C1
 P 5625 6950
 AR Path="/5F74F223/5F7D1238/5F86A2C1" Ref="#PWR?"  Part="1" 
@@ -716,43 +554,8 @@ F 3 "" H 2650 6250 50  0001 C CNN
 	1    2650 6250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_SPDT SW?
-U 1 1 5F86A2ED
-P 1800 6525
-AR Path="/5F74F223/5F7D14F6/5F86A2ED" Ref="SW?"  Part="1" 
-AR Path="/5F74F223/5F86A2ED" Ref="SW?"  Part="1" 
-F 0 "SW?" H 1800 6810 50  0000 C CNN
-F 1 "SW_SPDT" H 1800 6719 50  0000 C CNN
-F 2 "" H 1800 6525 50  0001 C CNN
-F 3 "~" H 1800 6525 50  0001 C CNN
-	1    1800 6525
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	2000 6525 2750 6525
-Wire Wire Line
-	1600 6425 1350 6425
-$Comp
-L power:GND #PWR?
-U 1 1 5F86A2FB
-P 1350 6800
-AR Path="/5F74F223/5F7D1238/5F86A2FB" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5F86A2FB" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F86A2FB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1350 6550 50  0001 C CNN
-F 1 "GND" H 1355 6627 50  0000 C CNN
-F 2 "" H 1350 6800 50  0001 C CNN
-F 3 "" H 1350 6800 50  0001 C CNN
-	1    1350 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 6625 1600 6625
-Wire Wire Line
-	1350 6625 1350 6800
-Wire Wire Line
-	1350 6250 1350 6425
+	2000 6525 2500 6525
 Wire Wire Line
 	2750 6375 2750 6175
 Wire Wire Line
@@ -819,29 +622,17 @@ Wire Wire Line
 	3925 6375 5625 6375
 Wire Wire Line
 	5200 6525 5200 7250
-Connection ~ 5200 7250
 Wire Wire Line
 	1500 6050 1500 5825
 Wire Wire Line
 	1500 5825 725  5825
 Wire Wire Line
-	725  5825 725  6825
-Wire Wire Line
 	1500 6050 3925 6050
-Wire Wire Line
-	725  5825 725  4375
-Wire Wire Line
-	725  4375 2425 4375
-Wire Wire Line
-	2425 4375 2425 4600
 Connection ~ 725  5825
-Wire Wire Line
-	725  4375 725  3075
 Wire Wire Line
 	725  3075 2375 3075
 Wire Wire Line
 	2375 3075 2375 3275
-Connection ~ 725  4375
 Wire Wire Line
 	725  3075 725  1850
 Wire Wire Line
@@ -856,10 +647,6 @@ Wire Wire Line
 Wire Wire Line
 	2325 575  2325 750 
 Connection ~ 725  1850
-Text HLabel 2350 5075 0    79   Input ~ 0
-GimbalToggle
-Wire Wire Line
-	2350 5075 2450 5075
 Text HLabel 2300 3750 0    79   Input ~ 0
 NavToggle
 Wire Wire Line
@@ -934,53 +721,12 @@ F 3 "" H 7375 3300 60  0001 C CNN
 	1    7525 3850
 	-1   0    0    1   
 $EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5FA58A1C
-P 7450 5425
-F 0 "Conn?" H 7658 5812 60  0000 C CNN
-F 1 "AndersonPP" H 7658 5706 60  0000 C CNN
-F 2 "" H 7300 4875 60  0001 C CNN
-F 3 "" H 7300 4875 60  0001 C CNN
-	2    7450 5425
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5FA58A22
-P 7450 5200
-F 0 "Conn?" H 7575 5075 60  0000 C CNN
-F 1 "AndersonPP" H 7625 5150 60  0000 C CNN
-F 2 "" H 7300 4650 60  0001 C CNN
-F 3 "" H 7300 4650 60  0001 C CNN
-	1    7450 5200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7025 2925 6650 2925
 Wire Wire Line
 	6625 1700 7050 1700
 Wire Wire Line
 	6675 4175 7125 4175
-Wire Wire Line
-	6725 5525 7050 5525
-$Comp
-L power:GND #PWR?
-U 1 1 5FBD1D3E
-P 6975 5300
-AR Path="/5F74F223/5F7D1238/5FBD1D3E" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/5FBD1D3E" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/5FBD1D3E" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5FBD1D3E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6975 5050 50  0001 C CNN
-F 1 "GND" H 6975 5125 50  0000 C CNN
-F 2 "" H 6975 5300 50  0001 C CNN
-F 3 "" H 6975 5300 50  0001 C CNN
-	1    6975 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6975 5300 7050 5300
 $Comp
 L power:GND #PWR?
 U 1 1 5FBDE016
@@ -1032,7 +778,7 @@ F 3 "" H 6975 1475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6975 1475 7050 1475
-Text HLabel 1350 6250 0    50   Input ~ 0
+Text HLabel 2000 6525 0    50   Input ~ 0
 ExtraToggle
 Connection ~ 6425 1850
 Wire Wire Line
@@ -1045,11 +791,6 @@ Wire Wire Line
 Connection ~ 6425 4375
 Wire Wire Line
 	6425 4375 6675 4375
-Wire Wire Line
-	5150 5700 6425 5700
-Connection ~ 6425 5700
-Wire Wire Line
-	6425 5700 6725 5700
 $Comp
 L power:GND #PWR?
 U 1 1 5FBC5AC4
@@ -1126,51 +867,6 @@ F 3 "" H 8525 5300 60  0001 C CNN
 	1    8675 5850
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5FA89BE6
-P 6425 5375
-AR Path="/5F74F36B/5F821EB2/5FA89BE6" Ref="R?"  Part="1" 
-AR Path="/5F74F223/5FA89BE6" Ref="R?"  Part="1" 
-F 0 "R?" H 6495 5421 50  0000 L CNN
-F 1 "1.2k" H 6495 5330 50  0000 L CNN
-F 2 "" V 6355 5375 50  0001 C CNN
-F 3 "~" H 6425 5375 50  0001 C CNN
-	1    6425 5375
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FA89BEC
-P 6575 4750
-AR Path="/5F74F36B/5F821EB2/5FA89BEC" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5FA89BEC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6575 4500 50  0001 C CNN
-F 1 "GND" H 6580 4577 50  0000 C CNN
-F 2 "" H 6575 4750 50  0001 C CNN
-F 3 "" H 6575 4750 50  0001 C CNN
-	1    6575 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5FA89BF2
-P 6425 4975
-AR Path="/5F74F36B/5F821EB2/5FA89BF2" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5FA89BF2" Ref="D?"  Part="1" 
-F 0 "D?" V 6464 4858 50  0000 R CNN
-F 1 "LED" V 6373 4858 50  0000 R CNN
-F 2 "" H 6425 4975 50  0001 C CNN
-F 3 "~" H 6425 4975 50  0001 C CNN
-	1    6425 4975
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6425 4725 6425 4825
-Wire Wire Line
-	6425 5125 6425 5225
-Text Notes 6375 5125 2    50   ~ 0
-Green
 $Comp
 L Device:R R?
 U 1 1 5FA95394
@@ -1273,8 +969,6 @@ Wire Wire Line
 	6425 2925 6425 3125
 Wire Wire Line
 	6425 4225 6425 4375
-Wire Wire Line
-	6425 5525 6425 5700
 $Comp
 L Device:D_Schottky D?
 U 1 1 5F88AAB0
@@ -1310,17 +1004,6 @@ F 3 "~" H 4175 3975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4175 3750 4175 3825
-$Comp
-L Device:D_Schottky D?
-U 1 1 5F88F5BA
-P 4225 5300
-F 0 "D?" V 4179 5380 50  0000 L CNN
-F 1 "D_Schottky" V 4270 5380 50  0000 L CNN
-F 2 "" H 4225 5300 50  0001 C CNN
-F 3 "~" H 4225 5300 50  0001 C CNN
-	1    4225 5300
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:D_Schottky D?
 U 1 1 5F88FCBF
@@ -1381,86 +1064,7 @@ F 3 "~" H 6625 6725 50  0001 C CNN
 $EndComp
 Connection ~ 6625 6425
 Wire Wire Line
-	5200 7250 5950 7250
-Wire Wire Line
 	6525 6425 6625 6425
-$Comp
-L power:GND #PWR?
-U 1 1 5F928AAE
-P 5775 6775
-AR Path="/5F74F36B/5F8236F9/5F928AAE" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F928AAE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5775 6525 50  0001 C CNN
-F 1 "GND" H 5780 6602 50  0000 C CNN
-F 2 "" H 5775 6775 50  0001 C CNN
-F 3 "" H 5775 6775 50  0001 C CNN
-	1    5775 6775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6525 6425 6525 7250
-Wire Wire Line
-	5950 7150 5950 7250
-Wire Wire Line
-	6000 7150 5950 7150
-Wire Wire Line
-	6000 6800 6000 7150
-Wire Wire Line
-	6250 7150 6250 7250
-Wire Wire Line
-	6200 7150 6250 7150
-Wire Wire Line
-	6200 6800 6200 7150
-$Comp
-L Device:R R?
-U 1 1 5F928AA0
-P 6100 7250
-AR Path="/5F74F36B/5F8236F9/5F928AA0" Ref="R?"  Part="1" 
-AR Path="/5F74F223/5F928AA0" Ref="R?"  Part="1" 
-F 0 "R?" V 5893 7250 50  0000 C CNN
-F 1 "25m" V 5984 7250 50  0000 C CNN
-F 2 "" V 6030 7250 50  0001 C CNN
-F 3 "~" H 6100 7250 50  0001 C CNN
-	1    6100 7250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Amplifier_Current:INA198 U?
-U 1 1 5F928A9A
-P 6100 6500
-AR Path="/5F74F36B/5F8236F9/5F928A9A" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5F928A9A" Ref="U?"  Part="1" 
-F 0 "U?" V 6150 6350 50  0000 R CNN
-F 1 "INA198" V 6250 6450 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6100 6500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 6100 6500 50  0001 C CNN
-	1    6100 6500
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6250 7250 6525 7250
-Connection ~ 5950 7250
-Connection ~ 6250 7250
-Wire Wire Line
-	5800 6600 5775 6600
-Wire Wire Line
-	5775 6600 5775 6775
-Text HLabel 6450 6500 1    50   Input ~ 0
-5V
-Wire Wire Line
-	6400 6600 6450 6600
-Wire Wire Line
-	6450 6600 6450 6500
-Text HLabel 6300 6100 2    50   Input ~ 0
-CurrentSense
-Wire Wire Line
-	6300 6100 6100 6100
-Wire Wire Line
-	6100 6100 6100 6200
-Wire Wire Line
-	6575 4750 6575 4725
-Wire Wire Line
-	6575 4725 6425 4725
 $Comp
 L power:GND #PWR?
 U 1 1 5F9CEE21
@@ -1557,31 +1161,6 @@ F 3 "" H 2225 2375 50  0001 C CNN
 $EndComp
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5F90B4C6
-P 6100 6000
-F 0 "TP?" H 6158 6118 50  0000 L CNN
-F 1 "TestPoint" H 6158 6027 50  0000 L CNN
-F 2 "" H 6300 6000 50  0001 C CNN
-F 3 "~" H 6300 6000 50  0001 C CNN
-	1    6100 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 6100 6100 6000
-Connection ~ 6100 6100
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5F9264D0
-P 2450 5200
-F 0 "TP?" H 2508 5318 50  0000 L CNN
-F 1 "TestPoint" H 2508 5227 50  0000 L CNN
-F 2 "" H 2650 5200 50  0001 C CNN
-F 3 "~" H 2650 5200 50  0001 C CNN
-	1    2450 5200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
 U 1 1 5F933AA4
 P 2450 3900
 F 0 "TP?" H 2508 4018 50  0000 L CNN
@@ -1607,11 +1186,6 @@ Wire Wire Line
 Connection ~ 2450 3750
 Wire Wire Line
 	2450 3750 2650 3750
-Wire Wire Line
-	2450 5075 2450 5200
-Connection ~ 2450 5075
-Wire Wire Line
-	2450 5075 2700 5075
 Wire Wire Line
 	2400 1350 2400 1225
 Connection ~ 2400 1225
@@ -1654,17 +1228,6 @@ F 3 "~" H 5525 3875 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 5F8DD1A5
-P 5575 5200
-F 0 "C?" H 5667 5246 50  0000 L CNN
-F 1 "100uF" H 5667 5155 50  0000 L CNN
-F 2 "" H 5575 5200 50  0001 C CNN
-F 3 "~" H 5575 5200 50  0001 C CNN
-	1    5575 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 5F8DD4B6
 P 5625 6650
 F 0 "C?" H 5400 6675 50  0000 L CNN
@@ -1677,9 +1240,127 @@ $EndComp
 Wire Wire Line
 	5625 6750 5625 6950
 Wire Wire Line
-	5575 5300 5575 5500
-Wire Wire Line
 	5525 3975 5525 4175
 Wire Wire Line
 	5500 2725 5500 2925
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C9CCF
+P 1575 7050
+AR Path="/5F74F36B/5F8236F9/5F8C9CCF" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F8C9CCF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1575 6800 50  0001 C CNN
+F 1 "GND" H 1580 6877 50  0000 C CNN
+F 2 "" H 1575 7050 50  0001 C CNN
+F 3 "" H 1575 7050 50  0001 C CNN
+	1    1575 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 7125 1325 7125
+Wire Wire Line
+	1425 7175 1425 7125
+Wire Wire Line
+	1775 7175 1425 7175
+Wire Wire Line
+	1425 7425 1325 7425
+Wire Wire Line
+	1425 7375 1425 7425
+Wire Wire Line
+	1775 7375 1425 7375
+$Comp
+L Device:R R?
+U 1 1 5F8C9CDB
+P 1325 7275
+AR Path="/5F74F36B/5F8236F9/5F8C9CDB" Ref="R?"  Part="1" 
+AR Path="/5F74F223/5F8C9CDB" Ref="R?"  Part="1" 
+F 0 "R?" V 1118 7275 50  0000 C CNN
+F 1 "25m" V 1209 7275 50  0000 C CNN
+F 2 "" V 1255 7275 50  0001 C CNN
+F 3 "~" H 1325 7275 50  0001 C CNN
+	1    1325 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Current:INA198 U?
+U 1 1 5F8C9CE1
+P 2075 7275
+AR Path="/5F74F36B/5F8236F9/5F8C9CE1" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5F8C9CE1" Ref="U?"  Part="1" 
+F 0 "U?" V 2125 7125 50  0000 R CNN
+F 1 "INA198" V 2225 7225 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2075 7275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 2075 7275 50  0001 C CNN
+	1    2075 7275
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1975 6975 1975 6950
+Text HLabel 2075 7625 2    50   Input ~ 0
+5V
+Wire Wire Line
+	1975 7575 1975 7625
+Wire Wire Line
+	1975 7625 2075 7625
+Text HLabel 2550 7725 2    50   Input ~ 0
+CurrentSense
+Wire Wire Line
+	2475 7275 2375 7275
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8C9CF2
+P 2575 7275
+F 0 "TP?" H 2633 7393 50  0000 L CNN
+F 1 "TestPoint" H 2633 7302 50  0000 L CNN
+F 2 "" H 2775 7275 50  0001 C CNN
+F 3 "~" H 2775 7275 50  0001 C CNN
+	1    2575 7275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2475 7275 2575 7275
+Connection ~ 2475 7275
+Wire Wire Line
+	2475 7725 2550 7725
+Wire Wire Line
+	2475 7275 2475 7725
+Wire Wire Line
+	1575 6950 1575 7050
+Wire Wire Line
+	1575 6950 1975 6950
+Wire Wire Line
+	1325 7125 1325 7025
+Wire Wire Line
+	1325 7025 725  7025
+Wire Wire Line
+	725  5825 725  7025
+Connection ~ 1325 7125
+Wire Wire Line
+	1325 7425 1325 7675
+Wire Wire Line
+	1325 7675 1300 7675
+Connection ~ 1325 7425
+Wire Wire Line
+	5200 7250 6525 7250
+Wire Wire Line
+	6525 6425 6525 7250
+Connection ~ 5200 7250
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F99AE80
+P 2500 6650
+F 0 "TP?" H 2558 6768 50  0000 L CNN
+F 1 "TestPoint" H 2558 6677 50  0000 L CNN
+F 2 "" H 2700 6650 50  0001 C CNN
+F 3 "~" H 2700 6650 50  0001 C CNN
+	1    2500 6650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 6650 2500 6525
+Connection ~ 2500 6525
+Wire Wire Line
+	2500 6525 2750 6525
+Wire Wire Line
+	725  3075 725  5825
 $EndSCHEMATC

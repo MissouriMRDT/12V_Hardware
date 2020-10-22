@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -29,6 +29,7 @@ F7 "NavBoardCTL" O L 5000 2500 79
 F8 "AuxCTL" O R 7000 2450 79 
 F9 "MultimediaCTL" O R 7000 2550 79 
 F10 "ExtraCTL" O L 5000 2625 79 
+F11 "GimbalCTL" O R 7000 2650 79 
 $EndSheet
 $Sheet
 S 5500 5000 950  1300
@@ -92,6 +93,7 @@ F5 "AuxMountSense" O L 8000 2250 79
 F6 "MultimediaSense" O L 8000 2350 79 
 F7 "AuxCTL" I L 8000 2450 79 
 F8 "MultimediaCTL" I L 8000 2550 79 
+F9 "GimbalCTL" I L 8000 2650 79 
 $EndSheet
 Wire Wire Line
 	5000 2250 4000 2250
@@ -111,4 +113,6 @@ Wire Wire Line
 	7000 2550 8000 2550
 Wire Wire Line
 	5000 2625 4000 2625
+Wire Wire Line
+	7000 2650 8000 2650
 $EndSCHEMATC

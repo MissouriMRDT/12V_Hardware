@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -26,26 +26,26 @@ F 3 "" H 6600 5150 60  0001 C CNN
 $EndComp
 Text Notes 5850 4950 0    79   ~ 0
 Tiva 4 analog(current sense)/ \n5 toggles(digital write)
-Text Notes 7175 3725 2    50   ~ 0
-Drive Sense
-Text Notes 7375 3825 2    50   ~ 0
-Aux Mount Sense
-Text Notes 7400 3925 2    50   ~ 0
-Multimedia Sense
-Text Notes 7475 4025 2    50   ~ 0
-Extra (LowC) Sense
-Text Notes 7175 4425 2    50   ~ 0
-Camera CTL
-Text Notes 7250 4325 2    50   ~ 0
-NavBoard CTL
-Text Notes 7075 4125 2    50   ~ 0
-Extra Pin
-Text Notes 7300 4625 2    50   ~ 0
-Aux Mount CTL
-Text Notes 7550 4525 2    50   ~ 0
-Multimedia/Extra CTL
-Text Notes 6725 4225 0    49   ~ 0
-Gimbal CTL
+Text Notes 7730 3740 2    50   ~ 0
+Drive Sense (Analog Read)
+Text Notes 7936 3836 2    50   ~ 0
+Aux Mount Sense (Analog Read)
+Text Notes 7948 3938 2    50   ~ 0
+Multimedia Sense (Analog Read)
+Text Notes 8023 4027 2    50   ~ 0
+Extra (LowC) Sense (Analog Read)
+Text Notes 7730 4439 2    50   ~ 0
+Camera CTL (Digital Write)
+Text Notes 7805 4344 2    50   ~ 0
+NavBoard CTL (Digital Write)
+Text Notes 7636 4136 2    50   ~ 0
+Extra CTL (Digital Write)
+Text Notes 7842 4634 2    50   ~ 0
+Aux Mount CTL (Digital Write)
+Text Notes 8097 4543 2    50   ~ 0
+Multimedia/Extra CTL (Digital Write)
+Text Notes 6709 4235 0    49   ~ 0
+Gimbal CTL (Digital Write)
 Text HLabel 6050 3700 0    49   Input ~ 0
 DriveSense
 Wire Wire Line
@@ -78,9 +78,12 @@ Text HLabel 6050 4600 0    49   Output ~ 0
 AuxCTL
 Wire Wire Line
 	6400 4600 6050 4600
-NoConn ~ 6400 4100
 Text HLabel 6050 4300 0    49   Output ~ 0
 NavBoardCTL
 Text HLabel 6050 4200 0    49   Output ~ 0
 GimbalCTL
+Text HLabel 6050 4100 0    49   Output ~ 0
+ExtraCTL
+Wire Wire Line
+	6400 4100 6050 4100
 $EndSCHEMATC
