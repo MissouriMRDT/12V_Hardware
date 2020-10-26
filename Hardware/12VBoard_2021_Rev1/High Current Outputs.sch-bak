@@ -236,7 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3300 6150 3450
 Wire Wire Line
-	1400 4700 3150 4700
+	1400 4700 1600 4700
 Wire Wire Line
 	1400 4900 3100 4900
 $Sheet
@@ -246,6 +246,7 @@ F0 "Gimbal" 50
 F1 "Gimbal.sch" 50
 F2 "CTL_Gimbal" I R 2800 3200 49 
 F3 "12V5AGimbal" O R 2800 3100 49 
+F4 "PackVoltage" I L 1700 4300 49 
 $EndSheet
 Text HLabel 2900 3250 3    50   Input ~ 0
 GimbalCTL
@@ -302,4 +303,11 @@ Wire Wire Line
 	2900 1650 3050 1650
 Wire Wire Line
 	2900 3100 2800 3100
+Wire Wire Line
+	1700 4300 1600 4300
+Wire Wire Line
+	1600 4300 1600 4700
+Connection ~ 1600 4700
+Wire Wire Line
+	1600 4700 3150 4700
 $EndSCHEMATC
