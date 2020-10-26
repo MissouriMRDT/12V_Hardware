@@ -247,13 +247,10 @@ F1 "Gimbal.sch" 50
 F2 "CTL_Gimbal" I R 2800 3200 49 
 F3 "12V5AGimbal" O R 2800 3100 49 
 F4 "PackVoltage" I L 1700 4300 49 
+F5 "GimbalSense" O R 2800 3300 49 
 $EndSheet
-Text HLabel 2900 3250 3    50   Input ~ 0
+Text HLabel 2950 3350 3    50   Input ~ 0
 GimbalCTL
-Wire Wire Line
-	2900 3250 2900 3200
-Wire Wire Line
-	2900 3200 2800 3200
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F978C0F
@@ -310,4 +307,14 @@ Wire Wire Line
 Connection ~ 1600 4700
 Wire Wire Line
 	1600 4700 3150 4700
+Text HLabel 2850 3350 3    50   Output ~ 0
+GimbalSense
+Wire Wire Line
+	2950 3350 2950 3200
+Wire Wire Line
+	2950 3200 2800 3200
+Wire Wire Line
+	2800 3300 2850 3300
+Wire Wire Line
+	2850 3300 2850 3350
 $EndSCHEMATC
