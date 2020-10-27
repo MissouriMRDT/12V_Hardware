@@ -119,4 +119,6 @@ Wire Wire Line
 	7000 2650 8000 2650
 Wire Wire Line
 	8000 2750 7000 2750
+Text Notes 3950 1300 0    50   ~ 0
+Grid on power sheet, resistor values on high current, current sense resistors are 500m and chose componets
 $EndSCHEMATC
