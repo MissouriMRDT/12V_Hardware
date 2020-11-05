@@ -76,10 +76,10 @@ ExtraCTL
 Wire Wire Line
 	6150 2250 5800 2250
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn2
+L MRDT_Connectors:Molex_SL_05 Conn1
 U 1 1 5F976F73
 P 6350 1900
-F 0 "Conn2" H 6300 1850 60  0000 L CNN
+F 0 "Conn1" H 6300 1850 60  0000 L CNN
 F 1 "Molex_SL_05" H 6200 1750 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 6350 1900 60  0001 C CNN
 F 3 "" H 6350 1900 60  0001 C CNN
@@ -87,10 +87,10 @@ F 3 "" H 6350 1900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_07 Conn3
+L MRDT_Connectors:Molex_SL_07 Conn2
 U 1 1 5F97771C
 P 6350 2900
-F 0 "Conn3" H 6350 2850 60  0000 L CNN
+F 0 "Conn2" H 6350 2850 60  0000 L CNN
 F 1 "Molex_SL_07" H 6200 2750 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 6350 3100 60  0001 C CNN
 F 3 "" H 6350 3100 60  0001 C CNN
