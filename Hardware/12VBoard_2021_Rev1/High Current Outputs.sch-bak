@@ -49,7 +49,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C014B" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F9C014B" Ref="Conn10"  Part="1" 
 F 0 "Conn10" H 5122 1847 60  0000 R CNN
 F 1 "AuxMount" H 5122 1953 60  0000 R CNN
-F 2 "" H 5000 1250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5000 1250 60  0001 C CNN
 F 3 "" H 5000 1250 60  0001 C CNN
 	1    5150 1800
 	-1   0    0    1   
@@ -62,7 +62,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C0151" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F9C0151" Ref="Conn10"  Part="2" 
 F 0 "Conn10" H 5122 1597 60  0000 R CNN
 F 1 "AuxMount" H 5122 1703 60  0000 R CNN
-F 2 "" H 5000 1000 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5000 1000 60  0001 C CNN
 F 3 "" H 5000 1000 60  0001 C CNN
 	2    5150 1550
 	-1   0    0    1   
@@ -98,7 +98,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C7716" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F9C7716" Ref="Conn11"  Part="1" 
 F 0 "Conn11" H 6622 1847 60  0000 R CNN
 F 1 "Multimedia" H 6622 1953 60  0000 R CNN
-F 2 "" H 6500 1250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6500 1250 60  0001 C CNN
 F 3 "" H 6500 1250 60  0001 C CNN
 	1    6650 1800
 	-1   0    0    1   
@@ -111,7 +111,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C771C" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F9C771C" Ref="Conn11"  Part="2" 
 F 0 "Conn11" H 6622 1597 60  0000 R CNN
 F 1 "Multimedia" H 6622 1703 60  0000 R CNN
-F 2 "" H 6500 1000 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6500 1000 60  0001 C CNN
 F 3 "" H 6500 1000 60  0001 C CNN
 	2    6650 1550
 	-1   0    0    1   
@@ -147,7 +147,7 @@ AR Path="/5F74F36B/5F821EB2/5F9CF0E4" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F9CF0E4" Ref="Conn12"  Part="1" 
 F 0 "Conn12" H 6722 2497 60  0000 R CNN
 F 1 "ExtraH" H 6722 2603 60  0000 R CNN
-F 2 "" H 6600 1900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6600 1900 60  0001 C CNN
 F 3 "" H 6600 1900 60  0001 C CNN
 	1    6750 2450
 	-1   0    0    1   
@@ -160,7 +160,7 @@ AR Path="/5F74F36B/5F821EB2/5F9CF0EA" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F9CF0EA" Ref="Conn12"  Part="2" 
 F 0 "Conn12" H 6722 2247 60  0000 R CNN
 F 1 "ExtraH" H 6722 2353 60  0000 R CNN
-F 2 "" H 6600 1650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6600 1650 60  0001 C CNN
 F 3 "" H 6600 1650 60  0001 C CNN
 	2    6750 2200
 	-1   0    0    1   
@@ -259,7 +259,7 @@ AR Path="/5F74F36B/5F821EB2/5F978C0F" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F978C0F" Ref="Conn9"  Part="1" 
 F 0 "Conn9" H 3422 1847 60  0000 R CNN
 F 1 "Gimbal" H 3422 1953 60  0000 R CNN
-F 2 "" H 3300 1250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 3300 1250 60  0001 C CNN
 F 3 "" H 3300 1250 60  0001 C CNN
 	1    3450 1800
 	-1   0    0    1   
@@ -272,7 +272,7 @@ AR Path="/5F74F36B/5F821EB2/5F978C15" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F978C15" Ref="Conn9"  Part="2" 
 F 0 "Conn9" H 3422 1597 60  0000 R CNN
 F 1 "Gimbal" H 3422 1703 60  0000 R CNN
-F 2 "" H 3300 1000 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 3300 1000 60  0001 C CNN
 F 3 "" H 3300 1000 60  0001 C CNN
 	2    3450 1550
 	-1   0    0    1   
