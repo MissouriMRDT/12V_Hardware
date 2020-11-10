@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 5650 3450 0    79   ~ 0
-Tiva 4 analog(current sense)/ \n5 toggles(digital write)
+Tiva 4 analog(current sense)/ \n7 toggles(digital write)
 Text Notes 7480 1490 2    50   ~ 0
 Drive Sense (Analog Read)
 Text Notes 7686 1586 2    50   ~ 0
@@ -107,4 +107,6 @@ Text HLabel 5800 2850 0    50   Output ~ 0
 DriveCTL
 Wire Wire Line
 	6150 2850 5800 2850
+Text Notes 7645 2880 2    50   ~ 0
+Drive Board CTL (Digital Write)
 $EndSCHEMATC

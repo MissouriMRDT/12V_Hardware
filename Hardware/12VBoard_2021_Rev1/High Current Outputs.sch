@@ -50,7 +50,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C014B" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F9C014B" Ref="Conn10"  Part="1" 
 F 0 "Conn10" H 6972 2422 60  0000 R CNN
 F 1 "AuxMount" H 6972 2528 60  0000 R CNN
-F 2 "" H 6850 1825 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 6850 1825 60  0001 C CNN
 F 3 "" H 6850 1825 60  0001 C CNN
 	1    7000 2375
 	-1   0    0    1   
@@ -63,7 +63,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C0151" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F9C0151" Ref="Conn10"  Part="3" 
 F 0 "Conn10" H 6972 2172 60  0000 R CNN
 F 1 "AuxMount" H 6972 2278 60  0000 R CNN
-F 2 "" H 6850 1575 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 6850 1575 60  0001 C CNN
 F 3 "" H 6850 1575 60  0001 C CNN
 	3    7000 2125
 	-1   0    0    1   
@@ -99,7 +99,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C7716" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F9C7716" Ref="Conn11"  Part="1" 
 F 0 "Conn11" H 8472 2422 60  0000 R CNN
 F 1 "Multimedia" H 8472 2528 60  0000 R CNN
-F 2 "" H 8350 1825 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8350 1825 60  0001 C CNN
 F 3 "" H 8350 1825 60  0001 C CNN
 	1    8500 2375
 	-1   0    0    1   
@@ -112,7 +112,7 @@ AR Path="/5F74F36B/5F821EB2/5F9C771C" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F9C771C" Ref="Conn11"  Part="3" 
 F 0 "Conn11" H 8472 2172 60  0000 R CNN
 F 1 "Multimedia" H 8472 2278 60  0000 R CNN
-F 2 "" H 8350 1575 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8350 1575 60  0001 C CNN
 F 3 "" H 8350 1575 60  0001 C CNN
 	3    8500 2125
 	-1   0    0    1   
@@ -148,7 +148,7 @@ AR Path="/5F74F36B/5F821EB2/5F9CF0E4" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F9CF0E4" Ref="Conn12"  Part="1" 
 F 0 "Conn12" H 8572 3372 60  0000 R CNN
 F 1 "Extra" H 8572 3478 60  0000 R CNN
-F 2 "" H 8450 2775 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8450 2775 60  0001 C CNN
 F 3 "" H 8450 2775 60  0001 C CNN
 	1    8600 3325
 	-1   0    0    1   
@@ -161,7 +161,7 @@ AR Path="/5F74F36B/5F821EB2/5F9CF0EA" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F9CF0EA" Ref="Conn12"  Part="3" 
 F 0 "Conn12" H 8572 3122 60  0000 R CNN
 F 1 "Extra" H 8572 3228 60  0000 R CNN
-F 2 "" H 8450 2525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8450 2525 60  0001 C CNN
 F 3 "" H 8450 2525 60  0001 C CNN
 	3    8600 3075
 	-1   0    0    1   
@@ -230,7 +230,7 @@ AR Path="/5F74F36B/5F821EB2/5F978C0F" Ref="Conn?"  Part="1"
 AR Path="/5F74F36B/5F978C0F" Ref="Conn9"  Part="1" 
 F 0 "Conn9" H 5272 2422 60  0000 R CNN
 F 1 "Gimbal" H 5272 2528 60  0000 R CNN
-F 2 "" H 5150 1825 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 5150 1825 60  0001 C CNN
 F 3 "" H 5150 1825 60  0001 C CNN
 	1    5300 2375
 	-1   0    0    1   
@@ -243,7 +243,7 @@ AR Path="/5F74F36B/5F821EB2/5F978C15" Ref="Conn?"  Part="2"
 AR Path="/5F74F36B/5F978C15" Ref="Conn9"  Part="3" 
 F 0 "Conn9" H 5272 2172 60  0000 R CNN
 F 1 "Gimbal" H 5272 2278 60  0000 R CNN
-F 2 "" H 5150 1575 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 5150 1575 60  0001 C CNN
 F 3 "" H 5150 1575 60  0001 C CNN
 	3    5300 2125
 	-1   0    0    1   
@@ -296,7 +296,7 @@ U 2 1 5FB4EE4C
 P 5300 1875
 F 0 "Conn9" H 5272 1922 60  0000 R CNN
 F 1 "Gimbal" H 5272 2028 60  0000 R CNN
-F 2 "" H 5150 1325 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 5150 1325 60  0001 C CNN
 F 3 "" H 5150 1325 60  0001 C CNN
 	2    5300 1875
 	-1   0    0    1   
@@ -309,7 +309,7 @@ U 2 1 5FB53487
 P 7000 1875
 F 0 "Conn10" H 6972 1922 60  0000 R CNN
 F 1 "AuxMount" H 6972 2028 60  0000 R CNN
-F 2 "" H 6850 1325 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 6850 1325 60  0001 C CNN
 F 3 "" H 6850 1325 60  0001 C CNN
 	2    7000 1875
 	-1   0    0    1   
@@ -322,7 +322,7 @@ U 2 1 5FB56BDF
 P 8500 1875
 F 0 "Conn11" H 8472 1922 60  0000 R CNN
 F 1 "Multimedia" H 8472 2028 60  0000 R CNN
-F 2 "" H 8350 1325 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8350 1325 60  0001 C CNN
 F 3 "" H 8350 1325 60  0001 C CNN
 	2    8500 1875
 	-1   0    0    1   
@@ -333,7 +333,7 @@ U 2 1 5FB586AD
 P 8600 2825
 F 0 "Conn12" H 8572 2872 60  0000 R CNN
 F 1 "Extra" H 8572 2978 60  0000 R CNN
-F 2 "" H 8450 2275 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8450 2275 60  0001 C CNN
 F 3 "" H 8450 2275 60  0001 C CNN
 	2    8600 2825
 	-1   0    0    1   

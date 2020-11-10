@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -202,17 +202,6 @@ $EndComp
 Wire Wire Line
 	5850 3886 5850 3786
 $Comp
-L MRDT_Connectors:AndersonPP Conn3
-U 2 1 5F8CAA91
-P 4950 3050
-F 0 "Conn3" H 5158 3437 60  0000 C CNN
-F 1 "PackVoltage" H 5158 3331 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4800 2500 60  0001 C CNN
-F 3 "" H 4800 2500 60  0001 C CNN
-	2    4950 3050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR03
 U 1 1 5F804C26
 P 6050 2480
@@ -222,17 +211,6 @@ F 2 "" H 6050 2480 50  0001 C CNN
 F 3 "" H 6050 2480 50  0001 C CNN
 	1    6050 2480
 	0    -1   -1   0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn3
-U 1 1 5F803341
-P 4940 2580
-F 0 "Conn3" H 5148 2967 60  0000 C CNN
-F 1 "PackVoltage" H 5148 2861 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4790 2030 60  0001 C CNN
-F 3 "" H 4790 2030 60  0001 C CNN
-	1    4940 2580
-	1    0    0    -1  
 $EndComp
 Text HLabel 6000 2950 2    79   Output ~ 16
 PackVoltage
@@ -342,4 +320,26 @@ Wire Wire Line
 	5450 4158 7100 4158
 Wire Wire Line
 	5340 2480 6050 2480
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 1 1 5F803341
+P 4940 2580
+F 0 "Conn3" H 5148 2967 60  0000 C CNN
+F 1 "PackVoltage" H 5148 2861 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4790 2030 60  0001 C CNN
+F 3 "" H 4790 2030 60  0001 C CNN
+	1    4940 2580
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 2 1 5F8CAA91
+P 4950 3050
+F 0 "Conn3" H 5158 3437 60  0000 C CNN
+F 1 "PackVoltage" H 5158 3331 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4800 2500 60  0001 C CNN
+F 3 "" H 4800 2500 60  0001 C CNN
+	2    4950 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
