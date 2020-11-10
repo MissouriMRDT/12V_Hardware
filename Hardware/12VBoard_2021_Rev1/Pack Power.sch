@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -326,7 +327,7 @@ U 1 1 5F803341
 P 4940 2580
 F 0 "Conn3" H 5148 2967 60  0000 C CNN
 F 1 "PackVoltage" H 5148 2861 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4790 2030 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4790 2030 60  0001 C CNN
 F 3 "" H 4790 2030 60  0001 C CNN
 	1    4940 2580
 	1    0    0    -1  
@@ -337,7 +338,7 @@ U 2 1 5F8CAA91
 P 4950 3050
 F 0 "Conn3" H 5158 3437 60  0000 C CNN
 F 1 "PackVoltage" H 5158 3331 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4800 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4800 2500 60  0001 C CNN
 F 3 "" H 4800 2500 60  0001 C CNN
 	2    4950 3050
 	1    0    0    -1  
