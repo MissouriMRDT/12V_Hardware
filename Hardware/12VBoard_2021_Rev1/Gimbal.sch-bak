@@ -65,7 +65,7 @@ AR Path="/5F74F36B/5F821EB2/5F9896A7" Ref="D?"  Part="1"
 AR Path="/5F74F36B/5F8222BE/5F9896A7" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F971CD6/5F9896A7" Ref="D18"  Part="1" 
 F 0 "D18" V 4339 3633 50  0000 R CNN
-F 1 "LED" V 4248 3633 50  0000 R CNN
+F 1 "Gimbal Acuation Gree" V 4248 3633 50  0000 R CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 3750 50  0001 C CNN
 F 3 "~" H 4300 3750 50  0001 C CNN
 	1    4300 3750
@@ -781,4 +781,278 @@ F 3 "~" H 1050 2950 50  0001 C CNN
 	1    1050 2950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 1450 6650 1750
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FACC5D4
+P 6525 1425
+AR Path="/5F74F223/5FACC5D4" Ref="TP?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC5D4" Ref="TP?"  Part="1" 
+F 0 "TP?" H 6583 1543 50  0000 L CNN
+F 1 "TestPoint" H 6583 1452 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 6725 1425 50  0001 C CNN
+F 3 "~" H 6725 1425 50  0001 C CNN
+	1    6525 1425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6525 1425 6525 1300
+Wire Wire Line
+	8200 2025 9225 2025
+Wire Wire Line
+	6525 1300 6775 1300
+Wire Wire Line
+	9650 1525 9650 1725
+$Comp
+L Device:C_Small C?
+U 1 1 5FACC5E1
+P 9650 1425
+AR Path="/5F74F223/5FACC5E1" Ref="C?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC5E1" Ref="C?"  Part="1" 
+F 0 "C?" H 9425 1450 50  0000 L CNN
+F 1 "100uF" H 9350 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 1425 50  0001 C CNN
+F 3 "~" H 9650 1425 50  0001 C CNN
+	1    9650 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FACC5E7
+P 8300 1525
+AR Path="/5F74F223/5FACC5E7" Ref="D?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC5E7" Ref="D?"  Part="1" 
+F 0 "D?" V 8254 1605 50  0000 L CNN
+F 1 "D_Schottky" V 8345 1605 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 1525 50  0001 C CNN
+F 3 "~" H 8300 1525 50  0001 C CNN
+	1    8300 1525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9225 1300 9225 2025
+Wire Wire Line
+	7950 1150 9650 1150
+Connection ~ 7950 1150
+Wire Wire Line
+	7950 825  7950 1150
+Wire Wire Line
+	8200 1450 8200 2025
+Wire Wire Line
+	7775 1450 8200 1450
+Connection ~ 9100 1300
+Wire Wire Line
+	9100 1300 9225 1300
+Connection ~ 8700 1725
+Wire Wire Line
+	8300 1725 8300 1675
+Wire Wire Line
+	8700 1725 8300 1725
+Wire Wire Line
+	8700 1725 8700 1775
+Wire Wire Line
+	9100 1725 8700 1725
+Wire Wire Line
+	9100 1675 9100 1725
+Wire Wire Line
+	8300 1300 8300 1375
+Wire Wire Line
+	8300 1300 8500 1300
+Connection ~ 8300 1300
+Wire Wire Line
+	9100 1300 9100 1375
+Wire Wire Line
+	8800 1300 9100 1300
+Wire Wire Line
+	7775 1300 8300 1300
+Wire Wire Line
+	7775 1150 7950 1150
+Wire Wire Line
+	9650 1150 9650 1325
+Wire Wire Line
+	6775 1450 6650 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5FACC604
+P 6650 1750
+AR Path="/5F74F223/5F7D1238/5FACC604" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5FACC604" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5FACC604" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC604" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 1500 50  0001 C CNN
+F 1 "GND" H 6655 1577 50  0000 C CNN
+F 2 "" H 6650 1750 50  0001 C CNN
+F 3 "" H 6650 1750 50  0001 C CNN
+	1    6650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 950  6675 1025
+Wire Wire Line
+	6775 950  6675 950 
+Wire Wire Line
+	6775 1150 6775 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5FACC60D
+P 6675 1025
+AR Path="/5F74F223/5F7D1238/5FACC60D" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5FACC60D" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5FACC60D" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC60D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6675 775 50  0001 C CNN
+F 1 "GND" H 6680 852 50  0000 C CNN
+F 2 "" H 6675 1025 50  0001 C CNN
+F 3 "" H 6675 1025 50  0001 C CNN
+	1    6675 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 12VBoard_2021_Rev1-rescue:LM2576D2TR4-MRDT_Devices U?
+U 1 1 5FACC613
+P 7275 1350
+AR Path="/5F74F223/5F7D1238/5FACC613" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5FACC613" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5FACC613" Ref="U?"  Part="1" 
+AR Path="/5FACC613" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5FACC613" Ref="U?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC613" Ref="U?"  Part="1" 
+F 0 "U?" H 7275 1775 50  0000 C CNN
+F 1 "LM2576S-12/NOPB" H 7275 1684 50  0000 C CNN
+F 2 "MRDT_Devices:LM2576" H 7275 1800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 7275 1800 50  0001 C CNN
+	1    7275 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FACC619
+P 8700 1775
+AR Path="/5F74F223/5F7D1238/5FACC619" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5FACC619" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5FACC619" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC619" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8700 1525 50  0001 C CNN
+F 1 "GND" H 8700 1625 50  0000 C CNN
+F 2 "" H 8700 1775 50  0001 C CNN
+F 3 "" H 8700 1775 50  0001 C CNN
+	1    8700 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FACC61F
+P 9100 1525
+AR Path="/5F74F223/5F7D1238/5FACC61F" Ref="C?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5FACC61F" Ref="C?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5FACC61F" Ref="C?"  Part="1" 
+AR Path="/5F74F223/5FACC61F" Ref="C?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC61F" Ref="C?"  Part="1" 
+F 0 "C?" V 8875 1475 50  0000 L CNN
+F 1 "1000 uF" V 8950 1400 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 9100 1525 50  0001 C CNN
+F 3 "~" H 9100 1525 50  0001 C CNN
+	1    9100 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5FACC625
+P 8650 1300
+AR Path="/5F74F223/5F7D1238/5FACC625" Ref="L?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5FACC625" Ref="L?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5FACC625" Ref="L?"  Part="1" 
+AR Path="/5F74F223/5FACC625" Ref="L?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC625" Ref="L?"  Part="1" 
+F 0 "L?" V 8469 1300 50  0000 C CNN
+F 1 "100 uH" V 8560 1300 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 1300 50  0001 C CNN
+F 3 "~" H 8650 1300 50  0001 C CNN
+	1    8650 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FACC62B
+P 9650 1725
+AR Path="/5F74F223/5F7D1238/5FACC62B" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F7E1E8A/5FACC62B" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F7D14F6/5FACC62B" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5FACC62B" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FACC62B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9650 1475 50  0001 C CNN
+F 1 "GND" H 9650 1575 50  0000 C CNN
+F 2 "" H 9650 1725 50  0001 C CNN
+F 3 "" H 9650 1725 50  0001 C CNN
+	1    9650 1725
+	1    0    0    -1  
+$EndComp
+Text HLabel 7875 825  0    50   Input ~ 0
+PackVoltage
+Wire Wire Line
+	7875 825  7950 825 
+Wire Wire Line
+	6525 1300 6450 1300
+Connection ~ 6525 1300
+Connection ~ 9225 2025
+Text HLabel 10100 2025 2    50   Input ~ 0
+12V3AGimbalLogic
+$Comp
+L Device:R R?
+U 1 1 5FB03A34
+P 9700 2625
+AR Path="/5F74F36B/5F821EB2/5FB03A34" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FB03A34" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FB03A34" Ref="R?"  Part="1" 
+F 0 "R?" H 9770 2671 50  0000 L CNN
+F 1 "1.2k" H 9770 2580 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9630 2625 50  0001 C CNN
+F 3 "~" H 9700 2625 50  0001 C CNN
+	1    9700 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB03A3A
+P 9700 2875
+AR Path="/5F74F36B/5F821EB2/5FB03A3A" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FB03A3A" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FB03A3A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9700 2625 50  0001 C CNN
+F 1 "GND" H 9705 2702 50  0000 C CNN
+F 2 "" H 9700 2875 50  0001 C CNN
+F 3 "" H 9700 2875 50  0001 C CNN
+	1    9700 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FB03A40
+P 9700 2225
+AR Path="/5F74F36B/5F821EB2/5FB03A40" Ref="D?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FB03A40" Ref="D?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FB03A40" Ref="D?"  Part="1" 
+F 0 "D?" V 9739 2108 50  0000 R CNN
+F 1 "Gimbal Logic Green" V 9648 2108 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 2225 50  0001 C CNN
+F 3 "~" H 9700 2225 50  0001 C CNN
+	1    9700 2225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 2875 9700 2775
+Wire Wire Line
+	9700 2475 9700 2375
+Wire Wire Line
+	9700 2075 9700 2025
+Connection ~ 9700 2025
+Wire Wire Line
+	9700 2025 10100 2025
+Text Notes 9750 2125 0    50   ~ 0
+Green
+Wire Wire Line
+	9225 2025 9700 2025
+Text HLabel 6450 1300 0    49   Input ~ 0
+CTL_Gimbal
 $EndSCHEMATC

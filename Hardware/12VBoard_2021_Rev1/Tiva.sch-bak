@@ -103,5 +103,8 @@ Wire Wire Line
 	6150 1850 5800 1850
 Text Notes 6450 1872 0    50   ~ 0
 Gimbal Sense (Analog Read)
-NoConn ~ 6150 2850
+Text HLabel 5800 2850 0    50   Output ~ 0
+DriveCTL
+Wire Wire Line
+	6150 2850 5800 2850
 $EndSCHEMATC

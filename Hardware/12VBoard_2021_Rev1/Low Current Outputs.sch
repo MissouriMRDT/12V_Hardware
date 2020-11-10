@@ -1359,4 +1359,6 @@ Wire Wire Line
 	8150 5275 9000 5275
 Wire Wire Line
 	6625 5275 8150 5275
+Text HLabel 1625 6300 0    50   Input ~ 0
+DriveCTL
 $EndSCHEMATC

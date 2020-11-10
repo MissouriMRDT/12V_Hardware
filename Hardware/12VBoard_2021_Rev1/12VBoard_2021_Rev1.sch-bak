@@ -31,6 +31,7 @@ F9 "MultimediaCTL" O R 7000 2550 79
 F10 "ExtraCTL" O L 5000 2625 79 
 F11 "GimbalCTL" O R 7000 2650 79 
 F12 "GimbalSense" I R 7000 2750 79 
+F13 "DriveCTL" O L 5000 2375 79 
 $EndSheet
 $Sheet
 S 5500 5000 950  1300
@@ -66,6 +67,7 @@ F4 "CameraToggle" I R 4000 2250 79
 F5 "NavToggle" I R 4000 2500 79 
 F6 "CurrentSense" O R 4000 2125 79 
 F7 "ExtraToggle" I R 4000 2625 79 
+F8 "DriveCTL" I R 4000 2375 79 
 $EndSheet
 Wire Wire Line
 	6150 5000 6150 4525
@@ -121,4 +123,6 @@ Wire Wire Line
 	8000 2750 7000 2750
 Text Notes 3950 1300 0    50   ~ 0
 Grid on power sheet, resistor values on high current, current sense resistors are 500m and chose componets
+Wire Wire Line
+	5000 2375 4000 2375
 $EndSCHEMATC
