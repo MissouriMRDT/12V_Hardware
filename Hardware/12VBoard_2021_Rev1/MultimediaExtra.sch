@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -84,7 +83,7 @@ U 1 1 5F8CAF09
 P 6100 5000
 F 0 "C22" H 5950 4900 50  0000 L CNN
 F 1 "10uF" H 5950 4800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 6100 5000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6100 5000 50  0001 C CNN
 F 3 "~" H 6100 5000 50  0001 C CNN
 	1    6100 5000
 	1    0    0    -1  
@@ -207,14 +206,14 @@ Connection ~ 4750 3550
 $Comp
 L Device:R R?
 U 1 1 5F945D14
-P 6350 4650
+P 6350 4250
 AR Path="/5F74F36B/5F821EB2/5F945D14" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F945D14" Ref="R17"  Part="1" 
-F 0 "R17" H 6420 4696 50  0000 L CNN
-F 1 "1.2k" H 6420 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6280 4650 50  0001 C CNN
-F 3 "~" H 6350 4650 50  0001 C CNN
-	1    6350 4650
+F 0 "R17" H 6420 4296 50  0000 L CNN
+F 1 "1.2k" H 6420 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6280 4250 50  0001 C CNN
+F 3 "~" H 6350 4250 50  0001 C CNN
+	1    6350 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -233,14 +232,14 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5F945D20
-P 6350 4250
+P 6350 4650
 AR Path="/5F74F36B/5F821EB2/5F945D20" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F945D20" Ref="D13"  Part="1" 
-F 0 "D13" V 6389 4133 50  0000 R CNN
-F 1 "Extra Acuation Green" V 6298 4133 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 4250 50  0001 C CNN
-F 3 "~" H 6350 4250 50  0001 C CNN
-	1    6350 4250
+F 0 "D13" V 6389 4533 50  0000 R CNN
+F 1 "Extra Acuation Green" V 6298 4533 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 4650 50  0001 C CNN
+F 3 "~" H 6350 4650 50  0001 C CNN
+	1    6350 4650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -254,14 +253,14 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5F955B34
-P 7000 4150
+P 7000 3750
 AR Path="/5F74F36B/5F821EB2/5F955B34" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F955B34" Ref="R18"  Part="1" 
-F 0 "R18" H 7070 4196 50  0000 L CNN
-F 1 "1.2k" H 7070 4105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 4150 50  0001 C CNN
-F 3 "~" H 7000 4150 50  0001 C CNN
-	1    7000 4150
+F 0 "R18" H 7070 3796 50  0000 L CNN
+F 1 "1.2k" H 7070 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 3750 50  0001 C CNN
+F 3 "~" H 7000 3750 50  0001 C CNN
+	1    7000 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -280,20 +279,18 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5F955B40
-P 7000 3750
+P 7000 4150
 AR Path="/5F74F36B/5F821EB2/5F955B40" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F955B40" Ref="D14"  Part="1" 
-F 0 "D14" V 7039 3633 50  0000 R CNN
-F 1 "Multimedia Acuation Green" V 6948 3633 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 3750 50  0001 C CNN
-F 3 "~" H 7000 3750 50  0001 C CNN
-	1    7000 3750
+F 0 "D14" V 7039 4033 50  0000 R CNN
+F 1 "Multimedia Acuation Green" V 6948 4033 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 4150 50  0001 C CNN
+F 3 "~" H 7000 4150 50  0001 C CNN
+	1    7000 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7000 4400 7000 4300
-Wire Wire Line
-	7000 4000 7000 3900
 Wire Wire Line
 	7000 3600 7000 3550
 Wire Wire Line
@@ -921,7 +918,7 @@ AR Path="/5F74F36B/5F971CD6/5FE40761" Ref="C?"  Part="1"
 AR Path="/5F74F36B/5F8236F9/5FE40761" Ref="C15"  Part="1" 
 F 0 "C15" H 2100 3650 50  0000 L CNN
 F 1 "100uF" H 2000 3700 39  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 1900 3700 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1900 3700 50  0001 C CNN
 F 3 "~" H 1900 3700 50  0001 C CNN
 	1    1900 3700
 	1    0    0    -1  
@@ -992,7 +989,7 @@ AR Path="/5F74F36B/5F971CD6/5FAAC520" Ref="C?"  Part="1"
 AR Path="/5F74F36B/5F8236F9/5FAAC520" Ref="C18"  Part="1" 
 F 0 "C18" H 2500 3650 50  0000 L CNN
 F 1 "100uF" H 2400 3700 39  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 2300 3700 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2300 3700 50  0001 C CNN
 F 3 "~" H 2300 3700 50  0001 C CNN
 	1    2300 3700
 	1    0    0    -1  
@@ -1253,7 +1250,7 @@ AR Path="/5F74F223/5FB377D6" Ref="C?"  Part="1"
 AR Path="/5F74F36B/5F8236F9/5FB377D6" Ref="C45"  Part="1" 
 F 0 "C45" V 7825 1650 50  0000 L CNN
 F 1 "1000 uF" V 7900 1575 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 8050 1700 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8050 1700 50  0001 C CNN
 F 3 "~" H 8050 1700 50  0001 C CNN
 	1    8050 1700
 	1    0    0    -1  
@@ -1301,16 +1298,16 @@ Connection ~ 8175 2200
 $Comp
 L Device:R R?
 U 1 1 5FB377ED
-P 8650 2800
+P 8650 2400
 AR Path="/5F74F36B/5F821EB2/5FB377ED" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8222BE/5FB377ED" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F971CD6/5FB377ED" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5FB377ED" Ref="R36"  Part="1" 
-F 0 "R36" H 8720 2846 50  0000 L CNN
-F 1 "1.2k" H 8720 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8580 2800 50  0001 C CNN
-F 3 "~" H 8650 2800 50  0001 C CNN
-	1    8650 2800
+F 0 "R36" H 8720 2446 50  0000 L CNN
+F 1 "1.2k" H 8720 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8580 2400 50  0001 C CNN
+F 3 "~" H 8650 2400 50  0001 C CNN
+	1    8650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1331,16 +1328,16 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5FB377F9
-P 8650 2400
+P 8650 2800
 AR Path="/5F74F36B/5F821EB2/5FB377F9" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8222BE/5FB377F9" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F971CD6/5FB377F9" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5FB377F9" Ref="D22"  Part="1" 
-F 0 "D22" V 8689 2283 50  0000 R CNN
-F 1 "MultimediaExtra Logic Green" V 8598 2283 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 2400 50  0001 C CNN
-F 3 "~" H 8650 2400 50  0001 C CNN
-	1    8650 2400
+F 0 "D22" V 8689 2683 50  0000 R CNN
+F 1 "MultimediaExtra Logic Green" V 8598 2683 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 2800 50  0001 C CNN
+F 3 "~" H 8650 2800 50  0001 C CNN
+	1    8650 2800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1360,4 +1357,6 @@ Text HLabel 9050 2200 2    50   Input ~ 0
 12V3AMultimediaExtraLogic
 Text HLabel 5400 1475 0    49   Input ~ 0
 CTL_MultimediaExtra
+Wire Wire Line
+	7000 3900 7000 4000
 $EndSCHEMATC

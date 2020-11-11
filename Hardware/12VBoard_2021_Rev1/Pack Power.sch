@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8235 4933 2    79   Output ~ 16
+Text HLabel 8235 4930 2    79   Output ~ 16
 5V
 $Comp
 L power:GND #PWR?
@@ -32,19 +31,12 @@ F 3 "" H 4160 4558 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6660 4933 6660 5033
-Connection ~ 6660 4933
-Wire Wire Line
-	8235 4933 7322 4933
-Wire Wire Line
 	5635 5033 6660 5033
 Wire Wire Line
 	5635 4458 5635 5033
 Wire Wire Line
 	5210 4458 5635 4458
 Connection ~ 6535 4308
-Wire Wire Line
-	6660 4308 6660 4933
 Wire Wire Line
 	6535 4308 6660 4308
 Connection ~ 6135 4733
@@ -112,7 +104,7 @@ AR Path="/5F74F223/5F8A9EF1" Ref="C?"  Part="1"
 AR Path="/5F8031F1/5F8A9EF1" Ref="C1"  Part="1" 
 F 0 "C1" V 6310 4483 50  0000 L CNN
 F 1 "1000 uF" V 6385 4408 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 6535 4533 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6535 4533 50  0001 C CNN
 F 3 "~" H 6535 4533 50  0001 C CNN
 	1    6535 4533
 	1    0    0    -1  
@@ -161,47 +153,45 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F9524D1
-P 5850 3636
+P 5850 3200
 AR Path="/5F74F36B/5F821EB2/5F9524D1" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F9524D1" Ref="R?"  Part="1" 
 AR Path="/5F8031F1/5F9524D1" Ref="R1"  Part="1" 
-F 0 "R1" H 5920 3682 50  0000 L CNN
-F 1 "1.2k" H 5920 3591 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5780 3636 50  0001 C CNN
-F 3 "~" H 5850 3636 50  0001 C CNN
-	1    5850 3636
+F 0 "R1" H 5920 3246 50  0000 L CNN
+F 1 "3.3k" H 5920 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5780 3200 50  0001 C CNN
+F 3 "~" H 5850 3200 50  0001 C CNN
+	1    5850 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F9524D7
-P 5850 3886
+P 5850 3900
 AR Path="/5F74F36B/5F821EB2/5F9524D7" Ref="#PWR?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F9524D7" Ref="#PWR?"  Part="1" 
 AR Path="/5F8031F1/5F9524D7" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 5850 3636 50  0001 C CNN
-F 1 "GND" H 5855 3713 50  0000 C CNN
-F 2 "" H 5850 3886 50  0001 C CNN
-F 3 "" H 5850 3886 50  0001 C CNN
-	1    5850 3886
+F 0 "#PWR02" H 5850 3650 50  0001 C CNN
+F 1 "GND" H 5855 3727 50  0000 C CNN
+F 2 "" H 5850 3900 50  0001 C CNN
+F 3 "" H 5850 3900 50  0001 C CNN
+	1    5850 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5F9524DD
-P 5850 3200
+P 5850 3650
 AR Path="/5F74F36B/5F821EB2/5F9524DD" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F9524DD" Ref="D?"  Part="1" 
 AR Path="/5F8031F1/5F9524DD" Ref="D2"  Part="1" 
-F 0 "D2" V 5889 3083 50  0000 R CNN
-F 1 "LED" V 5798 3083 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 3200 50  0001 C CNN
-F 3 "~" H 5850 3200 50  0001 C CNN
-	1    5850 3200
+F 0 "D2" V 5889 3533 50  0000 R CNN
+F 1 "LED" V 5798 3533 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 3650 50  0001 C CNN
+F 3 "~" H 5850 3650 50  0001 C CNN
+	1    5850 3650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5850 3886 5850 3786
 $Comp
 L power:GND #PWR03
 U 1 1 5F804C26
@@ -216,56 +206,19 @@ $EndComp
 Text HLabel 6000 2950 2    79   Output ~ 16
 PackVoltage
 $Comp
-L Device:R R?
-U 1 1 5F96E7E8
-P 7322 5488
-AR Path="/5F74F36B/5F821EB2/5F96E7E8" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5F96E7E8" Ref="R?"  Part="1" 
-AR Path="/5F8031F1/5F96E7E8" Ref="R2"  Part="1" 
-F 0 "R2" H 7392 5534 50  0000 L CNN
-F 1 "1.2k" H 7392 5443 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7252 5488 50  0001 C CNN
-F 3 "~" H 7322 5488 50  0001 C CNN
-	1    7322 5488
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F96E7EE
-P 7322 5738
-AR Path="/5F74F36B/5F821EB2/5F96E7EE" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5F96E7EE" Ref="#PWR?"  Part="1" 
-AR Path="/5F8031F1/5F96E7EE" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 7322 5488 50  0001 C CNN
-F 1 "GND" H 7327 5565 50  0000 C CNN
-F 2 "" H 7322 5738 50  0001 C CNN
-F 3 "" H 7322 5738 50  0001 C CNN
-	1    7322 5738
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D?
 U 1 1 5F96E7F4
-P 7322 5088
+P 7325 5470
 AR Path="/5F74F36B/5F821EB2/5F96E7F4" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F96E7F4" Ref="D?"  Part="1" 
 AR Path="/5F8031F1/5F96E7F4" Ref="D3"  Part="1" 
-F 0 "D3" V 7361 4971 50  0000 R CNN
-F 1 "LED" V 7270 4971 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7322 5088 50  0001 C CNN
-F 3 "~" H 7322 5088 50  0001 C CNN
-	1    7322 5088
+F 0 "D3" V 7364 5353 50  0000 R CNN
+F 1 "LED" V 7273 5353 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7325 5470 50  0001 C CNN
+F 3 "~" H 7325 5470 50  0001 C CNN
+	1    7325 5470
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7322 5738 7322 5638
-Wire Wire Line
-	7322 5338 7322 5238
-Wire Wire Line
-	7322 4933 7322 4938
-Connection ~ 7322 4933
-Wire Wire Line
-	7322 4933 6660 4933
 $Comp
 L Device:C_Small C2
 U 1 1 5F9816C3
@@ -298,10 +251,8 @@ Wire Wire Line
 	7100 4158 7100 4350
 Text Notes 5950 3400 0    50   ~ 0
 Green
-Text Notes 7450 5250 0    50   ~ 0
+Text Notes 7375 5305 0    50   ~ 0
 Green
-Wire Wire Line
-	5850 3350 5850 3486
 Wire Wire Line
 	5350 2950 5450 2950
 Wire Wire Line
@@ -343,4 +294,52 @@ F 3 "" H 4800 2500 60  0001 C CNN
 	2    4950 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5850 3350 5850 3500
+Wire Wire Line
+	5850 3800 5850 3900
+$Comp
+L Device:R R?
+U 1 1 5F96E7E8
+P 7325 5150
+AR Path="/5F74F36B/5F821EB2/5F96E7E8" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5F96E7E8" Ref="R?"  Part="1" 
+AR Path="/5F8031F1/5F96E7E8" Ref="R2"  Part="1" 
+F 0 "R2" H 7395 5196 50  0000 L CNN
+F 1 "500" H 7395 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7255 5150 50  0001 C CNN
+F 3 "~" H 7325 5150 50  0001 C CNN
+	1    7325 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6660 4308 6660 4930
+Wire Wire Line
+	8235 4930 7325 4930
+Connection ~ 6660 4930
+Wire Wire Line
+	6660 4930 6660 5033
+Wire Wire Line
+	7325 5000 7325 4930
+Connection ~ 7325 4930
+Wire Wire Line
+	7325 4930 6660 4930
+Wire Wire Line
+	7325 5300 7325 5320
+$Comp
+L power:GND #PWR?
+U 1 1 5F96E7EE
+P 7325 5680
+AR Path="/5F74F36B/5F821EB2/5F96E7EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5F96E7EE" Ref="#PWR?"  Part="1" 
+AR Path="/5F8031F1/5F96E7EE" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 7325 5430 50  0001 C CNN
+F 1 "GND" H 7330 5507 50  0000 C CNN
+F 2 "" H 7325 5680 50  0001 C CNN
+F 3 "" H 7325 5680 50  0001 C CNN
+	1    7325 5680
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 5620 7325 5680
 $EndSCHEMATC

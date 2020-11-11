@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,7 +55,7 @@ AR Path="/5F74F223/5F7D14F6/5F85074F" Ref="C?"  Part="1"
 AR Path="/5F74F223/5F85074F" Ref="C3"  Part="1" 
 F 0 "C3" V 4700 1400 50  0000 L CNN
 F 1 "1000 uF" V 4775 1325 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 4925 1450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4925 1450 50  0001 C CNN
 F 3 "~" H 4925 1450 50  0001 C CNN
 	1    4925 1450
 	1    0    0    -1  
@@ -220,7 +219,7 @@ AR Path="/5F74F223/5F7D14F6/5F853A2D" Ref="C?"  Part="1"
 AR Path="/5F74F223/5F853A2D" Ref="C4"  Part="1" 
 F 0 "C4" V 4725 2675 50  0000 L CNN
 F 1 "1000 uF" V 4800 2600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 4950 2725 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4950 2725 50  0001 C CNN
 F 3 "~" H 4950 2725 50  0001 C CNN
 	1    4950 2725
 	1    0    0    -1  
@@ -342,7 +341,7 @@ AR Path="/5F74F223/5F7D14F6/5F858099" Ref="C?"  Part="1"
 AR Path="/5F74F223/5F858099" Ref="C5"  Part="1" 
 F 0 "C5" V 4750 3925 50  0000 L CNN
 F 1 "1000 uF" V 4825 3850 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 4975 3975 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4975 3975 50  0001 C CNN
 F 3 "~" H 4975 3975 50  0001 C CNN
 	1    4975 3975
 	1    0    0    -1  
@@ -1252,7 +1251,7 @@ AR Path="/5F74F223/5F7D14F6/5F86A2CD" Ref="C?"  Part="1"
 AR Path="/5F74F223/5F86A2CD" Ref="C6"  Part="1" 
 F 0 "C6" V 4850 5090 50  0000 L CNN
 F 1 "1000 uF" V 4925 5015 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 5075 5140 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5075 5140 50  0001 C CNN
 F 3 "~" H 5075 5140 50  0001 C CNN
 	1    5075 5140
 	1    0    0    -1  
@@ -1402,7 +1401,7 @@ AR Path="/5F74F223/5F7D14F6/5FADFADD" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FADFADD" Ref="C43"  Part="1" 
 F 0 "C43" V 4650 6330 50  0000 L CNN
 F 1 "1000 uF" V 4725 6255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal" H 4875 6380 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4875 6380 50  0001 C CNN
 F 3 "~" H 4875 6380 50  0001 C CNN
 	1    4875 6380
 	1    0    0    -1  
