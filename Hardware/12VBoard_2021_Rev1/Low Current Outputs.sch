@@ -491,13 +491,13 @@ Wire Wire Line
 	2250 1225 2400 1225
 $Comp
 L MRDT_Connectors:AndersonPP Conn4
-U 2 1 5FA336BA
+U 4 1 5FA336BA
 P 7440 2830
 F 0 "Conn4" H 7648 3217 60  0000 C CNN
 F 1 "BBB" H 7648 3111 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7290 2280 60  0001 C CNN
 F 3 "" H 7290 2280 60  0001 C CNN
-	2    7440 2830
+	4    7440 2830
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -513,24 +513,24 @@ F 3 "" H 7300 825 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn7
-U 2 1 5FA3FC00
+U 4 1 5FA3FC00
 P 8050 4215
 F 0 "Conn7" H 8258 4602 60  0000 C CNN
 F 1 "ExtraL1" H 8258 4496 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7900 3665 60  0001 C CNN
 F 3 "" H 7900 3665 60  0001 C CNN
-	2    8050 4215
+	4    8050 4215
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn5
-U 2 1 5FA4C09A
+U 4 1 5FA4C09A
 P 7450 1600
 F 0 "Conn5" H 7658 1987 60  0000 C CNN
 F 1 "Camera" H 7658 1881 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7300 1050 60  0001 C CNN
 F 3 "" H 7300 1050 60  0001 C CNN
-	2    7450 1600
+	4    7450 1600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1094,13 +1094,13 @@ F 3 "" H 8525 3690 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn8
-U 2 1 5FA7180E
+U 4 1 5FA7180E
 P 8900 4240
 F 0 "Conn8" H 9108 4627 60  0000 C CNN
 F 1 "ExtraL2" H 9108 4521 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 8750 3690 60  0001 C CNN
 F 3 "" H 8750 3690 60  0001 C CNN
-	2    8900 4240
+	4    8900 4240
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1294,13 +1294,13 @@ Wire Wire Line
 	725  4440 3925 4440
 $Comp
 L MRDT_Connectors:AndersonPP Conn6
-U 2 1 5FA651EA
+U 4 1 5FA651EA
 P 7525 4075
 F 0 "Conn6" H 7733 4462 60  0000 C CNN
 F 1 "NavBoard" H 7733 4356 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7375 3525 60  0001 C CNN
 F 3 "" H 7375 3525 60  0001 C CNN
-	2    7525 4075
+	4    7525 4075
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1518,13 +1518,13 @@ F 3 "" H 7330 5275 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn15
-U 2 1 5FADFB2A
+U 4 1 5FADFB2A
 P 7480 6050
 F 0 "Conn15" H 7688 6437 60  0000 C CNN
 F 1 "Drive" H 7688 6331 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7330 5500 60  0001 C CNN
 F 3 "" H 7330 5500 60  0001 C CNN
-	2    7480 6050
+	4    7480 6050
 	-1   0    0    1   
 $EndComp
 $Comp
