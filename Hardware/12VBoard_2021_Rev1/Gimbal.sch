@@ -277,12 +277,12 @@ LO
 $Comp
 L power:GND #PWR068
 U 1 1 5FB8B439
-P 1300 4400
-F 0 "#PWR068" H 1300 4150 50  0001 C CNN
-F 1 "GND" H 1305 4227 50  0000 C CNN
-F 2 "" H 1300 4400 50  0001 C CNN
-F 3 "" H 1300 4400 50  0001 C CNN
-	1    1300 4400
+P 1300 4800
+F 0 "#PWR068" H 1300 4550 50  0001 C CNN
+F 1 "GND" H 1305 4627 50  0000 C CNN
+F 2 "" H 1300 4800 50  0001 C CNN
+F 3 "" H 1300 4800 50  0001 C CNN
+	1    1300 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -493,40 +493,10 @@ F 3 "" H 1200 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1200 2750 1200 2800
-Text HLabel 1350 3050 2    50   Input ~ 0
+Text HLabel 1875 2850 2    50   Input ~ 0
 PackVoltage
-$Comp
-L Transistor_FET:2N7000 Q6
-U 1 1 5FB3AE97
-P 1150 3300
-F 0 "Q6" H 1354 3346 50  0000 L CNN
-F 1 "2N7000" H 1354 3255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1350 3225 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 1150 3300 50  0001 L CNN
-	1    1150 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 3050 1250 3050
-Wire Wire Line
-	1250 3050 1250 3100
-$Comp
-L Transistor_FET:2N7000 Q7
-U 1 1 5FB57A80
-P 1200 3800
-F 0 "Q7" H 1404 3846 50  0000 L CNN
-F 1 "2N7000" H 1404 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1400 3725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 1200 3800 50  0001 L CNN
-	1    1200 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 3500 1250 3550
 Wire Wire Line
 	1250 3550 1300 3550
-Wire Wire Line
-	1300 3550 1300 3600
 Wire Wire Line
 	1050 3050 1050 3550
 Wire Wire Line
@@ -549,26 +519,20 @@ Connection ~ 1300 3550
 $Comp
 L Device:R_Small R27
 U 1 1 5FB854FB
-P 1300 4200
-F 0 "R27" H 1359 4246 50  0000 L CNN
-F 1 "5m" H 1359 4155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1300 4200 50  0001 C CNN
-F 3 "~" H 1300 4200 50  0001 C CNN
-	1    1300 4200
+P 1300 4600
+F 0 "R27" H 1359 4646 50  0000 L CNN
+F 1 "5m" H 1359 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1300 4600 50  0001 C CNN
+F 3 "~" H 1300 4600 50  0001 C CNN
+	1    1300 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 4000 1300 4050
-Wire Wire Line
-	1300 4300 1300 4350
-Text GLabel 900  3300 0    50   Input ~ 0
+	1300 4700 1300 4750
+Text GLabel 1825 3350 3    50   Input ~ 0
 HO
-Text GLabel 950  3800 0    50   Input ~ 0
+Text GLabel 1600 4150 3    50   Input ~ 0
 LO
-Wire Wire Line
-	950  3300 900  3300
-Wire Wire Line
-	1000 3800 950  3800
 Wire Wire Line
 	1050 2750 1050 2800
 Wire Wire Line
@@ -582,20 +546,20 @@ Wire Wire Line
 	1200 2550 1200 2500
 Wire Wire Line
 	1050 2550 1050 2500
-Text GLabel 1250 4050 0    50   Input ~ 0
+Text GLabel 1250 4450 0    50   Input ~ 0
 CS
-Text GLabel 1250 4350 0    50   Input ~ 0
+Text GLabel 1250 4750 0    50   Input ~ 0
 CSGDEMB
 Wire Wire Line
-	1300 4050 1250 4050
-Connection ~ 1300 4050
+	1300 4450 1250 4450
+Connection ~ 1300 4450
 Wire Wire Line
-	1300 4050 1300 4100
+	1300 4450 1300 4500
 Wire Wire Line
-	1300 4350 1250 4350
-Connection ~ 1300 4350
+	1300 4750 1250 4750
+Connection ~ 1300 4750
 Wire Wire Line
-	1300 4350 1300 4400
+	1300 4750 1300 4800
 $Comp
 L Device:CP1_Small C37
 U 1 1 5FBF9349
@@ -1055,4 +1019,102 @@ Wire Wire Line
 	9225 2025 9700 2025
 Text HLabel 6450 1300 0    49   Input ~ 0
 CTL_Gimbal
+$Comp
+L 12VBoard_2021_Rev1-rescue:CSD18537NQ5A Q?
+U 1 1 5FD3AF2E
+P 1675 3100
+AR Path="/5F74F36B/5F8236F9/5FD3AF2E" Ref="Q?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FD3AF2E" Ref="Q6"  Part="1" 
+F 0 "Q6" V 1600 2875 50  0000 R CNN
+F 1 "CSD18537NQ5A" V 1725 2900 50  0000 R CNN
+F 2 "" H 1675 3100 50  0001 C CNN
+F 3 "" H 1675 3100 50  0001 C CNN
+	1    1675 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 12VBoard_2021_Rev1-rescue:CSD18531Q5A Q?
+U 1 1 5FD3AF34
+P 1450 3900
+AR Path="/5F74F36B/5F8236F9/5FD3AF34" Ref="Q?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5FD3AF34" Ref="Q7"  Part="1" 
+F 0 "Q7" V 1400 4225 50  0000 R CNN
+F 1 "CSD18531Q5A" V 1475 4650 50  0000 R CNN
+F 2 "" H 1450 3950 50  0001 C CNN
+F 3 "" H 1450 3950 50  0001 C CNN
+	1    1450 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 4150 1600 4100
+Wire Wire Line
+	1500 4100 1500 4150
+Wire Wire Line
+	1500 4150 1400 4150
+Wire Wire Line
+	1300 4150 1300 4100
+Wire Wire Line
+	1300 4150 1300 4450
+Connection ~ 1300 4150
+Wire Wire Line
+	1400 4100 1400 4150
+Connection ~ 1400 4150
+Wire Wire Line
+	1400 4150 1300 4150
+Wire Wire Line
+	1600 3700 1600 3650
+Wire Wire Line
+	1600 3650 1500 3650
+Wire Wire Line
+	1300 3550 1300 3650
+Wire Wire Line
+	1300 3650 1300 3700
+Connection ~ 1300 3650
+Wire Wire Line
+	1400 3700 1400 3650
+Connection ~ 1400 3650
+Wire Wire Line
+	1400 3650 1300 3650
+Wire Wire Line
+	1500 3700 1500 3650
+Connection ~ 1500 3650
+Wire Wire Line
+	1500 3650 1400 3650
+Wire Wire Line
+	1875 2850 1825 2850
+Wire Wire Line
+	1525 2850 1525 2900
+Wire Wire Line
+	1625 2900 1625 2850
+Connection ~ 1625 2850
+Wire Wire Line
+	1625 2850 1525 2850
+Wire Wire Line
+	1725 2900 1725 2850
+Connection ~ 1725 2850
+Wire Wire Line
+	1725 2850 1625 2850
+Wire Wire Line
+	1825 2900 1825 2850
+Connection ~ 1825 2850
+Wire Wire Line
+	1825 2850 1725 2850
+Wire Wire Line
+	1825 3350 1825 3300
+Wire Wire Line
+	1250 3350 1525 3350
+Wire Wire Line
+	1725 3350 1725 3300
+Wire Wire Line
+	1250 3350 1250 3550
+Wire Wire Line
+	1625 3300 1625 3350
+Connection ~ 1625 3350
+Wire Wire Line
+	1625 3350 1725 3350
+Wire Wire Line
+	1525 3300 1525 3350
+Connection ~ 1525 3350
+Wire Wire Line
+	1525 3350 1625 3350
 $EndSCHEMATC

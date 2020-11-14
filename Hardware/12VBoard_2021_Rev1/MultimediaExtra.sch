@@ -26,21 +26,6 @@ F 3 "" H 4800 5200 60  0001 C CNN
 	1    4800 5200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_FET:NTR2101P Q?
-U 1 1 5F8ACBE4
-P 5650 4150
-AR Path="/5F74F36B/5F8ACBE4" Ref="Q?"  Part="1" 
-AR Path="/5F74F36B/5F8222BE/5F8ACBE4" Ref="Q?"  Part="1" 
-AR Path="/5F74F36B/5F821EB2/5F8ACBE4" Ref="Q?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5F8ACBE4" Ref="Q3"  Part="1" 
-F 0 "Q3" H 5855 4104 50  0000 L CNN
-F 1 "NTR2101P" H 5855 4195 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5850 4075 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF" H 5650 4150 50  0001 L CNN
-	1    5650 4150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5050 4050 5000 4050
 $Comp
@@ -98,8 +83,6 @@ Wire Wire Line
 	5900 5100 5900 4550
 Wire Wire Line
 	5900 4550 5650 4550
-Wire Wire Line
-	5650 4550 5650 4350
 $Comp
 L power:GND #PWR051
 U 1 1 5F8D2448
@@ -735,14 +718,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FE406FE
-P 1250 4400
+P 1100 4600
 AR Path="/5F74F36B/5F971CD6/5FE406FE" Ref="#PWR?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5FE406FE" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 1250 4150 50  0001 C CNN
-F 1 "GND" H 1255 4227 50  0000 C CNN
-F 2 "" H 1250 4400 50  0001 C CNN
-F 3 "" H 1250 4400 50  0001 C CNN
-	1    1250 4400
+F 0 "#PWR039" H 1100 4350 50  0001 C CNN
+F 1 "GND" H 1105 4427 50  0000 C CNN
+F 2 "" H 1100 4600 50  0001 C CNN
+F 3 "" H 1100 4600 50  0001 C CNN
+	1    1100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -799,44 +782,10 @@ F 3 "" H 1150 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 2750 1150 2800
-Text HLabel 1300 3050 2    50   Input ~ 0
+Text HLabel 1850 2875 2    50   Input ~ 0
 PackVoltage
-$Comp
-L Transistor_FET:2N7000 Q?
-U 1 1 5FE4072A
-P 1100 3300
-AR Path="/5F74F36B/5F971CD6/5FE4072A" Ref="Q?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5FE4072A" Ref="Q1"  Part="1" 
-F 0 "Q1" H 1304 3346 50  0000 L CNN
-F 1 "2N7000" H 1304 3255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1300 3225 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 1100 3300 50  0001 L CNN
-	1    1100 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 3050 1200 3050
-Wire Wire Line
-	1200 3050 1200 3100
-$Comp
-L Transistor_FET:2N7000 Q?
-U 1 1 5FE40732
-P 1150 3800
-AR Path="/5F74F36B/5F971CD6/5FE40732" Ref="Q?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5FE40732" Ref="Q2"  Part="1" 
-F 0 "Q2" H 1354 3846 50  0000 L CNN
-F 1 "2N7000" H 1354 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1350 3725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 1150 3800 50  0001 L CNN
-	1    1150 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 3500 1200 3550
 Wire Wire Line
 	1200 3550 1250 3550
-Wire Wire Line
-	1250 3550 1250 3600
 Wire Wire Line
 	1000 3050 1000 3550
 Wire Wire Line
@@ -861,28 +810,24 @@ Connection ~ 1250 3550
 $Comp
 L Device:R_Small R?
 U 1 1 5FE40746
-P 1250 4200
+P 1100 4400
 AR Path="/5F74F36B/5F971CD6/5FE40746" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5FE40746" Ref="R8"  Part="1" 
-F 0 "R8" H 1309 4246 50  0000 L CNN
-F 1 "5m" H 1309 4155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1250 4200 50  0001 C CNN
-F 3 "~" H 1250 4200 50  0001 C CNN
-	1    1250 4200
+F 0 "R8" H 1159 4446 50  0000 L CNN
+F 1 "5m" H 1159 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 4400 50  0001 C CNN
+F 3 "~" H 1100 4400 50  0001 C CNN
+	1    1100 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 4000 1250 4050
+	1100 4200 1100 4250
 Wire Wire Line
-	1250 4300 1250 4350
-Text GLabel 850  3300 0    50   Input ~ 0
+	1100 4500 1100 4550
+Text GLabel 1775 3350 3    50   Input ~ 0
 HO
-Text GLabel 900  3800 0    50   Input ~ 0
+Text GLabel 1400 4175 3    50   Input ~ 0
 LO
-Wire Wire Line
-	900  3300 850  3300
-Wire Wire Line
-	950  3800 900  3800
 Wire Wire Line
 	1000 2750 1000 2800
 Wire Wire Line
@@ -896,20 +841,20 @@ Wire Wire Line
 	1150 2550 1150 2500
 Wire Wire Line
 	1000 2550 1000 2500
-Text GLabel 1200 4050 0    50   Input ~ 0
+Text GLabel 1050 4250 0    50   Input ~ 0
 CS
-Text GLabel 1200 4350 0    50   Input ~ 0
+Text GLabel 1050 4550 0    50   Input ~ 0
 CSGDEMB
 Wire Wire Line
-	1250 4050 1200 4050
-Connection ~ 1250 4050
+	1100 4250 1050 4250
+Connection ~ 1100 4250
 Wire Wire Line
-	1250 4050 1250 4100
+	1100 4250 1100 4300
 Wire Wire Line
-	1250 4350 1200 4350
-Connection ~ 1250 4350
+	1100 4550 1050 4550
+Connection ~ 1100 4550
 Wire Wire Line
-	1250 4350 1250 4400
+	1100 4550 1100 4600
 $Comp
 L Device:CP1_Small C?
 U 1 1 5FE40761
@@ -1359,4 +1304,105 @@ Text HLabel 5400 1475 0    49   Input ~ 0
 CTL_MultimediaExtra
 Wire Wire Line
 	7000 3900 7000 4000
+$Comp
+L 12VBoard_2021_Rev1-rescue:IRFZ34 Q3
+U 1 1 5FB153A3
+P 5650 4050
+F 0 "Q3" H 5650 4315 50  0000 C CNN
+F 1 "IRFZ34" H 5650 4224 50  0000 C CNN
+F 2 "" H 5650 4050 50  0001 C CNN
+F 3 "" H 5650 4050 50  0001 C CNN
+	1    5650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4250 5650 4550
+$Comp
+L 12VBoard_2021_Rev1-rescue:CSD18531Q5A Q2
+U 1 1 5FB2C1AC
+P 1250 3925
+F 0 "Q2" V 1200 4250 50  0000 R CNN
+F 1 "CSD18531Q5A" V 1275 4675 50  0000 R CNN
+F 2 "" H 1250 3975 50  0001 C CNN
+F 3 "" H 1250 3975 50  0001 C CNN
+	1    1250 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 12VBoard_2021_Rev1-rescue:CSD18537NQ5A Q1
+U 1 1 5FB2CD79
+P 1625 3100
+F 0 "Q1" V 1550 2875 50  0000 R CNN
+F 1 "CSD18537NQ5A" V 1675 2900 50  0000 R CNN
+F 2 "" H 1625 3100 50  0001 C CNN
+F 3 "" H 1625 3100 50  0001 C CNN
+	1    1625 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 3675 1300 3675
+Wire Wire Line
+	1400 3675 1400 3725
+Wire Wire Line
+	1250 3550 1250 3675
+Wire Wire Line
+	1250 3675 1200 3675
+Wire Wire Line
+	1100 3675 1100 3725
+Connection ~ 1250 3675
+Wire Wire Line
+	1200 3725 1200 3675
+Connection ~ 1200 3675
+Wire Wire Line
+	1200 3675 1100 3675
+Wire Wire Line
+	1300 3725 1300 3675
+Connection ~ 1300 3675
+Wire Wire Line
+	1300 3675 1400 3675
+Wire Wire Line
+	1300 4125 1300 4200
+Wire Wire Line
+	1300 4200 1200 4200
+Wire Wire Line
+	1100 4125 1100 4200
+Connection ~ 1100 4200
+Wire Wire Line
+	1200 4125 1200 4200
+Connection ~ 1200 4200
+Wire Wire Line
+	1200 4200 1100 4200
+Wire Wire Line
+	1850 2875 1775 2875
+Wire Wire Line
+	1475 2875 1475 2900
+Wire Wire Line
+	1575 2900 1575 2875
+Connection ~ 1575 2875
+Wire Wire Line
+	1575 2875 1475 2875
+Wire Wire Line
+	1675 2900 1675 2875
+Connection ~ 1675 2875
+Wire Wire Line
+	1675 2875 1575 2875
+Wire Wire Line
+	1775 2900 1775 2875
+Connection ~ 1775 2875
+Wire Wire Line
+	1775 2875 1675 2875
+Wire Wire Line
+	1675 3300 1575 3300
+Wire Wire Line
+	1575 3300 1475 3300
+Connection ~ 1575 3300
+Wire Wire Line
+	1475 3300 1200 3300
+Wire Wire Line
+	1200 3300 1200 3550
+Connection ~ 1475 3300
+Wire Wire Line
+	1775 3350 1775 3300
+Wire Wire Line
+	1400 4175 1400 4125
 $EndSCHEMATC
