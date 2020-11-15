@@ -1631,9 +1631,7 @@ $EndComp
 Wire Wire Line
 	5425 6380 5425 6580
 Wire Wire Line
-	3550 6005 5425 6005
-Wire Wire Line
-	3775 6000 3775 5625
+	3550 6005 3775 6005
 Wire Wire Line
 	3775 5625 725  5625
 Connection ~ 725  5625
@@ -1660,4 +1658,9 @@ Wire Wire Line
 Connection ~ 5000 6780
 Wire Wire Line
 	5000 6780 5000 6880
+Wire Wire Line
+	3775 5625 3775 6005
+Connection ~ 3775 6005
+Wire Wire Line
+	3775 6005 5425 6005
 $EndSCHEMATC
