@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -780,8 +781,6 @@ F 3 "" H 1150 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 2750 1150 2800
-Text HLabel 1850 2875 2    50   Input ~ 0
-PackVoltage
 Wire Wire Line
 	1200 3550 1250 3550
 Wire Wire Line
@@ -1405,4 +1404,6 @@ F 3 "" H 5650 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 4050 6350 4050
+Text HLabel 1850 2875 2    50   Input ~ 0
+PackVoltage
 $EndSCHEMATC
