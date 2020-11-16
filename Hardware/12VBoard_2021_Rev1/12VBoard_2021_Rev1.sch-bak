@@ -60,24 +60,19 @@ F0 "High Current Outputs" 79
 F1 "High Current Outputs.sch" 79
 F2 "PackVoltage" I L 8000 3900 79 
 F3 "5V" I L 8000 3625 79 
-F4 "DriveSense" O L 8000 2150 79 
-F5 "AuxMountSense" O L 8000 2250 79 
-F6 "MultimediaSense" O L 8000 2350 79 
-F7 "AuxCTL" I L 8000 2450 79 
-F8 "MultimediaCTL" I L 8000 2550 79 
-F9 "GimbalCTL" I L 8000 2650 79 
-F10 "GimbalSense" O L 8000 2750 79 
+F4 "AuxMountSense" O L 8000 2250 79 
+F5 "MultimediaSense" O L 8000 2350 79 
+F6 "AuxCTL" I L 8000 2450 79 
+F7 "MultimediaCTL" I L 8000 2550 79 
+F8 "GimbalCTL" I L 8000 2650 79 
+F9 "GimbalSense" O L 8000 2750 79 
 $EndSheet
 Wire Wire Line
 	5000 2250 4000 2250
 Wire Wire Line
 	4000 2500 5000 2500
 Wire Wire Line
-	7000 2150 8000 2150
-Wire Wire Line
 	7000 2250 8000 2250
-Wire Wire Line
-	7000 2350 8000 2350
 Wire Wire Line
 	7000 2450 8000 2450
 Wire Wire Line
@@ -110,17 +105,18 @@ S 5000 2000 2000 2000
 U 5F74F4A3
 F0 "Tiva In/Outputs" 79
 F1 "Tiva.sch" 79
-F2 "DriveSense" I R 7000 2150 79 
-F3 "LowCurrentSense" I L 5000 2125 79 
-F4 "AuxMountSense" I R 7000 2250 79 
-F5 "CameraCTL" O L 5000 2250 79 
-F6 "MultimediaSense" I R 7000 2350 79 
-F7 "NavBoardCTL" O L 5000 2500 79 
-F8 "AuxCTL" O R 7000 2450 79 
-F9 "MultimediaCTL" O R 7000 2550 79 
-F10 "ExtraCTL" O L 5000 2625 79 
-F11 "GimbalCTL" O R 7000 2650 79 
-F12 "GimbalSense" I R 7000 2750 79 
-F13 "DriveCTL" O L 5000 2375 79 
+F2 "LowCurrentSense" I L 5000 2125 79 
+F3 "AuxMountSense" I R 7000 2250 79 
+F4 "CameraCTL" O L 5000 2250 79 
+F5 "MultimediaSense" I R 7000 2350 79 
+F6 "NavBoardCTL" O L 5000 2500 79 
+F7 "AuxCTL" O R 7000 2450 79 
+F8 "MultimediaCTL" O R 7000 2550 79 
+F9 "ExtraCTL" O L 5000 2625 79 
+F10 "GimbalCTL" O R 7000 2650 79 
+F11 "GimbalSense" I R 7000 2750 79 
+F12 "DriveCTL" O L 5000 2375 79 
 $EndSheet
+Wire Wire Line
+	7000 2350 8000 2350
 $EndSCHEMATC

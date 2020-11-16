@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""

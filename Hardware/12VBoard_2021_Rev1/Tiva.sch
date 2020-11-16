@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,16 +35,12 @@ Text Notes 7847 2693 2    50   ~ 0
 Multimedia/Extra CTL (Digital Write)
 Text Notes 6459 2385 0    49   ~ 0
 Gimbal CTL (Digital Write)
-Text HLabel 5800 1450 0    49   Input ~ 0
-DriveSense
-Wire Wire Line
-	6150 1450 5800 1450
 Text HLabel 5800 1550 0    49   Input ~ 0
 AuxMountSense
 Wire Wire Line
 	6150 1550 5800 1550
 Text HLabel 5800 1650 0    49   Input ~ 0
-MulitmediaSense
+MultimediaSense
 Wire Wire Line
 	6150 1650 5800 1650
 Text HLabel 5800 1750 0    49   Input ~ 0
@@ -110,4 +105,5 @@ Wire Wire Line
 	6150 2850 5800 2850
 Text Notes 7645 2880 2    50   ~ 0
 Drive Board CTL (Digital Write)
+NoConn ~ 6150 1450
 $EndSCHEMATC

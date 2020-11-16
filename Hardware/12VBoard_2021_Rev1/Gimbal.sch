@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -267,8 +266,6 @@ Wire Wire Line
 	3700 1000 3650 1000
 Text GLabel 3700 1000 2    50   Input ~ 0
 HB
-Wire Wire Line
-	3700 1300 3650 1300
 Wire Wire Line
 	3700 900  3650 900 
 Text GLabel 3700 900  2    50   Input ~ 0
@@ -1047,8 +1044,6 @@ F 3 "" H 1450 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1600 4150 1600 4100
-Wire Wire Line
 	1500 4100 1500 4150
 Wire Wire Line
 	1500 4150 1400 4150
@@ -1118,4 +1113,8 @@ Wire Wire Line
 Connection ~ 1525 3350
 Wire Wire Line
 	1525 3350 1625 3350
+Wire Wire Line
+	3650 1300 3700 1300
+Wire Wire Line
+	1600 4100 1600 4150
 $EndSCHEMATC
