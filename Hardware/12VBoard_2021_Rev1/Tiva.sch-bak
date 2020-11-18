@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -15,95 +15,110 @@ Comment4 ""
 $EndDescr
 Text Notes 5650 3450 0    79   ~ 0
 Tiva 4 analog(current sense)/ \n7 toggles(digital write)
-Text Notes 7480 1490 2    50   ~ 0
-Drive Sense (Analog Read)
-Text Notes 7686 1586 2    50   ~ 0
-Aux Mount Sense (Analog Read)
-Text Notes 7698 1688 2    50   ~ 0
-Multimedia Sense (Analog Read)
-Text Notes 7773 1777 2    50   ~ 0
-Extra (LowC) Sense (Analog Read)
-Text Notes 7480 2589 2    50   ~ 0
-Camera CTL (Digital Write)
-Text Notes 7555 2494 2    50   ~ 0
-NavBoard CTL (Digital Write)
-Text Notes 7386 2286 2    50   ~ 0
-Extra CTL (Digital Write)
-Text Notes 7592 2784 2    50   ~ 0
-Aux Mount CTL (Digital Write)
-Text Notes 7847 2693 2    50   ~ 0
-Multimedia/Extra CTL (Digital Write)
-Text Notes 6459 2385 0    49   ~ 0
-Gimbal CTL (Digital Write)
-Text HLabel 5800 1550 0    49   Input ~ 0
+Text HLabel 6000 5100 0    49   Input ~ 0
 AuxMountSense
-Wire Wire Line
-	6150 1550 5800 1550
-Text HLabel 5800 1650 0    49   Input ~ 0
+Text HLabel 6000 5000 0    49   Input ~ 0
 MultimediaSense
-Wire Wire Line
-	6150 1650 5800 1650
-Text HLabel 5800 1750 0    49   Input ~ 0
+Text HLabel 6000 5300 0    49   Input ~ 0
 LowCurrentSense
-Wire Wire Line
-	6150 1750 5800 1750
-Wire Wire Line
-	6150 2350 5800 2350
-Wire Wire Line
-	6150 2450 5800 2450
-Text HLabel 5800 2550 0    49   Output ~ 0
+Text HLabel 6000 4450 0    49   Output ~ 0
 CameraCTL
-Wire Wire Line
-	6150 2550 5800 2550
-Text HLabel 5800 2650 0    49   Output ~ 0
-MultimediaCTL
-Wire Wire Line
-	6150 2650 5800 2650
-Text HLabel 5800 2750 0    49   Output ~ 0
-AuxCTL
-Wire Wire Line
-	6150 2750 5800 2750
-Text HLabel 5800 2450 0    49   Output ~ 0
+Text HLabel 6000 4350 0    49   Output ~ 0
 NavBoardCTL
-Text HLabel 5800 2350 0    49   Output ~ 0
-GimbalCTL
-Text HLabel 5800 2250 0    49   Output ~ 0
+Text HLabel 6000 4550 0    49   Output ~ 0
 ExtraCTL
-Wire Wire Line
-	6150 2250 5800 2250
-$Comp
-L MRDT_Connectors:Molex_SL_05 Conn1
-U 1 1 5F976F73
-P 6350 1900
-F 0 "Conn1" H 6300 1850 60  0000 L CNN
-F 1 "Molex_SL_05" H 6200 1750 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 6350 1900 60  0001 C CNN
-F 3 "" H 6350 1900 60  0001 C CNN
-	1    6350 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_07 Conn2
-U 1 1 5F97771C
-P 6350 2900
-F 0 "Conn2" H 6350 2850 60  0000 L CNN
-F 1 "Molex_SL_07" H 6200 2750 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 6350 3100 60  0001 C CNN
-F 3 "" H 6350 3100 60  0001 C CNN
-	1    6350 2900
-	1    0    0    -1  
-$EndComp
-Text HLabel 5800 1850 0    50   Input ~ 0
+Text HLabel 6000 5200 0    50   Input ~ 0
 GimbalSense
-Wire Wire Line
-	6150 1850 5800 1850
-Text Notes 6450 1872 0    50   ~ 0
-Gimbal Sense (Analog Read)
-Text HLabel 5800 2850 0    50   Output ~ 0
+Text HLabel 6000 4650 0    50   Output ~ 0
 DriveCTL
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn?
+U 1 1 5FB5A813
+P 6450 4700
+F 0 "Conn?" H 6325 4550 60  0000 L CNN
+F 1 "Molex_SL_10" H 6175 4650 60  0000 L CNN
+F 2 "" H 6450 5200 60  0001 C CNN
+F 3 "" H 6450 5200 60  0001 C CNN
+	1    6450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn?
+U 1 1 5FB5B79F
+P 6450 5350
+F 0 "Conn?" H 6350 5175 60  0000 L CNN
+F 1 "Molex_SL_04" H 6175 5275 60  0000 L CNN
+F 2 "" H 6450 5350 60  0001 C CNN
+F 3 "" H 6450 5350 60  0001 C CNN
+	1    6450 5350
+	1    0    0    -1  
+$EndComp
+Text Notes 6575 3875 0    50   ~ 0
+Multimedia Act CTL (Digital Write)
+Text Notes 6575 3775 0    50   ~ 0
+Multimedia Log CTL (Digital Write)
+Text Notes 6575 4075 0    50   ~ 0
+AuxMount Act CTL (Digital Write)
+Text Notes 6575 3975 0    50   ~ 0
+AuxMount Log CTL (Digital Write)
+Text Notes 6575 4275 0    50   ~ 0
+Gimbal Act CTL (Digital Write)
+Text Notes 6575 4175 0    50   ~ 0
+Gimbal Log CTL (Digital Write)
+Text Notes 6575 4375 0    50   ~ 0
+NavBoard CTL (Digital Write)
+Text Notes 6575 4475 0    50   ~ 0
+Camera CTL (Digital Write)
+Text Notes 6575 4575 0    50   ~ 0
+Extra CTL (Digitial Write)
+Text Notes 6575 4675 0    50   ~ 0
+Drive  CTL (Digital Write)\n
+Text Notes 6575 5125 0    50   ~ 0
+AuxMount Sense (Analog Read)
+Text Notes 6575 5025 0    50   ~ 0
+Multimedia Sense (Analog Read)\n
+Text Notes 6575 5225 0    50   ~ 0
+Gimbal Sense (Analog Read)
+Text Notes 6575 5325 0    50   ~ 0
+Low Current Sense (Analog Read)
 Wire Wire Line
-	6150 2850 5800 2850
-Text Notes 7645 2880 2    50   ~ 0
-Drive Board CTL (Digital Write)
-NoConn ~ 6150 1450
+	6000 5000 6250 5000
+Wire Wire Line
+	6000 5100 6250 5100
+Wire Wire Line
+	6000 5200 6250 5200
+Wire Wire Line
+	6000 5300 6250 5300
+Text HLabel 6000 4050 0    49   Output ~ 0
+AuxMountCTL_Act
+Text HLabel 6000 4250 0    49   Output ~ 0
+GimbalCTL_Act
+Text HLabel 6000 3850 0    49   Output ~ 0
+MultimediaCTL_Act
+Wire Wire Line
+	6000 4350 6250 4350
+Wire Wire Line
+	6000 4450 6250 4450
+Wire Wire Line
+	6000 4550 6250 4550
+Wire Wire Line
+	6000 4650 6250 4650
+Text HLabel 6000 3750 0    50   Output ~ 0
+MultiMediaCTL_Log
+Text HLabel 6000 3950 0    50   Output ~ 0
+AuxMountCTL_Log
+Text HLabel 6000 4150 0    50   Output ~ 0
+GimbalCTL_Log
+Wire Wire Line
+	6000 4250 6250 4250
+Wire Wire Line
+	6000 4150 6250 4150
+Wire Wire Line
+	6000 4050 6250 4050
+Wire Wire Line
+	6000 3950 6250 3950
+Wire Wire Line
+	6000 3850 6250 3850
+Wire Wire Line
+	6000 3750 6250 3750
 $EndSCHEMATC

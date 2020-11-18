@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -13,56 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	4750 3550 4750 4050
-Wire Wire Line
-	4700 3550 4750 3550
-Connection ~ 4750 3550
-$Comp
-L Device:R R?
-U 1 1 5F945D14
-P 6350 4250
-AR Path="/5F74F36B/5F821EB2/5F945D14" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5F945D14" Ref="R17"  Part="1" 
-F 0 "R17" H 6420 4296 50  0000 L CNN
-F 1 "1.2k" H 6420 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 4250 50  0001 C CNN
-F 3 "~" H 6350 4250 50  0001 C CNN
-	1    6350 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F945D1A
-P 6350 4900
-AR Path="/5F74F36B/5F821EB2/5F945D1A" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5F945D1A" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 6350 4650 50  0001 C CNN
-F 1 "GND" H 6355 4727 50  0000 C CNN
-F 2 "" H 6350 4900 50  0001 C CNN
-F 3 "" H 6350 4900 50  0001 C CNN
-	1    6350 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F945D20
-P 6350 4650
-AR Path="/5F74F36B/5F821EB2/5F945D20" Ref="D?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5F945D20" Ref="D13"  Part="1" 
-F 0 "D13" V 6389 4533 50  0000 R CNN
-F 1 "Extra Acuation Green" V 6298 4533 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 4650 50  0001 C CNN
-F 3 "~" H 6350 4650 50  0001 C CNN
-	1    6350 4650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6350 4900 6350 4800
-Wire Wire Line
-	6350 4500 6350 4400
-Wire Wire Line
-	6350 4100 6350 4050
 $Comp
 L Device:R R?
 U 1 1 5F955B34
@@ -107,12 +57,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 3600 7000 3550
 Wire Wire Line
-	4750 3550 7000 3550
-Wire Wire Line
 	7000 3550 7050 3550
-Connection ~ 7000 3550
-Text Notes 6400 4150 0    50   ~ 0
-Green
 Text Notes 7050 3650 0    50   ~ 0
 Green
 $Comp
@@ -172,25 +117,20 @@ Wire Wire Line
 $Comp
 L Device:Fuse F?
 U 1 1 5F92ED48
-P 4550 3550
+P 6700 3550
 AR Path="/5F74F36B/5F821EB2/5F92ED48" Ref="F?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F92ED48" Ref="F1"  Part="1" 
-F 0 "F1" V 4353 3550 50  0000 C CNN
-F 1 "10AMP" V 4444 3550 50  0000 C CNN
-F 2 "MRDT_Passives:ATC_Fuse_Block" V 4480 3550 50  0001 C CNN
-F 3 "~" H 4550 3550 50  0001 C CNN
-	1    4550 3550
+F 0 "F1" V 6503 3550 50  0000 C CNN
+F 1 "10AMP" V 6594 3550 50  0000 C CNN
+F 2 "MRDT_Passives:ATC_Fuse_Block" V 6630 3550 50  0001 C CNN
+F 3 "~" H 6700 3550 50  0001 C CNN
+	1    6700 3550
 	0    1    1    0   
 $EndComp
 Text HLabel 3000 4200 0    50   Output ~ 0
 5V
-Text HLabel 6400 4050 2    50   Input ~ 0
-12V10AExtra
 Text HLabel 7050 3550 2    50   Input ~ 0
-12V10AMultimedia
-Wire Wire Line
-	6400 4050 6350 4050
-Connection ~ 6350 4050
+12V10AMultiMedia
 Text HLabel 3300 4650 0    49   Output ~ 0
 MultimediaExtraSense
 Wire Wire Line
@@ -497,7 +437,7 @@ F 3 "" H 2850 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 2400 900  0    49   Input ~ 0
-CTL_MultimediaExtra
+MultimediaCTL_Act
 Text GLabel 3750 1300 2    50   Input ~ 0
 AGNDPGND
 Wire Wire Line
@@ -939,6 +879,13 @@ Wire Wire Line
 	1400 4175 1400 4125
 Text HLabel 1850 2875 2    50   Input ~ 0
 PackVoltage
+Text HLabel 5000 1000 0    50   Input ~ 0
+12VLogic
+Text HLabel 5000 1075 0    50   Output ~ 0
+12VLogicMultiMedia
 Wire Wire Line
-	4750 4050 6350 4050
+	6850 3550 7000 3550
+Connection ~ 7000 3550
+Text HLabel 5000 1150 0    50   Input ~ 0
+MultiMediaCTL_Log
 $EndSCHEMATC

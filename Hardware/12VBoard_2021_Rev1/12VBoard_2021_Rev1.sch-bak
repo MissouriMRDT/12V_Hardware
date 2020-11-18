@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -38,43 +38,30 @@ Wire Wire Line
 Wire Wire Line
 	7850 3900 8000 3900
 Wire Wire Line
-	4525 4525 4525 3625
-Wire Wire Line
-	4525 3625 4000 3625
-Wire Wire Line
-	7525 3625 8000 3625
-Wire Wire Line
-	7525 3625 7525 4525
+	4525 4525 4525 3800
 $Sheet
 S 8000 2000 2000 2000
 U 5F74F36B
 F0 "High Current Outputs" 79
 F1 "High Current Outputs.sch" 79
 F2 "PackVoltage" I L 8000 3900 79 
-F3 "5V" I L 8000 3625 79 
-F4 "AuxMountSense" O L 8000 2250 79 
-F5 "MultimediaSense" O L 8000 2350 79 
-F6 "AuxCTL" I L 8000 2450 79 
-F7 "MultimediaCTL" I L 8000 2550 79 
-F8 "GimbalCTL" I L 8000 2650 79 
-F9 "GimbalSense" O L 8000 2750 79 
+F3 "5V" I L 8000 3800 79 
+F4 "MultiMediaCTL_Log" I L 8000 2750 79 
+F5 "MultiMediaCTL_Act" I L 8000 2850 79 
+F6 "AuxMountCTL_Log" I L 8000 2950 79 
+F7 "AuxMountCTL_Act" I L 8000 3050 79 
+F8 "GimbalCTL_Log" I L 8000 3150 79 
+F9 "GimbalCTL_Act" I L 8000 3250 79 
+F10 "MultimediaSense" O L 8000 3350 79 
+F11 "AuxMountSense" O L 8000 3450 79 
+F12 "GimbalSense" O L 8000 3550 79 
 $EndSheet
 Wire Wire Line
 	5000 2250 4000 2250
 Wire Wire Line
 	4000 2500 5000 2500
 Wire Wire Line
-	7000 2250 8000 2250
-Wire Wire Line
-	7000 2450 8000 2450
-Wire Wire Line
-	7000 2550 8000 2550
-Wire Wire Line
 	5000 2625 4000 2625
-Wire Wire Line
-	7000 2650 8000 2650
-Wire Wire Line
-	8000 2750 7000 2750
 Wire Wire Line
 	5000 2375 4000 2375
 Wire Wire Line
@@ -85,7 +72,7 @@ U 5F74F223
 F0 "Low Current Outputs" 79
 F1 "Low Current Outputs.sch" 79
 F2 "PackVoltage" I R 4000 3900 79 
-F3 "5V" O R 4000 3625 79 
+F3 "5V" O R 4000 3800 79 
 F4 "CameraToggle" I R 4000 2250 79 
 F5 "NavToggle" I R 4000 2500 79 
 F6 "CurrentSense" O R 4000 2125 79 
@@ -98,19 +85,44 @@ U 5F74F4A3
 F0 "Tiva In/Outputs" 79
 F1 "Tiva.sch" 79
 F2 "LowCurrentSense" I L 5000 2125 79 
-F3 "AuxMountSense" I R 7000 2250 79 
-F4 "CameraCTL" O L 5000 2250 79 
-F5 "MultimediaSense" I R 7000 2350 79 
-F6 "NavBoardCTL" O L 5000 2500 79 
-F7 "AuxCTL" O R 7000 2450 79 
-F8 "MultimediaCTL" O R 7000 2550 79 
-F9 "ExtraCTL" O L 5000 2625 79 
-F10 "GimbalCTL" O R 7000 2650 79 
-F11 "GimbalSense" I R 7000 2750 79 
-F12 "DriveCTL" O L 5000 2375 79 
+F3 "CameraCTL" O L 5000 2250 79 
+F4 "NavBoardCTL" O L 5000 2500 79 
+F5 "ExtraCTL" O L 5000 2625 79 
+F6 "DriveCTL" O L 5000 2375 79 
+F7 "MultiMediaCTL_Log" O R 7000 2750 79 
+F8 "MultiMediaCTL_Act" O R 7000 2850 79 
+F9 "AuxMountCTL_Log" O R 7000 2950 79 
+F10 "AuxMountCTL_Act" O R 7000 3050 79 
+F11 "GimbalCTL_Log" O R 7000 3150 79 
+F12 "GimbalCTL_Act" O R 7000 3250 79 
+F13 "MultiMediaSense" I R 7000 3350 79 
+F14 "AuxMountSense" I R 7000 3450 79 
+F15 "GimbalSense" I R 7000 3550 79 
 $EndSheet
 Wire Wire Line
-	7000 2350 8000 2350
-Wire Wire Line
 	4525 4525 7525 4525
+Wire Wire Line
+	8000 3800 7525 3800
+Wire Wire Line
+	7525 3800 7525 4525
+Wire Wire Line
+	4000 3800 4525 3800
+Wire Wire Line
+	7000 2850 8000 2850
+Wire Wire Line
+	7000 2750 8000 2750
+Wire Wire Line
+	7000 2950 8000 2950
+Wire Wire Line
+	7000 3050 8000 3050
+Wire Wire Line
+	7000 3150 8000 3150
+Wire Wire Line
+	7000 3250 8000 3250
+Wire Wire Line
+	7000 3350 8000 3350
+Wire Wire Line
+	7000 3450 8000 3450
+Wire Wire Line
+	7000 3550 8000 3550
 $EndSCHEMATC

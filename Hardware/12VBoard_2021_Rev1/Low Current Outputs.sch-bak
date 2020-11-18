@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -1733,6 +1733,7 @@ P 4475 7500
 AR Path="/5F74F36B/5F821EB2/5FB780D5" Ref="#PWR?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5FB780D5" Ref="#PWR?"  Part="1" 
 AR Path="/5F8031F1/5FB780D5" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5FB780D5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4475 7250 50  0001 C CNN
 F 1 "GND" H 4480 7327 50  0000 C CNN
 F 2 "" H 4475 7500 50  0001 C CNN
