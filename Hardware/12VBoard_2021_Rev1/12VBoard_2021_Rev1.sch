@@ -21,7 +21,6 @@ U 5F8031F1
 F0 "Pack Power" 79
 F1 "Pack Power.sch" 79
 F2 "PackVoltage" O T 5950 5000 79 
-F3 "5V" O T 6150 5000 79 
 $EndSheet
 Wire Wire Line
 	5950 5000 5950 4850
@@ -39,16 +38,9 @@ Wire Wire Line
 Wire Wire Line
 	7850 3900 8000 3900
 Wire Wire Line
-	6150 5000 6150 4525
-Wire Wire Line
-	6150 4525 4525 4525
-Wire Wire Line
 	4525 4525 4525 3625
 Wire Wire Line
 	4525 3625 4000 3625
-Wire Wire Line
-	6150 4525 7525 4525
-Connection ~ 6150 4525
 Wire Wire Line
 	7525 3625 8000 3625
 Wire Wire Line
@@ -93,7 +85,7 @@ U 5F74F223
 F0 "Low Current Outputs" 79
 F1 "Low Current Outputs.sch" 79
 F2 "PackVoltage" I R 4000 3900 79 
-F3 "5V" I R 4000 3625 79 
+F3 "5V" O R 4000 3625 79 
 F4 "CameraToggle" I R 4000 2250 79 
 F5 "NavToggle" I R 4000 2500 79 
 F6 "CurrentSense" O R 4000 2125 79 
@@ -119,4 +111,6 @@ F12 "DriveCTL" O L 5000 2375 79
 $EndSheet
 Wire Wire Line
 	7000 2350 8000 2350
+Wire Wire Line
+	4525 4525 7525 4525
 $EndSCHEMATC
