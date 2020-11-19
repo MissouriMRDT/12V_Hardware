@@ -913,10 +913,149 @@ Wire Wire Line
 	3650 1300 3700 1300
 Wire Wire Line
 	1600 4100 1600 4150
-Text HLabel 5000 1000 0    50   Input ~ 0
+Text HLabel 8100 1200 2    50   Input ~ 0
 12VLogic
-Text HLabel 5000 1075 0    50   Output ~ 0
+Text HLabel 8050 2000 2    50   Output ~ 0
 12VLogicGimbal
-Text HLabel 5000 1150 0    50   Input ~ 0
+Text HLabel 6300 1600 0    50   Input ~ 0
 GimbalCTL_Log
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5FB66D16
+P 6600 1850
+F 0 "U?" H 6975 2537 60  0000 C CNN
+F 1 "LT1910" H 6975 2431 60  0000 C CNN
+F 2 "" H 6600 1850 60  0001 C CNN
+F 3 "" H 6600 1850 60  0001 C CNN
+	1    6600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FB6822F
+P 6325 1925
+F 0 "C?" H 6417 1971 50  0000 L CNN
+F 1 "0.1uF" H 6417 1880 50  0000 L CNN
+F 2 "" H 6325 1925 50  0001 C CNN
+F 3 "~" H 6325 1925 50  0001 C CNN
+	1    6325 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 5FB68B8A
+P 7650 1925
+F 0 "C?" H 7475 1975 50  0000 L CNN
+F 1 "10uF" H 7150 1875 50  0000 L CNN
+F 2 "" H 7650 1925 50  0001 C CNN
+F 3 "~" H 7650 1925 50  0001 C CNN
+	1    7650 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB69837
+P 7000 2100
+F 0 "#PWR?" H 7000 1850 50  0001 C CNN
+F 1 "GND" H 7005 1927 50  0000 C CNN
+F 2 "" H 7000 2100 50  0001 C CNN
+F 3 "" H 7000 2100 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2050 7000 2075
+Wire Wire Line
+	7000 2100 7000 2075
+Connection ~ 7000 2075
+Wire Wire Line
+	7000 2075 6325 2075
+Wire Wire Line
+	6325 2075 6325 2025
+Wire Wire Line
+	7650 2025 7650 2075
+Wire Wire Line
+	7000 2075 7650 2075
+Wire Wire Line
+	7650 1825 7650 1450
+Wire Wire Line
+	7650 1450 7550 1450
+Wire Wire Line
+	6400 1750 6325 1750
+Wire Wire Line
+	6325 1750 6325 1825
+Wire Wire Line
+	6350 1450 6400 1450
+$Comp
+L Transistor_FET:IRLML2060 Q?
+U 1 1 5FBAA855
+P 7925 1775
+F 0 "Q?" H 8129 1821 50  0000 L CNN
+F 1 "IRLML2060" H 8129 1730 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8125 1700 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 7925 1775 50  0001 L CNN
+	1    7925 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1600 7875 1600
+Wire Wire Line
+	7875 1600 7875 1550
+Wire Wire Line
+	7875 1550 8025 1550
+Wire Wire Line
+	8025 1550 8025 1525
+Wire Wire Line
+	8025 1550 8025 1575
+Connection ~ 8025 1550
+Wire Wire Line
+	7650 1450 7650 1200
+Wire Wire Line
+	7650 1200 8025 1200
+Wire Wire Line
+	8025 1200 8025 1225
+Connection ~ 7650 1450
+Wire Wire Line
+	8050 2000 8025 2000
+Wire Wire Line
+	8025 2000 8025 1975
+Connection ~ 8025 1200
+Wire Wire Line
+	8025 1200 8100 1200
+Wire Wire Line
+	6300 1600 6400 1600
+Wire Wire Line
+	7725 1775 7700 1775
+Wire Wire Line
+	7700 1775 7700 1750
+Wire Wire Line
+	7700 1750 7550 1750
+Text Notes 8300 1750 0    50   ~ 0
+Same series as \nacual compnent\nused along with\nsame outputs.
+$Comp
+L Device:R R?
+U 1 1 5FBAFD11
+P 8025 1375
+F 0 "R?" H 8095 1421 50  0000 L CNN
+F 1 "0.01" H 8095 1330 50  0000 L CNN
+F 2 "" V 7955 1375 50  0001 C CNN
+F 3 "~" H 8025 1375 50  0001 C CNN
+	1    8025 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB98709
+P 6200 1450
+F 0 "R?" V 5993 1450 50  0000 C CNN
+F 1 "5.1K" V 6084 1450 50  0000 C CNN
+F 2 "" V 6130 1450 50  0001 C CNN
+F 3 "~" H 6200 1450 50  0001 C CNN
+	1    6200 1450
+	0    1    1    0   
+$EndComp
+Text HLabel 6000 1450 0    50   Input ~ 0
+5V
+Wire Wire Line
+	6000 1450 6050 1450
 $EndSCHEMATC

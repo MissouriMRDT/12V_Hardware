@@ -16,49 +16,49 @@ $EndDescr
 $Comp
 L Device:R R?
 U 1 1 5F955B34
-P 7000 3750
+P 4850 3750
 AR Path="/5F74F36B/5F821EB2/5F955B34" Ref="R?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F955B34" Ref="R18"  Part="1" 
-F 0 "R18" H 7070 3796 50  0000 L CNN
-F 1 "1.2k" H 7070 3705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6930 3750 50  0001 C CNN
-F 3 "~" H 7000 3750 50  0001 C CNN
-	1    7000 3750
+F 0 "R18" H 4920 3796 50  0000 L CNN
+F 1 "1.2k" H 4920 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 3750 50  0001 C CNN
+F 3 "~" H 4850 3750 50  0001 C CNN
+	1    4850 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F955B3A
-P 7000 4400
+P 4850 4400
 AR Path="/5F74F36B/5F821EB2/5F955B3A" Ref="#PWR?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F955B3A" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 7000 4150 50  0001 C CNN
-F 1 "GND" H 7005 4227 50  0000 C CNN
-F 2 "" H 7000 4400 50  0001 C CNN
-F 3 "" H 7000 4400 50  0001 C CNN
-	1    7000 4400
+F 0 "#PWR053" H 4850 4150 50  0001 C CNN
+F 1 "GND" H 4855 4227 50  0000 C CNN
+F 2 "" H 4850 4400 50  0001 C CNN
+F 3 "" H 4850 4400 50  0001 C CNN
+	1    4850 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5F955B40
-P 7000 4150
+P 4850 4150
 AR Path="/5F74F36B/5F821EB2/5F955B40" Ref="D?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F955B40" Ref="D14"  Part="1" 
-F 0 "D14" V 7039 4033 50  0000 R CNN
-F 1 "Multimedia Acuation Green" V 6948 4033 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 4150 50  0001 C CNN
-F 3 "~" H 7000 4150 50  0001 C CNN
-	1    7000 4150
+F 0 "D14" V 4889 4033 50  0000 R CNN
+F 1 "Multimedia Acuation Green" V 4798 4033 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 4150 50  0001 C CNN
+F 3 "~" H 4850 4150 50  0001 C CNN
+	1    4850 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7000 4400 7000 4300
+	4850 4400 4850 4300
 Wire Wire Line
-	7000 3600 7000 3550
+	4850 3600 4850 3550
 Wire Wire Line
-	7000 3550 7050 3550
-Text Notes 7050 3650 0    50   ~ 0
+	4850 3550 4900 3550
+Text Notes 4900 3650 0    50   ~ 0
 Green
 $Comp
 L Amplifier_Current:INA198 U8
@@ -117,19 +117,19 @@ Wire Wire Line
 $Comp
 L Device:Fuse F?
 U 1 1 5F92ED48
-P 6700 3550
+P 4550 3550
 AR Path="/5F74F36B/5F821EB2/5F92ED48" Ref="F?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5F92ED48" Ref="F1"  Part="1" 
-F 0 "F1" V 6503 3550 50  0000 C CNN
-F 1 "10AMP" V 6594 3550 50  0000 C CNN
-F 2 "MRDT_Passives:ATC_Fuse_Block" V 6630 3550 50  0001 C CNN
-F 3 "~" H 6700 3550 50  0001 C CNN
-	1    6700 3550
+F 0 "F1" V 4353 3550 50  0000 C CNN
+F 1 "10AMP" V 4444 3550 50  0000 C CNN
+F 2 "MRDT_Passives:ATC_Fuse_Block" V 4480 3550 50  0001 C CNN
+F 3 "~" H 4550 3550 50  0001 C CNN
+	1    4550 3550
 	0    1    1    0   
 $EndComp
 Text HLabel 3000 4200 0    50   Output ~ 0
 5V
-Text HLabel 7050 3550 2    50   Input ~ 0
+Text HLabel 4900 3550 2    50   Input ~ 0
 12V10AMultiMedia
 Text HLabel 3300 4650 0    49   Output ~ 0
 MultimediaExtraSense
@@ -786,7 +786,7 @@ F 3 "~" H 1000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 3900 7000 4000
+	4850 3900 4850 4000
 $Comp
 L 12VBoard_2021_Rev1-rescue:CSD18531Q5A Q2
 U 1 1 5FB2C1AC
@@ -879,13 +879,166 @@ Wire Wire Line
 	1400 4175 1400 4125
 Text HLabel 1850 2875 2    50   Input ~ 0
 PackVoltage
-Text HLabel 5000 1000 0    50   Input ~ 0
-12VLogic
-Text HLabel 5000 1075 0    50   Output ~ 0
+Text HLabel 7525 1800 2    50   Output ~ 0
 12VLogicMultiMedia
 Wire Wire Line
-	6850 3550 7000 3550
-Connection ~ 7000 3550
-Text HLabel 5000 1150 0    50   Input ~ 0
+	4700 3550 4850 3550
+Connection ~ 4850 3550
+Text HLabel 5775 1400 0    50   Input ~ 0
 MultiMediaCTL_Log
+Text HLabel 7575 1000 2    50   Input ~ 0
+12VLogic
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5FC479FB
+P 6075 1650
+AR Path="/5F74F36B/5F971CD6/5FC479FB" Ref="U?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FC479FB" Ref="U?"  Part="1" 
+F 0 "U?" H 6450 2337 60  0000 C CNN
+F 1 "LT1910" H 6450 2231 60  0000 C CNN
+F 2 "" H 6075 1650 60  0001 C CNN
+F 3 "" H 6075 1650 60  0001 C CNN
+	1    6075 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FC47A01
+P 5800 1725
+AR Path="/5F74F36B/5F971CD6/5FC47A01" Ref="C?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FC47A01" Ref="C?"  Part="1" 
+F 0 "C?" H 5892 1771 50  0000 L CNN
+F 1 "0.1uF" H 5892 1680 50  0000 L CNN
+F 2 "" H 5800 1725 50  0001 C CNN
+F 3 "~" H 5800 1725 50  0001 C CNN
+	1    5800 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 5FC47A07
+P 7125 1725
+AR Path="/5F74F36B/5F971CD6/5FC47A07" Ref="C?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FC47A07" Ref="C?"  Part="1" 
+F 0 "C?" H 6950 1775 50  0000 L CNN
+F 1 "10uF" H 6625 1675 50  0000 L CNN
+F 2 "" H 7125 1725 50  0001 C CNN
+F 3 "~" H 7125 1725 50  0001 C CNN
+	1    7125 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC47A0D
+P 6475 1900
+AR Path="/5F74F36B/5F971CD6/5FC47A0D" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FC47A0D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6475 1650 50  0001 C CNN
+F 1 "GND" H 6480 1727 50  0000 C CNN
+F 2 "" H 6475 1900 50  0001 C CNN
+F 3 "" H 6475 1900 50  0001 C CNN
+	1    6475 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 1850 6475 1875
+Wire Wire Line
+	6475 1900 6475 1875
+Connection ~ 6475 1875
+Wire Wire Line
+	6475 1875 5800 1875
+Wire Wire Line
+	5800 1875 5800 1825
+Wire Wire Line
+	7125 1825 7125 1875
+Wire Wire Line
+	6475 1875 7125 1875
+Wire Wire Line
+	7125 1625 7125 1250
+Wire Wire Line
+	7125 1250 7025 1250
+Wire Wire Line
+	5875 1550 5800 1550
+Wire Wire Line
+	5800 1550 5800 1625
+Wire Wire Line
+	5825 1250 5875 1250
+$Comp
+L Transistor_FET:IRLML2060 Q?
+U 1 1 5FC47A27
+P 7400 1575
+AR Path="/5F74F36B/5F971CD6/5FC47A27" Ref="Q?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FC47A27" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7604 1621 50  0000 L CNN
+F 1 "IRLML2060" H 7604 1530 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 1500 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 7400 1575 50  0001 L CNN
+	1    7400 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 1400 7350 1400
+Wire Wire Line
+	7350 1400 7350 1350
+Wire Wire Line
+	7350 1350 7500 1350
+Wire Wire Line
+	7500 1350 7500 1325
+Wire Wire Line
+	7500 1350 7500 1375
+Connection ~ 7500 1350
+Wire Wire Line
+	7125 1250 7125 1000
+Wire Wire Line
+	7125 1000 7500 1000
+Wire Wire Line
+	7500 1000 7500 1025
+Connection ~ 7125 1250
+Wire Wire Line
+	7525 1800 7500 1800
+Wire Wire Line
+	7500 1800 7500 1775
+Connection ~ 7500 1000
+Wire Wire Line
+	7500 1000 7575 1000
+Wire Wire Line
+	5775 1400 5875 1400
+Wire Wire Line
+	7200 1575 7175 1575
+Wire Wire Line
+	7175 1575 7175 1550
+Wire Wire Line
+	7175 1550 7025 1550
+Text Notes 7775 1550 0    50   ~ 0
+Same series as \nacual compnent\nused along with\nsame outputs.
+$Comp
+L Device:R R?
+U 1 1 5FC47A42
+P 7500 1175
+AR Path="/5F74F36B/5F971CD6/5FC47A42" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FC47A42" Ref="R?"  Part="1" 
+F 0 "R?" H 7570 1221 50  0000 L CNN
+F 1 "0.01" H 7570 1130 50  0000 L CNN
+F 2 "" V 7430 1175 50  0001 C CNN
+F 3 "~" H 7500 1175 50  0001 C CNN
+	1    7500 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC47A48
+P 5675 1250
+AR Path="/5F74F36B/5F971CD6/5FC47A48" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FC47A48" Ref="R?"  Part="1" 
+F 0 "R?" V 5468 1250 50  0000 C CNN
+F 1 "5.1K" V 5559 1250 50  0000 C CNN
+F 2 "" V 5605 1250 50  0001 C CNN
+F 3 "~" H 5675 1250 50  0001 C CNN
+	1    5675 1250
+	0    1    1    0   
+$EndComp
+Text HLabel 5475 1250 0    50   Input ~ 0
+5V
+Wire Wire Line
+	5475 1250 5525 1250
 $EndSCHEMATC

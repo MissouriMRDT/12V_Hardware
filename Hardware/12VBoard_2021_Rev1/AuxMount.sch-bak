@@ -885,10 +885,163 @@ F 3 "" H 1000 1175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 1100 1000 1175
-Text HLabel 5000 1000 0    50   Input ~ 0
-12VLogic
-Text HLabel 5000 1075 0    50   Output ~ 0
+Text HLabel 7700 1850 2    50   Output ~ 0
 12VLogicAuxMount
-Text HLabel 5000 1150 0    50   Input ~ 0
+Text HLabel 5950 1450 0    50   Input ~ 0
 AuxMountCTL_Log
+Text HLabel 7750 1050 2    50   Input ~ 0
+12VLogic
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5FC2DAD4
+P 6250 1700
+AR Path="/5F74F36B/5F971CD6/5FC2DAD4" Ref="U?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FC2DAD4" Ref="U?"  Part="1" 
+F 0 "U?" H 6625 2387 60  0000 C CNN
+F 1 "LT1910" H 6625 2281 60  0000 C CNN
+F 2 "" H 6250 1700 60  0001 C CNN
+F 3 "" H 6250 1700 60  0001 C CNN
+	1    6250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FC2DADA
+P 5975 1775
+AR Path="/5F74F36B/5F971CD6/5FC2DADA" Ref="C?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FC2DADA" Ref="C?"  Part="1" 
+F 0 "C?" H 6067 1821 50  0000 L CNN
+F 1 "0.1uF" H 6067 1730 50  0000 L CNN
+F 2 "" H 5975 1775 50  0001 C CNN
+F 3 "~" H 5975 1775 50  0001 C CNN
+	1    5975 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 5FC2DAE0
+P 7300 1775
+AR Path="/5F74F36B/5F971CD6/5FC2DAE0" Ref="C?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FC2DAE0" Ref="C?"  Part="1" 
+F 0 "C?" H 7125 1825 50  0000 L CNN
+F 1 "10uF" H 6800 1725 50  0000 L CNN
+F 2 "" H 7300 1775 50  0001 C CNN
+F 3 "~" H 7300 1775 50  0001 C CNN
+	1    7300 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC2DAE6
+P 6650 1950
+AR Path="/5F74F36B/5F971CD6/5FC2DAE6" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FC2DAE6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 1700 50  0001 C CNN
+F 1 "GND" H 6655 1777 50  0000 C CNN
+F 2 "" H 6650 1950 50  0001 C CNN
+F 3 "" H 6650 1950 50  0001 C CNN
+	1    6650 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1900 6650 1925
+Wire Wire Line
+	6650 1950 6650 1925
+Connection ~ 6650 1925
+Wire Wire Line
+	6650 1925 5975 1925
+Wire Wire Line
+	5975 1925 5975 1875
+Wire Wire Line
+	7300 1875 7300 1925
+Wire Wire Line
+	6650 1925 7300 1925
+Wire Wire Line
+	7300 1675 7300 1300
+Wire Wire Line
+	7300 1300 7200 1300
+Wire Wire Line
+	6050 1600 5975 1600
+Wire Wire Line
+	5975 1600 5975 1675
+Wire Wire Line
+	6000 1300 6050 1300
+$Comp
+L Transistor_FET:IRLML2060 Q?
+U 1 1 5FC2DB00
+P 7575 1625
+AR Path="/5F74F36B/5F971CD6/5FC2DB00" Ref="Q?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FC2DB00" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7779 1671 50  0000 L CNN
+F 1 "IRLML2060" H 7779 1580 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7775 1550 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 7575 1625 50  0001 L CNN
+	1    7575 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1450 7525 1450
+Wire Wire Line
+	7525 1450 7525 1400
+Wire Wire Line
+	7525 1400 7675 1400
+Wire Wire Line
+	7675 1400 7675 1375
+Wire Wire Line
+	7675 1400 7675 1425
+Connection ~ 7675 1400
+Wire Wire Line
+	7300 1300 7300 1050
+Wire Wire Line
+	7300 1050 7675 1050
+Wire Wire Line
+	7675 1050 7675 1075
+Connection ~ 7300 1300
+Wire Wire Line
+	7700 1850 7675 1850
+Wire Wire Line
+	7675 1850 7675 1825
+Connection ~ 7675 1050
+Wire Wire Line
+	7675 1050 7750 1050
+Wire Wire Line
+	5950 1450 6050 1450
+Wire Wire Line
+	7375 1625 7350 1625
+Wire Wire Line
+	7350 1625 7350 1600
+Wire Wire Line
+	7350 1600 7200 1600
+Text Notes 7950 1600 0    50   ~ 0
+Same series as \nacual compnent\nused along with\nsame outputs.
+$Comp
+L Device:R R?
+U 1 1 5FC2DB1B
+P 7675 1225
+AR Path="/5F74F36B/5F971CD6/5FC2DB1B" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FC2DB1B" Ref="R?"  Part="1" 
+F 0 "R?" H 7745 1271 50  0000 L CNN
+F 1 "0.01" H 7745 1180 50  0000 L CNN
+F 2 "" V 7605 1225 50  0001 C CNN
+F 3 "~" H 7675 1225 50  0001 C CNN
+	1    7675 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC2DB21
+P 5850 1300
+AR Path="/5F74F36B/5F971CD6/5FC2DB21" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5FC2DB21" Ref="R?"  Part="1" 
+F 0 "R?" V 5643 1300 50  0000 C CNN
+F 1 "5.1K" V 5734 1300 50  0000 C CNN
+F 2 "" V 5780 1300 50  0001 C CNN
+F 3 "~" H 5850 1300 50  0001 C CNN
+	1    5850 1300
+	0    1    1    0   
+$EndComp
+Text HLabel 5650 1300 0    50   Input ~ 0
+5V
+Wire Wire Line
+	5650 1300 5700 1300
 $EndSCHEMATC
