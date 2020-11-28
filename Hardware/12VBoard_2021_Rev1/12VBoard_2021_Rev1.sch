@@ -73,10 +73,10 @@ F0 "Low Current Outputs" 79
 F1 "Low Current Outputs.sch" 79
 F2 "PackVoltage" I R 4000 3900 79 
 F3 "5V" O R 4000 3800 79 
-F4 "CameraToggle" I R 4000 2250 79 
-F5 "NavToggle" I R 4000 2500 79 
+F4 "CameraCTL" I R 4000 2250 79 
+F5 "NavCTL" I R 4000 2500 79 
 F6 "CurrentSense" O R 4000 2125 79 
-F7 "ExtraToggle" I R 4000 2625 79 
+F7 "ExtraCTL" I R 4000 2625 79 
 F8 "DriveCTL" I R 4000 2375 79 
 $EndSheet
 $Sheet

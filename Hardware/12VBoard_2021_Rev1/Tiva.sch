@@ -32,23 +32,23 @@ GimbalSense
 Text HLabel 6000 4650 0    50   Output ~ 0
 DriveCTL
 $Comp
-L MRDT_Connectors:Molex_SL_10 Conn?
+L MRDT_Connectors:Molex_SL_10 Conn1
 U 1 1 5FB5A813
 P 6450 4700
-F 0 "Conn?" H 6325 4550 60  0000 L CNN
+F 0 "Conn1" H 6325 4550 60  0000 L CNN
 F 1 "Molex_SL_10" H 6175 4650 60  0000 L CNN
-F 2 "" H 6450 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 6450 5200 60  0001 C CNN
 F 3 "" H 6450 5200 60  0001 C CNN
 	1    6450 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_04 Conn?
+L MRDT_Connectors:Molex_SL_04 Conn2
 U 1 1 5FB5B79F
 P 6450 5350
-F 0 "Conn?" H 6350 5175 60  0000 L CNN
+F 0 "Conn2" H 6350 5175 60  0000 L CNN
 F 1 "Molex_SL_04" H 6175 5275 60  0000 L CNN
-F 2 "" H 6450 5350 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 6450 5350 60  0001 C CNN
 F 3 "" H 6450 5350 60  0001 C CNN
 	1    6450 5350
 	1    0    0    -1  
