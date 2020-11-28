@@ -55,7 +55,7 @@ AR Path="/5F74F223/5F7D14F6/5F853A2D" Ref="C?"  Part="1"
 AR Path="/5F74F223/5F853A2D" Ref="C4"  Part="1" 
 F 0 "C4" V 4725 6525 50  0000 L CNN
 F 1 "1000 uF" V 4800 6450 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 4950 6575 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4950 6575 50  0001 C CNN
 F 3 "~" H 4950 6575 50  0001 C CNN
 	1    4950 6575
 	1    0    0    -1  
@@ -139,24 +139,24 @@ Wire Wire Line
 	3800 6200 5500 6200
 $Comp
 L MRDT_Connectors:AndersonPP Conn4
-U 4 1 5FA336BA
+U 2 1 5FA336BA
 P 8575 650
 F 0 "Conn4" H 8783 1037 60  0000 C CNN
-F 1 "Extra3" H 8783 931 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 8425 100 60  0001 C CNN
+F 1 "ExtraL3" H 8783 931 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8425 100 60  0001 C CNN
 F 3 "" H 8425 100 60  0001 C CNN
-	4    8575 650 
+	2    8575 650 
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn7
-U 4 1 5FA3FC00
+U 2 1 5FA3FC00
 P 6825 650
 F 0 "Conn7" H 7033 1037 60  0000 C CNN
 F 1 "ExtraL1" H 7033 931 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6675 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6675 100 60  0001 C CNN
 F 3 "" H 6675 100 60  0001 C CNN
-	4    6825 650 
+	2    6825 650 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -165,7 +165,7 @@ U 1 1 5FA4C0A0
 P 5650 650
 F 0 "Conn6" H 5775 525 60  0000 C CNN
 F 1 "NavBoard" H 5825 600 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5500 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 5500 100 60  0001 C CNN
 F 3 "" H 5500 100 60  0001 C CNN
 	1    5650 650 
 	0    1    1    0   
@@ -210,7 +210,7 @@ U 1 1 5F88BCE9
 P 4150 6575
 F 0 "D5" V 4104 6655 50  0000 L CNN
 F 1 "D_Schottky" V 4195 6655 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4150 6575 50  0001 C CNN
+F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_KathodeUp" H 4150 6575 50  0001 C CNN
 F 3 "~" H 4150 6575 50  0001 C CNN
 	1    4150 6575
 	0    1    1    0   
@@ -342,20 +342,20 @@ U 1 1 5FA71814
 P 7425 650
 F 0 "Conn8" H 7550 525 60  0000 C CNN
 F 1 "ExtraL2" H 7600 600 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7275 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7275 100 60  0001 C CNN
 F 3 "" H 7275 100 60  0001 C CNN
 	1    7425 650 
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn8
-U 4 1 5FA7180E
+U 2 1 5FA7180E
 P 7675 650
 F 0 "Conn8" H 7883 1037 60  0000 C CNN
 F 1 "ExtraL2" H 7883 931 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 7525 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7525 100 60  0001 C CNN
 F 3 "" H 7525 100 60  0001 C CNN
-	4    7675 650 
+	2    7675 650 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -390,13 +390,13 @@ F 3 "" H 7525 1150 50  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn6
-U 4 1 5FA651EA
+U 2 1 5FA651EA
 P 5900 650
 F 0 "Conn6" H 6108 1037 60  0000 C CNN
 F 1 "NavBoard" H 6108 931 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 5750 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 5750 100 60  0001 C CNN
 F 3 "" H 5750 100 60  0001 C CNN
-	4    5900 650 
+	2    5900 650 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -405,7 +405,7 @@ U 1 1 5FA651F0
 P 6575 650
 F 0 "Conn7" H 6700 525 60  0000 C CNN
 F 1 "ExtraL1" H 6750 600 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6425 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6425 100 60  0001 C CNN
 F 3 "" H 6425 100 60  0001 C CNN
 	1    6575 650 
 	0    1    1    0   
@@ -432,8 +432,8 @@ L MRDT_Connectors:AndersonPP Conn4
 U 1 1 5FA3FC06
 P 8325 650
 F 0 "Conn4" H 8450 525 60  0000 C CNN
-F 1 "Extra3" H 8500 600 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 8175 100 60  0001 C CNN
+F 1 "ExtraL3" H 8500 600 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8175 100 60  0001 C CNN
 F 3 "" H 8175 100 60  0001 C CNN
 	1    8325 650 
 	0    1    1    0   
@@ -444,20 +444,20 @@ U 1 1 5FADFB24
 P 3800 650
 F 0 "Conn15" H 3925 525 60  0000 C CNN
 F 1 "Drive" H 3975 600 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 3650 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3650 100 60  0001 C CNN
 F 3 "" H 3650 100 60  0001 C CNN
 	1    3800 650 
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn15
-U 4 1 5FADFB2A
+U 2 1 5FADFB2A
 P 4050 650
 F 0 "Conn15" H 4258 1037 60  0000 C CNN
 F 1 "Drive" H 4258 931 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 3900 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3900 100 60  0001 C CNN
 F 3 "" H 3900 100 60  0001 C CNN
-	4    4050 650 
+	2    4050 650 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -530,7 +530,7 @@ U 1 1 5FB780CB
 P 1050 6450
 F 0 "U9" H 1100 6400 60  0001 C CNN
 F 1 "OKI" H 1250 6731 60  0000 C CNN
-F 2 "" H 850 6350 60  0001 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 850 6350 60  0001 C CNN
 F 3 "" H 850 6350 60  0001 C CNN
 	1    1050 6450
 	1    0    0    -1  
@@ -599,7 +599,7 @@ AR Path="/5F74F36B/5F971CD6/5FC98509" Ref="U?"  Part="1"
 AR Path="/5F74F223/5FC98509" Ref="U16"  Part="1" 
 F 0 "U16" H 6500 4462 60  0000 C CNN
 F 1 "LT1910" H 6500 4356 60  0000 C CNN
-F 2 "" H 6125 3775 60  0001 C CNN
+F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 6125 3775 60  0001 C CNN
 F 3 "" H 6125 3775 60  0001 C CNN
 	1    6125 3775
 	0    -1   -1   0   
@@ -612,7 +612,7 @@ AR Path="/5F74F36B/5F971CD6/5FC9850F" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FC9850F" Ref="C48"  Part="1" 
 F 0 "C48" H 6292 4096 50  0000 L CNN
 F 1 "0.1uF" H 6292 4005 50  0000 L CNN
-F 2 "" H 6200 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 4050 50  0001 C CNN
 F 3 "~" H 6200 4050 50  0001 C CNN
 	1    6200 4050
 	0    -1   -1   0   
@@ -625,7 +625,7 @@ AR Path="/5F74F36B/5F971CD6/5FC98515" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FC98515" Ref="C47"  Part="1" 
 F 0 "C47" H 6025 2775 50  0000 L CNN
 F 1 "10uF" H 5700 2675 50  0000 L CNN
-F 2 "" H 6200 2725 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6200 2725 50  0001 C CNN
 F 3 "~" H 6200 2725 50  0001 C CNN
 	1    6200 2725
 	0    -1   -1   0   
@@ -713,7 +713,7 @@ AR Path="/5F74F36B/5F971CD6/5FC98546" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FC98546" Ref="R42"  Part="1" 
 F 0 "R42" H 5720 2396 50  0000 L CNN
 F 1 "0.01" H 5720 2305 50  0000 L CNN
-F 2 "" V 5580 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5580 2350 50  0001 C CNN
 F 3 "~" H 5650 2350 50  0001 C CNN
 	1    5650 2350
 	0    -1   -1   0   
@@ -726,7 +726,7 @@ AR Path="/5F74F36B/5F971CD6/5FC9854C" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FC9854C" Ref="R43"  Part="1" 
 F 0 "R43" V 5518 4175 50  0000 C CNN
 F 1 "5.1K" V 5609 4175 50  0000 C CNN
-F 2 "" V 5655 4175 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5655 4175 50  0001 C CNN
 F 3 "~" H 5725 4175 50  0001 C CNN
 	1    5725 4175
 	1    0    0    -1  
@@ -813,13 +813,13 @@ F 3 "" H 4800 1125 50  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn5
-U 4 1 5FA4C09A
+U 2 1 5FA4C09A
 P 4950 650
 F 0 "Conn5" H 5158 1037 60  0000 C CNN
 F 1 "Camera" H 5158 931 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4800 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4800 100 60  0001 C CNN
 F 3 "" H 4800 100 60  0001 C CNN
-	4    4950 650 
+	2    4950 650 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -828,7 +828,7 @@ U 1 1 5FA336C0
 P 4700 650
 F 0 "Conn5" H 4825 525 60  0000 C CNN
 F 1 "Camera" H 4875 600 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4550 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4550 100 60  0001 C CNN
 F 3 "" H 4550 100 60  0001 C CNN
 	1    4700 650 
 	0    1    1    0   
@@ -875,7 +875,7 @@ AR Path="/5F74F36B/5F971CD6/5FDA95B8" Ref="U?"  Part="1"
 AR Path="/5F74F223/5FDA95B8" Ref="U14"  Part="1" 
 F 0 "U14" H 4100 4512 60  0000 C CNN
 F 1 "LT1910" H 4100 4406 60  0000 C CNN
-F 2 "" H 3725 3825 60  0001 C CNN
+F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 3725 3825 60  0001 C CNN
 F 3 "" H 3725 3825 60  0001 C CNN
 	1    3725 3825
 	0    -1   -1   0   
@@ -888,7 +888,7 @@ AR Path="/5F74F36B/5F971CD6/5FDA95BE" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FDA95BE" Ref="C44"  Part="1" 
 F 0 "C44" H 3892 4146 50  0000 L CNN
 F 1 "0.1uF" H 3892 4055 50  0000 L CNN
-F 2 "" H 3800 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3800 4100 50  0001 C CNN
 F 3 "~" H 3800 4100 50  0001 C CNN
 	1    3800 4100
 	0    -1   -1   0   
@@ -901,7 +901,7 @@ AR Path="/5F74F36B/5F971CD6/5FDA95C4" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FDA95C4" Ref="C43"  Part="1" 
 F 0 "C43" H 3625 2825 50  0000 L CNN
 F 1 "10uF" H 3300 2725 50  0000 L CNN
-F 2 "" H 3800 2775 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3800 2775 50  0001 C CNN
 F 3 "~" H 3800 2775 50  0001 C CNN
 	1    3800 2775
 	0    -1   -1   0   
@@ -989,7 +989,7 @@ AR Path="/5F74F36B/5F971CD6/5FDA95F0" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FDA95F0" Ref="R36"  Part="1" 
 F 0 "R36" H 3320 2446 50  0000 L CNN
 F 1 "0.01" H 3320 2355 50  0000 L CNN
-F 2 "" V 3180 2400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 2400 50  0001 C CNN
 F 3 "~" H 3250 2400 50  0001 C CNN
 	1    3250 2400
 	0    -1   -1   0   
@@ -1002,26 +1002,13 @@ AR Path="/5F74F36B/5F971CD6/5FDA95F6" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FDA95F6" Ref="R37"  Part="1" 
 F 0 "R37" V 3118 4225 50  0000 C CNN
 F 1 "5.1K" V 3209 4225 50  0000 C CNN
-F 2 "" V 3255 4225 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3255 4225 50  0001 C CNN
 F 3 "~" H 3325 4225 50  0001 C CNN
 	1    3325 4225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3325 4425 3325 4375
-$Comp
-L MRDT_ICs:LT1910 U?
-U 1 1 5FDB0B25
-P 4925 3800
-AR Path="/5F74F36B/5F971CD6/5FDB0B25" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5FDB0B25" Ref="U15"  Part="1" 
-F 0 "U15" H 5300 4487 60  0000 C CNN
-F 1 "LT1910" H 5300 4381 60  0000 C CNN
-F 2 "" H 4925 3800 60  0001 C CNN
-F 3 "" H 4925 3800 60  0001 C CNN
-	1    4925 3800
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5FDB0B2B
@@ -1030,7 +1017,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB0B2B" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FDB0B2B" Ref="C46"  Part="1" 
 F 0 "C46" H 5092 4121 50  0000 L CNN
 F 1 "0.1uF" H 5092 4030 50  0000 L CNN
-F 2 "" H 5000 4075 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 4075 50  0001 C CNN
 F 3 "~" H 5000 4075 50  0001 C CNN
 	1    5000 4075
 	0    -1   -1   0   
@@ -1043,7 +1030,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB0B31" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FDB0B31" Ref="C45"  Part="1" 
 F 0 "C45" H 4825 2800 50  0000 L CNN
 F 1 "10uF" H 4500 2700 50  0000 L CNN
-F 2 "" H 5000 2750 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5000 2750 50  0001 C CNN
 F 3 "~" H 5000 2750 50  0001 C CNN
 	1    5000 2750
 	0    -1   -1   0   
@@ -1131,7 +1118,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB0B5D" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FDB0B5D" Ref="R39"  Part="1" 
 F 0 "R39" H 4520 2421 50  0000 L CNN
 F 1 "0.01" H 4520 2330 50  0000 L CNN
-F 2 "" V 4380 2375 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4380 2375 50  0001 C CNN
 F 3 "~" H 4450 2375 50  0001 C CNN
 	1    4450 2375
 	0    -1   -1   0   
@@ -1144,7 +1131,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB0B63" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FDB0B63" Ref="R40"  Part="1" 
 F 0 "R40" V 4318 4200 50  0000 C CNN
 F 1 "5.1K" V 4409 4200 50  0000 C CNN
-F 2 "" V 4455 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4455 4200 50  0001 C CNN
 F 3 "~" H 4525 4200 50  0001 C CNN
 	1    4525 4200
 	1    0    0    -1  
@@ -1159,7 +1146,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB8A9A" Ref="U?"  Part="1"
 AR Path="/5F74F223/5FDB8A9A" Ref="U17"  Part="1" 
 F 0 "U17" H 7725 4462 60  0000 C CNN
 F 1 "LT1910" H 7725 4356 60  0000 C CNN
-F 2 "" H 7350 3775 60  0001 C CNN
+F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 7350 3775 60  0001 C CNN
 F 3 "" H 7350 3775 60  0001 C CNN
 	1    7350 3775
 	0    -1   -1   0   
@@ -1172,7 +1159,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB8AA0" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FDB8AA0" Ref="C50"  Part="1" 
 F 0 "C50" H 7517 4096 50  0000 L CNN
 F 1 "0.1uF" H 7517 4005 50  0000 L CNN
-F 2 "" H 7425 4050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7425 4050 50  0001 C CNN
 F 3 "~" H 7425 4050 50  0001 C CNN
 	1    7425 4050
 	0    -1   -1   0   
@@ -1185,7 +1172,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB8AA6" Ref="C?"  Part="1"
 AR Path="/5F74F223/5FDB8AA6" Ref="C49"  Part="1" 
 F 0 "C49" H 7250 2775 50  0000 L CNN
 F 1 "10uF" H 6925 2675 50  0000 L CNN
-F 2 "" H 7425 2725 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7425 2725 50  0001 C CNN
 F 3 "~" H 7425 2725 50  0001 C CNN
 	1    7425 2725
 	0    -1   -1   0   
@@ -1273,7 +1260,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB8AD2" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FDB8AD2" Ref="R45"  Part="1" 
 F 0 "R45" H 6945 2396 50  0000 L CNN
 F 1 "0.01" H 6945 2305 50  0000 L CNN
-F 2 "" V 6805 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6805 2350 50  0001 C CNN
 F 3 "~" H 6875 2350 50  0001 C CNN
 	1    6875 2350
 	0    -1   -1   0   
@@ -1286,7 +1273,7 @@ AR Path="/5F74F36B/5F971CD6/5FDB8AD8" Ref="R?"  Part="1"
 AR Path="/5F74F223/5FDB8AD8" Ref="R46"  Part="1" 
 F 0 "R46" V 6743 4175 50  0000 C CNN
 F 1 "5.1K" V 6834 4175 50  0000 C CNN
-F 2 "" V 6880 4175 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6880 4175 50  0001 C CNN
 F 3 "~" H 6950 4175 50  0001 C CNN
 	1    6950 4175
 	1    0    0    -1  
@@ -1707,4 +1694,17 @@ Wire Wire Line
 	4525 4400 4175 4400
 Wire Wire Line
 	3325 4425 2975 4425
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5FDB0B25
+P 4925 3800
+AR Path="/5F74F36B/5F971CD6/5FDB0B25" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5FDB0B25" Ref="U15"  Part="1" 
+F 0 "U15" H 5300 4487 60  0000 C CNN
+F 1 "LT1910" H 5300 4381 60  0000 C CNN
+F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 4925 3800 60  0001 C CNN
+F 3 "" H 4925 3800 60  0001 C CNN
+	1    4925 3800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
