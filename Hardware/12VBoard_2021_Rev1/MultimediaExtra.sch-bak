@@ -558,9 +558,9 @@ P 1400 3550
 AR Path="/5F74F36B/5F971CD6/5FE4073E" Ref="L?"  Part="1" 
 AR Path="/5F74F36B/5F8236F9/5FE4073E" Ref="L6"  Part="1" 
 F 0 "L6" V 1585 3550 50  0000 C CNN
-F 1 "6.6uH 1.5m" V 1494 3550 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 3550 50  0001 C CNN
-F 3 "~" H 1400 3550 50  0001 C CNN
+F 1 "1130-100K-RC 10uH" V 1494 3550 50  0000 C CNN
+F 2 "Inductor_THT:L_Radial_D27.9mm_P20.07mm_Vishay_IHB-3" H 1400 3550 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/1130_series.pdf" H 1400 3550 50  0001 C CNN
 	1    1400 3550
 	0    -1   -1   0   
 $EndComp

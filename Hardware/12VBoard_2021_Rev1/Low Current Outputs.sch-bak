@@ -837,8 +837,6 @@ Wire Wire Line
 	2350 5700 2350 5875
 Wire Wire Line
 	725  5700 2350 5700
-Wire Wire Line
-	725  1850 725  5700
 $Comp
 L power:GND #PWR?
 U 1 1 5FBDE016
@@ -864,7 +862,6 @@ Wire Wire Line
 	7525 1050 7525 1150
 Wire Wire Line
 	6675 1050 6675 1150
-Connection ~ 725  5700
 Wire Wire Line
 	725  5700 725  7025
 $Comp
