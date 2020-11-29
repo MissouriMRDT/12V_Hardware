@@ -413,11 +413,11 @@ AuxMountCTL_Act
 Text HLabel 7425 3900 2    50   Output ~ 0
 AuxMountSense
 Text HLabel 9575 3775 2    50   Input ~ 0
-MultimediaCTL_Log
+MultiMediaCTL_Log
 Text HLabel 9575 3850 2    50   Input ~ 0
-MultimediaCTL_Act
+MultiMediaCTL_Act
 Text HLabel 9575 3925 2    50   Output ~ 0
-MultimediaSense
+MultiMediaSense
 Wire Wire Line
 	9400 3775 9575 3775
 Wire Wire Line

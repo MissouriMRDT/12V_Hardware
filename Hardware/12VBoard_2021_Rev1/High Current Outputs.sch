@@ -314,7 +314,7 @@ F5 "5V" I L 8150 4825 49
 F6 "12VLogicMultiMedia" O R 9400 3625 50 
 F7 "PackVoltage" I L 8150 4900 50 
 F8 "12VLogic" I L 8150 4750 50 
-F9 "MultimediaCTL_Log" I R 9400 3775 50 
+F9 "MultiMediaCTL_Log" I R 9400 3775 50 
 $EndSheet
 Wire Wire Line
 	1825 5275 2100 5275
@@ -413,11 +413,11 @@ AuxMountCTL_Act
 Text HLabel 7425 3900 2    50   Output ~ 0
 AuxMountSense
 Text HLabel 9575 3775 2    50   Input ~ 0
-MultimediaCTL_Log
+MultiMediaCTL_Log
 Text HLabel 9575 3850 2    50   Input ~ 0
-MultimediaCTL_Act
+MultiMediaCTL_Act
 Text HLabel 9575 3925 2    50   Output ~ 0
-MultimediaSense
+MultiMediaSense
 Wire Wire Line
 	9400 3775 9575 3775
 Wire Wire Line
