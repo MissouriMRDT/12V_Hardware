@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name 12VBoard_2021_Rev1)(type Legacy)(uri C:/Users/volun/Documents/GitHub/12Volt_Hardware/Libraries/12VBoard_2021_Rev1.lib)(options "")(descr ""))
   (lib (name 12VBoard_2021_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/12VBoard_2021_Rev1-rescue.lib)(options "")(descr ""))
+  (lib (name 12VBoard_2021_Rev1)(type Legacy)(uri C:/Users/Alisa/Documents/GitHub/12Volt_Hardware/Libraries/Symbols/Mosfet/12VBoard_2021_Rev1.lib)(options "")(descr ""))
 )

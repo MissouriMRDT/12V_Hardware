@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -47,7 +47,7 @@ F1 "High Current Outputs.sch" 79
 F2 "PackVoltage" I L 8000 3900 79 
 F3 "5V" I L 8000 3800 79 
 F4 "MultiMediaCTL_Log" I L 8000 2750 79 
-F5 "MultiMediaCTL_Act" I L 8000 2850 79 
+F5 "MultimediaCTL_Act" I L 8000 2850 79 
 F6 "AuxMountCTL_Log" I L 8000 2950 79 
 F7 "AuxMountCTL_Act" I L 8000 3050 79 
 F8 "GimbalCTL_Log" I L 8000 3150 79 
@@ -90,12 +90,12 @@ F4 "NavBoardCTL" O L 5000 2500 79
 F5 "ExtraCTL" O L 5000 2625 79 
 F6 "DriveCTL" O L 5000 2375 79 
 F7 "MultiMediaCTL_Log" O R 7000 2750 79 
-F8 "MultiMediaCTL_Act" O R 7000 2850 79 
+F8 "MultimediaCTL_Act" O R 7000 2850 79 
 F9 "AuxMountCTL_Log" O R 7000 2950 79 
 F10 "AuxMountCTL_Act" O R 7000 3050 79 
 F11 "GimbalCTL_Log" O R 7000 3150 79 
 F12 "GimbalCTL_Act" O R 7000 3250 79 
-F13 "MultiMediaSense" I R 7000 3350 79 
+F13 "MultimediaSense" I R 7000 3350 79 
 F14 "AuxMountSense" I R 7000 3450 79 
 F15 "GimbalSense" I R 7000 3550 79 
 $EndSheet
