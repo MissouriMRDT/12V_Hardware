@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PowerBoard_Hardware)(type KiCad)(uri C:/Users/alexm/Documents/GitHub/12Volt_Hardware/Libraries/Packages/PowerBoard_Hardware.pretty)(options "")(descr ""))
+)
