@@ -394,7 +394,7 @@ S 8150 3550 1250 1450
 U 5F8236F9
 F0 "Multimedia/Extra" 50
 F1 "MultimediaExtra.sch" 50
-F2 "12V10AMultiMedia" O R 9400 3700 50 
+F2 "12V5AMultiMedia" O R 9400 3700 50 
 F3 "MultimediaCTL_Act" I R 9400 3850 50 
 F4 "MultimediaSense" O R 9400 3930 50 
 F5 "5V" I L 8150 4825 49 

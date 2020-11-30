@@ -444,7 +444,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 1500 3175 1575
 $Comp
-L 12VBoard_2021_Rev1:FDS66900AS U?
+L 12VBoard_2021_Rev1-rescue:FDS66900AS-12VBoard_2021_Rev1 U?
 U 1 1 5FC87ED0
 P 3925 1875
 AR Path="/5FC87ED0" Ref="U?"  Part="1" 
