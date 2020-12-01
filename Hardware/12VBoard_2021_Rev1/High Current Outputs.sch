@@ -546,7 +546,7 @@ Wire Wire Line
 	3375 6850 3325 6850
 Connection ~ 3325 6850
 Text HLabel 1825 5275 0    79   Input ~ 16
-12Actuation
+12VActuation
 Wire Wire Line
 	1825 5275 3750 5275
 Wire Wire Line

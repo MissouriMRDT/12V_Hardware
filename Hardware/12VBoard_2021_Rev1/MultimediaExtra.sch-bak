@@ -309,7 +309,7 @@ Text HLabel 5475 1250 0    50   Input ~ 0
 Wire Wire Line
 	5475 1250 5525 1250
 Text HLabel 1300 5500 0    50   Input ~ 0
-12Actuation
+12VActuation
 Text HLabel 6925 5100 2    50   Input ~ 0
 12V5AMultiMedia
 Text HLabel 4125 4525 0    50   Input ~ 0

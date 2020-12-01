@@ -104,7 +104,7 @@ Wire Wire Line
 	3625 2750 3225 2750
 Connection ~ 3225 2750
 Text HLabel 2675 2750 0    50   Input ~ 0
-12Actuation
+12VActuation
 Text HLabel 5400 2100 2    50   Input ~ 0
 12V5AGimbal
 Text HLabel 8100 1200 2    50   Input ~ 0

@@ -317,7 +317,7 @@ Wire Wire Line
 	3550 4675 3150 4675
 Connection ~ 3150 4675
 Text HLabel 2600 4675 0    50   Input ~ 0
-12Actuation
+12VActuation
 Text HLabel 4475 2150 2    50   Input ~ 0
 12V10AAuxMount
 Text HLabel 1675 1575 0    50   Input ~ 0
