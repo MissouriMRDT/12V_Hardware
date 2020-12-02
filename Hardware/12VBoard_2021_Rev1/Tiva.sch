@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -112,12 +111,12 @@ Wire Wire Line
 Wire Wire Line
 	6000 3750 6250 3750
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn?
+L MRDT_Connectors:Molex_SL_05 Conn2
 U 1 1 5FD25AC5
 P 6450 5450
-F 0 "Conn?" H 6578 5758 60  0000 L CNN
+F 0 "Conn2" H 6578 5758 60  0000 L CNN
 F 1 "Molex_SL_05" H 6578 5652 60  0000 L CNN
-F 2 "" H 6450 5450 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 6450 5450 60  0001 C CNN
 F 3 "" H 6450 5450 60  0001 C CNN
 	1    6450 5450
 	1    0    0    -1  

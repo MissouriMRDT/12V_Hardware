@@ -55,6 +55,7 @@ F9 "GimbalCTL_Act" I L 8000 3250 79
 F10 "MultimediaSense" O L 8000 3350 79 
 F11 "AuxMountSense" O L 8000 3450 79 
 F12 "GimbalSense" O L 8000 3550 79 
+F13 "CurrentSenseHigh" O L 8000 2600 79 
 $EndSheet
 Wire Wire Line
 	5000 2250 4000 2250
@@ -66,19 +67,6 @@ Wire Wire Line
 	5000 2375 4000 2375
 Wire Wire Line
 	5000 2125 4000 2125
-$Sheet
-S 2000 2000 2000 2000
-U 5F74F223
-F0 "Low Current Outputs" 79
-F1 "Low Current Outputs.sch" 79
-F2 "PackVoltage" I R 4000 3900 79 
-F3 "5V" O R 4000 3800 79 
-F4 "CameraCTL" I R 4000 2250 79 
-F5 "NavCTL" I R 4000 2500 79 
-F6 "CurrentSense" O R 4000 2125 79 
-F7 "ExtraCTL" I R 4000 2625 79 
-F8 "DriveCTL" I R 4000 2375 79 
-$EndSheet
 $Sheet
 S 5000 2000 2000 2000
 U 5F74F4A3
@@ -98,6 +86,7 @@ F12 "GimbalCTL_Act" O R 7000 3250 79
 F13 "MultimediaSense" I R 7000 3350 79 
 F14 "AuxMountSense" I R 7000 3450 79 
 F15 "GimbalSense" I R 7000 3550 79 
+F16 "CurrentSenseHigh" I R 7000 2600 79 
 $EndSheet
 Wire Wire Line
 	4525 4525 7525 4525
@@ -125,4 +114,19 @@ Wire Wire Line
 	7000 3450 8000 3450
 Wire Wire Line
 	7000 3550 8000 3550
+$Sheet
+S 2000 2000 2000 2000
+U 5F74F223
+F0 "Low Current Outputs" 79
+F1 "Low Current Outputs.sch" 79
+F2 "PackVoltage" I R 4000 3900 79 
+F3 "5V" O R 4000 3800 79 
+F4 "CameraCTL" I R 4000 2250 79 
+F5 "NavCTL" I R 4000 2500 79 
+F6 "CurrentSense" O R 4000 2125 79 
+F7 "ExtraCTL" I R 4000 2625 79 
+F8 "DriveCTL" I R 4000 2375 79 
+$EndSheet
+Wire Wire Line
+	8000 2600 7000 2600
 $EndSCHEMATC

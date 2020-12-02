@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -40,17 +40,6 @@ F 1 "Molex_SL_10" H 6175 4650 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_10_Horizontal" H 6450 5200 60  0001 C CNN
 F 3 "" H 6450 5200 60  0001 C CNN
 	1    6450 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_04 Conn2
-U 1 1 5FB5B79F
-P 6450 5350
-F 0 "Conn2" H 6350 5175 60  0000 L CNN
-F 1 "Molex_SL_04" H 6175 5275 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 6450 5350 60  0001 C CNN
-F 3 "" H 6450 5350 60  0001 C CNN
-	1    6450 5350
 	1    0    0    -1  
 $EndComp
 Text Notes 6575 3875 0    50   ~ 0
@@ -121,4 +110,19 @@ Wire Wire Line
 	6000 3850 6250 3850
 Wire Wire Line
 	6000 3750 6250 3750
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn2
+U 1 1 5FD25AC5
+P 6450 5450
+F 0 "Conn2" H 6578 5758 60  0000 L CNN
+F 1 "Molex_SL_05" H 6578 5652 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 6450 5450 60  0001 C CNN
+F 3 "" H 6450 5450 60  0001 C CNN
+	1    6450 5450
+	1    0    0    -1  
+$EndComp
+Text HLabel 6000 5400 0    50   Output ~ 0
+CurrentSenseHigh
+Wire Wire Line
+	6250 5400 6000 5400
 $EndSCHEMATC

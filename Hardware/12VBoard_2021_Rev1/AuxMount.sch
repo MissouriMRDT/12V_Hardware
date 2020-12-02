@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -253,7 +252,7 @@ AR Path="/5F74F36B/5F971CD6/5FC87E21" Ref="R?"  Part="1"
 AR Path="/5F74F36B/5FB68F3E/5FC87E21" Ref="R?"  Part="1" 
 F 0 "R10" V 2920 4675 50  0000 C CNN
 F 1 "50m" V 3000 4675 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-126-2_Vertical" V 2930 4675 50  0001 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 2930 4675 50  0001 C CNN
 F 3 "~" H 3000 4675 50  0001 C CNN
 	1    3000 4675
 	0    1    1    0   
