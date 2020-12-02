@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,8 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1300 7675 0    79   Input ~ 16
-PackVoltage
 $Comp
 L power:GND #PWR?
 U 1 1 5F853A21
@@ -242,101 +241,6 @@ $EndComp
 Wire Wire Line
 	5500 6575 5500 6775
 $Comp
-L power:GND #PWR?
-U 1 1 5F8C9CCF
-P 1575 7050
-AR Path="/5F74F36B/5F8236F9/5F8C9CCF" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F8C9CCF" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 1575 6800 50  0001 C CNN
-F 1 "GND" H 1580 6877 50  0000 C CNN
-F 2 "" H 1575 7050 50  0001 C CNN
-F 3 "" H 1575 7050 50  0001 C CNN
-	1    1575 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1425 7125 1325 7125
-Wire Wire Line
-	1425 7175 1425 7125
-Wire Wire Line
-	1775 7175 1425 7175
-Wire Wire Line
-	1425 7425 1325 7425
-Wire Wire Line
-	1425 7375 1425 7425
-Wire Wire Line
-	1775 7375 1425 7375
-$Comp
-L Device:R R?
-U 1 1 5F8C9CDB
-P 1325 7275
-AR Path="/5F74F36B/5F8236F9/5F8C9CDB" Ref="R?"  Part="1" 
-AR Path="/5F74F223/5F8C9CDB" Ref="R3"  Part="1" 
-F 0 "R3" V 1118 7275 50  0000 C CNN
-F 1 "50m" V 1209 7275 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-126-2_Vertical" V 1255 7275 50  0001 C CNN
-F 3 "~" H 1325 7275 50  0001 C CNN
-	1    1325 7275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Current:INA198 U?
-U 1 1 5F8C9CE1
-P 2075 7275
-AR Path="/5F74F36B/5F8236F9/5F8C9CE1" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5F8C9CE1" Ref="U2"  Part="1" 
-F 0 "U2" V 2125 7125 50  0000 R CNN
-F 1 "INA198" V 2225 7225 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2075 7275 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 2075 7275 50  0001 C CNN
-	1    2075 7275
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	1975 6975 1975 6950
-Text HLabel 2075 7625 2    50   Input ~ 0
-5V
-Wire Wire Line
-	1975 7575 1975 7625
-Wire Wire Line
-	1975 7625 2075 7625
-Text HLabel 2550 7725 2    50   Input ~ 0
-CurrentSense
-Wire Wire Line
-	2475 7275 2375 7275
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5F8C9CF2
-P 2575 7275
-F 0 "TP4" H 2633 7393 50  0000 L CNN
-F 1 "TestPoint" H 2633 7302 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 2775 7275 50  0001 C CNN
-F 3 "~" H 2775 7275 50  0001 C CNN
-	1    2575 7275
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2475 7275 2575 7275
-Connection ~ 2475 7275
-Wire Wire Line
-	2475 7725 2550 7725
-Wire Wire Line
-	2475 7275 2475 7725
-Wire Wire Line
-	1575 6950 1575 7050
-Wire Wire Line
-	1575 6950 1975 6950
-Wire Wire Line
-	1325 7125 1325 7025
-Wire Wire Line
-	1325 7025 725  7025
-Connection ~ 1325 7125
-Wire Wire Line
-	1325 7425 1325 7675
-Wire Wire Line
-	1325 7675 1300 7675
-Connection ~ 1325 7425
-$Comp
 L MRDT_Connectors:AndersonPP Conn8
 U 1 1 5FA71814
 P 7425 650
@@ -508,21 +412,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1930 6850 50  0
 F 3 "~" H 2000 6850 50  0001 C CNN
 	1    2000 6850
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FB780C4
-P 2500 6875
-AR Path="/5F74F36B/5F821EB2/5FB780C4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5FB780C4" Ref="#PWR?"  Part="1" 
-AR Path="/5F8031F1/5FB780C4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5FB780C4" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 2500 6625 50  0001 C CNN
-F 1 "GND" H 2505 6702 50  0000 C CNN
-F 2 "" H 2500 6875 50  0001 C CNN
-F 3 "" H 2500 6875 50  0001 C CNN
-	1    2500 6875
-	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Devices:OKI U9
@@ -862,8 +751,6 @@ Wire Wire Line
 	7525 1050 7525 1150
 Wire Wire Line
 	6675 1050 6675 1150
-Wire Wire Line
-	725  5700 725  7025
 $Comp
 L MRDT_ICs:LT1910 U?
 U 1 1 5FDA95B8
@@ -1703,5 +1590,119 @@ F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 4925 3800 60  0001 C CNN
 F 3 "" H 4925 3800 60  0001 C CNN
 	1    4925 3800
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	725  5700 725  7025
+Text HLabel 1300 7675 0    79   Input ~ 16
+PackVoltage
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C9CCF
+P 1575 7050
+AR Path="/5F74F36B/5F8236F9/5F8C9CCF" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5F8C9CCF" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 1575 6800 50  0001 C CNN
+F 1 "GND" H 1580 6877 50  0000 C CNN
+F 2 "" H 1575 7050 50  0001 C CNN
+F 3 "" H 1575 7050 50  0001 C CNN
+	1    1575 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 7125 1325 7125
+Wire Wire Line
+	1425 7175 1425 7125
+Wire Wire Line
+	1775 7175 1425 7175
+Wire Wire Line
+	1425 7425 1325 7425
+Wire Wire Line
+	1425 7375 1425 7425
+Wire Wire Line
+	1775 7375 1425 7375
+$Comp
+L Device:R R?
+U 1 1 5F8C9CDB
+P 1325 7275
+AR Path="/5F74F36B/5F8236F9/5F8C9CDB" Ref="R?"  Part="1" 
+AR Path="/5F74F223/5F8C9CDB" Ref="R3"  Part="1" 
+F 0 "R3" V 1118 7275 50  0000 C CNN
+F 1 "50m" V 1209 7275 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-126-2_Vertical" V 1255 7275 50  0001 C CNN
+F 3 "~" H 1325 7275 50  0001 C CNN
+	1    1325 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Current:INA198 U?
+U 1 1 5F8C9CE1
+P 2075 7275
+AR Path="/5F74F36B/5F8236F9/5F8C9CE1" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5F8C9CE1" Ref="U2"  Part="1" 
+F 0 "U2" V 2125 7125 50  0000 R CNN
+F 1 "INA198" V 2225 7225 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2075 7275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 2075 7275 50  0001 C CNN
+	1    2075 7275
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1975 6975 1975 6950
+Text HLabel 2075 7625 2    50   Input ~ 0
+5V
+Wire Wire Line
+	1975 7575 1975 7625
+Wire Wire Line
+	1975 7625 2075 7625
+Text HLabel 2550 7725 2    50   Output ~ 0
+CurrentSense
+Wire Wire Line
+	2475 7275 2375 7275
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F8C9CF2
+P 2575 7275
+F 0 "TP4" H 2633 7393 50  0000 L CNN
+F 1 "TestPoint" H 2633 7302 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 2775 7275 50  0001 C CNN
+F 3 "~" H 2775 7275 50  0001 C CNN
+	1    2575 7275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2475 7275 2575 7275
+Connection ~ 2475 7275
+Wire Wire Line
+	2475 7725 2550 7725
+Wire Wire Line
+	2475 7275 2475 7725
+Wire Wire Line
+	1575 6950 1575 7050
+Wire Wire Line
+	1575 6950 1975 6950
+Wire Wire Line
+	1325 7125 1325 7025
+Wire Wire Line
+	1325 7025 725  7025
+Connection ~ 1325 7125
+Wire Wire Line
+	1325 7425 1325 7675
+Wire Wire Line
+	1325 7675 1300 7675
+Connection ~ 1325 7425
+$Comp
+L power:GND #PWR?
+U 1 1 5FB780C4
+P 2500 6875
+AR Path="/5F74F36B/5F821EB2/5FB780C4" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FB780C4" Ref="#PWR?"  Part="1" 
+AR Path="/5F8031F1/5FB780C4" Ref="#PWR?"  Part="1" 
+AR Path="/5F74F223/5FB780C4" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 2500 6625 50  0001 C CNN
+F 1 "GND" H 2505 6702 50  0000 C CNN
+F 2 "" H 2500 6875 50  0001 C CNN
+F 3 "" H 2500 6875 50  0001 C CNN
+	1    2500 6875
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:12VBoard_2021_Rev1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -470,17 +471,6 @@ Wire Wire Line
 Connection ~ 3150 6850
 Wire Wire Line
 	3150 6850 3150 6900
-$Comp
-L Device:CP1_Small C10
-U 1 1 6056D755
-P 3325 6975
-F 0 "C10" H 3350 7050 50  0000 L CNN
-F 1 "330uF" H 3350 6875 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3325 6975 50  0001 C CNN
-F 3 "~" H 3325 6975 50  0001 C CNN
-	1    3325 6975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 6850 3325 6850
 Wire Wire Line
@@ -575,8 +565,6 @@ $EndComp
 Text HLabel 1825 5675 0    79   Input ~ 16
 12VLogic
 Wire Wire Line
-	1825 5675 3600 5675
-Wire Wire Line
 	725  1150 725  1300
 Connection ~ 725  1150
 Wire Wire Line
@@ -637,8 +625,8 @@ F 3 "~" H 2275 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 675  2025 675 
-Text HLabel 1950 675  0    79   Input ~ 16
+	1925 675  2000 675 
+Text HLabel 1925 675  0    79   Input ~ 16
 PackVoltage
 $Comp
 L power:GND #PWR?
@@ -752,7 +740,7 @@ Wire Wire Line
 Wire Wire Line
 	3725 1000 3725 1175
 Wire Wire Line
-	1850 1000 2025 1000
+	1850 1000 1950 1000
 Wire Wire Line
 	1850 1150 2375 1150
 Wire Wire Line
@@ -783,10 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	2275 1300 2275 1875
 Wire Wire Line
-	2025 675  2025 1000
-Connection ~ 2025 1000
-Wire Wire Line
-	2025 1000 3725 1000
+	2000 675  2000 1000
 Wire Wire Line
 	3300 1150 3300 1875
 $Comp
@@ -823,4 +808,123 @@ Wire Wire Line
 	3725 1375 3725 1575
 Wire Wire Line
 	2275 1875 3300 1875
+Wire Wire Line
+	1825 5675 3600 5675
+Connection ~ 1650 1675
+Wire Wire Line
+	1650 1675 1400 1675
+Connection ~ 1950 1675
+Wire Wire Line
+	1950 1675 2050 1675
+Wire Wire Line
+	1800 2825 1350 2825
+Wire Wire Line
+	1350 2825 1350 2900
+Connection ~ 1800 2825
+Wire Wire Line
+	1800 2825 1800 2925
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FCE5BE7
+P 1800 2925
+AR Path="/5F74F223/5FCE5BE7" Ref="TP?"  Part="1" 
+AR Path="/5F74F36B/5FCE5BE7" Ref="TP?"  Part="1" 
+F 0 "TP?" H 1858 3043 50  0000 L CNN
+F 1 "TestPoint" H 1858 2952 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 2000 2925 50  0001 C CNN
+F 3 "~" H 2000 2925 50  0001 C CNN
+	1    1800 2925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 2825 1800 2725
+Text HLabel 1350 2900 0    50   Output ~ 0
+CurrentSenseHigh
+Wire Wire Line
+	1450 2325 1450 2425
+Wire Wire Line
+	1500 2325 1450 2325
+Text HLabel 1450 2425 0    50   Input ~ 0
+5V
+$Comp
+L Amplifier_Current:INA198 U?
+U 1 1 5FCE5BF3
+P 1800 2425
+AR Path="/5F74F36B/5F8236F9/5FCE5BF3" Ref="U?"  Part="1" 
+AR Path="/5F74F223/5FCE5BF3" Ref="U?"  Part="1" 
+AR Path="/5F74F36B/5FCE5BF3" Ref="U?"  Part="1" 
+F 0 "U?" V 1850 2275 50  0000 R CNN
+F 1 "INA198" V 1950 2375 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1800 2425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 1800 2425 50  0001 C CNN
+	1    1800 2425
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FCE5BF9
+P 1800 1675
+AR Path="/5F74F36B/5F8236F9/5FCE5BF9" Ref="R?"  Part="1" 
+AR Path="/5F74F223/5FCE5BF9" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5FCE5BF9" Ref="R?"  Part="1" 
+F 0 "R?" V 1725 1675 50  0000 C CNN
+F 1 "50m" V 1800 1675 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-126-2_Vertical" V 1730 1675 50  0001 C CNN
+F 3 "~" H 1800 1675 50  0001 C CNN
+	1    1800 1675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 2125 1700 1775
+Wire Wire Line
+	1700 1775 1650 1775
+Wire Wire Line
+	1650 1775 1650 1675
+Wire Wire Line
+	1900 2125 1900 1775
+Wire Wire Line
+	1900 1775 1950 1775
+Wire Wire Line
+	1950 1775 1950 1675
+$Comp
+L power:GND #PWR?
+U 1 1 5FD0A1AA
+P 2100 2700
+F 0 "#PWR?" H 2100 2450 50  0001 C CNN
+F 1 "GND" H 2105 2527 50  0000 C CNN
+F 2 "" H 2100 2700 50  0001 C CNN
+F 3 "" H 2100 2700 50  0001 C CNN
+	1    2100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2700 2100 2325
+Wire Wire Line
+	2050 1000 2050 1675
+Connection ~ 2050 1000
+Wire Wire Line
+	2050 1000 3725 1000
+Wire Wire Line
+	1400 1400 1950 1400
+Wire Wire Line
+	1950 1400 1950 1000
+Wire Wire Line
+	1400 1400 1400 1675
+Connection ~ 1950 1000
+Wire Wire Line
+	1950 1000 2000 1000
+Connection ~ 2000 1000
+Wire Wire Line
+	2000 1000 2050 1000
+$Comp
+L Device:CP1_Small C10
+U 1 1 6056D755
+P 3325 6975
+F 0 "C10" H 3350 7050 50  0000 L CNN
+F 1 "330uF" H 3350 6875 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3325 6975 50  0001 C CNN
+F 3 "~" H 3325 6975 50  0001 C CNN
+	1    3325 6975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
