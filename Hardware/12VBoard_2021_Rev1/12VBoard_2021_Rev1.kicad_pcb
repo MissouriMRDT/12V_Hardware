@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.6)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0)")
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
@@ -7665,7 +7665,6 @@
 
   (segment (start 203.1395 112.268) (end 209.296 118.4245) (width 0.762) (layer F.Cu) (net 1) (status 20))
   (segment (start 198.882 112.268) (end 203.1395 112.268) (width 0.762) (layer F.Cu) (net 1) (status 10))
-  (segment (start 191.995 92.349) (end 193.669 92.349) (width 0.762) (layer F.Cu) (net 98) (status 30))
   (segment (start 198.882 108.571) (end 201.027 106.426) (width 0.762) (layer F.Cu) (net 1))
   (segment (start 198.882 112.268) (end 198.882 108.571) (width 0.762) (layer F.Cu) (net 1))
   (segment (start 209.296 118.4245) (end 209.3565 118.4245) (width 0.762) (layer F.Cu) (net 1))
@@ -8283,8 +8282,8 @@
   (via (at 121.92 35.56) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
   (via (at 119.38 35.56) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
   (via (at 116.84 35.56) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
-  (via (at 131.572 58.42) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
-  (via (at 131.826 56.388) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
+  (via (at 131.953 57.15) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
+  (via (at 131.953 55.118) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
   (segment (start 170.18 96.139) (end 169.418 95.377) (width 0.762) (layer F.Cu) (net 72) (status 30))
   (via (at 186.944 95.504) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 72))
   (segment (start 186.895 92.349) (end 186.895 95.455) (width 0.762) (layer F.Cu) (net 72) (status 10))
@@ -8493,6 +8492,7 @@
   (segment (start 184.15 96.52) (end 181.61 96.52) (width 0.381) (layer B.Cu) (net 97))
   (segment (start 179.324 96.52) (end 178.816 97.028) (width 0.381) (layer F.Cu) (net 97))
   (segment (start 181.61 96.52) (end 179.324 96.52) (width 0.381) (layer F.Cu) (net 97))
+  (segment (start 191.995 92.349) (end 193.669 92.349) (width 0.762) (layer F.Cu) (net 98) (status 30))
   (segment (start 180.528 90.4535) (end 181.0655 89.916) (width 0.762) (layer F.Cu) (net 98))
   (segment (start 180.528 92.118) (end 180.528 90.4535) (width 0.762) (layer F.Cu) (net 98))
   (via (at 181.864 91.44) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 98))
