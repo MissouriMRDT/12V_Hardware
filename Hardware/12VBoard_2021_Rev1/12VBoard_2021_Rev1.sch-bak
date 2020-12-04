@@ -39,24 +39,6 @@ Wire Wire Line
 	7850 3900 8000 3900
 Wire Wire Line
 	4525 4525 4525 3800
-$Sheet
-S 8000 2000 2000 2000
-U 5F74F36B
-F0 "High Current Outputs" 79
-F1 "High Current Outputs.sch" 79
-F2 "PackVoltage" I L 8000 3900 79 
-F3 "5V" I L 8000 3800 79 
-F4 "MultiMediaCTL_Log" I L 8000 2750 79 
-F5 "MultimediaCTL_Act" I L 8000 2850 79 
-F6 "AuxMountCTL_Log" I L 8000 2950 79 
-F7 "AuxMountCTL_Act" I L 8000 3050 79 
-F8 "GimbalCTL_Log" I L 8000 3150 79 
-F9 "GimbalCTL_Act" I L 8000 3250 79 
-F10 "MultimediaSense" O L 8000 3350 79 
-F11 "AuxMountSense" O L 8000 3450 79 
-F12 "GimbalSense" O L 8000 3550 79 
-F13 "CurrentSenseHigh" O L 8000 2600 79 
-$EndSheet
 Wire Wire Line
 	5000 2250 4000 2250
 Wire Wire Line
@@ -86,7 +68,7 @@ F12 "GimbalCTL_Act" O R 7000 3250 79
 F13 "MultimediaSense" I R 7000 3350 79 
 F14 "AuxMountSense" I R 7000 3450 79 
 F15 "GimbalSense" I R 7000 3550 79 
-F16 "CurrentSenseHigh" I R 7000 2600 79 
+F16 "BuckCTL" O R 7000 2675 50 
 $EndSheet
 Wire Wire Line
 	4525 4525 7525 4525
@@ -126,7 +108,49 @@ F5 "NavCTL" I R 4000 2500 79
 F6 "CurrentSense" O R 4000 2125 79 
 F7 "ExtraCTL" I R 4000 2625 79 
 F8 "DriveCTL" I R 4000 2375 79 
+F9 "12VLogic" O R 4000 3700 50 
+F10 "12VActuation" I R 4000 3635 50 
 $EndSheet
 Wire Wire Line
-	8000 2600 7000 2600
+	8000 3655 7060 3655
+Wire Wire Line
+	7060 3655 7060 4170
+Wire Wire Line
+	7060 4170 4910 4170
+Wire Wire Line
+	4910 4170 4910 3635
+Wire Wire Line
+	4910 3635 4000 3635
+Wire Wire Line
+	4000 3700 4725 3700
+Wire Wire Line
+	4725 3700 4725 4340
+Wire Wire Line
+	4725 4340 7250 4340
+Wire Wire Line
+	7250 4340 7250 3720
+Wire Wire Line
+	7250 3720 8000 3720
+$Sheet
+S 8000 2000 2000 2000
+U 5F74F36B
+F0 "High Current Outputs" 79
+F1 "High Current Outputs.sch" 79
+F2 "PackVoltage" I L 8000 3900 79 
+F3 "5V" I L 8000 3800 79 
+F4 "MultiMediaCTL_Log" I L 8000 2750 79 
+F5 "MultimediaCTL_Act" I L 8000 2850 79 
+F6 "AuxMountCTL_Log" I L 8000 2950 79 
+F7 "AuxMountCTL_Act" I L 8000 3050 79 
+F8 "GimbalCTL_Log" I L 8000 3150 79 
+F9 "GimbalCTL_Act" I L 8000 3250 79 
+F10 "MultimediaSense" O L 8000 3350 79 
+F11 "AuxMountSense" O L 8000 3450 79 
+F12 "GimbalSense" O L 8000 3550 79 
+F13 "12VLogic" I L 8000 3720 50 
+F14 "12VActuation" O L 8000 3655 50 
+F15 "BuckCTL" I L 8000 2675 50 
+$EndSheet
+Wire Wire Line
+	7000 2675 8000 2675
 $EndSCHEMATC

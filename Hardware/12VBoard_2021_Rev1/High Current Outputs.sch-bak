@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -283,8 +283,8 @@ F4 "AuxMountSense" O R 7275 3900 50
 F5 "5V" I L 6025 4800 49 
 F6 "12VLogicAuxMount" O R 7275 3600 50 
 F7 "12VActuation" I L 6025 4875 50 
-F8 "12VLogic" I L 6025 4725 50 
-F9 "AuxMountCTL_Log" I R 7275 3750 50 
+F8 "AuxMountCTL_Log" I R 7275 3750 50 
+F9 "12VLogic" I L 6025 4710 50 
 $EndSheet
 $Sheet
 S 3825 3525 1100 1450
@@ -297,8 +297,8 @@ F4 "GimbalSense" O R 4925 3900 49
 F5 "12VLogicGimbal" O R 4925 3600 50 
 F6 "5V" I L 3825 4800 50 
 F7 "12VActuation" I L 3825 4875 50 
-F8 "12VLogic" I L 3825 4725 50 
-F9 "GimbalCTL_Log" I R 4925 3750 50 
+F8 "GimbalCTL_Log" I R 4925 3750 50 
+F9 "12VLogic" I L 3825 4700 50 
 $EndSheet
 Wire Wire Line
 	8075 5275 8075 4900
@@ -308,10 +308,6 @@ Wire Wire Line
 	8000 5475 8000 4825
 Wire Wire Line
 	8000 4825 8150 4825
-Wire Wire Line
-	7925 5675 7925 4750
-Wire Wire Line
-	7925 4750 8150 4750
 Wire Wire Line
 	6025 4875 5925 4875
 Wire Wire Line
@@ -323,13 +319,6 @@ Wire Wire Line
 Connection ~ 5850 5475
 Wire Wire Line
 	5850 5475 8000 5475
-Wire Wire Line
-	6025 4725 5775 4725
-Wire Wire Line
-	5775 4725 5775 5675
-Connection ~ 5775 5675
-Wire Wire Line
-	5775 5675 7925 5675
 Wire Wire Line
 	1825 5475 3675 5475
 Wire Wire Line
@@ -343,13 +332,6 @@ Wire Wire Line
 Connection ~ 3675 5475
 Wire Wire Line
 	3675 5475 5850 5475
-Wire Wire Line
-	3825 4725 3600 4725
-Wire Wire Line
-	3600 4725 3600 5675
-Connection ~ 3600 5675
-Wire Wire Line
-	3600 5675 5775 5675
 Wire Wire Line
 	9500 3200 9750 3200
 Connection ~ 9500 3200
@@ -391,17 +373,6 @@ Wire Wire Line
 	9400 3930 9580 3930
 Text HLabel 9575 3775 2    50   Input ~ 0
 MultiMediaCTL_Log
-$Comp
-L MRDT_Devices:Q36SR12020NRFA VR1
-U 1 1 60547610
-P 2050 7250
-F 0 "VR1" H 2400 7950 50  0000 C CNN
-F 1 "Q36SR12020NRFA" H 2400 7825 50  0000 C CNN
-F 2 "MRDT_Actives:Q36SR12020NRFA" H 2350 8050 50  0001 C CNN
-F 3 "" H 2350 8050 50  0001 C CNN
-	1    2050 7250
-	1    0    0    -1  
-$EndComp
 Text HLabel 1575 6850 0    79   Input ~ 16
 PackVoltage
 Wire Wire Line
@@ -423,9 +394,6 @@ Wire Wire Line
 	1850 7150 1750 7150
 Wire Wire Line
 	1850 7000 1750 7000
-Wire Wire Line
-	1750 7000 1750 7150
-Connection ~ 1750 7150
 NoConn ~ 3000 7000
 Wire Wire Line
 	3000 7100 3100 7100
@@ -460,8 +428,6 @@ Wire Wire Line
 	3150 6850 3325 6850
 Wire Wire Line
 	3325 6875 3325 6850
-Wire Wire Line
-	3625 6850 4050 6850
 Text HLabel 4050 6850 2    79   Output ~ 16
 12VActuation
 $Comp
@@ -477,48 +443,6 @@ F 3 "" H 3325 7125 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3325 7075 3325 7125
-$Comp
-L Device:CP1_Small C11
-U 1 1 605915AE
-P 3625 6975
-F 0 "C11" H 3650 7050 50  0000 L CNN
-F 1 "330uF" H 3650 6875 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3625 6975 50  0001 C CNN
-F 3 "~" H 3625 6975 50  0001 C CNN
-	1    3625 6975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3625 6875 3625 6850
-$Comp
-L power:GND #PWR0104
-U 1 1 605915B5
-P 3625 7125
-F 0 "#PWR0104" H 3625 6875 50  0001 C CNN
-F 1 "GND" H 3630 6952 50  0000 C CNN
-F 2 "" H 3625 7125 50  0001 C CNN
-F 3 "" H 3625 7125 50  0001 C CNN
-	1    3625 7125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3625 7075 3625 7125
-$Comp
-L Device:Fuse_Small F2
-U 1 1 60594467
-P 3475 6850
-F 0 "F2" H 3475 6900 50  0000 C CNN
-F 1 "20" H 3475 6850 31  0000 C CNN
-F 2 "MRDT_Passives:ATC_Fuse_Block" H 3475 6850 50  0001 C CNN
-F 3 "~" H 3475 6850 50  0001 C CNN
-	1    3475 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3625 6850 3575 6850
-Connection ~ 3625 6850
-Wire Wire Line
-	3375 6850 3325 6850
 Connection ~ 3325 6850
 Text HLabel 1825 5275 0    79   Input ~ 16
 12VActuation
@@ -531,327 +455,6 @@ Wire Wire Line
 	5925 5275 8075 5275
 Connection ~ 5925 5275
 $Comp
-L power:GND #PWR?
-U 1 1 605D6402
-P 2355 3945
-AR Path="/5F74F36B/5F821EB2/605D6402" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8222BE/605D6402" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F971CD6/605D6402" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D6402" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/605D6402" Ref="#PWR0105"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D6402" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0105" H 2355 3695 50  0001 C CNN
-F 1 "GND" H 2360 3772 50  0000 C CNN
-F 2 "" H 2355 3945 50  0001 C CNN
-F 3 "" H 2355 3945 50  0001 C CNN
-	1    2355 3945
-	1    0    0    -1  
-$EndComp
-Text HLabel 1825 5675 0    79   Input ~ 16
-12VLogic
-Wire Wire Line
-	805  2395 805  2545
-Connection ~ 805  2395
-Wire Wire Line
-	805  2545 805  2845
-Connection ~ 805  2545
-Wire Wire Line
-	805  2245 805  2395
-Connection ~ 3380 3120
-Wire Wire Line
-	3455 3120 3380 3120
-Text HLabel 3455 3120 2    79   Output ~ 16
-12VLogic
-Connection ~ 2355 3120
-Wire Wire Line
-	2355 3145 2355 3120
-Text Notes 2405 3195 0    50   ~ 0
-Green
-Wire Wire Line
-	2355 3545 2355 3445
-Wire Wire Line
-	2355 3945 2355 3845
-$Comp
-L Device:LED D?
-U 1 1 605D6408
-P 2355 3695
-AR Path="/5F74F36B/5F821EB2/605D6408" Ref="D?"  Part="1" 
-AR Path="/5F74F36B/5F8222BE/605D6408" Ref="D?"  Part="1" 
-AR Path="/5F74F36B/5F971CD6/605D6408" Ref="D?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D6408" Ref="D?"  Part="1" 
-AR Path="/5F74F36B/605D6408" Ref="D1"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D6408" Ref="D?"  Part="1" 
-F 0 "D1" V 2394 3578 50  0000 R CNN
-F 1 "Logic Power Green" V 2303 3578 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2355 3695 50  0001 C CNN
-F 3 "~" H 2355 3695 50  0001 C CNN
-	1    2355 3695
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 605D63FC
-P 2355 3295
-AR Path="/5F74F36B/5F821EB2/605D63FC" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5F8222BE/605D63FC" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5F971CD6/605D63FC" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63FC" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/605D63FC" Ref="R8"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63FC" Ref="R?"  Part="1" 
-F 0 "R8" H 2405 3295 50  0000 L CNN
-F 1 "1.2k" V 2355 3220 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2285 3295 50  0001 C CNN
-F 3 "~" H 2355 3295 50  0001 C CNN
-	1    2355 3295
-	1    0    0    -1  
-$EndComp
-Text HLabel 2470 1480 0    79   Input ~ 16
-PackVoltage
-$Comp
-L power:GND #PWR?
-U 1 1 605D63F4
-P 3805 2820
-AR Path="/5F74F223/5F7D1238/605D63F4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/605D63F4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/605D63F4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/605D63F4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63F4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/605D63F4" Ref="#PWR0106"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63F4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0106" H 3805 2570 50  0001 C CNN
-F 1 "GND" H 3805 2670 50  0000 C CNN
-F 2 "" H 3805 2820 50  0001 C CNN
-F 3 "" H 3805 2820 50  0001 C CNN
-	1    3805 2820
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L?
-U 1 1 605D63EE
-P 2805 2395
-AR Path="/5F74F223/5F7D1238/605D63EE" Ref="L?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/605D63EE" Ref="L?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/605D63EE" Ref="L?"  Part="1" 
-AR Path="/5F74F223/605D63EE" Ref="L?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63EE" Ref="L?"  Part="1" 
-AR Path="/5F74F36B/605D63EE" Ref="L1"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63EE" Ref="L?"  Part="1" 
-F 0 "L1" V 2624 2395 50  0000 C CNN
-F 1 "100 uH" V 2715 2395 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2805 2395 50  0001 C CNN
-F 3 "~" H 2805 2395 50  0001 C CNN
-	1    2805 2395
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 605D63E8
-P 3255 2620
-AR Path="/5F74F223/5F7D1238/605D63E8" Ref="C?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/605D63E8" Ref="C?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/605D63E8" Ref="C?"  Part="1" 
-AR Path="/5F74F223/605D63E8" Ref="C?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63E8" Ref="C?"  Part="1" 
-AR Path="/5F74F36B/605D63E8" Ref="C9"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63E8" Ref="C?"  Part="1" 
-F 0 "C9" V 3030 2570 50  0000 L CNN
-F 1 "1000 uF" V 3105 2495 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 3255 2620 50  0001 C CNN
-F 3 "~" H 3255 2620 50  0001 C CNN
-	1    3255 2620
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 605D63E2
-P 2855 2870
-AR Path="/5F74F223/5F7D1238/605D63E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/605D63E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/605D63E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/605D63E2" Ref="#PWR0107"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63E2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0107" H 2855 2620 50  0001 C CNN
-F 1 "GND" H 2855 2720 50  0000 C CNN
-F 2 "" H 2855 2870 50  0001 C CNN
-F 3 "" H 2855 2870 50  0001 C CNN
-	1    2855 2870
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 605D63D6
-P 805 2845
-AR Path="/5F74F223/5F7D1238/605D63D6" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/605D63D6" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/605D63D6" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63D6" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/605D63D6" Ref="#PWR0108"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63D6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0108" H 805 2595 50  0001 C CNN
-F 1 "GND" H 810 2672 50  0000 C CNN
-F 2 "" H 805 2845 50  0001 C CNN
-F 3 "" H 805 2845 50  0001 C CNN
-	1    805  2845
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3805 2245 3805 2420
-Wire Wire Line
-	1930 2395 2455 2395
-Wire Wire Line
-	2955 2395 3255 2395
-Wire Wire Line
-	3255 2395 3255 2470
-Connection ~ 2455 2395
-Wire Wire Line
-	2455 2395 2655 2395
-Wire Wire Line
-	2455 2395 2455 2470
-Wire Wire Line
-	3255 2770 3255 2820
-Wire Wire Line
-	3255 2820 2855 2820
-Wire Wire Line
-	2855 2820 2855 2870
-Wire Wire Line
-	2855 2820 2455 2820
-Wire Wire Line
-	2455 2820 2455 2770
-Connection ~ 2855 2820
-Wire Wire Line
-	3255 2395 3380 2395
-Connection ~ 3255 2395
-Wire Wire Line
-	1930 2545 2355 2545
-Wire Wire Line
-	2355 2545 2355 3120
-Wire Wire Line
-	3380 2395 3380 3120
-$Comp
-L Device:D_Schottky D?
-U 1 1 605D63B9
-P 2455 2620
-AR Path="/5F74F223/605D63B9" Ref="D?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63B9" Ref="D?"  Part="1" 
-AR Path="/5F74F36B/605D63B9" Ref="D3"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63B9" Ref="D?"  Part="1" 
-F 0 "D3" V 2409 2700 50  0000 L CNN
-F 1 "D_Schottky" V 2500 2700 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_KathodeUp" H 2455 2620 50  0001 C CNN
-F 3 "~" H 2455 2620 50  0001 C CNN
-	1    2455 2620
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 605D63B3
-P 3805 2520
-AR Path="/5F74F223/605D63B3" Ref="C?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63B3" Ref="C?"  Part="1" 
-AR Path="/5F74F36B/605D63B3" Ref="C12"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63B3" Ref="C?"  Part="1" 
-F 0 "C12" H 3580 2545 50  0000 L CNN
-F 1 "100uF" H 3505 2445 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3805 2520 50  0001 C CNN
-F 3 "~" H 3805 2520 50  0001 C CNN
-	1    3805 2520
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3805 2620 3805 2820
-Wire Wire Line
-	2355 3120 3380 3120
-Wire Wire Line
-	1825 5675 3600 5675
-Connection ~ 2470 1880
-Connection ~ 2470 1580
-Wire Wire Line
-	2470 1580 2470 1480
-Wire Wire Line
-	3620 1730 3620 2180
-Wire Wire Line
-	3620 2180 3695 2180
-Connection ~ 3620 1730
-Wire Wire Line
-	3620 1730 3720 1730
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5FCE5BE7
-P 3720 1730
-AR Path="/5F74F223/5FCE5BE7" Ref="TP?"  Part="1" 
-AR Path="/5F74F36B/5FCE5BE7" Ref="TP2"  Part="1" 
-F 0 "TP2" H 3778 1848 50  0000 L CNN
-F 1 "TestPoint" H 3778 1757 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3920 1730 50  0001 C CNN
-F 3 "~" H 3920 1730 50  0001 C CNN
-	1    3720 1730
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3620 1730 3520 1730
-Text HLabel 3695 2180 2    50   Output ~ 0
-CurrentSenseHigh
-Wire Wire Line
-	3120 2080 3220 2080
-Wire Wire Line
-	3120 2030 3120 2080
-Text HLabel 3220 2080 2    50   Input ~ 0
-5V
-$Comp
-L Amplifier_Current:INA198 U?
-U 1 1 5FCE5BF3
-P 3220 1730
-AR Path="/5F74F36B/5F8236F9/5FCE5BF3" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5FCE5BF3" Ref="U?"  Part="1" 
-AR Path="/5F74F36B/5FCE5BF3" Ref="U21"  Part="1" 
-F 0 "U21" V 3270 1580 50  0000 R CNN
-F 1 "INA198" V 3370 1680 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3220 1730 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 3220 1730 50  0001 C CNN
-	1    3220 1730
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FCE5BF9
-P 2470 1730
-AR Path="/5F74F36B/5F8236F9/5FCE5BF9" Ref="R?"  Part="1" 
-AR Path="/5F74F223/5FCE5BF9" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5FCE5BF9" Ref="R24"  Part="1" 
-F 0 "R24" V 2395 1730 50  0000 C CNN
-F 1 "50m" V 2470 1730 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2400 1730 50  0001 C CNN
-F 3 "~" H 2470 1730 50  0001 C CNN
-	1    2470 1730
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2920 1830 2570 1830
-Wire Wire Line
-	2570 1830 2570 1880
-Wire Wire Line
-	2570 1880 2470 1880
-Wire Wire Line
-	2920 1630 2570 1630
-Wire Wire Line
-	2570 1630 2570 1580
-Wire Wire Line
-	2570 1580 2470 1580
-$Comp
-L power:GND #PWR010
-U 1 1 5FD0A1AA
-P 3495 1430
-F 0 "#PWR010" H 3495 1180 50  0001 C CNN
-F 1 "GND" H 3500 1257 50  0000 C CNN
-F 2 "" H 3495 1430 50  0001 C CNN
-F 3 "" H 3495 1430 50  0001 C CNN
-	1    3495 1430
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3495 1430 3120 1430
-$Comp
 L Device:CP1_Small C10
 U 1 1 6056D755
 P 3325 6975
@@ -862,38 +465,6 @@ F 3 "~" H 3325 6975 50  0001 C CNN
 	1    3325 6975
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	930  2545 805  2545
-Wire Wire Line
-	930  2395 805  2395
-Wire Wire Line
-	930  2245 805  2245
-$Comp
-L 12VBoard_2021_Rev1-rescue:LM2576D2TR4-MRDT_Devices U?
-U 1 1 605D63DC
-P 1430 2445
-AR Path="/5F74F223/5F7D1238/605D63DC" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5F7E1E8A/605D63DC" Ref="U?"  Part="1" 
-AR Path="/5F74F223/5F7D14F6/605D63DC" Ref="U?"  Part="1" 
-AR Path="/605D63DC" Ref="U?"  Part="1" 
-AR Path="/5F74F223/605D63DC" Ref="U?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/605D63DC" Ref="U?"  Part="1" 
-AR Path="/5F74F36B/605D63DC" Ref="U6"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/605D63DC" Ref="U?"  Part="1" 
-F 0 "U6" H 1430 2870 50  0000 C CNN
-F 1 "LM2576S-12/NOPB" H 1430 2779 50  0000 C CNN
-F 2 "MRDT_Devices:LM2576" H 1430 2895 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 1430 2895 50  0001 C CNN
-	1    1430 2445
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1930 2245 2470 2245
-Wire Wire Line
-	2470 1880 2470 2245
-Connection ~ 2470 2245
-Wire Wire Line
-	2470 2245 3805 2245
 $Sheet
 S 8150 3550 1250 1450
 U 5F8236F9
@@ -905,7 +476,44 @@ F4 "MultimediaSense" O R 9400 3930 50
 F5 "5V" I L 8150 4825 49 
 F6 "12VLogicMultiMedia" O R 9400 3625 50 
 F7 "12VActuation" I L 8150 4900 50 
-F8 "12VLogic" I L 8150 4750 50 
-F9 "MultiMediaCTL_Log" I R 9400 3775 50 
+F8 "MultiMediaCTL_Log" I R 9400 3775 50 
+F9 "12VLogic" I L 8150 4755 50 
 $EndSheet
+$Comp
+L MRDT_Devices:Q36SR12020NRFA VR1
+U 1 1 60547610
+P 2050 7250
+F 0 "VR1" H 2400 7950 50  0000 C CNN
+F 1 "Q36SR12020NRFA" H 2400 7825 50  0000 C CNN
+F 2 "MRDT_Actives:Q36SR12020NRFA" H 2350 8050 50  0001 C CNN
+F 3 "" H 2350 8050 50  0001 C CNN
+	1    2050 7250
+	1    0    0    -1  
+$EndComp
+Text HLabel 1815 5620 0    50   Input ~ 0
+12VLogic
+Wire Wire Line
+	1815 5620 3570 5620
+Wire Wire Line
+	3570 5620 3570 4700
+Wire Wire Line
+	3570 4700 3825 4700
+Wire Wire Line
+	3570 5620 5730 5620
+Wire Wire Line
+	5730 5620 5730 4710
+Wire Wire Line
+	5730 4710 6025 4710
+Connection ~ 3570 5620
+Wire Wire Line
+	5730 5620 7935 5620
+Wire Wire Line
+	7935 5620 7935 4755
+Wire Wire Line
+	7935 4755 8150 4755
+Connection ~ 5730 5620
+Wire Wire Line
+	3325 6850 4050 6850
+Text HLabel 1750 7000 0    79   Input ~ 16
+BuckCTL
 $EndSCHEMATC

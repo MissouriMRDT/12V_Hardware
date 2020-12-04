@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5650 3450 0    79   ~ 0
-Tiva 4 analog(current sense)/ \n7 toggles(digital write)
 Text HLabel 6000 5100 0    49   Input ~ 0
 AuxMountSense
 Text HLabel 6000 5000 0    49   Input ~ 0
@@ -121,8 +119,10 @@ F 3 "" H 6450 5450 60  0001 C CNN
 	1    6450 5450
 	1    0    0    -1  
 $EndComp
-Text HLabel 6000 5400 0    50   Output ~ 0
-CurrentSenseHigh
 Wire Wire Line
 	6250 5400 6000 5400
+Text HLabel 6000 5400 0    50   Input ~ 0
+BuckCTL
+Text Notes 6570 5430 0    50   ~ 0
+Buck CTL (Digital Write)\n
 $EndSCHEMATC
