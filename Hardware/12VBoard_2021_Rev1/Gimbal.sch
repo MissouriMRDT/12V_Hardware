@@ -28,21 +28,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 3075 3500 50  0001 C CNN
 	1    3075 3500
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5F98E12D
-P 3075 2750
-AR Path="/5F74F36B/5F8236F9/5F98E12D" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5F8222BE/5F98E12D" Ref="R?"  Part="1" 
-AR Path="/5F74F36B/5F971CD6/5F98E12D" Ref="R33"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/5F98E12D" Ref="R?"  Part="1" 
-F 0 "R33" V 2995 2750 50  0000 C CNN
-F 1 "50m" V 3075 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 3005 2750 50  0001 C CNN
-F 3 "~" H 3075 2750 50  0001 C CNN
-	1    3075 2750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2975 3200 2975 2850
 Wire Wire Line
@@ -337,7 +322,7 @@ U 1 1 605C6959
 P 4100 1300
 F 0 "R17" H 4145 1305 50  0000 L CNN
 F 1 "0.01" V 4100 1225 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4030 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4030 1300 50  0001 C CNN
 F 3 "~" H 4100 1300 50  0001 C CNN
 	1    4100 1300
 	1    0    0    -1  
@@ -540,4 +525,19 @@ $EndComp
 Connection ~ 5375 2100
 Wire Wire Line
 	3925 2750 4375 2750
+$Comp
+L Device:R R?
+U 1 1 5F98E12D
+P 3075 2750
+AR Path="/5F74F36B/5F8236F9/5F98E12D" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F8222BE/5F98E12D" Ref="R?"  Part="1" 
+AR Path="/5F74F36B/5F971CD6/5F98E12D" Ref="R33"  Part="1" 
+AR Path="/5F74F36B/5FB68F3E/5F98E12D" Ref="R?"  Part="1" 
+F 0 "R33" V 2995 2750 50  0000 C CNN
+F 1 "20m" V 3075 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 3005 2750 50  0001 C CNN
+F 3 "~" H 3075 2750 50  0001 C CNN
+	1    3075 2750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
