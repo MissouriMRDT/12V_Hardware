@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name PowerBoard_Hardware)(type KiCad)(uri C:/Users/alexm/Documents/GitHub/12Volt_Hardware/Libraries/Packages/PowerBoard_Hardware.pretty)(options "")(descr ""))
+  (lib (name MRDT_12VoltBoard)(type KiCad)(uri ${KIPRJMOD}/MRDT_12VoltBoard.pretty)(options "")(descr "")(disabled))
+  (lib (name Name)(type KiCad)(uri /Users/logandietz/Documents/GitHub/12Volt_Hardware/Libraries/Packages/Name.pretty)(options "")(descr ""))
 )
