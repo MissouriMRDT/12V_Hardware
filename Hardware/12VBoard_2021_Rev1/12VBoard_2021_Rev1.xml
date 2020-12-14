@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Alisa\Documents\GitHub\12Volt_Hardware\Hardware\12VBoard_2021_Rev1\12VBoard_2021_Rev1.sch</source>
+    <date>12/14/2020 12:54:45 PM</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>12VBoard_2021_Rev1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Pack Power/" tstamps="/5F8031F1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Pack Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Tiva In/Outputs/" tstamps="/5F74F4A3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Tiva.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Low Current Outputs/" tstamps="/5F74F223/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Low Current Outputs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/High Current Outputs/" tstamps="/5F74F36B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>High Current Outputs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AuxMount.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Gimbal.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MultimediaExtra.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Pack Power/" tstamps="/5F8031F1/"/>
+      <tstamp>5F9524D1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Pack Power/" tstamps="/5F8031F1/"/>
+      <tstamp>5F9524DD</tstamp>
+    </comp>
+    <comp ref="Conn3">
+      <value>PackVoltage</value>
+      <footprint>MRDT_Connectors:Anderson_2_Horizontal_Stacked</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/Pack Power/" tstamps="/5F8031F1/"/>
+      <tstamp>5F803341</tstamp>
+    </comp>
+    <comp ref="Conn1">
+      <value>Molex_SL_10</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_10_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_10" description=""/>
+      <sheetpath names="/Tiva In/Outputs/" tstamps="/5F74F4A3/"/>
+      <tstamp>5FB5A813</tstamp>
+    </comp>
+    <comp ref="Conn2">
+      <value>Molex_SL_05</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_05_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_05" description=""/>
+      <sheetpath names="/Tiva In/Outputs/" tstamps="/5F74F4A3/"/>
+      <tstamp>5FD25AC5</tstamp>
+    </comp>
+    <comp ref="Conn4">
+      <value>ExtraL3</value>
+      <footprint>MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FA336BA</tstamp>
+    </comp>
+    <comp ref="Conn7">
+      <value>ExtraL1</value>
+      <footprint>MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FA3FC00</tstamp>
+    </comp>
+    <comp ref="Conn6">
+      <value>NavBoard</value>
+      <footprint>MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FA4C0A0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FAA0D2F</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FAA0D3B</tstamp>
+    </comp>
+    <comp ref="Conn8">
+      <value>ExtraL2</value>
+      <footprint>MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FA71814</tstamp>
+    </comp>
+    <comp ref="Conn15">
+      <value>Drive</value>
+      <footprint>MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FADFB24</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FB780B6</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>OKI</value>
+      <footprint>MRDT_Devices:OKI_Horizontal</footprint>
+      <libsource lib="MRDT_Devices" part="OKI" description="DC/DC Buck Converter"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FB780CB</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FBCA5A3</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FBCBA76</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FC98509</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FC9850F</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FC98515</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>IRLML2060</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML2060" description="1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FC9852D</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FC98546</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FC9854C</tstamp>
+    </comp>
+    <comp ref="Conn5">
+      <value>Camera</value>
+      <footprint>MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FA4C09A</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDA95B8</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDA95BE</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDA95C4</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>IRLML2060</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML2060" description="1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDA95DC</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDA95F0</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDA95F6</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB0B2B</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB0B31</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>IRLML2060</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML2060" description="1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB0B49</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB0B5D</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB0B63</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB8A9A</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB8AA0</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB8AA6</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>IRLML2060</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML2060" description="1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB8ABE</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB8AD2</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB8AD8</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF14AD2</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF14AD8</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF203D5</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF203DB</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF389F0</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF389F6</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF44F66</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF44F6C</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF51C8D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FF51C93</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDB0B25</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.5x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5F8C9CF2</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>INA198</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA198" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5F8C9CE1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20m</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5F8C9CDB</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FB780BD</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>5A</value>
+      <footprint>MRDT_Passives:ATC_Fuse_Block</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/Low Current Outputs/" tstamps="/5F74F223/"/>
+      <tstamp>5FDF8F86</tstamp>
+    </comp>
+    <comp ref="Conn10">
+      <value>AuxMount</value>
+      <footprint>MRDT_Connectors:Anderson_3_Vertical_Side_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/High Current Outputs/" tstamps="/5F74F36B/"/>
+      <tstamp>5F9C014B</tstamp>
+    </comp>
+    <comp ref="Conn11">
+      <value>Multimedia</value>
+      <footprint>MRDT_Connectors:Anderson_3_Vertical_Side_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/High Current Outputs/" tstamps="/5F74F36B/"/>
+      <tstamp>5F9C7716</tstamp>
+    </comp>
+    <comp ref="Conn12">
+      <value>Extra</value>
+      <footprint>MRDT_Connectors:Anderson_3_Vertical_Side_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/High Current Outputs/" tstamps="/5F74F36B/"/>
+      <tstamp>5F9CF0E4</tstamp>
+    </comp>
+    <comp ref="Conn9">
+      <value>Gimbal</value>
+      <footprint>MRDT_Connectors:Anderson_3_Vertical_Side_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/High Current Outputs/" tstamps="/5F74F36B/"/>
+      <tstamp>5F978C0F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>330uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/High Current Outputs/" tstamps="/5F74F36B/"/>
+      <tstamp>6056D755</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>Q36SR12020NRFA</value>
+      <footprint>MRDT_Actives:Q36SR12020NRFA</footprint>
+      <libsource lib="MRDT_Devices" part="Q36SR12020NRFA" description="DC-DC Converter"/>
+      <sheetpath names="/High Current Outputs/" tstamps="/5F74F36B/"/>
+      <tstamp>60547610</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC2DAD4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC2DADA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC2DAE0</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRLML2060</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML2060" description="1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC2DB00</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC2DB1B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC2DB21</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87E03</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87E0F</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>INA198</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA198" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87E1B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>20m</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87E21</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.5x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87E3A</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87E95</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87E9B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87EA1</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87EBF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87EC5</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>FDS66900AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="12VBoard_2021_Rev1-rescue" part="FDS66900AS-12VBoard_2021_Rev1" description=""/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87ED0</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>5A</value>
+      <footprint>MRDT_Passives:ATC_Fuse_Block</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FC87EF1</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FD5DF25</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/High Current Outputs/AuxMount/" tstamps="/5F74F36B/5F8222BE/"/>
+      <tstamp>5FD5DF31</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>INA198</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA198" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5F98E127</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.5x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5F98E14A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FB66D16</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FB6822F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FB68B8A</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>IRLML2060</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML2060" description="1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FBAA855</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FBAFD11</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FB98709</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>605C691C</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>605C6922</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>605C6928</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>605C6959</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>605C695F</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>FDS66900AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="12VBoard_2021_Rev1-rescue" part="FDS66900AS-12VBoard_2021_Rev1" description=""/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>60619542</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>5A</value>
+      <footprint>MRDT_Passives:ATC_Fuse_Block</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5F989694</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FD693BE</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5FD693CA</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5F9896A7</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5F98969B</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>20m</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Gimbal/" tstamps="/5F74F36B/5F971CD6/"/>
+      <tstamp>5F98E12D</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5F955B34</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5F955B40</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>INA198</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA198" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5F990116</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>20m</value>
+      <footprint>Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5F9917B8</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>5A</value>
+      <footprint>MRDT_Passives:ATC_Fuse_Block</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5F92ED48</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.5x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5F8CA23D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FC479FB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FC47A01</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FC47A07</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>IRLML2060</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML2060" description="1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FC47A27</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FC47A42</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FC47A48</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>LT1910</value>
+      <footprint>Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="MRDT_ICs" part="LT1910" description="Gate Driver"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD04938</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD0493E</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD04944</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>0.01</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD04962</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD04968</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>FDS66900AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="12VBoard_2021_Rev1-rescue" part="FDS66900AS-12VBoard_2021_Rev1" description=""/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD04973</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD64208</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/High Current Outputs/Multimedia/Extra/" tstamps="/5F74F36B/5F8236F9/"/>
+      <tstamp>5FD64214</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="12VBoard_2021_Rev1-rescue" part="FDS66900AS-12VBoard_2021_Rev1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FDS66900AS-12VBoard_2021_Rev1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Source" type="input"/>
+        <pin num="2" name="Source" type="input"/>
+        <pin num="3" name="Source" type="input"/>
+        <pin num="4" name="Gate" type="input"/>
+        <pin num="5" name="Drain" type="output"/>
+        <pin num="6" name="Drain" type="output"/>
+        <pin num="7" name="Drain" type="output"/>
+        <pin num="8" name="Drain" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Current" part="INA196">
+      <aliases>
+        <alias>INA197</alias>
+        <alias>INA198</alias>
+      </aliases>
+      <description>Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina193.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA196</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="V+" type="power_in"/>
+        <pin num="4" name="+" type="input"/>
+        <pin num="5" name="-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1_Small">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="AndersonPP">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">AndersonPP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="V+Log" type="input"/>
+        <pin num="3" name="V+Act" type="input"/>
+        <pin num="4" name="PV+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_05">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_10">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Devices" part="OKI">
+      <description>DC/DC Buck Converter</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OKI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vi" type="input"/>
+        <pin num="2" name="GND" type="output"/>
+        <pin num="3" name="Vo" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Devices" part="Q36SR12020NRFA">
+      <description>DC-DC Converter</description>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">Q36SR12020NRFA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN" type="input"/>
+        <pin num="2" name="REMOTE" type="input"/>
+        <pin num="3" name="-VIN" type="input"/>
+        <pin num="4" name="-VOUT" type="output"/>
+        <pin num="5" name="SENSE(-)" type="output"/>
+        <pin num="6" name="TRIM" type="output"/>
+        <pin num="7" name="SENSE(+)" type="output"/>
+        <pin num="8" name="+VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_ICs" part="LT1910">
+      <description>Gate Driver</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1910</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="TIMER" type="passive"/>
+        <pin num="3" name="FAULT" type="passive"/>
+        <pin num="4" name="IN" type="passive"/>
+        <pin num="5" name="GATE" type="passive"/>
+        <pin num="6" name="SENSE" type="passive"/>
+        <pin num="8" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="12VBoard_2021_Rev1-rescue">
+      <uri>C:\Users\Alisa\Documents\GitHub\12Volt_Hardware\Hardware\12VBoard_2021_Rev1/12VBoard_2021_Rev1-rescue.lib</uri>
+    </library>
+    <library logical="Amplifier_Current">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Current.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MRDT_Connectors">
+      <uri>C:/Users/Alisa/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.lib</uri>
+    </library>
+    <library logical="MRDT_Devices">
+      <uri>C:/Users/Alisa/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.lib</uri>
+    </library>
+    <library logical="MRDT_ICs">
+      <uri>C:/Users/Alisa/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_ICs.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/High Current Outputs/12VActuation">
+      <node ref="U13" pin="4"/>
+      <node ref="U8" pin="4"/>
+      <node ref="R33" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="VR1" pin="8"/>
+      <node ref="VR1" pin="7"/>
+    </net>
+    <net code="2" name="/Low Current Outputs/CameraCTL">
+      <node ref="Conn1" pin="8"/>
+      <node ref="U15" pin="4"/>
+    </net>
+    <net code="3" name="/High Current Outputs/PackVoltage">
+      <node ref="VR1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Conn3" pin="4"/>
+    </net>
+    <net code="4" name="/High Current Outputs/GimbalSense">
+      <node ref="U13" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="Conn2" pin="3"/>
+    </net>
+    <net code="5" name="/High Current Outputs/AuxMountSense">
+      <node ref="U10" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="Conn2" pin="2"/>
+    </net>
+    <net code="6" name="/High Current Outputs/MultimediaSense">
+      <node ref="Conn2" pin="1"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="7" name="/High Current Outputs/GimbalCTL_Log">
+      <node ref="U3" pin="4"/>
+      <node ref="Conn1" pin="5"/>
+    </net>
+    <net code="8" name="/High Current Outputs/BuckCTL">
+      <node ref="VR1" pin="2"/>
+      <node ref="Conn2" pin="5"/>
+    </net>
+    <net code="9" name="/High Current Outputs/12VLogic">
+      <node ref="C7" pin="1"/>
+      <node ref="U16" pin="8"/>
+      <node ref="C47" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="U14" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C45" pin="1"/>
+      <node ref="Conn8" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="Conn4" pin="2"/>
+      <node ref="U17" pin="8"/>
+      <node ref="C49" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U15" pin="8"/>
+      <node ref="R48" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="F2" pin="2"/>
+    </net>
+    <net code="10" name="/High Current Outputs/GimbalCTL_Act">
+      <node ref="Conn1" pin="6"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="11" name="/High Current Outputs/AuxMountCTL_Act">
+      <node ref="Conn1" pin="4"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="12" name="/High Current Outputs/AuxMountCTL_Log">
+      <node ref="U1" pin="4"/>
+      <node ref="Conn1" pin="3"/>
+    </net>
+    <net code="13" name="/Low Current Outputs/DriveCTL">
+      <node ref="U14" pin="4"/>
+      <node ref="Conn1" pin="10"/>
+    </net>
+    <net code="14" name="/Low Current Outputs/ExtraCTL">
+      <node ref="Conn1" pin="9"/>
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="15" name="/Tiva In/Outputs/NavBoardCTL">
+      <node ref="U16" pin="4"/>
+      <node ref="Conn1" pin="7"/>
+    </net>
+    <net code="16" name="/Low Current Outputs/CurrentSense">
+      <node ref="U2" pin="1"/>
+      <node ref="Conn2" pin="4"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="17" name="/High Current Outputs/MultimediaCTL_Act">
+      <node ref="U19" pin="4"/>
+      <node ref="Conn1" pin="2"/>
+    </net>
+    <net code="18" name="/High Current Outputs/MultiMediaCTL_Log">
+      <node ref="U5" pin="4"/>
+      <node ref="Conn1" pin="1"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="R9" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="20" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="21" name="Net-(Conn7-Pad2)">
+      <node ref="R47" pin="1"/>
+      <node ref="Conn7" pin="2"/>
+      <node ref="Q13" pin="2"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="Conn9" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U19" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="D16" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Conn3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="Conn4" pin="1"/>
+      <node ref="Conn5" pin="1"/>
+      <node ref="Conn15" pin="1"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="Conn7" pin="1"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="U16" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="Conn6" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="Conn8" pin="1"/>
+      <node ref="VR1" pin="4"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="Conn12" pin="1"/>
+      <node ref="U14" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="VR1" pin="3"/>
+      <node ref="Conn10" pin="1"/>
+      <node ref="VR1" pin="5"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="Conn11" pin="1"/>
+      <node ref="U17" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D11-Pad2)">
+      <node ref="R48" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C50-Pad1)">
+      <node ref="U17" pin="2"/>
+      <node ref="C50" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q13-Pad1)">
+      <node ref="U17" pin="5"/>
+      <node ref="Q13" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R46-Pad1)">
+      <node ref="U17" pin="3"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="27" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1"/>
+      <node ref="U15" pin="5"/>
+    </net>
+    <net code="28" name="Net-(Q11-Pad3)">
+      <node ref="Q11" pin="3"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U15" pin="6"/>
+    </net>
+    <net code="29" name="Net-(Q13-Pad3)">
+      <node ref="Q13" pin="3"/>
+      <node ref="U17" pin="6"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="30" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="31" name="Net-(R40-Pad1)">
+      <node ref="U15" pin="3"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="33" name="Net-(Conn15-Pad2)">
+      <node ref="Conn15" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="35" name="Net-(Conn5-Pad2)">
+      <node ref="R41" pin="1"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Conn5" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="37" name="Net-(Conn6-Pad2)">
+      <node ref="Conn6" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="Q12" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D8-Pad2)">
+      <node ref="R44" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="39" name="Net-(C48-Pad1)">
+      <node ref="U16" pin="2"/>
+      <node ref="C48" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R43-Pad1)">
+      <node ref="U16" pin="3"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1"/>
+      <node ref="U16" pin="5"/>
+    </net>
+    <net code="42" name="Net-(Q12-Pad3)">
+      <node ref="Q12" pin="3"/>
+      <node ref="U16" pin="6"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="44" name="Net-(Q10-Pad3)">
+      <node ref="R36" pin="2"/>
+      <node ref="U14" pin="6"/>
+      <node ref="Q10" pin="3"/>
+    </net>
+    <net code="45" name="Net-(Q10-Pad1)">
+      <node ref="U14" pin="5"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R37-Pad1)">
+      <node ref="U14" pin="3"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="47" name="Net-(C44-Pad1)">
+      <node ref="U14" pin="2"/>
+      <node ref="C44" pin="1"/>
+    </net>
+    <net code="48" name="Net-(C46-Pad1)">
+      <node ref="U15" pin="2"/>
+      <node ref="C46" pin="1"/>
+    </net>
+    <net code="49" name="/High Current Outputs/AuxMount/12VLogicAuxMount">
+      <node ref="Conn10" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="50" name="/High Current Outputs/Gimbal/12V5AGimbal">
+      <node ref="U18" pin="5"/>
+      <node ref="R34" pin="1"/>
+      <node ref="U18" pin="6"/>
+      <node ref="U18" pin="7"/>
+      <node ref="U18" pin="8"/>
+      <node ref="Conn9" pin="3"/>
+    </net>
+    <net code="51" name="/High Current Outputs/Gimbal/12VLogicGimbal">
+      <node ref="R22" pin="1"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Conn9" pin="2"/>
+    </net>
+    <net code="52" name="Net-(VR1-Pad6)">
+      <node ref="VR1" pin="6"/>
+    </net>
+    <net code="53" name="/High Current Outputs/Multimedia/Extra/12V5AMultiMedia">
+      <node ref="Conn11" pin="3"/>
+      <node ref="U20" pin="6"/>
+      <node ref="Conn12" pin="3"/>
+      <node ref="U20" pin="5"/>
+      <node ref="U20" pin="8"/>
+      <node ref="U20" pin="7"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="54" name="/High Current Outputs/AuxMount/12V10AAuxMount">
+      <node ref="U11" pin="6"/>
+      <node ref="U11" pin="8"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U11" pin="5"/>
+      <node ref="Conn10" pin="3"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="55" name="/High Current Outputs/Multimedia/Extra/12VLogicMultiMedia">
+      <node ref="Q9" pin="2"/>
+      <node ref="Conn11" pin="2"/>
+      <node ref="Conn12" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="57" name="/High Current Outputs/AuxMount/12V5AON">
+      <node ref="U7" pin="8"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="58" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="59" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R11-Pad2)">
+      <node ref="U11" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="61" name="Net-(U11-Pad4)">
+      <node ref="U11" pin="4"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="62" name="/High Current Outputs/AuxMount/12V5AON">
+      <node ref="F4" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D13-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="67" name="Net-(Q3-Pad3)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="68" name="Net-(F4-Pad2)">
+      <node ref="U10" pin="5"/>
+      <node ref="F4" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="70" name="Net-(R15-Pad1)">
+      <node ref="U5" pin="3"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="71" name="Net-(C6-Pad1)">
+      <node ref="U5" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="72" name="Net-(Q9-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="73" name="Net-(Q9-Pad3)">
+      <node ref="U5" pin="6"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D14-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="75" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="76" name="/High Current Outputs/Multimedia/Extra/12V5AON">
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="77" name="Net-(U19-Pad5)">
+      <node ref="U20" pin="4"/>
+      <node ref="U19" pin="5"/>
+    </net>
+    <net code="78" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="79" name="Net-(C17-Pad1)">
+      <node ref="U19" pin="2"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="80" name="Net-(R20-Pad2)">
+      <node ref="U20" pin="3"/>
+      <node ref="U19" pin="6"/>
+      <node ref="U20" pin="1"/>
+      <node ref="U20" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="81" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="U19" pin="3"/>
+    </net>
+    <net code="82" name="/High Current Outputs/Multimedia/Extra/12V5AON">
+      <node ref="U19" pin="8"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="83" name="Net-(Q8-Pad3)">
+      <node ref="R7" pin="2"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="84" name="Net-(R6-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="85" name="Net-(C3-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="86" name="Net-(U12-Pad5)">
+      <node ref="U18" pin="4"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="87" name="Net-(R13-Pad1)">
+      <node ref="U12" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="88" name="Net-(Q8-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="89" name="Net-(F3-Pad2)">
+      <node ref="U13" pin="5"/>
+      <node ref="R33" pin="1"/>
+      <node ref="F3" pin="2"/>
+    </net>
+    <net code="90" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="91" name="/High Current Outputs/Gimbal/12V5AON">
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="92" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D15-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="94" name="/High Current Outputs/Gimbal/12V5AON">
+      <node ref="C16" pin="1"/>
+      <node ref="U12" pin="8"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="95" name="Net-(R17-Pad2)">
+      <node ref="U18" pin="1"/>
+      <node ref="U18" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U12" pin="6"/>
+    </net>
+  </nets>
+</export>
