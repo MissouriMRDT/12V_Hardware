@@ -315,19 +315,6 @@ Text HLabel 6925 5100 2    50   Input ~ 0
 Text HLabel 4125 4525 0    50   Input ~ 0
 MultimediaCTL_Act
 $Comp
-L MRDT_ICs:LT1910 U?
-U 1 1 5FD04938
-P 4425 4775
-AR Path="/5F74F36B/5F971CD6/5FD04938" Ref="U?"  Part="1" 
-AR Path="/5F74F36B/5F8236F9/5FD04938" Ref="U19"  Part="1" 
-F 0 "U19" H 4800 5462 60  0000 C CNN
-F 1 "LT1910" H 4800 5356 60  0000 C CNN
-F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 4425 4775 60  0001 C CNN
-F 3 "" H 4425 4775 60  0001 C CNN
-	1    4425 4775
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 5FD0493E
 P 4150 4850
@@ -447,12 +434,8 @@ F 1 "FDS66900AS" H 6375 5149 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6425 4975 50  0001 C CNN
 F 3 "" H 6425 4975 50  0001 C CNN
 	1    6375 4825
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5375 4675 5925 4675
-Wire Wire Line
-	5625 4525 5625 4775
 Wire Wire Line
 	5625 4975 5925 4975
 Connection ~ 5625 4525
@@ -471,15 +454,8 @@ Wire Wire Line
 Wire Wire Line
 	6900 4675 6900 4775
 Wire Wire Line
-	6825 4975 6900 4975
-Connection ~ 6900 4975
-Wire Wire Line
-	6900 4975 6900 5100
-Wire Wire Line
 	6825 4875 6900 4875
 Connection ~ 6900 4875
-Wire Wire Line
-	6900 4875 6900 4975
 Wire Wire Line
 	6825 4775 6900 4775
 Connection ~ 6900 4775
@@ -552,4 +528,40 @@ Connection ~ 7500 1800
 Connection ~ 6900 5100
 Wire Wire Line
 	3050 5500 3250 5500
+Wire Wire Line
+	6900 4875 6900 5100
+Wire Wire Line
+	5625 4525 5625 4675
+Wire Wire Line
+	5625 4675 5925 4675
+Connection ~ 5625 4675
+Wire Wire Line
+	5625 4675 5625 4775
+Wire Wire Line
+	5540 4675 5540 4595
+Wire Wire Line
+	5540 4595 5905 4595
+Wire Wire Line
+	5905 4595 5905 4535
+Wire Wire Line
+	5905 4535 6945 4535
+Wire Wire Line
+	6945 4535 6945 4975
+Wire Wire Line
+	6945 4975 6825 4975
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 5FD04938
+P 4425 4775
+AR Path="/5F74F36B/5F971CD6/5FD04938" Ref="U?"  Part="1" 
+AR Path="/5F74F36B/5F8236F9/5FD04938" Ref="U19"  Part="1" 
+F 0 "U19" H 4800 5462 60  0000 C CNN
+F 1 "LT1910" H 4800 5356 60  0000 C CNN
+F 2 "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" H 4425 4775 60  0001 C CNN
+F 3 "" H 4425 4775 60  0001 C CNN
+	1    4425 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5540 4675 5375 4675
 $EndSCHEMATC

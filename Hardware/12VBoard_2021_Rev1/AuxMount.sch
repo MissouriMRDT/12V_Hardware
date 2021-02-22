@@ -455,12 +455,8 @@ F 1 "FDS66900AS" H 3925 2199 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3975 2025 50  0001 C CNN
 F 3 "" H 3975 2025 50  0001 C CNN
 	1    3925 1875
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2925 1725 3475 1725
-Wire Wire Line
-	3175 1575 3175 1825
 Wire Wire Line
 	3175 2025 3475 2025
 Connection ~ 3175 1575
@@ -479,15 +475,8 @@ Wire Wire Line
 Wire Wire Line
 	4450 1725 4450 1825
 Wire Wire Line
-	4375 2025 4450 2025
-Connection ~ 4450 2025
-Wire Wire Line
-	4450 2025 4450 2150
-Wire Wire Line
 	4375 1925 4450 1925
 Connection ~ 4450 1925
-Wire Wire Line
-	4450 1925 4450 2025
 Wire Wire Line
 	4375 1825 4450 1825
 Connection ~ 4450 1825
@@ -572,4 +561,27 @@ Connection ~ 7675 1850
 Connection ~ 4450 2150
 Wire Wire Line
 	3850 4675 4300 4675
+Wire Wire Line
+	4450 1925 4450 2150
+Wire Wire Line
+	3475 1725 3175 1725
+Wire Wire Line
+	3175 1575 3175 1725
+Connection ~ 3175 1725
+Wire Wire Line
+	3175 1725 3175 1825
+Wire Wire Line
+	4375 2025 4605 2025
+Wire Wire Line
+	4605 2025 4605 1605
+Wire Wire Line
+	4605 1605 3265 1605
+Wire Wire Line
+	3265 1605 3265 1680
+Wire Wire Line
+	3265 1680 3090 1680
+Wire Wire Line
+	3090 1680 3090 1725
+Wire Wire Line
+	3090 1725 2925 1725
 $EndSCHEMATC

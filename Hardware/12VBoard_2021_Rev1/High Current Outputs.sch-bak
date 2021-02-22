@@ -392,8 +392,6 @@ Wire Wire Line
 	1750 7200 1750 7150
 Wire Wire Line
 	1850 7150 1750 7150
-Wire Wire Line
-	1850 7000 1750 7000
 NoConn ~ 3000 7000
 Wire Wire Line
 	3000 7100 3100 7100
@@ -514,6 +512,9 @@ Wire Wire Line
 Connection ~ 5730 5620
 Wire Wire Line
 	3325 6850 4050 6850
-Text HLabel 1750 7000 0    79   Input ~ 16
-BuckCTL
+Wire Wire Line
+	1850 7000 1750 7000
+Wire Wire Line
+	1750 7000 1750 7150
+Connection ~ 1750 7150
 $EndSCHEMATC

@@ -78,7 +78,7 @@ U 1 1 5F803341
 P 4940 2580
 F 0 "Conn3" H 5148 2967 60  0000 C CNN
 F 1 "PackVoltage" H 5148 2861 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4790 2030 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4790 2030 60  0001 C CNN
 F 3 "" H 4790 2030 60  0001 C CNN
 	1    4940 2580
 	1    0    0    -1  
@@ -89,7 +89,7 @@ U 4 1 5F8CAA91
 P 4950 3050
 F 0 "Conn3" H 5158 3437 60  0000 C CNN
 F 1 "PackVoltage" H 5158 3331 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 4800 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 4800 2500 60  0001 C CNN
 F 3 "" H 4800 2500 60  0001 C CNN
 	4    4950 3050
 	1    0    0    -1  
