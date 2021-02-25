@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -61,14 +61,10 @@ F5 "ExtraCTL" O L 5000 2625 79
 F6 "DriveCTL" O L 5000 2375 79 
 F7 "MultiMediaCTL_Log" O R 7000 2750 79 
 F8 "MultimediaCTL_Act" O R 7000 2850 79 
-F9 "AuxMountCTL_Log" O R 7000 2950 79 
-F10 "AuxMountCTL_Act" O R 7000 3050 79 
-F11 "GimbalCTL_Log" O R 7000 3150 79 
-F12 "GimbalCTL_Act" O R 7000 3250 79 
-F13 "MultimediaSense" I R 7000 3350 79 
-F14 "AuxMountSense" I R 7000 3450 79 
-F15 "GimbalSense" I R 7000 3550 79 
-F16 "BuckCTL" O R 7000 2675 50 
+F9 "GimbalCTL_Log" O R 7000 3150 79 
+F10 "GimbalCTL_Act" O R 7000 3250 79 
+F11 "MultimediaSense" I R 7000 3350 79 
+F12 "GimbalSense" I R 7000 3550 79 
 $EndSheet
 Wire Wire Line
 	4525 4525 7525 4525
@@ -83,17 +79,11 @@ Wire Wire Line
 Wire Wire Line
 	7000 2750 8000 2750
 Wire Wire Line
-	7000 2950 8000 2950
-Wire Wire Line
-	7000 3050 8000 3050
-Wire Wire Line
 	7000 3150 8000 3150
 Wire Wire Line
 	7000 3250 8000 3250
 Wire Wire Line
 	7000 3350 8000 3350
-Wire Wire Line
-	7000 3450 8000 3450
 Wire Wire Line
 	7000 3550 8000 3550
 $Sheet
@@ -140,17 +130,11 @@ F2 "PackVoltage" I L 8000 3900 79
 F3 "5V" I L 8000 3800 79 
 F4 "MultiMediaCTL_Log" I L 8000 2750 79 
 F5 "MultimediaCTL_Act" I L 8000 2850 79 
-F6 "AuxMountCTL_Log" I L 8000 2950 79 
-F7 "AuxMountCTL_Act" I L 8000 3050 79 
-F8 "GimbalCTL_Log" I L 8000 3150 79 
-F9 "GimbalCTL_Act" I L 8000 3250 79 
-F10 "MultimediaSense" O L 8000 3350 79 
-F11 "AuxMountSense" O L 8000 3450 79 
-F12 "GimbalSense" O L 8000 3550 79 
-F13 "12VLogic" I L 8000 3720 50 
-F14 "12VActuation" O L 8000 3655 50 
-F15 "BuckCTL" I L 8000 2675 50 
+F6 "GimbalCTL_Log" I L 8000 3150 79 
+F7 "GimbalCTL_Act" I L 8000 3250 79 
+F8 "MultimediaSense" O L 8000 3350 79 
+F9 "GimbalSense" O L 8000 3550 79 
+F10 "12VLogic" I L 8000 3720 50 
+F11 "12VActuation" O L 8000 3655 50 
 $EndSheet
-Wire Wire Line
-	7000 2675 8000 2675
 $EndSCHEMATC

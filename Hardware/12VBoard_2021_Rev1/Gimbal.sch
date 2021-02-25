@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -69,22 +69,6 @@ Wire Wire Line
 	3075 3800 3075 3900
 Wire Wire Line
 	3075 3900 3125 3900
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5F98E14A
-P 2925 3900
-AR Path="/5F74F36B/5F971CD6/5F98E14A" Ref="TP7"  Part="1" 
-AR Path="/5F74F36B/5FB68F3E/5F98E14A" Ref="TP?"  Part="1" 
-F 0 "TP7" V 2983 4018 50  0000 L CNN
-F 1 "TestPoint" V 2825 3900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3125 3900 50  0001 C CNN
-F 3 "~" H 3125 3900 50  0001 C CNN
-	1    2925 3900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3075 3900 2925 3900
-Connection ~ 3075 3900
 Wire Wire Line
 	3625 2750 3225 2750
 Connection ~ 3225 2750

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -1028,53 +1028,6 @@ Wire Wire Line
 	8675 1250 8675 4750
 $Comp
 L Device:R R?
-U 1 1 5FF14AD2
-P 8075 1550
-AR Path="/5F74F36B/5F821EB2/5FF14AD2" Ref="R?"  Part="1" 
-AR Path="/5F74F223/5FF14AD2" Ref="R48"  Part="1" 
-F 0 "R48" H 8145 1596 50  0000 L CNN
-F 1 "1.2k" H 8145 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8005 1550 50  0001 C CNN
-F 3 "~" H 8075 1550 50  0001 C CNN
-	1    8075 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5FF14AD8
-P 8075 1950
-AR Path="/5F74F36B/5F821EB2/5FF14AD8" Ref="D?"  Part="1" 
-AR Path="/5F74F223/5FF14AD8" Ref="D11"  Part="1" 
-F 0 "D11" V 8114 1833 50  0000 R CNN
-F 1 "LED" V 8023 1833 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8075 1950 50  0001 C CNN
-F 3 "~" H 8075 1950 50  0001 C CNN
-	1    8075 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8075 2200 8075 2100
-Wire Wire Line
-	8075 1800 8075 1700
-Text Notes 8125 1850 0    50   ~ 0
-Green
-Wire Wire Line
-	8075 1400 8075 1200
-$Comp
-L power:GND #PWR?
-U 1 1 5FF14AE2
-P 8075 2200
-AR Path="/5F74F36B/5F821EB2/5FF14AE2" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F223/5FF14AE2" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 8075 1950 50  0001 C CNN
-F 1 "GND" H 8080 2027 50  0000 C CNN
-F 2 "" H 8075 2200 50  0001 C CNN
-F 3 "" H 8075 2200 50  0001 C CNN
-	1    8075 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 5FF203D5
 P 7625 1725
 AR Path="/5F74F36B/5F821EB2/5FF203D5" Ref="R?"  Part="1" 
@@ -1277,9 +1230,6 @@ Wire Wire Line
 Wire Wire Line
 	7625 1375 7475 1375
 Connection ~ 7475 1375
-Wire Wire Line
-	8075 1200 7925 1200
-Connection ~ 7925 1200
 Text HLabel 3475 4100 3    50   Input ~ 0
 DriveCTL
 Text HLabel 4675 4100 3    50   Input ~ 0
@@ -1406,20 +1356,6 @@ Wire Wire Line
 	1595 7500 1145 7500
 Wire Wire Line
 	1145 7500 1145 7575
-Connection ~ 1595 7500
-Wire Wire Line
-	1595 7500 1595 7600
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5F8C9CF2
-P 1595 7600
-F 0 "TP4" H 1653 7718 50  0000 L CNN
-F 1 "TestPoint" H 1653 7627 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 1795 7600 50  0001 C CNN
-F 3 "~" H 1795 7600 50  0001 C CNN
-	1    1595 7600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1595 7500 1595 7400
 Text HLabel 1145 7575 0    50   Output ~ 0

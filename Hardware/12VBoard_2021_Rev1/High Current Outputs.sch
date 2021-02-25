@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -13,55 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5F9C014B
-P 7925 2375
-AR Path="/5F74F36B/5F821EB2/5F9C014B" Ref="Conn?"  Part="1" 
-AR Path="/5F74F36B/5F9C014B" Ref="Conn10"  Part="1" 
-F 0 "Conn10" H 7897 2422 60  0000 R CNN
-F 1 "AuxMount" H 7897 2528 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7775 1825 60  0001 C CNN
-F 3 "" H 7775 1825 60  0001 C CNN
-	1    7925 2375
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 3 1 5F9C0151
-P 7925 2125
-AR Path="/5F74F36B/5F821EB2/5F9C0151" Ref="Conn?"  Part="2" 
-AR Path="/5F74F36B/5F9C0151" Ref="Conn10"  Part="3" 
-F 0 "Conn10" H 7897 2172 60  0000 R CNN
-F 1 "AuxMount" H 7897 2278 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7775 1575 60  0001 C CNN
-F 3 "" H 7775 1575 60  0001 C CNN
-	3    7925 2125
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F9C0157
-P 7475 2525
-AR Path="/5F74F36B/5F821EB2/5F9C0157" Ref="#PWR?"  Part="1" 
-AR Path="/5F74F36B/5F9C0157" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 7475 2275 50  0001 C CNN
-F 1 "GND" H 7480 2352 50  0000 C CNN
-F 2 "" H 7475 2525 50  0001 C CNN
-F 3 "" H 7475 2525 50  0001 C CNN
-	1    7475 2525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7525 2475 7475 2475
-Wire Wire Line
-	7475 2475 7475 2525
-Wire Wire Line
-	7275 3675 7375 3675
-Wire Wire Line
-	7375 3675 7375 2225
-Wire Wire Line
-	7375 2225 7525 2225
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F9C7716
@@ -208,10 +159,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 3625 9475 3625
 Wire Wire Line
-	7275 3600 7350 3600
-Wire Wire Line
-	7350 3600 7350 1975
-Wire Wire Line
 	4925 3600 5000 3600
 Wire Wire Line
 	5000 3600 5000 1975
@@ -228,19 +175,6 @@ F 3 "" H 5425 1325 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 1975 5175 1975
-$Comp
-L MRDT_Connectors:AndersonPP Conn10
-U 2 1 5FB53487
-P 7925 1875
-F 0 "Conn10" H 7897 1922 60  0000 R CNN
-F 1 "AuxMount" H 7897 2028 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7775 1325 60  0001 C CNN
-F 3 "" H 7775 1325 60  0001 C CNN
-	2    7925 1875
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7350 1975 7525 1975
 $Comp
 L MRDT_Connectors:AndersonPP Conn11
 U 2 1 5FB56BDF
@@ -273,20 +207,6 @@ Wire Wire Line
 Wire Wire Line
 	9475 2000 9475 2950
 $Sheet
-S 6025 3525 1250 1450
-U 5F8222BE
-F0 "AuxMount" 50
-F1 "AuxMount.sch" 50
-F2 "12V10AAuxMount" O R 7275 3675 50 
-F3 "AuxMountCTL_Act" I R 7275 3825 50 
-F4 "AuxMountSense" O R 7275 3900 50 
-F5 "5V" I L 6025 4800 49 
-F6 "12VLogicAuxMount" O R 7275 3600 50 
-F7 "12VActuation" I L 6025 4875 50 
-F8 "AuxMountCTL_Log" I R 7275 3750 50 
-F9 "12VLogic" I L 6025 4710 50 
-$EndSheet
-$Sheet
 S 3825 3525 1100 1450
 U 5F971CD6
 F0 "Gimbal" 50
@@ -309,17 +229,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 4825 8150 4825
 Wire Wire Line
-	6025 4875 5925 4875
-Wire Wire Line
-	5925 4875 5925 5275
-Wire Wire Line
-	6025 4800 5850 4800
-Wire Wire Line
-	5850 4800 5850 5475
-Connection ~ 5850 5475
-Wire Wire Line
-	5850 5475 8000 5475
-Wire Wire Line
 	1825 5475 3675 5475
 Wire Wire Line
 	3825 4875 3750 4875
@@ -331,8 +240,6 @@ Wire Wire Line
 	3675 4800 3675 5475
 Connection ~ 3675 5475
 Wire Wire Line
-	3675 5475 5850 5475
-Wire Wire Line
 	9500 3200 9750 3200
 Connection ~ 9500 3200
 Wire Wire Line
@@ -343,12 +250,6 @@ Text HLabel 5125 3825 2    50   Input ~ 0
 GimbalCTL_Act
 Text HLabel 5125 3900 2    50   Output ~ 0
 GimbalSense
-Text HLabel 7425 3750 2    50   Input ~ 0
-AuxMountCTL_Log
-Text HLabel 7425 3825 2    50   Input ~ 0
-AuxMountCTL_Act
-Text HLabel 7425 3900 2    50   Output ~ 0
-AuxMountSense
 Text HLabel 9575 3850 2    50   Input ~ 0
 MultimediaCTL_Act
 Text HLabel 9580 3930 2    50   Output ~ 0
@@ -357,12 +258,6 @@ Wire Wire Line
 	9400 3775 9575 3775
 Wire Wire Line
 	9400 3850 9575 3850
-Wire Wire Line
-	7275 3750 7425 3750
-Wire Wire Line
-	7275 3825 7425 3825
-Wire Wire Line
-	7275 3900 7425 3900
 Wire Wire Line
 	4925 3750 5125 3750
 Wire Wire Line
@@ -446,12 +341,7 @@ Text HLabel 1825 5275 0    79   Input ~ 16
 12VActuation
 Wire Wire Line
 	1825 5275 3750 5275
-Wire Wire Line
-	3750 5275 5925 5275
 Connection ~ 3750 5275
-Wire Wire Line
-	5925 5275 8075 5275
-Connection ~ 5925 5275
 $Comp
 L Device:CP1_Small C10
 U 1 1 6056D755
@@ -496,20 +386,11 @@ Wire Wire Line
 	3570 5620 3570 4700
 Wire Wire Line
 	3570 4700 3825 4700
-Wire Wire Line
-	3570 5620 5730 5620
-Wire Wire Line
-	5730 5620 5730 4710
-Wire Wire Line
-	5730 4710 6025 4710
 Connection ~ 3570 5620
-Wire Wire Line
-	5730 5620 7935 5620
 Wire Wire Line
 	7935 5620 7935 4755
 Wire Wire Line
 	7935 4755 8150 4755
-Connection ~ 5730 5620
 Wire Wire Line
 	3325 6850 4050 6850
 Wire Wire Line
@@ -517,4 +398,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 7000 1750 7150
 Connection ~ 1750 7150
+Wire Wire Line
+	3750 5275 8075 5275
+Wire Wire Line
+	3675 5475 8000 5475
+Wire Wire Line
+	3570 5620 7935 5620
 $EndSCHEMATC

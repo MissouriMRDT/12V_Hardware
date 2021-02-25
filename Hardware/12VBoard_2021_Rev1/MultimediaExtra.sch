@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -133,20 +133,6 @@ Wire Wire Line
 	1700 6550 1700 6600
 Wire Wire Line
 	1700 6600 1650 6600
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5F8CA23D
-P 1750 6600
-F 0 "TP5" V 1850 6700 50  0000 R CNN
-F 1 "TestPoint" V 1950 6800 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 1950 6600 50  0001 C CNN
-F 3 "~" H 1950 6600 50  0001 C CNN
-	1    1750 6600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1750 6600 1700 6600
-Connection ~ 1700 6600
 Wire Wire Line
 	6900 5450 6900 5550
 Text HLabel 7525 1800 2    50   Output ~ 0
