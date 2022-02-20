@@ -1,0 +1,51 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Shields:Teensy4.1_DEV-16771 U?
+U 1 1 6211982F
+P 8000 3250
+F 0 "U?" H 8000 5417 50  0000 C CNN
+F 1 "Teensy4.1_DEV-16771" H 8000 5326 50  0000 C CNN
+F 2 "MODULE_DEV-16771" H 10100 2950 50  0001 L BNN
+F 3 "" H 8000 3250 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 10100 2700 50  0001 L BNN "STANDARD"
+F 5 "4.07mm" H 10350 2500 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "SparkFun Electronics" H 10300 2350 50  0001 L BNN "MANUFACTURER"
+F 7 "4.1" H 7700 1050 50  0001 L BNN "PARTREV"
+	1    8000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62120694
+P 9000 5250
+F 0 "#PWR?" H 9000 5000 50  0001 C CNN
+F 1 "GND" H 9005 5077 50  0000 C CNN
+F 2 "" H 9000 5250 50  0001 C CNN
+F 3 "" H 9000 5250 50  0001 C CNN
+	1    9000 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 5050 9000 5050
+Wire Wire Line
+	9000 5050 9000 5150
+Wire Wire Line
+	8800 5150 9000 5150
+Connection ~ 9000 5150
+Wire Wire Line
+	9000 5150 9000 5250
+$EndSCHEMATC

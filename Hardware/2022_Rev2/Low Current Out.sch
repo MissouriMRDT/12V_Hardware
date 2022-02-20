@@ -1,0 +1,1312 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 62121B9E
+P 1300 4700
+F 0 "R?" V 1400 4700 50  0000 C CNN
+F 1 "5.1k" V 1300 4700 50  0000 C CNN
+F 2 "" V 1230 4700 50  0001 C CNN
+F 3 "~" H 1300 4700 50  0001 C CNN
+	1    1300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 62122A76
+P 2000 5100
+F 0 "U?" H 2375 5787 60  0000 C CNN
+F 1 "LT1910" H 2375 5681 60  0000 C CNN
+F 2 "" H 2000 5100 60  0001 C CNN
+F 3 "" H 2000 5100 60  0001 C CNN
+	1    2000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6212370D
+P 1800 5400
+F 0 "C?" H 1915 5446 50  0000 L CNN
+F 1 "0.1uF" H 1915 5355 50  0000 L CNN
+F 2 "" H 1838 5250 50  0001 C CNN
+F 3 "~" H 1800 5400 50  0001 C CNN
+	1    1800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62124806
+P 2400 5550
+F 0 "#PWR?" H 2400 5300 50  0001 C CNN
+F 1 "GND" H 2405 5377 50  0000 C CNN
+F 2 "" H 2400 5550 50  0001 C CNN
+F 3 "" H 2400 5550 50  0001 C CNN
+	1    2400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6212555D
+P 3050 5300
+F 0 "C?" H 3165 5346 50  0000 L CNN
+F 1 "10uF" H 3165 5255 50  0000 L CNN
+F 2 "" H 3088 5150 50  0001 C CNN
+F 3 "~" H 3050 5300 50  0001 C CNN
+	1    3050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 62125A74
+P 3500 4900
+F 0 "Q?" H 3650 4750 50  0000 L CNN
+F 1 "BUK768R3-60E" H 3200 4650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 3700 4825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 3500 4900 50  0001 L CNN
+	1    3500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62128A8A
+P 3900 5550
+F 0 "R?" V 3800 5550 50  0000 C CNN
+F 1 "330" V 3900 5550 50  0000 C CNN
+F 2 "" V 3830 5550 50  0001 C CNN
+F 3 "~" H 3900 5550 50  0001 C CNN
+	1    3900 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62129E30
+P 4300 5550
+F 0 "D?" H 4300 5650 50  0000 C CNN
+F 1 "LED" H 4300 5750 50  0000 C CNN
+F 2 "" H 4300 5550 50  0001 C CNN
+F 3 "~" H 4300 5550 50  0001 C CNN
+	1    4300 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 6212B0BA
+P 4450 4800
+F 0 "U?" H 4700 5100 50  0000 L CNN
+F 1 "INA281" H 4650 5000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4700 5000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4700 5000 50  0001 C CNN
+	1    4450 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4700 1800 4700
+Wire Wire Line
+	1800 4850 1450 4850
+Wire Wire Line
+	1800 5000 1800 5250
+Wire Wire Line
+	1800 5550 2400 5550
+Wire Wire Line
+	2400 5300 2400 5550
+Connection ~ 2400 5550
+Wire Wire Line
+	2400 5550 3050 5550
+Wire Wire Line
+	3050 5550 3050 5450
+Wire Wire Line
+	3050 5150 3050 4850
+Wire Wire Line
+	3050 4850 2950 4850
+Wire Wire Line
+	2950 4700 3050 4700
+Wire Wire Line
+	3050 4700 3050 4850
+Connection ~ 3050 4850
+Wire Wire Line
+	3300 4900 3300 5000
+Wire Wire Line
+	3300 5000 2950 5000
+Wire Wire Line
+	3050 4700 3600 4700
+Connection ~ 3050 4700
+Wire Wire Line
+	3600 5100 3600 5250
+Wire Wire Line
+	3600 5550 3750 5550
+Wire Wire Line
+	4050 5550 4150 5550
+Wire Wire Line
+	4450 5550 4550 5550
+Wire Wire Line
+	4550 5550 4550 5700
+$Comp
+L power:GND #PWR?
+U 1 1 62134270
+P 4550 5700
+F 0 "#PWR?" H 4550 5450 50  0001 C CNN
+F 1 "GND" H 4555 5527 50  0000 C CNN
+F 2 "" H 4550 5700 50  0001 C CNN
+F 3 "" H 4550 5700 50  0001 C CNN
+	1    4550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 621357DC
+P 4000 4950
+F 0 "R?" H 4050 5000 50  0000 L CNN
+F 1 "0.0025" V 4000 4850 50  0000 L CNN
+F 2 "" V 3930 4950 50  0001 C CNN
+F 3 "~" H 4000 4950 50  0001 C CNN
+	1    4000 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5250 3850 5250
+Wire Wire Line
+	3850 5250 3850 4700
+Wire Wire Line
+	3850 4700 4000 4700
+Connection ~ 3600 5250
+Wire Wire Line
+	3600 5250 3600 5550
+Wire Wire Line
+	4000 4700 4000 4800
+Connection ~ 4000 4700
+Wire Wire Line
+	4000 4700 4250 4700
+Wire Wire Line
+	4000 5100 4000 5150
+Wire Wire Line
+	4000 5150 4250 5150
+Wire Wire Line
+	4250 5150 4250 4900
+Connection ~ 4000 5150
+$Comp
+L power:GND #PWR?
+U 1 1 62138195
+P 4450 5200
+F 0 "#PWR?" H 4450 4950 50  0001 C CNN
+F 1 "GND" H 4455 5027 50  0000 C CNN
+F 2 "" H 4450 5200 50  0001 C CNN
+F 3 "" H 4450 5200 50  0001 C CNN
+	1    4450 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5150 4000 5450
+Wire Wire Line
+	4450 5100 4450 5200
+Wire Wire Line
+	4450 4500 4450 4450
+Text HLabel 4850 4800 3    50   Output ~ 0
+Current_Sense_BlackBox
+Text HLabel 4700 5450 3    50   Output ~ 0
+Anderson_BlackBox
+Wire Wire Line
+	4000 5450 4700 5450
+Wire Wire Line
+	1150 4700 1050 4700
+Wire Wire Line
+	1050 4700 1050 4550
+Text HLabel 1450 4850 3    50   Input ~ 0
+Driver_BlackBox
+Text HLabel 1050 4550 1    50   Input ~ 0
+5V
+Text HLabel 4450 4450 0    50   Input ~ 0
+5V
+$Comp
+L Device:R R?
+U 1 1 621E8770
+P 1150 2900
+F 0 "R?" V 1250 2900 50  0000 C CNN
+F 1 "5.1k" V 1150 2900 50  0000 C CNN
+F 2 "" V 1080 2900 50  0001 C CNN
+F 3 "~" H 1150 2900 50  0001 C CNN
+	1    1150 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 621E8776
+P 1850 3300
+F 0 "U?" H 2225 3987 60  0000 C CNN
+F 1 "LT1910" H 2225 3881 60  0000 C CNN
+F 2 "" H 1850 3300 60  0001 C CNN
+F 3 "" H 1850 3300 60  0001 C CNN
+	1    1850 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621E877C
+P 1650 3600
+F 0 "C?" H 1765 3646 50  0000 L CNN
+F 1 "0.1uF" H 1765 3555 50  0000 L CNN
+F 2 "" H 1688 3450 50  0001 C CNN
+F 3 "~" H 1650 3600 50  0001 C CNN
+	1    1650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621E8782
+P 2250 3750
+F 0 "#PWR?" H 2250 3500 50  0001 C CNN
+F 1 "GND" H 2255 3577 50  0000 C CNN
+F 2 "" H 2250 3750 50  0001 C CNN
+F 3 "" H 2250 3750 50  0001 C CNN
+	1    2250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621E8788
+P 2900 3500
+F 0 "C?" H 3015 3546 50  0000 L CNN
+F 1 "10uF" H 3015 3455 50  0000 L CNN
+F 2 "" H 2938 3350 50  0001 C CNN
+F 3 "~" H 2900 3500 50  0001 C CNN
+	1    2900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 621E878E
+P 3350 3100
+F 0 "Q?" H 3500 2950 50  0000 L CNN
+F 1 "BUK768R3-60E" H 3050 2850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 3550 3025 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 3350 3100 50  0001 L CNN
+	1    3350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 621E8794
+P 3750 3750
+F 0 "R?" V 3650 3750 50  0000 C CNN
+F 1 "330" V 3750 3750 50  0000 C CNN
+F 2 "" V 3680 3750 50  0001 C CNN
+F 3 "~" H 3750 3750 50  0001 C CNN
+	1    3750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621E879A
+P 4150 3750
+F 0 "D?" H 4150 3850 50  0000 C CNN
+F 1 "LED" H 4150 3950 50  0000 C CNN
+F 2 "" H 4150 3750 50  0001 C CNN
+F 3 "~" H 4150 3750 50  0001 C CNN
+	1    4150 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 621E87A0
+P 4300 3000
+F 0 "U?" H 4550 3300 50  0000 L CNN
+F 1 "INA281" H 4500 3200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4550 3200 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4550 3200 50  0001 C CNN
+	1    4300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2900 1650 2900
+Wire Wire Line
+	1650 3050 1300 3050
+Wire Wire Line
+	1650 3200 1650 3450
+Wire Wire Line
+	1650 3750 2250 3750
+Wire Wire Line
+	2250 3500 2250 3750
+Connection ~ 2250 3750
+Wire Wire Line
+	2250 3750 2900 3750
+Wire Wire Line
+	2900 3750 2900 3650
+Wire Wire Line
+	2900 3350 2900 3050
+Wire Wire Line
+	2900 3050 2800 3050
+Wire Wire Line
+	2800 2900 2900 2900
+Wire Wire Line
+	2900 2900 2900 3050
+Connection ~ 2900 3050
+Wire Wire Line
+	3150 3100 3150 3200
+Wire Wire Line
+	3150 3200 2800 3200
+Wire Wire Line
+	2900 2900 3450 2900
+Connection ~ 2900 2900
+Wire Wire Line
+	3450 3300 3450 3450
+Wire Wire Line
+	3450 3750 3600 3750
+Wire Wire Line
+	3900 3750 4000 3750
+Wire Wire Line
+	4300 3750 4400 3750
+Wire Wire Line
+	4400 3750 4400 3900
+$Comp
+L power:GND #PWR?
+U 1 1 621E87BC
+P 4400 3900
+F 0 "#PWR?" H 4400 3650 50  0001 C CNN
+F 1 "GND" H 4405 3727 50  0000 C CNN
+F 2 "" H 4400 3900 50  0001 C CNN
+F 3 "" H 4400 3900 50  0001 C CNN
+	1    4400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 621E87C2
+P 3850 3150
+F 0 "R?" H 3900 3200 50  0000 L CNN
+F 1 "0.0025" V 3850 3050 50  0000 L CNN
+F 2 "" V 3780 3150 50  0001 C CNN
+F 3 "~" H 3850 3150 50  0001 C CNN
+	1    3850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3450 3700 3450
+Wire Wire Line
+	3700 3450 3700 2900
+Wire Wire Line
+	3700 2900 3850 2900
+Connection ~ 3450 3450
+Wire Wire Line
+	3450 3450 3450 3750
+Wire Wire Line
+	3850 2900 3850 3000
+Connection ~ 3850 2900
+Wire Wire Line
+	3850 2900 4100 2900
+Wire Wire Line
+	3850 3300 3850 3350
+Wire Wire Line
+	3850 3350 4100 3350
+Wire Wire Line
+	4100 3350 4100 3100
+Connection ~ 3850 3350
+$Comp
+L power:GND #PWR?
+U 1 1 621E87D4
+P 4300 3400
+F 0 "#PWR?" H 4300 3150 50  0001 C CNN
+F 1 "GND" H 4305 3227 50  0000 C CNN
+F 2 "" H 4300 3400 50  0001 C CNN
+F 3 "" H 4300 3400 50  0001 C CNN
+	1    4300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3350 3850 3650
+Wire Wire Line
+	4300 3300 4300 3400
+Wire Wire Line
+	4300 2700 4300 2650
+Text HLabel 4700 3000 3    50   Output ~ 0
+Current_Sense_Multimedia
+Text HLabel 4550 3650 3    50   Output ~ 0
+Anderson_Multimedia
+Wire Wire Line
+	3850 3650 4550 3650
+Wire Wire Line
+	1000 2900 900  2900
+Wire Wire Line
+	900  2900 900  2750
+Text HLabel 1300 3050 3    50   Input ~ 0
+Driver_Multimedia
+Text HLabel 900  2750 1    50   Input ~ 0
+5V
+Text HLabel 4300 2650 0    50   Input ~ 0
+5V
+$Comp
+L Device:R R?
+U 1 1 621F561F
+P 1200 1150
+F 0 "R?" V 1300 1150 50  0000 C CNN
+F 1 "5.1k" V 1200 1150 50  0000 C CNN
+F 2 "" V 1130 1150 50  0001 C CNN
+F 3 "~" H 1200 1150 50  0001 C CNN
+	1    1200 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 621F5625
+P 1900 1550
+F 0 "U?" H 2275 2237 60  0000 C CNN
+F 1 "LT1910" H 2275 2131 60  0000 C CNN
+F 2 "" H 1900 1550 60  0001 C CNN
+F 3 "" H 1900 1550 60  0001 C CNN
+	1    1900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621F562B
+P 1700 1850
+F 0 "C?" H 1815 1896 50  0000 L CNN
+F 1 "0.1uF" H 1815 1805 50  0000 L CNN
+F 2 "" H 1738 1700 50  0001 C CNN
+F 3 "~" H 1700 1850 50  0001 C CNN
+	1    1700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621F5631
+P 2300 2000
+F 0 "#PWR?" H 2300 1750 50  0001 C CNN
+F 1 "GND" H 2305 1827 50  0000 C CNN
+F 2 "" H 2300 2000 50  0001 C CNN
+F 3 "" H 2300 2000 50  0001 C CNN
+	1    2300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621F5637
+P 2950 1750
+F 0 "C?" H 3065 1796 50  0000 L CNN
+F 1 "10uF" H 3065 1705 50  0000 L CNN
+F 2 "" H 2988 1600 50  0001 C CNN
+F 3 "~" H 2950 1750 50  0001 C CNN
+	1    2950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 621F563D
+P 3400 1350
+F 0 "Q?" H 3550 1200 50  0000 L CNN
+F 1 "BUK768R3-60E" H 3100 1100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 3600 1275 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 3400 1350 50  0001 L CNN
+	1    3400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 621F5643
+P 3800 2000
+F 0 "R?" V 3700 2000 50  0000 C CNN
+F 1 "330" V 3800 2000 50  0000 C CNN
+F 2 "" V 3730 2000 50  0001 C CNN
+F 3 "~" H 3800 2000 50  0001 C CNN
+	1    3800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 621F5649
+P 4200 2000
+F 0 "D?" H 4200 2100 50  0000 C CNN
+F 1 "LED" H 4200 2200 50  0000 C CNN
+F 2 "" H 4200 2000 50  0001 C CNN
+F 3 "~" H 4200 2000 50  0001 C CNN
+	1    4200 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 621F564F
+P 4350 1250
+F 0 "U?" H 4600 1550 50  0000 L CNN
+F 1 "INA281" H 4550 1450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4600 1450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 4600 1450 50  0001 C CNN
+	1    4350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1150 1700 1150
+Wire Wire Line
+	1700 1300 1350 1300
+Wire Wire Line
+	1700 1450 1700 1700
+Wire Wire Line
+	1700 2000 2300 2000
+Wire Wire Line
+	2300 1750 2300 2000
+Connection ~ 2300 2000
+Wire Wire Line
+	2300 2000 2950 2000
+Wire Wire Line
+	2950 2000 2950 1900
+Wire Wire Line
+	2950 1600 2950 1300
+Wire Wire Line
+	2950 1300 2850 1300
+Wire Wire Line
+	2850 1150 2950 1150
+Wire Wire Line
+	2950 1150 2950 1300
+Connection ~ 2950 1300
+Wire Wire Line
+	3200 1350 3200 1450
+Wire Wire Line
+	3200 1450 2850 1450
+Wire Wire Line
+	2950 1150 3500 1150
+Connection ~ 2950 1150
+Wire Wire Line
+	3500 1550 3500 1700
+Wire Wire Line
+	3500 2000 3650 2000
+Wire Wire Line
+	3950 2000 4050 2000
+Wire Wire Line
+	4350 2000 4450 2000
+Wire Wire Line
+	4450 2000 4450 2150
+$Comp
+L power:GND #PWR?
+U 1 1 621F566B
+P 4450 2150
+F 0 "#PWR?" H 4450 1900 50  0001 C CNN
+F 1 "GND" H 4455 1977 50  0000 C CNN
+F 2 "" H 4450 2150 50  0001 C CNN
+F 3 "" H 4450 2150 50  0001 C CNN
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 621F5671
+P 3900 1400
+F 0 "R?" H 3950 1450 50  0000 L CNN
+F 1 "0.0025" V 3900 1300 50  0000 L CNN
+F 2 "" V 3830 1400 50  0001 C CNN
+F 3 "~" H 3900 1400 50  0001 C CNN
+	1    3900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1700 3750 1700
+Wire Wire Line
+	3750 1700 3750 1150
+Wire Wire Line
+	3750 1150 3900 1150
+Connection ~ 3500 1700
+Wire Wire Line
+	3500 1700 3500 2000
+Wire Wire Line
+	3900 1150 3900 1250
+Connection ~ 3900 1150
+Wire Wire Line
+	3900 1150 4150 1150
+Wire Wire Line
+	3900 1550 3900 1600
+Wire Wire Line
+	3900 1600 4150 1600
+Wire Wire Line
+	4150 1600 4150 1350
+Connection ~ 3900 1600
+$Comp
+L power:GND #PWR?
+U 1 1 621F5683
+P 4350 1650
+F 0 "#PWR?" H 4350 1400 50  0001 C CNN
+F 1 "GND" H 4355 1477 50  0000 C CNN
+F 2 "" H 4350 1650 50  0001 C CNN
+F 3 "" H 4350 1650 50  0001 C CNN
+	1    4350 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1600 3900 1900
+Wire Wire Line
+	4350 1550 4350 1650
+Wire Wire Line
+	4350 950  4350 900 
+Text HLabel 4750 1250 3    50   Output ~ 0
+Current_Sense_Drive
+Text HLabel 4600 1900 3    50   Output ~ 0
+Anderson_Drive
+Wire Wire Line
+	3900 1900 4600 1900
+Wire Wire Line
+	1050 1150 950  1150
+Wire Wire Line
+	950  1150 950  1000
+Text HLabel 1350 1300 3    50   Input ~ 0
+Driver_Drive
+Text HLabel 950  1000 1    50   Input ~ 0
+5V
+Text HLabel 4350 900  0    50   Input ~ 0
+5V
+$Comp
+L Device:R R?
+U 1 1 6222B765
+P 5650 1300
+F 0 "R?" V 5750 1300 50  0000 C CNN
+F 1 "5.1k" V 5650 1300 50  0000 C CNN
+F 2 "" V 5580 1300 50  0001 C CNN
+F 3 "~" H 5650 1300 50  0001 C CNN
+	1    5650 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 6222B76B
+P 6350 1700
+F 0 "U?" H 6725 2387 60  0000 C CNN
+F 1 "LT1910" H 6725 2281 60  0000 C CNN
+F 2 "" H 6350 1700 60  0001 C CNN
+F 3 "" H 6350 1700 60  0001 C CNN
+	1    6350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6222B771
+P 6150 2000
+F 0 "C?" H 6265 2046 50  0000 L CNN
+F 1 "0.1uF" H 6265 1955 50  0000 L CNN
+F 2 "" H 6188 1850 50  0001 C CNN
+F 3 "~" H 6150 2000 50  0001 C CNN
+	1    6150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6222B777
+P 6750 2150
+F 0 "#PWR?" H 6750 1900 50  0001 C CNN
+F 1 "GND" H 6755 1977 50  0000 C CNN
+F 2 "" H 6750 2150 50  0001 C CNN
+F 3 "" H 6750 2150 50  0001 C CNN
+	1    6750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6222B77D
+P 7400 1900
+F 0 "C?" H 7515 1946 50  0000 L CNN
+F 1 "10uF" H 7515 1855 50  0000 L CNN
+F 2 "" H 7438 1750 50  0001 C CNN
+F 3 "~" H 7400 1900 50  0001 C CNN
+	1    7400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 6222B783
+P 7850 1500
+F 0 "Q?" H 8000 1350 50  0000 L CNN
+F 1 "BUK768R3-60E" H 7550 1250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 8050 1425 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 7850 1500 50  0001 L CNN
+	1    7850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6222B789
+P 8250 2150
+F 0 "R?" V 8150 2150 50  0000 C CNN
+F 1 "330" V 8250 2150 50  0000 C CNN
+F 2 "" V 8180 2150 50  0001 C CNN
+F 3 "~" H 8250 2150 50  0001 C CNN
+	1    8250 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6222B78F
+P 8650 2150
+F 0 "D?" H 8650 2250 50  0000 C CNN
+F 1 "LED" H 8650 2350 50  0000 C CNN
+F 2 "" H 8650 2150 50  0001 C CNN
+F 3 "~" H 8650 2150 50  0001 C CNN
+	1    8650 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 6222B795
+P 8800 1400
+F 0 "U?" H 9050 1700 50  0000 L CNN
+F 1 "INA281" H 9000 1600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 1600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 9050 1600 50  0001 C CNN
+	1    8800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1300 6150 1300
+Wire Wire Line
+	6150 1450 5800 1450
+Wire Wire Line
+	6150 1600 6150 1850
+Wire Wire Line
+	6150 2150 6750 2150
+Wire Wire Line
+	6750 1900 6750 2150
+Connection ~ 6750 2150
+Wire Wire Line
+	6750 2150 7400 2150
+Wire Wire Line
+	7400 2150 7400 2050
+Wire Wire Line
+	7400 1750 7400 1450
+Wire Wire Line
+	7400 1450 7300 1450
+Wire Wire Line
+	7300 1300 7400 1300
+Wire Wire Line
+	7400 1300 7400 1450
+Connection ~ 7400 1450
+Wire Wire Line
+	7650 1500 7650 1600
+Wire Wire Line
+	7650 1600 7300 1600
+Wire Wire Line
+	7400 1300 7950 1300
+Connection ~ 7400 1300
+Wire Wire Line
+	7950 1700 7950 1850
+Wire Wire Line
+	7950 2150 8100 2150
+Wire Wire Line
+	8400 2150 8500 2150
+Wire Wire Line
+	8800 2150 8900 2150
+Wire Wire Line
+	8900 2150 8900 2300
+$Comp
+L power:GND #PWR?
+U 1 1 6222B7B1
+P 8900 2300
+F 0 "#PWR?" H 8900 2050 50  0001 C CNN
+F 1 "GND" H 8905 2127 50  0000 C CNN
+F 2 "" H 8900 2300 50  0001 C CNN
+F 3 "" H 8900 2300 50  0001 C CNN
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6222B7B7
+P 8350 1550
+F 0 "R?" H 8400 1600 50  0000 L CNN
+F 1 "0.0025" V 8350 1450 50  0000 L CNN
+F 2 "" V 8280 1550 50  0001 C CNN
+F 3 "~" H 8350 1550 50  0001 C CNN
+	1    8350 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1850 8200 1850
+Wire Wire Line
+	8200 1850 8200 1300
+Wire Wire Line
+	8200 1300 8350 1300
+Connection ~ 7950 1850
+Wire Wire Line
+	7950 1850 7950 2150
+Wire Wire Line
+	8350 1300 8350 1400
+Connection ~ 8350 1300
+Wire Wire Line
+	8350 1300 8600 1300
+Wire Wire Line
+	8350 1700 8350 1750
+Wire Wire Line
+	8350 1750 8600 1750
+Wire Wire Line
+	8600 1750 8600 1500
+Connection ~ 8350 1750
+$Comp
+L power:GND #PWR?
+U 1 1 6222B7C9
+P 8800 1800
+F 0 "#PWR?" H 8800 1550 50  0001 C CNN
+F 1 "GND" H 8805 1627 50  0000 C CNN
+F 2 "" H 8800 1800 50  0001 C CNN
+F 3 "" H 8800 1800 50  0001 C CNN
+	1    8800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1750 8350 2050
+Wire Wire Line
+	8800 1700 8800 1800
+Wire Wire Line
+	8800 1100 8800 1050
+Text HLabel 9200 1400 3    50   Output ~ 0
+Current_Sense_Nav
+Text HLabel 9050 2050 3    50   Output ~ 0
+Anderson_Nav
+Wire Wire Line
+	8350 2050 9050 2050
+Wire Wire Line
+	5500 1300 5400 1300
+Wire Wire Line
+	5400 1300 5400 1150
+Text HLabel 5800 1450 3    50   Input ~ 0
+Driver_Nav
+Text HLabel 5400 1150 1    50   Input ~ 0
+5V
+Text HLabel 8800 1050 0    50   Input ~ 0
+5V
+$Comp
+L Device:R R?
+U 1 1 622379F5
+P 5600 3200
+F 0 "R?" V 5700 3200 50  0000 C CNN
+F 1 "5.1k" V 5600 3200 50  0000 C CNN
+F 2 "" V 5530 3200 50  0001 C CNN
+F 3 "~" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 622379FB
+P 6300 3600
+F 0 "U?" H 6675 4287 60  0000 C CNN
+F 1 "LT1910" H 6675 4181 60  0000 C CNN
+F 2 "" H 6300 3600 60  0001 C CNN
+F 3 "" H 6300 3600 60  0001 C CNN
+	1    6300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62237A01
+P 6100 3900
+F 0 "C?" H 6215 3946 50  0000 L CNN
+F 1 "0.1uF" H 6215 3855 50  0000 L CNN
+F 2 "" H 6138 3750 50  0001 C CNN
+F 3 "~" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62237A07
+P 6700 4050
+F 0 "#PWR?" H 6700 3800 50  0001 C CNN
+F 1 "GND" H 6705 3877 50  0000 C CNN
+F 2 "" H 6700 4050 50  0001 C CNN
+F 3 "" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62237A0D
+P 7350 3800
+F 0 "C?" H 7465 3846 50  0000 L CNN
+F 1 "10uF" H 7465 3755 50  0000 L CNN
+F 2 "" H 7388 3650 50  0001 C CNN
+F 3 "~" H 7350 3800 50  0001 C CNN
+	1    7350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 62237A13
+P 7800 3400
+F 0 "Q?" H 7950 3250 50  0000 L CNN
+F 1 "BUK768R3-60E" H 7500 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 8000 3325 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 7800 3400 50  0001 L CNN
+	1    7800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62237A19
+P 8200 4050
+F 0 "R?" V 8100 4050 50  0000 C CNN
+F 1 "330" V 8200 4050 50  0000 C CNN
+F 2 "" V 8130 4050 50  0001 C CNN
+F 3 "~" H 8200 4050 50  0001 C CNN
+	1    8200 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 62237A1F
+P 8600 4050
+F 0 "D?" H 8600 4150 50  0000 C CNN
+F 1 "LED" H 8600 4250 50  0000 C CNN
+F 2 "" H 8600 4050 50  0001 C CNN
+F 3 "~" H 8600 4050 50  0001 C CNN
+	1    8600 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 62237A25
+P 8750 3300
+F 0 "U?" H 9000 3600 50  0000 L CNN
+F 1 "INA281" H 8950 3500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9000 3500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 9000 3500 50  0001 C CNN
+	1    8750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3200 6100 3200
+Wire Wire Line
+	6100 3350 5750 3350
+Wire Wire Line
+	6100 3500 6100 3750
+Wire Wire Line
+	6100 4050 6700 4050
+Wire Wire Line
+	6700 3800 6700 4050
+Connection ~ 6700 4050
+Wire Wire Line
+	6700 4050 7350 4050
+Wire Wire Line
+	7350 4050 7350 3950
+Wire Wire Line
+	7350 3650 7350 3350
+Wire Wire Line
+	7350 3350 7250 3350
+Wire Wire Line
+	7250 3200 7350 3200
+Wire Wire Line
+	7350 3200 7350 3350
+Connection ~ 7350 3350
+Wire Wire Line
+	7600 3400 7600 3500
+Wire Wire Line
+	7600 3500 7250 3500
+Wire Wire Line
+	7350 3200 7900 3200
+Connection ~ 7350 3200
+Wire Wire Line
+	7900 3600 7900 3750
+Wire Wire Line
+	7900 4050 8050 4050
+Wire Wire Line
+	8350 4050 8450 4050
+Wire Wire Line
+	8750 4050 8850 4050
+Wire Wire Line
+	8850 4050 8850 4200
+$Comp
+L power:GND #PWR?
+U 1 1 62237A41
+P 8850 4200
+F 0 "#PWR?" H 8850 3950 50  0001 C CNN
+F 1 "GND" H 8855 4027 50  0000 C CNN
+F 2 "" H 8850 4200 50  0001 C CNN
+F 3 "" H 8850 4200 50  0001 C CNN
+	1    8850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62237A47
+P 8300 3450
+F 0 "R?" H 8350 3500 50  0000 L CNN
+F 1 "0.0025" V 8300 3350 50  0000 L CNN
+F 2 "" V 8230 3450 50  0001 C CNN
+F 3 "~" H 8300 3450 50  0001 C CNN
+	1    8300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3750 8150 3750
+Wire Wire Line
+	8150 3750 8150 3200
+Wire Wire Line
+	8150 3200 8300 3200
+Connection ~ 7900 3750
+Wire Wire Line
+	7900 3750 7900 4050
+Wire Wire Line
+	8300 3200 8300 3300
+Connection ~ 8300 3200
+Wire Wire Line
+	8300 3200 8550 3200
+Wire Wire Line
+	8300 3600 8300 3650
+Wire Wire Line
+	8300 3650 8550 3650
+Wire Wire Line
+	8550 3650 8550 3400
+Connection ~ 8300 3650
+$Comp
+L power:GND #PWR?
+U 1 1 62237A59
+P 8750 3700
+F 0 "#PWR?" H 8750 3450 50  0001 C CNN
+F 1 "GND" H 8755 3527 50  0000 C CNN
+F 2 "" H 8750 3700 50  0001 C CNN
+F 3 "" H 8750 3700 50  0001 C CNN
+	1    8750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 3650 8300 3950
+Wire Wire Line
+	8750 3600 8750 3700
+Wire Wire Line
+	8750 3000 8750 2950
+Text HLabel 9150 3300 3    50   Output ~ 0
+Current_Sense_Gimbal
+Text HLabel 9000 3950 3    50   Output ~ 0
+Anderson_Gimbal
+Wire Wire Line
+	8300 3950 9000 3950
+Wire Wire Line
+	5450 3200 5350 3200
+Wire Wire Line
+	5350 3200 5350 3050
+Text HLabel 5750 3350 3    50   Input ~ 0
+Driver_Gimbal
+Text HLabel 5350 3050 1    50   Input ~ 0
+5V
+Text HLabel 8750 2950 0    50   Input ~ 0
+5V
+$Comp
+L Device:R R?
+U 1 1 622534C1
+P 5600 5000
+F 0 "R?" V 5700 5000 50  0000 C CNN
+F 1 "5.1k" V 5600 5000 50  0000 C CNN
+F 2 "" V 5530 5000 50  0001 C CNN
+F 3 "~" H 5600 5000 50  0001 C CNN
+	1    5600 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MRDT_ICs:LT1910 U?
+U 1 1 622534C7
+P 6300 5400
+F 0 "U?" H 6675 6087 60  0000 C CNN
+F 1 "LT1910" H 6675 5981 60  0000 C CNN
+F 2 "" H 6300 5400 60  0001 C CNN
+F 3 "" H 6300 5400 60  0001 C CNN
+	1    6300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 622534CD
+P 6100 5700
+F 0 "C?" H 6215 5746 50  0000 L CNN
+F 1 "0.1uF" H 6215 5655 50  0000 L CNN
+F 2 "" H 6138 5550 50  0001 C CNN
+F 3 "~" H 6100 5700 50  0001 C CNN
+	1    6100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 622534D3
+P 6700 5850
+F 0 "#PWR?" H 6700 5600 50  0001 C CNN
+F 1 "GND" H 6705 5677 50  0000 C CNN
+F 2 "" H 6700 5850 50  0001 C CNN
+F 3 "" H 6700 5850 50  0001 C CNN
+	1    6700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 622534D9
+P 7350 5600
+F 0 "C?" H 7465 5646 50  0000 L CNN
+F 1 "10uF" H 7465 5555 50  0000 L CNN
+F 2 "" H 7388 5450 50  0001 C CNN
+F 3 "~" H 7350 5600 50  0001 C CNN
+	1    7350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 622534DF
+P 7800 5200
+F 0 "Q?" H 7950 5050 50  0000 L CNN
+F 1 "BUK768R3-60E" H 7500 4950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 8000 5125 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 7800 5200 50  0001 L CNN
+	1    7800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 622534E5
+P 8200 5850
+F 0 "R?" V 8100 5850 50  0000 C CNN
+F 1 "330" V 8200 5850 50  0000 C CNN
+F 2 "" V 8130 5850 50  0001 C CNN
+F 3 "~" H 8200 5850 50  0001 C CNN
+	1    8200 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 622534EB
+P 8600 5850
+F 0 "D?" H 8600 5950 50  0000 C CNN
+F 1 "LED" H 8600 6050 50  0000 C CNN
+F 2 "" H 8600 5850 50  0001 C CNN
+F 3 "~" H 8600 5850 50  0001 C CNN
+	1    8600 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_ICs:INA281 U?
+U 1 1 622534F1
+P 8750 5100
+F 0 "U?" H 9000 5400 50  0000 L CNN
+F 1 "INA281" H 8950 5300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9000 5300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 9000 5300 50  0001 C CNN
+	1    8750 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5000 6100 5000
+Wire Wire Line
+	6100 5150 5750 5150
+Wire Wire Line
+	6100 5300 6100 5550
+Wire Wire Line
+	6100 5850 6700 5850
+Wire Wire Line
+	6700 5600 6700 5850
+Connection ~ 6700 5850
+Wire Wire Line
+	6700 5850 7350 5850
+Wire Wire Line
+	7350 5850 7350 5750
+Wire Wire Line
+	7350 5450 7350 5150
+Wire Wire Line
+	7350 5150 7250 5150
+Wire Wire Line
+	7250 5000 7350 5000
+Wire Wire Line
+	7350 5000 7350 5150
+Connection ~ 7350 5150
+Wire Wire Line
+	7600 5200 7600 5300
+Wire Wire Line
+	7600 5300 7250 5300
+Wire Wire Line
+	7350 5000 7900 5000
+Connection ~ 7350 5000
+Wire Wire Line
+	7900 5400 7900 5550
+Wire Wire Line
+	7900 5850 8050 5850
+Wire Wire Line
+	8350 5850 8450 5850
+Wire Wire Line
+	8750 5850 8850 5850
+Wire Wire Line
+	8850 5850 8850 6000
+$Comp
+L power:GND #PWR?
+U 1 1 6225350D
+P 8850 6000
+F 0 "#PWR?" H 8850 5750 50  0001 C CNN
+F 1 "GND" H 8855 5827 50  0000 C CNN
+F 2 "" H 8850 6000 50  0001 C CNN
+F 3 "" H 8850 6000 50  0001 C CNN
+	1    8850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62253513
+P 8300 5250
+F 0 "R?" H 8350 5300 50  0000 L CNN
+F 1 "0.0025" V 8300 5150 50  0000 L CNN
+F 2 "" V 8230 5250 50  0001 C CNN
+F 3 "~" H 8300 5250 50  0001 C CNN
+	1    8300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5550 8150 5550
+Wire Wire Line
+	8150 5550 8150 5000
+Wire Wire Line
+	8150 5000 8300 5000
+Connection ~ 7900 5550
+Wire Wire Line
+	7900 5550 7900 5850
+Wire Wire Line
+	8300 5000 8300 5100
+Connection ~ 8300 5000
+Wire Wire Line
+	8300 5000 8550 5000
+Wire Wire Line
+	8300 5400 8300 5450
+Wire Wire Line
+	8300 5450 8550 5450
+Wire Wire Line
+	8550 5450 8550 5200
+Connection ~ 8300 5450
+$Comp
+L power:GND #PWR?
+U 1 1 62253525
+P 8750 5500
+F 0 "#PWR?" H 8750 5250 50  0001 C CNN
+F 1 "GND" H 8755 5327 50  0000 C CNN
+F 2 "" H 8750 5500 50  0001 C CNN
+F 3 "" H 8750 5500 50  0001 C CNN
+	1    8750 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5450 8300 5750
+Wire Wire Line
+	8750 5400 8750 5500
+Wire Wire Line
+	8750 4800 8750 4750
+Text HLabel 9150 5100 3    50   Output ~ 0
+Current_Sense_Spare
+Text HLabel 9000 5750 3    50   Output ~ 0
+Anderson_Spare
+Wire Wire Line
+	8300 5750 9000 5750
+Wire Wire Line
+	5450 5000 5350 5000
+Wire Wire Line
+	5350 5000 5350 4850
+Text HLabel 5750 5150 3    50   Input ~ 0
+Driver_Spare
+Text HLabel 5350 4850 1    50   Input ~ 0
+5V
+Text HLabel 8750 4750 0    50   Input ~ 0
+5V
+$EndSCHEMATC
