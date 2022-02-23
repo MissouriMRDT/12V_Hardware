@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 2022_Rev2-rescue:Teensy4.1_DEV-16771-MRDT_Shields U?
+L MRDT_Shields:Teensy4.1_DEV-16771 U?
 U 1 1 6211982F
 P 8000 3250
 F 0 "U?" H 8000 5417 50  0000 C CNN

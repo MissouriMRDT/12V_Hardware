@@ -21,13 +21,13 @@ F1 "12V.sch" 50
 F2 "5V" I L 4750 1200 50 
 $EndSheet
 $Sheet
-S 8200 1050 2350 2500
+S 1300 1000 2350 2500
 U 62118F7B
 F0 "TEENSY" 50
 F1 "TEENSY.sch" 50
 $EndSheet
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 4 1 62120188
 P 10350 5800
 AR Path="/62118E70/62120188" Ref="Conn?"  Part="4" 
@@ -40,7 +40,7 @@ F 3 "" H 10200 5250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6212018E
 P 10350 6300
 AR Path="/62118E70/6212018E" Ref="Conn?"  Part="1" 
@@ -351,19 +351,19 @@ Text GLabel 2850 6450 1    50   Output ~ 0
 3.3V
 Text GLabel 2850 4950 1    50   Output ~ 0
 5V
-Text GLabel 1100 1300 0    50   Input ~ 0
+Text GLabel 8400 1000 0    50   Input ~ 0
 PV
 Wire Wire Line
-	1100 1300 1200 1300
+	8400 1000 8500 1000
 Text GLabel 4650 1200 0    50   Input ~ 0
 5V
 Wire Wire Line
 	4650 1200 4750 1200
 $Sheet
-S 1200 1200 2100 2250
+S 8500 900  2100 2250
 U 6217B740
 F0 "BucksAndersons" 50
 F1 "BuckAndersons.sch" 50
-F2 "PV" I L 1200 1300 50 
+F2 "PV" I L 8500 1000 50 
 $EndSheet
 $EndSCHEMATC

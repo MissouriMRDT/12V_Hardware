@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 4 1 621C7125
 P 4700 1400
+AR Path="/621C7125" Ref="Conn?"  Part="4" 
+AR Path="/6217B740/621C7125" Ref="Conn?"  Part="4" 
 F 0 "Conn?" H 4908 1787 60  0000 C CNN
 F 1 "Aux_1_Out" H 4908 1681 60  0000 C CNN
 F 2 "" H 4550 850 60  0001 C CNN
@@ -25,9 +27,11 @@ F 3 "" H 4550 850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 621C7C59
 P 4700 1900
+AR Path="/621C7C59" Ref="Conn?"  Part="2" 
+AR Path="/6217B740/621C7C59" Ref="Conn?"  Part="2" 
 F 0 "Conn?" H 4908 2287 60  0000 C CNN
 F 1 "Aux_1_Out" H 4908 2181 60  0000 C CNN
 F 2 "" H 4550 1350 60  0001 C CNN
@@ -36,9 +40,11 @@ F 3 "" H 4550 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 621C871C
 P 4700 2400
+AR Path="/621C871C" Ref="Conn?"  Part="1" 
+AR Path="/6217B740/621C871C" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4908 2787 60  0000 C CNN
 F 1 "Aux_1_Out" H 4908 2681 60  0000 C CNN
 F 2 "" H 4550 1850 60  0001 C CNN
@@ -70,9 +76,11 @@ Wire Wire Line
 Text HLabel 5300 1800 2    50   Input ~ 0
 Aux_1_Toggle
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 4 1 621CF26B
 P 4700 3500
+AR Path="/621CF26B" Ref="Conn?"  Part="4" 
+AR Path="/6217B740/621CF26B" Ref="Conn?"  Part="4" 
 F 0 "Conn?" H 4908 3887 60  0000 C CNN
 F 1 "Aux_2_Out" H 4908 3781 60  0000 C CNN
 F 2 "" H 4550 2950 60  0001 C CNN
@@ -81,9 +89,11 @@ F 3 "" H 4550 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 621CF271
 P 4700 4000
+AR Path="/621CF271" Ref="Conn?"  Part="2" 
+AR Path="/6217B740/621CF271" Ref="Conn?"  Part="2" 
 F 0 "Conn?" H 4908 4387 60  0000 C CNN
 F 1 "Aux_2_Out" H 4908 4281 60  0000 C CNN
 F 2 "" H 4550 3450 60  0001 C CNN
@@ -92,9 +102,11 @@ F 3 "" H 4550 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 621CF277
 P 4700 4500
+AR Path="/621CF277" Ref="Conn?"  Part="1" 
+AR Path="/6217B740/621CF277" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4908 4887 60  0000 C CNN
 F 1 "Aux_2_Out" H 4908 4781 60  0000 C CNN
 F 2 "" H 4550 3950 60  0001 C CNN
@@ -126,9 +138,11 @@ Wire Wire Line
 Text HLabel 5300 3900 2    50   Input ~ 0
 Aux_2_Toggle
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 62262695
 P 6200 1400
+AR Path="/62262695" Ref="Conn?"  Part="3" 
+AR Path="/6217B740/62262695" Ref="Conn?"  Part="3" 
 F 0 "Conn?" H 6408 1787 60  0000 C CNN
 F 1 "Aux_1_In" H 6408 1681 60  0000 C CNN
 F 2 "" H 6050 850 60  0001 C CNN
@@ -137,9 +151,11 @@ F 3 "" H 6050 850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 62264AAC
 P 6200 1900
+AR Path="/62264AAC" Ref="Conn?"  Part="1" 
+AR Path="/6217B740/62264AAC" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 6408 2287 60  0000 C CNN
 F 1 "Aux_1_In" H 6408 2181 60  0000 C CNN
 F 2 "" H 6050 1350 60  0001 C CNN
@@ -167,9 +183,11 @@ Text HLabel 6800 1300 2    50   Input ~ 0
 Wire Wire Line
 	6600 1300 6800 1300
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 62267828
 P 6200 3500
+AR Path="/62267828" Ref="Conn?"  Part="3" 
+AR Path="/6217B740/62267828" Ref="Conn?"  Part="3" 
 F 0 "Conn?" H 6408 3887 60  0000 C CNN
 F 1 "Aux_2_In" H 6408 3781 60  0000 C CNN
 F 2 "" H 6050 2950 60  0001 C CNN
@@ -178,9 +196,11 @@ F 3 "" H 6050 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6226782E
 P 6200 4000
+AR Path="/6226782E" Ref="Conn?"  Part="1" 
+AR Path="/6217B740/6226782E" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 6408 4387 60  0000 C CNN
 F 1 "Aux_2_In" H 6408 4281 60  0000 C CNN
 F 2 "" H 6050 3450 60  0001 C CNN
@@ -208,9 +228,11 @@ Text HLabel 6800 3400 2    50   Input ~ 0
 Wire Wire Line
 	6600 3400 6800 3400
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 4 1 6226B6C1
 P 1400 5650
+AR Path="/6226B6C1" Ref="Conn?"  Part="4" 
+AR Path="/6217B740/6226B6C1" Ref="Conn?"  Part="4" 
 F 0 "Conn?" H 1608 6037 60  0000 C CNN
 F 1 "Aux_GP_Out" H 1608 5931 60  0000 C CNN
 F 2 "" H 1250 5100 60  0001 C CNN
@@ -219,9 +241,11 @@ F 3 "" H 1250 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 6226B6C7
 P 1400 6150
+AR Path="/6226B6C7" Ref="Conn?"  Part="2" 
+AR Path="/6217B740/6226B6C7" Ref="Conn?"  Part="2" 
 F 0 "Conn?" H 1608 6537 60  0000 C CNN
 F 1 "Aux_GP_Out" H 1608 6431 60  0000 C CNN
 F 2 "" H 1250 5600 60  0001 C CNN
@@ -230,9 +254,11 @@ F 3 "" H 1250 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6226B6CD
 P 1400 6650
+AR Path="/6226B6CD" Ref="Conn?"  Part="1" 
+AR Path="/6217B740/6226B6CD" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 1608 7037 60  0000 C CNN
 F 1 "Aux_GP_Out" H 1608 6931 60  0000 C CNN
 F 2 "" H 1250 6100 60  0001 C CNN
@@ -264,9 +290,11 @@ Wire Wire Line
 Text HLabel 2000 6050 2    50   Input ~ 0
 GP_Toggle
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 6226B6DF
 P 2900 5650
+AR Path="/6226B6DF" Ref="Conn?"  Part="3" 
+AR Path="/6217B740/6226B6DF" Ref="Conn?"  Part="3" 
 F 0 "Conn?" H 3108 6037 60  0000 C CNN
 F 1 "Aux_GP_In" H 3108 5931 60  0000 C CNN
 F 2 "" H 2750 5100 60  0001 C CNN
@@ -275,9 +303,11 @@ F 3 "" H 2750 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6226B6E5
 P 2900 6150
+AR Path="/6226B6E5" Ref="Conn?"  Part="1" 
+AR Path="/6217B740/6226B6E5" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 3108 6537 60  0000 C CNN
 F 1 "Aux_GP_In" H 3108 6431 60  0000 C CNN
 F 2 "" H 2750 5600 60  0001 C CNN
