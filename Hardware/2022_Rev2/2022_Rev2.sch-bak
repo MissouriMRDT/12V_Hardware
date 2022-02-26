@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:2022_Rev2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,17 +15,29 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4750 1100 1750 2300
+S 6100 800  1750 2300
 U 62118E70
 F0 "12V" 50
 F1 "12V.sch" 50
-F2 "5V" I L 4750 1200 50 
+F2 "5V" I L 6100 900 50 
 $EndSheet
 $Sheet
-S 1300 1000 2350 2500
+S 1800 650  2300 950 
 U 62118F7B
 F0 "TEENSY" 50
 F1 "TEENSY.sch" 50
+F2 "Current_Sense_BlackBox" I L 1800 700 50 
+F3 "Current_Sense_Multimedia" I L 1800 800 50 
+F4 "Current_Sense_Drive" I L 1800 900 50 
+F5 "Current_Sense_Nav" I L 1800 1000 50 
+F6 "Current_Sense_Gimbal" I L 1800 1100 50 
+F7 "Current_Sense_Spare" I L 1800 1200 50 
+F8 "Driver_BlackBox" O R 4100 700 50 
+F9 "Driver_Multimedia" O R 4100 800 50 
+F10 "Driver_Drive" O R 4100 900 50 
+F11 "Driver_Nav" O R 4100 1000 50 
+F12 "Driver_Gimbal" O R 4100 1100 50 
+F13 "Driver_Spare" O R 4100 1200 50 
 $EndSheet
 $Comp
 L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
@@ -65,7 +78,7 @@ F 3 "" H 10750 6200 50  0001 C CNN
 	1    10750 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 5700 2    50   Input ~ 0
+Text GLabel 10750 5700 2    50   Output ~ 0
 PV
 Text GLabel 850  4900 1    50   Input ~ 0
 PV
@@ -347,23 +360,99 @@ F 3 "" H 4000 6700 50  0001 C CNN
 	1    4000 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 6450 1    50   Output ~ 0
-3.3V
-Text GLabel 2850 4950 1    50   Output ~ 0
-5V
-Text GLabel 8400 1000 0    50   Input ~ 0
+Text GLabel 8550 1100 0    50   Input ~ 0
 PV
 Wire Wire Line
-	8400 1000 8500 1000
-Text GLabel 4650 1200 0    50   Input ~ 0
+	8550 1100 8650 1100
+Text GLabel 6000 900  0    50   Input ~ 0
 5V
 Wire Wire Line
-	4650 1200 4750 1200
+	6000 900  6100 900 
 $Sheet
-S 8500 900  2100 2250
+S 8650 1000 2100 2250
 U 6217B740
 F0 "BucksAndersons" 50
 F1 "BuckAndersons.sch" 50
-F2 "PV" I L 8500 1000 50 
+F2 "PV" I L 8650 1100 50 
 $EndSheet
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62206317
+P 2850 6450
+F 0 "#PWR?" H 2850 6300 50  0001 C CNN
+F 1 "+3.3V" H 2865 6623 50  0000 C CNN
+F 2 "" H 2850 6450 50  0001 C CNN
+F 3 "" H 2850 6450 50  0001 C CNN
+	1    2850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62206CB8
+P 2850 4950
+F 0 "#PWR?" H 2850 4800 50  0001 C CNN
+F 1 "+5V" H 2865 5123 50  0000 C CNN
+F 2 "" H 2850 4950 50  0001 C CNN
+F 3 "" H 2850 4950 50  0001 C CNN
+	1    2850 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 700  0    50   Input ~ 0
+Current_Sense_BlackBox
+Text GLabel 1650 800  0    50   Input ~ 0
+Current_Sense_Multimedia
+Text GLabel 1650 900  0    50   Input ~ 0
+Current_Sense_Drive
+Text GLabel 1650 1100 0    50   Input ~ 0
+Current_Sense_Gimbal
+Text GLabel 1650 1200 0    50   Input ~ 0
+Current_Sense_Spare
+Text GLabel 1650 1000 0    50   Input ~ 0
+Current_Sense_Nav
+Wire Wire Line
+	1650 700  1800 700 
+Wire Wire Line
+	1800 800  1650 800 
+Wire Wire Line
+	1650 900  1800 900 
+Wire Wire Line
+	1800 1000 1650 1000
+Wire Wire Line
+	1650 1100 1800 1100
+Wire Wire Line
+	1800 1200 1650 1200
+Text GLabel 4250 700  2    50   Output ~ 0
+Driver_BlackBox
+Wire Wire Line
+	4100 700  4250 700 
+Text GLabel 4250 800  2    50   Output ~ 0
+Driver_Multimedia
+Wire Wire Line
+	4100 800  4250 800 
+Text GLabel 4250 900  2    50   Output ~ 0
+Driver_Drive
+Wire Wire Line
+	4100 900  4250 900 
+Text GLabel 4250 1000 2    50   Output ~ 0
+Driver_Nav
+Wire Wire Line
+	4100 1000 4250 1000
+Text GLabel 4250 1100 2    50   Output ~ 0
+Driver_Gimbal
+Wire Wire Line
+	4100 1100 4250 1100
+Text GLabel 4250 1200 2    50   Output ~ 0
+Driver_Spare
+Wire Wire Line
+	4100 1200 4250 1200
+Wire Notes Line
+	500  500  5350 500 
+Text Label 2050 2250 0    315  Italic 63
+Teensy
+Wire Notes Line
+	500  2500 5350 2500
+Wire Notes Line
+	5350 500  5350 2500
+Wire Notes Line
+	500  500  500  2500
 $EndSCHEMATC
