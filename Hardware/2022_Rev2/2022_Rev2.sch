@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:2022_Rev2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -447,8 +446,8 @@ Wire Wire Line
 	4100 1200 4250 1200
 Wire Notes Line
 	500  500  5350 500 
-Text Label 2050 2250 0    315  Italic 63
-Teensy
+Text Label 450  2500 0    315  Italic 63
+Tiva
 Wire Notes Line
 	500  2500 5350 2500
 Wire Notes Line

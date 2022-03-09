@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:2022_Rev2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -215,9 +214,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 4500 4450 4450
 Text HLabel 4850 4800 3    50   Output ~ 0
-Current_Sense_BlackBox
+Current_Sense_BBB
 Text HLabel 4700 5450 3    50   Output ~ 0
-Anderson_BlackBox
+Anderson_BBB
 Wire Wire Line
 	4000 5450 4700 5450
 Wire Wire Line
@@ -431,9 +430,9 @@ Wire Wire Line
 Wire Wire Line
 	4300 2700 4300 2650
 Text HLabel 4700 3000 3    50   Output ~ 0
-Current_Sense_Multimedia
+Current_Sense_Multi
 Text HLabel 4550 3650 3    50   Output ~ 0
-Anderson_Multimedia
+Anderson_Multi
 Wire Wire Line
 	3850 3650 4550 3650
 Wire Wire Line

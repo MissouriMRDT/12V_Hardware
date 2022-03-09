@@ -455,4 +455,8 @@ Wire Notes Line
 	5350 500  5350 2500
 Wire Notes Line
 	500  500  500  2500
+Text Label 7100 6800 0    157  Italic 31
+12Volt_PowerBoard
+Text Label 7100 7050 0    157  Italic 31
+"Rev4"
 $EndSCHEMATC
