@@ -957,4 +957,8 @@ Wire Wire Line
 	4450 3950 4300 3950
 Text GLabel 4450 3950 2    50   Output ~ 0
 Anderson_SciAct
+Wire Wire Line
+	6100 1000 6000 1000
+Text GLabel 6000 1000 0    50   Input ~ 0
+12VA
 $EndSCHEMATC
