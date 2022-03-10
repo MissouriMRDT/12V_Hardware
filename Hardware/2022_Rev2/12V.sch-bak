@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -277,246 +277,6 @@ Text HLabel 7250 2850 1    50   Input ~ 0
 5V
 Text HLabel 10650 2750 0    50   Input ~ 0
 5V
-$Comp
-L Device:R R?
-U 1 1 62302307
-P 7450 1050
-AR Path="/62118E70/621219B0/62302307" Ref="R?"  Part="1" 
-AR Path="/62118E70/62302307" Ref="R?"  Part="1" 
-F 0 "R?" V 7550 1050 50  0000 C CNN
-F 1 "5.1k" V 7450 1050 50  0000 C CNN
-F 2 "" V 7380 1050 50  0001 C CNN
-F 3 "~" H 7450 1050 50  0001 C CNN
-	1    7450 1050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 2022_Rev2-rescue:LT1910-MRDT_ICs U?
-U 1 1 6230230D
-P 8150 1450
-AR Path="/62118E70/621219B0/6230230D" Ref="U?"  Part="1" 
-AR Path="/62118E70/6230230D" Ref="U?"  Part="1" 
-F 0 "U?" H 8525 2137 60  0000 C CNN
-F 1 "LT1910" H 8525 2031 60  0000 C CNN
-F 2 "" H 8150 1450 60  0001 C CNN
-F 3 "" H 8150 1450 60  0001 C CNN
-	1    8150 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62302313
-P 7950 1750
-AR Path="/62118E70/621219B0/62302313" Ref="C?"  Part="1" 
-AR Path="/62118E70/62302313" Ref="C?"  Part="1" 
-F 0 "C?" H 8065 1796 50  0000 L CNN
-F 1 "0.1uF" H 8065 1705 50  0000 L CNN
-F 2 "" H 7988 1600 50  0001 C CNN
-F 3 "~" H 7950 1750 50  0001 C CNN
-	1    7950 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62302319
-P 8550 1900
-AR Path="/62118E70/621219B0/62302319" Ref="#PWR?"  Part="1" 
-AR Path="/62118E70/62302319" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8550 1650 50  0001 C CNN
-F 1 "GND" H 8555 1727 50  0000 C CNN
-F 2 "" H 8550 1900 50  0001 C CNN
-F 3 "" H 8550 1900 50  0001 C CNN
-	1    8550 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6230231F
-P 9200 1650
-AR Path="/62118E70/621219B0/6230231F" Ref="C?"  Part="1" 
-AR Path="/62118E70/6230231F" Ref="C?"  Part="1" 
-F 0 "C?" H 9315 1696 50  0000 L CNN
-F 1 "10uF" H 9315 1605 50  0000 L CNN
-F 2 "" H 9238 1500 50  0001 C CNN
-F 3 "~" H 9200 1650 50  0001 C CNN
-	1    9200 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BUK7M9R9-60EX Q?
-U 1 1 62302325
-P 9650 1250
-AR Path="/62118E70/621219B0/62302325" Ref="Q?"  Part="1" 
-AR Path="/62118E70/62302325" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9800 1100 50  0000 L CNN
-F 1 "BUK768R3-60E" H 9350 1000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 9850 1175 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 9650 1250 50  0001 L CNN
-	1    9650 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6230232B
-P 10050 1900
-AR Path="/62118E70/621219B0/6230232B" Ref="R?"  Part="1" 
-AR Path="/62118E70/6230232B" Ref="R?"  Part="1" 
-F 0 "R?" V 9950 1900 50  0000 C CNN
-F 1 "330" V 10050 1900 50  0000 C CNN
-F 2 "" V 9980 1900 50  0001 C CNN
-F 3 "~" H 10050 1900 50  0001 C CNN
-	1    10050 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 62302331
-P 10450 1900
-AR Path="/62118E70/621219B0/62302331" Ref="D?"  Part="1" 
-AR Path="/62118E70/62302331" Ref="D?"  Part="1" 
-F 0 "D?" H 10450 2000 50  0000 C CNN
-F 1 "LED" H 10450 2100 50  0000 C CNN
-F 2 "" H 10450 1900 50  0001 C CNN
-F 3 "~" H 10450 1900 50  0001 C CNN
-	1    10450 1900
-	-1   0    0    1   
-$EndComp
-$Comp
-L 2022_Rev2-rescue:INA281-MRDT_ICs U?
-U 1 1 62302337
-P 10600 1150
-AR Path="/62118E70/621219B0/62302337" Ref="U?"  Part="1" 
-AR Path="/62118E70/62302337" Ref="U?"  Part="1" 
-F 0 "U?" H 10850 1450 50  0000 L CNN
-F 1 "INA281" H 10800 1350 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 10850 1350 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 10850 1350 50  0001 C CNN
-	1    10600 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 1050 7950 1050
-Wire Wire Line
-	7950 1200 7600 1200
-Wire Wire Line
-	7950 1350 7950 1600
-Wire Wire Line
-	7950 1900 8550 1900
-Wire Wire Line
-	8550 1650 8550 1900
-Connection ~ 8550 1900
-Wire Wire Line
-	8550 1900 9200 1900
-Wire Wire Line
-	9200 1900 9200 1800
-Wire Wire Line
-	9200 1500 9200 1200
-Wire Wire Line
-	9200 1200 9100 1200
-Wire Wire Line
-	9100 1050 9200 1050
-Wire Wire Line
-	9200 1050 9200 1200
-Connection ~ 9200 1200
-Wire Wire Line
-	9450 1250 9450 1350
-Wire Wire Line
-	9450 1350 9100 1350
-Wire Wire Line
-	9200 1050 9750 1050
-Connection ~ 9200 1050
-Wire Wire Line
-	9750 1450 9750 1600
-Wire Wire Line
-	9750 1900 9900 1900
-Wire Wire Line
-	10200 1900 10300 1900
-Wire Wire Line
-	10600 1900 10700 1900
-Wire Wire Line
-	10700 1900 10700 2050
-$Comp
-L power:GND #PWR?
-U 1 1 62302353
-P 10700 2050
-AR Path="/62118E70/621219B0/62302353" Ref="#PWR?"  Part="1" 
-AR Path="/62118E70/62302353" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10700 1800 50  0001 C CNN
-F 1 "GND" H 10705 1877 50  0000 C CNN
-F 2 "" H 10700 2050 50  0001 C CNN
-F 3 "" H 10700 2050 50  0001 C CNN
-	1    10700 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62302359
-P 10150 1300
-AR Path="/62118E70/621219B0/62302359" Ref="R?"  Part="1" 
-AR Path="/62118E70/62302359" Ref="R?"  Part="1" 
-F 0 "R?" H 10200 1350 50  0000 L CNN
-F 1 "0.0025" V 10150 1200 50  0000 L CNN
-F 2 "" V 10080 1300 50  0001 C CNN
-F 3 "~" H 10150 1300 50  0001 C CNN
-	1    10150 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 1600 10000 1600
-Wire Wire Line
-	10000 1600 10000 1050
-Wire Wire Line
-	10000 1050 10150 1050
-Connection ~ 9750 1600
-Wire Wire Line
-	9750 1600 9750 1900
-Wire Wire Line
-	10150 1050 10150 1150
-Connection ~ 10150 1050
-Wire Wire Line
-	10150 1050 10400 1050
-Wire Wire Line
-	10150 1450 10150 1500
-Wire Wire Line
-	10150 1500 10400 1500
-Wire Wire Line
-	10400 1500 10400 1250
-Connection ~ 10150 1500
-$Comp
-L power:GND #PWR?
-U 1 1 6230236B
-P 10600 1550
-AR Path="/62118E70/621219B0/6230236B" Ref="#PWR?"  Part="1" 
-AR Path="/62118E70/6230236B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10600 1300 50  0001 C CNN
-F 1 "GND" H 10605 1377 50  0000 C CNN
-F 2 "" H 10600 1550 50  0001 C CNN
-F 3 "" H 10600 1550 50  0001 C CNN
-	1    10600 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 1500 10150 1800
-Wire Wire Line
-	10600 1450 10600 1550
-Wire Wire Line
-	10600 850  10600 800 
-Text HLabel 11000 1150 3    50   Output ~ 0
-Current_Sense_SciAct
-Text HLabel 10850 1800 3    50   Output ~ 0
-Anderson_SciAct
-Wire Wire Line
-	10150 1800 10850 1800
-Wire Wire Line
-	7300 1050 7200 1050
-Wire Wire Line
-	7200 1050 7200 900 
-Text HLabel 7600 1200 3    50   Input ~ 0
-Driver_ScitAct
-Text HLabel 7200 900  1    50   Input ~ 0
-5V
-Text HLabel 10600 800  0    50   Input ~ 0
-5V
 $Sheet
 S 1450 900  2300 3250
 U 621219B0
@@ -547,9 +307,6 @@ F23 "Current_Sense_GimLog" O R 3750 1550 50
 F24 "Anderson_GimLog" O R 3750 2600 50 
 F25 "Driver_GimLog" I L 1450 1550 50 
 F26 "Driver_NetSwitch" I L 1450 1850 50 
-F27 "Current_Sense_SciLog" O R 3750 1950 50 
-F28 "Anderson_SciLog" O R 3750 3000 50 
-F29 "Driver_SciLog" I L 1450 1950 50 
 $EndSheet
 Text HLabel 3850 1150 2    50   Output ~ 0
 Current_Sense_BBB
@@ -575,10 +332,6 @@ Text HLabel 3850 1850 2    50   Output ~ 0
 Current_Sense_NetSwitch
 Wire Wire Line
 	3750 1850 3850 1850
-Text HLabel 3850 1950 2    50   Output ~ 0
-Current_Sense_SciLog
-Wire Wire Line
-	3750 1950 3850 1950
 Text HLabel 3850 2200 2    50   Output ~ 0
 Anderson_BBB
 Wire Wire Line
@@ -607,10 +360,6 @@ Text HLabel 3850 2900 2    50   Output ~ 0
 Anderson_NetSwitch
 Wire Wire Line
 	3850 2900 3750 2900
-Text HLabel 3850 3000 2    50   Output ~ 0
-Anderson_SciLog
-Wire Wire Line
-	3850 3000 3750 3000
 Text HLabel 1350 1150 0    50   Input ~ 0
 Driver_BBB
 Wire Wire Line
@@ -635,21 +384,11 @@ Text HLabel 1350 1850 0    50   Input ~ 0
 Driver_NetSwitch
 Wire Wire Line
 	1350 1850 1450 1850
-Text HLabel 1350 1950 0    50   Input ~ 0
-Driver_SciLog
-Wire Wire Line
-	1350 1950 1450 1950
 Wire Wire Line
 	9250 3000 9250 2550
 Wire Wire Line
 	9250 2550 9050 2550
 Text HLabel 9050 2550 0    50   Input ~ 0
-12VA
-Wire Wire Line
-	9200 1050 9200 600 
-Wire Wire Line
-	9200 600  9050 600 
-Text HLabel 9050 600  0    50   Input ~ 0
 12VA
 $Comp
 L Device:R R?
@@ -909,4 +648,6 @@ Wire Wire Line
 	9200 4550 9000 4550
 Text HLabel 9000 4550 0    50   Input ~ 0
 12VA
+Text Notes 7250 4550 0    50   ~ 0
+3 amps for SciLog, SciAct, and Aux
 $EndSCHEMATC
