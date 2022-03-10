@@ -21,7 +21,7 @@ AR Path="/621C7125" Ref="Conn?"  Part="4"
 AR Path="/6217B740/621C7125" Ref="Conn15"  Part="4" 
 F 0 "Conn15" H 4908 1787 60  0000 C CNN
 F 1 "Aux_1_Out" H 4908 1681 60  0000 C CNN
-F 2 "" H 4550 850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4550 850 60  0001 C CNN
 F 3 "" H 4550 850 60  0001 C CNN
 	4    4700 1400
 	1    0    0    -1  
@@ -34,7 +34,7 @@ AR Path="/621C7C59" Ref="Conn?"  Part="2"
 AR Path="/6217B740/621C7C59" Ref="Conn15"  Part="2" 
 F 0 "Conn15" H 4908 2287 60  0000 C CNN
 F 1 "Aux_1_Out" H 4908 2181 60  0000 C CNN
-F 2 "" H 4550 1350 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4550 1350 60  0001 C CNN
 F 3 "" H 4550 1350 60  0001 C CNN
 	2    4700 1900
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/621C871C" Ref="Conn?"  Part="1"
 AR Path="/6217B740/621C871C" Ref="Conn15"  Part="1" 
 F 0 "Conn15" H 4908 2787 60  0000 C CNN
 F 1 "Aux_1_Out" H 4908 2681 60  0000 C CNN
-F 2 "" H 4550 1850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4550 1850 60  0001 C CNN
 F 3 "" H 4550 1850 60  0001 C CNN
 	1    4700 2400
 	1    0    0    -1  
@@ -83,7 +83,7 @@ AR Path="/621CF26B" Ref="Conn?"  Part="4"
 AR Path="/6217B740/621CF26B" Ref="Conn16"  Part="4" 
 F 0 "Conn16" H 4908 3887 60  0000 C CNN
 F 1 "Aux_2_Out" H 4908 3781 60  0000 C CNN
-F 2 "" H 4550 2950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4550 2950 60  0001 C CNN
 F 3 "" H 4550 2950 60  0001 C CNN
 	4    4700 3500
 	1    0    0    -1  
@@ -96,7 +96,7 @@ AR Path="/621CF271" Ref="Conn?"  Part="2"
 AR Path="/6217B740/621CF271" Ref="Conn16"  Part="2" 
 F 0 "Conn16" H 4908 4387 60  0000 C CNN
 F 1 "Aux_2_Out" H 4908 4281 60  0000 C CNN
-F 2 "" H 4550 3450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4550 3450 60  0001 C CNN
 F 3 "" H 4550 3450 60  0001 C CNN
 	2    4700 4000
 	1    0    0    -1  
@@ -109,7 +109,7 @@ AR Path="/621CF277" Ref="Conn?"  Part="1"
 AR Path="/6217B740/621CF277" Ref="Conn16"  Part="1" 
 F 0 "Conn16" H 4908 4887 60  0000 C CNN
 F 1 "Aux_2_Out" H 4908 4781 60  0000 C CNN
-F 2 "" H 4550 3950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4550 3950 60  0001 C CNN
 F 3 "" H 4550 3950 60  0001 C CNN
 	1    4700 4500
 	1    0    0    -1  
@@ -145,7 +145,7 @@ AR Path="/62262695" Ref="Conn?"  Part="3"
 AR Path="/6217B740/62262695" Ref="Conn17"  Part="3" 
 F 0 "Conn17" H 6408 1787 60  0000 C CNN
 F 1 "Aux_1_In" H 6408 1681 60  0000 C CNN
-F 2 "" H 6050 850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6050 850 60  0001 C CNN
 F 3 "" H 6050 850 60  0001 C CNN
 	3    6200 1400
 	1    0    0    -1  
@@ -158,7 +158,7 @@ AR Path="/62264AAC" Ref="Conn?"  Part="1"
 AR Path="/6217B740/62264AAC" Ref="Conn17"  Part="1" 
 F 0 "Conn17" H 6408 2287 60  0000 C CNN
 F 1 "Aux_1_In" H 6408 2181 60  0000 C CNN
-F 2 "" H 6050 1350 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6050 1350 60  0001 C CNN
 F 3 "" H 6050 1350 60  0001 C CNN
 	1    6200 1900
 	1    0    0    -1  
@@ -190,7 +190,7 @@ AR Path="/62267828" Ref="Conn?"  Part="3"
 AR Path="/6217B740/62267828" Ref="Conn18"  Part="3" 
 F 0 "Conn18" H 6408 3887 60  0000 C CNN
 F 1 "Aux_2_In" H 6408 3781 60  0000 C CNN
-F 2 "" H 6050 2950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6050 2950 60  0001 C CNN
 F 3 "" H 6050 2950 60  0001 C CNN
 	3    6200 3500
 	1    0    0    -1  
@@ -203,7 +203,7 @@ AR Path="/6226782E" Ref="Conn?"  Part="1"
 AR Path="/6217B740/6226782E" Ref="Conn18"  Part="1" 
 F 0 "Conn18" H 6408 4387 60  0000 C CNN
 F 1 "Aux_2_In" H 6408 4281 60  0000 C CNN
-F 2 "" H 6050 3450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 6050 3450 60  0001 C CNN
 F 3 "" H 6050 3450 60  0001 C CNN
 	1    6200 4000
 	1    0    0    -1  
@@ -235,7 +235,7 @@ AR Path="/6226B6C1" Ref="Conn?"  Part="4"
 AR Path="/6217B740/6226B6C1" Ref="Conn13"  Part="4" 
 F 0 "Conn13" H 1608 6037 60  0000 C CNN
 F 1 "Aux_GP_Out" H 1608 5931 60  0000 C CNN
-F 2 "" H 1250 5100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1250 5100 60  0001 C CNN
 F 3 "" H 1250 5100 60  0001 C CNN
 	4    1400 5650
 	1    0    0    -1  
@@ -248,7 +248,7 @@ AR Path="/6226B6C7" Ref="Conn?"  Part="2"
 AR Path="/6217B740/6226B6C7" Ref="Conn13"  Part="2" 
 F 0 "Conn13" H 1608 6537 60  0000 C CNN
 F 1 "Aux_GP_Out" H 1608 6431 60  0000 C CNN
-F 2 "" H 1250 5600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1250 5600 60  0001 C CNN
 F 3 "" H 1250 5600 60  0001 C CNN
 	2    1400 6150
 	1    0    0    -1  
@@ -261,7 +261,7 @@ AR Path="/6226B6CD" Ref="Conn?"  Part="1"
 AR Path="/6217B740/6226B6CD" Ref="Conn13"  Part="1" 
 F 0 "Conn13" H 1608 7037 60  0000 C CNN
 F 1 "Aux_GP_Out" H 1608 6931 60  0000 C CNN
-F 2 "" H 1250 6100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1250 6100 60  0001 C CNN
 F 3 "" H 1250 6100 60  0001 C CNN
 	1    1400 6650
 	1    0    0    -1  
@@ -297,7 +297,7 @@ AR Path="/6226B6DF" Ref="Conn?"  Part="3"
 AR Path="/6217B740/6226B6DF" Ref="Conn14"  Part="3" 
 F 0 "Conn14" H 3108 6037 60  0000 C CNN
 F 1 "Aux_GP_In" H 3108 5931 60  0000 C CNN
-F 2 "" H 2750 5100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 2750 5100 60  0001 C CNN
 F 3 "" H 2750 5100 60  0001 C CNN
 	3    2900 5650
 	1    0    0    -1  
@@ -310,7 +310,7 @@ AR Path="/6226B6E5" Ref="Conn?"  Part="1"
 AR Path="/6217B740/6226B6E5" Ref="Conn14"  Part="1" 
 F 0 "Conn14" H 3108 6537 60  0000 C CNN
 F 1 "Aux_GP_In" H 3108 6431 60  0000 C CNN
-F 2 "" H 2750 5600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 2750 5600 60  0001 C CNN
 F 3 "" H 2750 5600 60  0001 C CNN
 	1    2900 6150
 	1    0    0    -1  
@@ -410,7 +410,7 @@ U 1 1 622A6CBE
 P 3250 1400
 F 0 "R3" V 3043 1400 50  0000 C CNN
 F 1 "510" V 3134 1400 50  0000 C CNN
-F 2 "" V 3180 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3180 1400 50  0001 C CNN
 F 3 "~" H 3250 1400 50  0001 C CNN
 	1    3250 1400
 	0    1    1    0   
@@ -543,7 +543,7 @@ U 1 1 622AB078
 P 3250 3000
 F 0 "R4" V 3043 3000 50  0000 C CNN
 F 1 "510" V 3134 3000 50  0000 C CNN
-F 2 "" V 3180 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3180 3000 50  0001 C CNN
 F 3 "~" H 3250 3000 50  0001 C CNN
 	1    3250 3000
 	0    1    1    0   
