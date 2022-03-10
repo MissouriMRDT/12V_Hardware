@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,220 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:R R?
+U 1 1 6232348E
+P 1900 1800
+F 0 "R?" V 2000 1800 50  0000 C CNN
+F 1 "5.1k" V 1900 1800 50  0000 C CNN
+F 2 "" V 1830 1800 50  0001 C CNN
+F 3 "~" H 1900 1800 50  0001 C CNN
+	1    1900 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2022_Rev2-rescue:LT1910-MRDT_ICs U?
+U 1 1 62323494
+P 2600 2200
+F 0 "U?" H 2975 2887 60  0000 C CNN
+F 1 "LT1910" H 2975 2781 60  0000 C CNN
+F 2 "" H 2600 2200 60  0001 C CNN
+F 3 "" H 2600 2200 60  0001 C CNN
+	1    2600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6232349A
+P 2400 2500
+F 0 "C?" H 2515 2546 50  0000 L CNN
+F 1 "0.1uF" H 2515 2455 50  0000 L CNN
+F 2 "" H 2438 2350 50  0001 C CNN
+F 3 "~" H 2400 2500 50  0001 C CNN
+	1    2400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623234A0
+P 3000 2650
+F 0 "#PWR?" H 3000 2400 50  0001 C CNN
+F 1 "GND" H 3005 2477 50  0000 C CNN
+F 2 "" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 623234A6
+P 3650 2400
+F 0 "C?" H 3765 2446 50  0000 L CNN
+F 1 "10uF" H 3765 2355 50  0000 L CNN
+F 2 "" H 3688 2250 50  0001 C CNN
+F 3 "~" H 3650 2400 50  0001 C CNN
+	1    3650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 623234AC
+P 4100 2000
+F 0 "Q?" H 4250 1850 50  0000 L CNN
+F 1 "BUK768R3-60E" H 3800 1750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 4300 1925 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 4100 2000 50  0001 L CNN
+	1    4100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 623234B2
+P 4500 2650
+F 0 "R?" V 4400 2650 50  0000 C CNN
+F 1 "330" V 4500 2650 50  0000 C CNN
+F 2 "" V 4430 2650 50  0001 C CNN
+F 3 "~" H 4500 2650 50  0001 C CNN
+	1    4500 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 623234B8
+P 4900 2650
+F 0 "D?" H 4900 2750 50  0000 C CNN
+F 1 "LED" H 4900 2850 50  0000 C CNN
+F 2 "" H 4900 2650 50  0001 C CNN
+F 3 "~" H 4900 2650 50  0001 C CNN
+	1    4900 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2022_Rev2-rescue:INA281-MRDT_ICs U?
+U 1 1 623234BE
+P 5050 1900
+F 0 "U?" H 5300 2200 50  0000 L CNN
+F 1 "INA281" H 5250 2100 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5300 2100 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 5300 2100 50  0001 C CNN
+	1    5050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1800 2400 1800
+Wire Wire Line
+	2400 1950 2050 1950
+Wire Wire Line
+	2400 2100 2400 2350
+Wire Wire Line
+	2400 2650 3000 2650
+Wire Wire Line
+	3000 2400 3000 2650
+Connection ~ 3000 2650
+Wire Wire Line
+	3000 2650 3650 2650
+Wire Wire Line
+	3650 2650 3650 2550
+Wire Wire Line
+	3650 2250 3650 1950
+Wire Wire Line
+	3650 1950 3550 1950
+Wire Wire Line
+	3550 1800 3650 1800
+Wire Wire Line
+	3650 1800 3650 1950
+Connection ~ 3650 1950
+Wire Wire Line
+	3900 2000 3900 2100
+Wire Wire Line
+	3900 2100 3550 2100
+Wire Wire Line
+	3650 1800 4200 1800
+Connection ~ 3650 1800
+Wire Wire Line
+	4200 2200 4200 2350
+Wire Wire Line
+	4200 2650 4350 2650
+Wire Wire Line
+	4650 2650 4750 2650
+Wire Wire Line
+	5050 2650 5150 2650
+Wire Wire Line
+	5150 2650 5150 2800
+$Comp
+L power:GND #PWR?
+U 1 1 623234DA
+P 5150 2800
+F 0 "#PWR?" H 5150 2550 50  0001 C CNN
+F 1 "GND" H 5155 2627 50  0000 C CNN
+F 2 "" H 5150 2800 50  0001 C CNN
+F 3 "" H 5150 2800 50  0001 C CNN
+	1    5150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 623234E0
+P 4600 2050
+F 0 "R?" H 4650 2100 50  0000 L CNN
+F 1 "0.0025" V 4600 1950 50  0000 L CNN
+F 2 "" V 4530 2050 50  0001 C CNN
+F 3 "~" H 4600 2050 50  0001 C CNN
+	1    4600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2350 4450 2350
+Wire Wire Line
+	4450 2350 4450 1800
+Wire Wire Line
+	4450 1800 4600 1800
+Connection ~ 4200 2350
+Wire Wire Line
+	4200 2350 4200 2650
+Wire Wire Line
+	4600 1800 4600 1900
+Connection ~ 4600 1800
+Wire Wire Line
+	4600 1800 4850 1800
+Wire Wire Line
+	4600 2200 4600 2250
+Wire Wire Line
+	4600 2250 4850 2250
+Wire Wire Line
+	4850 2250 4850 2000
+Connection ~ 4600 2250
+$Comp
+L power:GND #PWR?
+U 1 1 623234F2
+P 5050 2300
+F 0 "#PWR?" H 5050 2050 50  0001 C CNN
+F 1 "GND" H 5055 2127 50  0000 C CNN
+F 2 "" H 5050 2300 50  0001 C CNN
+F 3 "" H 5050 2300 50  0001 C CNN
+	1    5050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2250 4600 2550
+Wire Wire Line
+	5050 2200 5050 2300
+Wire Wire Line
+	5050 1600 5050 1550
+Text HLabel 5450 1900 3    50   Output ~ 0
+Current_Sense_AuxLog
+Text HLabel 5300 2550 3    50   Output ~ 0
+Anderson_Drive
+Wire Wire Line
+	4600 2550 5300 2550
+Wire Wire Line
+	1750 1800 1650 1800
+Wire Wire Line
+	1650 1800 1650 1650
+Text HLabel 2050 1950 3    50   Input ~ 0
+Driver_Drive
+Text HLabel 1650 1650 1    50   Input ~ 0
+5V
+Text HLabel 5050 1550 0    50   Input ~ 0
+5V
 $EndSCHEMATC
