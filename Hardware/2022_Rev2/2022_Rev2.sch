@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -14,11 +14,48 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6100 800  1750 2300
+S 6100 800  1900 2900
 U 62118E70
 F0 "12V" 50
 F1 "12V.sch" 50
 F2 "5V" I L 6100 900 50 
+F3 "Driver_Drive" I L 6100 1500 50 
+F4 "Driver_Nav" I L 6100 1800 50 
+F5 "Current_Sense_Drive" O R 8000 1500 50 
+F6 "Current_Sense_Nav" O R 8000 1800 50 
+F7 "Anderson_Drive" O R 8000 2750 50 
+F8 "Current_Sense_GimAct" O R 8000 1600 50 
+F9 "Anderson_GimAct" O R 8000 2850 50 
+F10 "Driver_GimAct" I L 6100 1600 50 
+F11 "Current_Sense_SciAct" O R 8000 2100 50 
+F12 "Anderson_SciAct" O R 8000 3350 50 
+F13 "Driver_ScitAct" I L 6100 2100 50 
+F14 "Current_Sense_Cam1" O R 8000 1300 50 
+F15 "Current_Sense_Cam2" O R 8000 1400 50 
+F16 "Current_Sense_GimLog" O R 8000 1700 50 
+F17 "Current_Sense_Multi" O R 8000 2000 50 
+F18 "Current_Sense_NetSwitch" O R 8000 1900 50 
+F19 "Current_Sense_SciLog" O R 8000 2200 50 
+F20 "Anderson_BBB" O R 8000 2450 50 
+F21 "Anderson_Cam1" O R 8000 2550 50 
+F22 "Anderson_Cam2" O R 8000 2650 50 
+F23 "Anderson_GimLog" O R 8000 2950 50 
+F24 "Anderson_Multi" O R 8000 3250 50 
+F25 "Anderson_Nav" O R 8000 3050 50 
+F26 "Anderson_NetSwitch" O R 8000 3150 50 
+F27 "Anderson_SciLog" O R 8000 3450 50 
+F28 "Driver_BBB" I L 6100 1200 50 
+F29 "Driver_Cam1" I L 6100 1300 50 
+F30 "Driver_Cam2" I L 6100 1400 50 
+F31 "Driver_GimLog" I L 6100 1700 50 
+F32 "Driver_Multi" I L 6100 2000 50 
+F33 "Driver_NetSwitch" I L 6100 1900 50 
+F34 "Driver_SciLog" I L 6100 2200 50 
+F35 "12VA" I L 6100 1000 50 
+F36 "Current_Sense_AuxLog" O R 8000 1100 50 
+F37 "Current_Sense_BBB" O R 8000 1200 50 
+F38 "Anderson_AuxLog" O R 8000 2350 50 
+F39 "Driver_AuxLog" I L 6100 1100 50 
 $EndSheet
 $Sheet
 S 1800 650  2300 950 
@@ -359,20 +396,20 @@ F 3 "" H 4000 6700 50  0001 C CNN
 	1    4000 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 8550 1100 0    50   Input ~ 0
+Text GLabel 9500 1050 0    50   Input ~ 0
 PV
 Wire Wire Line
-	8550 1100 8650 1100
+	9500 1050 9600 1050
 Text GLabel 6000 900  0    50   Input ~ 0
 5V
 Wire Wire Line
 	6000 900  6100 900 
 $Sheet
-S 8650 1000 2100 2250
+S 9600 950  1050 1700
 U 6217B740
 F0 "BucksAndersons" 50
 F1 "BuckAndersons.sch" 50
-F2 "PV" I L 8650 1100 50 
+F2 "PV" I L 9600 1050 50 
 $EndSheet
 $Comp
 L power:+3.3V #PWR?
@@ -458,4 +495,98 @@ Text Label 7100 6800 0    157  Italic 31
 12Volt_PowerBoard
 Text Label 7100 7050 0    157  Italic 31
 "Rev4"
+$Comp
+L MRDT_Devices:Q36SR12020NRFA VR?
+U 1 1 6246FE4F
+P 1650 3950
+F 0 "VR?" H 2167 4765 50  0000 C CNN
+F 1 "Q36SR12020NRFA" H 2167 4674 50  0000 C CNN
+F 2 "" H 1950 4750 50  0001 C CNN
+F 3 "" H 1950 4750 50  0001 C CNN
+	1    1650 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3550 1150 3550
+Text GLabel 1150 3550 0    50   Input ~ 0
+PV
+Wire Wire Line
+	1450 3700 1350 3700
+Wire Wire Line
+	1350 3700 1350 3850
+Wire Wire Line
+	1450 3850 1350 3850
+Wire Wire Line
+	1350 3850 1350 4100
+Connection ~ 1350 3850
+$Comp
+L power:GND #PWR?
+U 1 1 62475957
+P 1350 4100
+F 0 "#PWR?" H 1350 3850 50  0001 C CNN
+F 1 "GND" H 1355 3927 50  0000 C CNN
+F 2 "" H 1350 4100 50  0001 C CNN
+F 3 "" H 1350 4100 50  0001 C CNN
+	1    1350 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2600 3700
+Wire Wire Line
+	2600 3500 2800 3500
+Wire Wire Line
+	2600 3600 2800 3600
+Wire Wire Line
+	2800 3500 2800 3550
+Wire Wire Line
+	2800 3550 2950 3550
+Connection ~ 2800 3550
+Wire Wire Line
+	2800 3550 2800 3600
+$Comp
+L Device:CP1 C?
+U 1 1 6247B945
+P 2950 3700
+F 0 "C?" H 3065 3746 50  0000 L CNN
+F 1 "CP1" H 3065 3655 50  0000 L CNN
+F 2 "" H 2950 3700 50  0001 C CNN
+F 3 "~" H 2950 3700 50  0001 C CNN
+	1    2950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3550 3250 3550
+Connection ~ 2950 3550
+Text GLabel 3250 3550 2    50   Output ~ 0
+12VA
+Wire Wire Line
+	2600 3800 2700 3800
+Wire Wire Line
+	2600 3900 2700 3900
+Wire Wire Line
+	2700 3800 2700 3900
+Connection ~ 2700 3900
+Wire Wire Line
+	2700 3900 2700 4000
+$Comp
+L power:GND #PWR?
+U 1 1 62483B13
+P 2700 4000
+F 0 "#PWR?" H 2700 3750 50  0001 C CNN
+F 1 "GND" H 2705 3827 50  0000 C CNN
+F 2 "" H 2700 4000 50  0001 C CNN
+F 3 "" H 2700 4000 50  0001 C CNN
+	1    2700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624844CA
+P 2950 3850
+F 0 "#PWR?" H 2950 3600 50  0001 C CNN
+F 1 "GND" H 2955 3677 50  0000 C CNN
+F 2 "" H 2950 3850 50  0001 C CNN
+F 3 "" H 2950 3850 50  0001 C CNN
+	1    2950 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
