@@ -16,43 +16,43 @@ $EndDescr
 $Comp
 L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 4 1 62120188
-P 2200 3150
+P 2200 3250
 AR Path="/62118E70/62120188" Ref="Conn?"  Part="4" 
 AR Path="/62120188" Ref="Conn?"  Part="4" 
-F 0 "Conn?" H 2408 3537 60  0000 C CNN
-F 1 "AndersonPP" H 2408 3431 60  0000 C CNN
-F 2 "" H 2050 2600 60  0001 C CNN
-F 3 "" H 2050 2600 60  0001 C CNN
-	4    2200 3150
+F 0 "Conn?" H 2408 3637 60  0000 C CNN
+F 1 "AndersonPP" H 2408 3531 60  0000 C CNN
+F 2 "" H 2050 2700 60  0001 C CNN
+F 3 "" H 2050 2700 60  0001 C CNN
+	4    2200 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6212018E
-P 2200 3650
+P 2200 3750
 AR Path="/62118E70/6212018E" Ref="Conn?"  Part="1" 
 AR Path="/6212018E" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 2408 4037 60  0000 C CNN
-F 1 "AndersonPP" H 2408 3931 60  0000 C CNN
-F 2 "" H 2050 3100 60  0001 C CNN
-F 3 "" H 2050 3100 60  0001 C CNN
-	1    2200 3650
+F 0 "Conn?" H 2408 4137 60  0000 C CNN
+F 1 "AndersonPP" H 2408 4031 60  0000 C CNN
+F 2 "" H 2050 3200 60  0001 C CNN
+F 3 "" H 2050 3200 60  0001 C CNN
+	1    2200 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 62120194
-P 2600 3550
+P 2600 3650
 AR Path="/62118E70/62120194" Ref="#PWR?"  Part="1" 
 AR Path="/62120194" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2600 3300 50  0001 C CNN
-F 1 "GND" H 2605 3377 50  0000 C CNN
-F 2 "" H 2600 3550 50  0001 C CNN
-F 3 "" H 2600 3550 50  0001 C CNN
-	1    2600 3550
+F 0 "#PWR?" H 2600 3400 50  0001 C CNN
+F 1 "GND" H 2605 3477 50  0000 C CNN
+F 2 "" H 2600 3650 50  0001 C CNN
+F 3 "" H 2600 3650 50  0001 C CNN
+	1    2600 3650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2600 3050 2    50   Output ~ 0
+Text GLabel 2600 3150 2    50   Output ~ 0
 PV
 Text GLabel 850  4900 1    50   Input ~ 0
 PV
@@ -425,14 +425,6 @@ Text GLabel 5950 2000 0    50   Input ~ 0
 Driver_NetSwitch
 Wire Wire Line
 	6100 2000 5950 2000
-Text GLabel 5950 2100 0    50   Input ~ 0
-Driver_SciAct
-Wire Wire Line
-	6100 2100 5950 2100
-Text GLabel 5950 2200 0    50   Input ~ 0
-Driver_SciLog
-Wire Wire Line
-	6100 2200 5950 2200
 Text GLabel 8150 1500 2    50   Output ~ 0
 Current_Sense_Drive
 Text GLabel 8150 1900 2    50   Output ~ 0
@@ -473,14 +465,6 @@ Text GLabel 8150 2000 2    50   Output ~ 0
 Current_Sense_NetSwitch
 Wire Wire Line
 	8150 2000 8000 2000
-Text GLabel 8150 2100 2    50   Output ~ 0
-Current_Sense_SciAct
-Wire Wire Line
-	8150 2100 8000 2100
-Text GLabel 8150 2200 2    50   Output ~ 0
-Current_Sense_SciLog
-Wire Wire Line
-	8150 2200 8000 2200
 Text GLabel 4450 2950 2    50   Output ~ 0
 Anderson_AuxLog
 Wire Wire Line
@@ -521,14 +505,6 @@ Text GLabel 4450 3850 2    50   Output ~ 0
 Anderson_Multi
 Wire Wire Line
 	4450 3850 4300 3850
-Text GLabel 4450 3950 2    50   Output ~ 0
-Anderson_SciAct
-Wire Wire Line
-	4450 3950 4300 3950
-Text GLabel 4450 4050 2    50   Output ~ 0
-Anderson_SciLog
-Wire Wire Line
-	4450 4050 4300 4050
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 2 1 6257C05F
@@ -653,35 +629,29 @@ F7 "Anderson_Drive" O R 8000 2750 50
 F8 "Current_Sense_GimAct" O R 8000 1600 50 
 F9 "Anderson_GimAct" O R 8000 2850 50 
 F10 "Driver_GimAct" I L 6100 1600 50 
-F11 "Current_Sense_SciAct" O R 8000 2100 50 
-F12 "Anderson_SciAct" O R 8000 3350 50 
-F13 "Driver_ScitAct" I L 6100 2100 50 
-F14 "Current_Sense_Cam1" O R 8000 1300 50 
-F15 "Current_Sense_Cam2" O R 8000 1400 50 
-F16 "Current_Sense_GimLog" O R 8000 1700 50 
-F17 "Current_Sense_Multi" O R 8000 1800 50 
-F18 "Current_Sense_NetSwitch" O R 8000 2000 50 
-F19 "Current_Sense_SciLog" O R 8000 2200 50 
-F20 "Anderson_BBB" O R 8000 2450 50 
-F21 "Anderson_Cam1" O R 8000 2550 50 
-F22 "Anderson_Cam2" O R 8000 2650 50 
-F23 "Anderson_GimLog" O R 8000 2950 50 
-F24 "Anderson_Multi" O R 8000 3250 50 
-F25 "Anderson_Nav" O R 8000 3050 50 
-F26 "Anderson_NetSwitch" O R 8000 3150 50 
-F27 "Anderson_SciLog" O R 8000 3450 50 
-F28 "Driver_BBB" I L 6100 1200 50 
-F29 "Driver_Cam1" I L 6100 1300 50 
-F30 "Driver_Cam2" I L 6100 1400 50 
-F31 "Driver_GimLog" I L 6100 1700 50 
-F32 "Driver_Multi" I L 6100 1800 50 
-F33 "Driver_NetSwitch" I L 6100 2000 50 
-F34 "Driver_SciLog" I L 6100 2200 50 
-F35 "12VA" I L 6100 1000 50 
-F36 "Current_Sense_AuxLog" O R 8000 1100 50 
-F37 "Current_Sense_BBB" O R 8000 1200 50 
-F38 "Anderson_AuxLog" O R 8000 2350 50 
-F39 "Driver_AuxLog" I L 6100 1100 50 
+F11 "Current_Sense_Cam1" O R 8000 1300 50 
+F12 "Current_Sense_Cam2" O R 8000 1400 50 
+F13 "Current_Sense_GimLog" O R 8000 1700 50 
+F14 "Current_Sense_Multi" O R 8000 1800 50 
+F15 "Current_Sense_NetSwitch" O R 8000 2000 50 
+F16 "Anderson_BBB" O R 8000 2450 50 
+F17 "Anderson_Cam1" O R 8000 2550 50 
+F18 "Anderson_Cam2" O R 8000 2650 50 
+F19 "Anderson_GimLog" O R 8000 2950 50 
+F20 "Anderson_Multi" O R 8000 3250 50 
+F21 "Anderson_Nav" O R 8000 3050 50 
+F22 "Anderson_NetSwitch" O R 8000 3150 50 
+F23 "Driver_BBB" I L 6100 1200 50 
+F24 "Driver_Cam1" I L 6100 1300 50 
+F25 "Driver_Cam2" I L 6100 1400 50 
+F26 "Driver_GimLog" I L 6100 1700 50 
+F27 "Driver_Multi" I L 6100 1800 50 
+F28 "Driver_NetSwitch" I L 6100 2000 50 
+F29 "12VA" I L 6100 1000 50 
+F30 "Current_Sense_AuxLog" O R 8000 1100 50 
+F31 "Current_Sense_BBB" O R 8000 1200 50 
+F32 "Anderson_AuxLog" O R 8000 2350 50 
+F33 "Driver_AuxLog" I L 6100 1100 50 
 $EndSheet
 Wire Wire Line
 	8000 2350 9150 2350
@@ -850,39 +820,6 @@ Wire Wire Line
 	10150 4050 10450 4050
 Connection ~ 10150 4050
 Connection ~ 10450 4050
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 626D966C
-P 10600 6100
-F 0 "Conn?" V 10550 6200 60  0000 C CNN
-F 1 "AndersonPP" V 10450 6200 60  0000 C CNN
-F 2 "" H 10450 5550 60  0001 C CNN
-F 3 "" H 10450 5550 60  0001 C CNN
-	1    10600 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 3 1 626D9672
-P 9700 6350
-F 0 "Conn?" H 9800 6600 60  0000 C CNN
-F 1 "AndersonPP" V 9600 6450 60  0000 C CNN
-F 2 "" H 9550 5800 60  0001 C CNN
-F 3 "" H 9550 5800 60  0001 C CNN
-	3    9700 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 626D9678
-P 10050 6100
-F 0 "Conn?" H 10200 6050 60  0000 C CNN
-F 1 "AndersonPP" V 10000 6200 60  0000 C CNN
-F 2 "" H 9900 5550 60  0001 C CNN
-F 3 "" H 9900 5550 60  0001 C CNN
-	2    10050 6100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8000 3050 9200 3050
 Wire Wire Line
@@ -910,29 +847,6 @@ Wire Wire Line
 Connection ~ 9600 5850
 Wire Wire Line
 	9600 5850 10150 5850
-Wire Wire Line
-	8000 3350 9050 3350
-Wire Wire Line
-	9050 3350 9050 5950
-Wire Wire Line
-	9050 5950 9600 5950
-Wire Wire Line
-	8000 3450 9000 3450
-Wire Wire Line
-	9000 3450 9000 6500
-Wire Wire Line
-	9000 6500 10150 6500
-Wire Wire Line
-	9600 5950 10400 5950
-Wire Wire Line
-	10400 5950 10400 6500
-Wire Wire Line
-	10400 6500 10700 6500
-Connection ~ 9600 5950
-Wire Wire Line
-	10150 6500 10400 6500
-Connection ~ 10150 6500
-Connection ~ 10400 6500
 $Comp
 L MRDT_Connectors:Molex_SL_10 Conn?
 U 1 1 622C6D4E
@@ -945,17 +859,6 @@ F 3 "" H 2300 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
-U 1 1 622C7AC7
-P 2300 1750
-F 0 "Conn?" H 2428 1908 60  0000 L CNN
-F 1 "Molex_SL_02" H 2428 1802 60  0000 L CNN
-F 2 "" H 2300 1650 60  0001 C CNN
-F 3 "" H 2300 1650 60  0001 C CNN
-	1    2300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L MRDT_Connectors:Molex_SL_10 Conn?
 U 1 1 622C9F32
 P 3800 1550
@@ -964,17 +867,6 @@ F 1 "Molex_SL_10" H 3928 2002 60  0000 L CNN
 F 2 "" H 3800 2050 60  0001 C CNN
 F 3 "" H 3800 2050 60  0001 C CNN
 	1    3800 1550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
-U 1 1 622C9F38
-P 3800 1750
-F 0 "Conn?" H 3928 1908 60  0000 L CNN
-F 1 "Molex_SL_02" H 3928 1802 60  0000 L CNN
-F 2 "" H 3800 1650 60  0001 C CNN
-F 3 "" H 3800 1650 60  0001 C CNN
-	1    3800 1750
 	-1   0    0    -1  
 $EndComp
 Text GLabel 1950 1000 0    50   Input ~ 0
@@ -1017,14 +909,6 @@ Text GLabel 1950 1500 0    50   Input ~ 0
 Current_Sense_NetSwitch
 Wire Wire Line
 	1950 1500 2100 1500
-Text GLabel 1950 1600 0    50   Input ~ 0
-Current_Sense_SciAct
-Wire Wire Line
-	1950 1600 2100 1600
-Text GLabel 1950 1700 0    50   Input ~ 0
-Current_Sense_SciLog
-Wire Wire Line
-	1950 1700 2100 1700
 Text GLabel 4150 1000 2    50   Output ~ 0
 Driver_Drive
 Wire Wire Line
@@ -1065,12 +949,12 @@ Text GLabel 4150 1500 2    50   Output ~ 0
 Driver_NetSwitch
 Wire Wire Line
 	4000 1500 4150 1500
-Text GLabel 4150 1600 2    50   Output ~ 0
-Driver_SciAct
 Wire Wire Line
-	4000 1600 4150 1600
-Text GLabel 4150 1700 2    50   Output ~ 0
-Driver_SciLog
+	4450 4050 4300 4050
+Text GLabel 4450 4050 2    50   Output ~ 0
+Anderson_SciLog
 Wire Wire Line
-	4000 1700 4150 1700
+	4450 3950 4300 3950
+Text GLabel 4450 3950 2    50   Output ~ 0
+Anderson_SciAct
 $EndSCHEMATC

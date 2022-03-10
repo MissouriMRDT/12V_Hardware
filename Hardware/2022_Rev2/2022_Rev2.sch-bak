@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -371,26 +371,10 @@ F 3 "" H 2850 4950 50  0001 C CNN
 	1    2850 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 2000 1050 0    50   Input ~ 0
-Current_Sense_Drive
-Text GLabel 2000 1450 0    50   Input ~ 0
-Current_Sense_Nav
-Wire Wire Line
-	2000 1050 2150 1050
-Wire Wire Line
-	2150 1450 2000 1450
-Text GLabel 4600 1050 2    50   Output ~ 0
-Driver_Drive
-Wire Wire Line
-	4450 1050 4600 1050
-Text GLabel 4600 1450 2    50   Output ~ 0
-Driver_Nav
-Wire Wire Line
-	4450 1450 4600 1450
 Wire Notes Line
 	500  500  5350 500 
 Text Label 450  2500 0    315  Italic 63
-Teensy
+TeensyMolexPins
 Wire Notes Line
 	500  2500 5350 2500
 Wire Notes Line
@@ -401,116 +385,6 @@ Text Label 7100 6800 0    157  Italic 31
 12Volt_PowerBoard
 Text Label 7100 7050 0    157  Italic 31
 "Rev4"
-$Sheet
-S 2150 600  2300 1800
-U 62118F7B
-F0 "TEENSY" 50
-F1 "TEENSY.sch" 50
-F2 "Current_Sense_Drive" I L 2150 1050 50 
-F3 "Current_Sense_Nav" I L 2150 1450 50 
-F4 "Driver_Drive" O R 4450 1050 50 
-F5 "Driver_Nav" O R 4450 1450 50 
-F6 "Current_Sense_BBB" I L 2150 750 50 
-F7 "Current_Sense_Multi" I L 2150 1350 50 
-F8 "Current_Sense_Cam2" I L 2150 950 50 
-F9 "Current_Sense_Cam1" I L 2150 850 50 
-F10 "Driver_BBB" O R 4450 750 50 
-F11 "Driver_Multi" O R 4450 1350 50 
-F12 "Driver_GimAct" O R 4450 1150 50 
-F13 "Driver_Cam1" O R 4450 850 50 
-F14 "Driver_Cam2" O R 4450 950 50 
-F15 "Current_Sense_GimAct" I L 2150 1150 50 
-F16 "Driver_GimLog" O R 4450 1250 50 
-F17 "Driver_NetSwitch" O R 4450 1550 50 
-F18 "Driver_AuxLog" O R 4450 650 50 
-F19 "Driver_SciLog" O R 4450 1750 50 
-F20 "Driver_SciAct" O R 4450 1650 50 
-F21 "Current_Sense_GimLog" I L 2150 1250 50 
-F22 "Current_Sense_NetSwitch" I L 2150 1550 50 
-F23 "Current_Sense_SciAct" I L 2150 1650 50 
-F24 "Current_Sense_SciLog" I L 2150 1750 50 
-F25 "Current_Sense_AuxLog" I L 2150 650 50 
-$EndSheet
-Text GLabel 2000 650  0    50   Input ~ 0
-Current_Sense_AuxLog
-Wire Wire Line
-	2000 650  2150 650 
-Text GLabel 2000 750  0    50   Input ~ 0
-Current_Sense_BBB
-Wire Wire Line
-	2000 750  2150 750 
-Text GLabel 2000 850  0    50   Input ~ 0
-Current_Sense_Cam1
-Wire Wire Line
-	2000 850  2150 850 
-Text GLabel 2000 950  0    50   Input ~ 0
-Current_Sense_Cam2
-Wire Wire Line
-	2000 950  2150 950 
-Text GLabel 2000 1150 0    50   Input ~ 0
-Current_Sense_GimAct
-Wire Wire Line
-	2000 1150 2150 1150
-Text GLabel 2000 1250 0    50   Input ~ 0
-Current_Sense_GimLog
-Wire Wire Line
-	2000 1250 2150 1250
-Text GLabel 2000 1350 0    50   Input ~ 0
-Current_Sense_Multi
-Wire Wire Line
-	2000 1350 2150 1350
-Text GLabel 2000 1550 0    50   Input ~ 0
-Current_Sense_NetSwitch
-Wire Wire Line
-	2000 1550 2150 1550
-Text GLabel 2000 1650 0    50   Input ~ 0
-Current_Sense_SciAct
-Wire Wire Line
-	2000 1650 2150 1650
-Text GLabel 2000 1750 0    50   Input ~ 0
-Current_Sense_SciLog
-Wire Wire Line
-	2000 1750 2150 1750
-Text GLabel 4600 650  2    50   Output ~ 0
-Driver_AuxLog
-Wire Wire Line
-	4450 650  4600 650 
-Text GLabel 4600 750  2    50   Output ~ 0
-Driver_BBB
-Wire Wire Line
-	4450 750  4600 750 
-Text GLabel 4600 850  2    50   Output ~ 0
-Driver_Cam1
-Wire Wire Line
-	4450 850  4600 850 
-Text GLabel 4600 950  2    50   Output ~ 0
-Driver_Cam2
-Wire Wire Line
-	4450 950  4600 950 
-Text GLabel 4600 1150 2    50   Output ~ 0
-Driver_GimAct
-Wire Wire Line
-	4450 1150 4600 1150
-Text GLabel 4600 1250 2    50   Output ~ 0
-Driver_GimLog
-Wire Wire Line
-	4450 1250 4600 1250
-Text GLabel 4600 1350 2    50   Output ~ 0
-Driver_Multi
-Wire Wire Line
-	4450 1350 4600 1350
-Text GLabel 4600 1550 2    50   Output ~ 0
-Driver_NetSwitch
-Wire Wire Line
-	4450 1550 4600 1550
-Text GLabel 4600 1650 2    50   Output ~ 0
-Driver_SciAct
-Wire Wire Line
-	4450 1650 4600 1650
-Text GLabel 4600 1750 2    50   Output ~ 0
-Driver_SciLog
-Wire Wire Line
-	4450 1750 4600 1750
 Text GLabel 5950 1500 0    50   Input ~ 0
 Driver_Drive
 Wire Wire Line
@@ -1059,4 +933,144 @@ Wire Wire Line
 	10150 6500 10400 6500
 Connection ~ 10150 6500
 Connection ~ 10400 6500
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn?
+U 1 1 622C6D4E
+P 2300 1550
+F 0 "Conn?" H 2428 2108 60  0000 L CNN
+F 1 "Molex_SL_10" H 2428 2002 60  0000 L CNN
+F 2 "" H 2300 2050 60  0001 C CNN
+F 3 "" H 2300 2050 60  0001 C CNN
+	1    2300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 622C7AC7
+P 2300 1750
+F 0 "Conn?" H 2428 1908 60  0000 L CNN
+F 1 "Molex_SL_02" H 2428 1802 60  0000 L CNN
+F 2 "" H 2300 1650 60  0001 C CNN
+F 3 "" H 2300 1650 60  0001 C CNN
+	1    2300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_10 Conn?
+U 1 1 622C9F32
+P 3800 1550
+F 0 "Conn?" H 3928 2108 60  0000 L CNN
+F 1 "Molex_SL_10" H 3928 2002 60  0000 L CNN
+F 2 "" H 3800 2050 60  0001 C CNN
+F 3 "" H 3800 2050 60  0001 C CNN
+	1    3800 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 622C9F38
+P 3800 1750
+F 0 "Conn?" H 3928 1908 60  0000 L CNN
+F 1 "Molex_SL_02" H 3928 1802 60  0000 L CNN
+F 2 "" H 3800 1650 60  0001 C CNN
+F 3 "" H 3800 1650 60  0001 C CNN
+	1    3800 1750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1950 1000 0    50   Input ~ 0
+Current_Sense_Drive
+Text GLabel 1950 1400 0    50   Input ~ 0
+Current_Sense_Nav
+Wire Wire Line
+	1950 1000 2100 1000
+Wire Wire Line
+	2100 1400 1950 1400
+Text GLabel 1950 600  0    50   Input ~ 0
+Current_Sense_AuxLog
+Wire Wire Line
+	1950 600  2100 600 
+Text GLabel 1950 700  0    50   Input ~ 0
+Current_Sense_BBB
+Wire Wire Line
+	1950 700  2100 700 
+Text GLabel 1950 800  0    50   Input ~ 0
+Current_Sense_Cam1
+Wire Wire Line
+	1950 800  2100 800 
+Text GLabel 1950 900  0    50   Input ~ 0
+Current_Sense_Cam2
+Wire Wire Line
+	1950 900  2100 900 
+Text GLabel 1950 1100 0    50   Input ~ 0
+Current_Sense_GimAct
+Wire Wire Line
+	1950 1100 2100 1100
+Text GLabel 1950 1200 0    50   Input ~ 0
+Current_Sense_GimLog
+Wire Wire Line
+	1950 1200 2100 1200
+Text GLabel 1950 1300 0    50   Input ~ 0
+Current_Sense_Multi
+Wire Wire Line
+	1950 1300 2100 1300
+Text GLabel 1950 1500 0    50   Input ~ 0
+Current_Sense_NetSwitch
+Wire Wire Line
+	1950 1500 2100 1500
+Text GLabel 1950 1600 0    50   Input ~ 0
+Current_Sense_SciAct
+Wire Wire Line
+	1950 1600 2100 1600
+Text GLabel 1950 1700 0    50   Input ~ 0
+Current_Sense_SciLog
+Wire Wire Line
+	1950 1700 2100 1700
+Text GLabel 4150 1000 2    50   Output ~ 0
+Driver_Drive
+Wire Wire Line
+	4000 1000 4150 1000
+Text GLabel 4150 1400 2    50   Output ~ 0
+Driver_Nav
+Wire Wire Line
+	4000 1400 4150 1400
+Text GLabel 4150 600  2    50   Output ~ 0
+Driver_AuxLog
+Wire Wire Line
+	4000 600  4150 600 
+Text GLabel 4150 700  2    50   Output ~ 0
+Driver_BBB
+Wire Wire Line
+	4000 700  4150 700 
+Text GLabel 4150 800  2    50   Output ~ 0
+Driver_Cam1
+Wire Wire Line
+	4000 800  4150 800 
+Text GLabel 4150 900  2    50   Output ~ 0
+Driver_Cam2
+Wire Wire Line
+	4000 900  4150 900 
+Text GLabel 4150 1100 2    50   Output ~ 0
+Driver_GimAct
+Wire Wire Line
+	4000 1100 4150 1100
+Text GLabel 4150 1200 2    50   Output ~ 0
+Driver_GimLog
+Wire Wire Line
+	4000 1200 4150 1200
+Text GLabel 4150 1300 2    50   Output ~ 0
+Driver_Multi
+Wire Wire Line
+	4000 1300 4150 1300
+Text GLabel 4150 1500 2    50   Output ~ 0
+Driver_NetSwitch
+Wire Wire Line
+	4000 1500 4150 1500
+Text GLabel 4150 1600 2    50   Output ~ 0
+Driver_SciAct
+Wire Wire Line
+	4000 1600 4150 1600
+Text GLabel 4150 1700 2    50   Output ~ 0
+Driver_SciLog
+Wire Wire Line
+	4000 1700 4150 1700
 $EndSCHEMATC
