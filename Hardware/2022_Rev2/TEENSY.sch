@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -106,7 +106,6 @@ NoConn ~ 5800 5500
 NoConn ~ 5800 5400
 NoConn ~ 5800 5300
 NoConn ~ 5800 5200
-NoConn ~ 5800 5100
 NoConn ~ 5800 4600
 NoConn ~ 5800 4500
 NoConn ~ 5800 4300
@@ -186,4 +185,8 @@ Text HLabel 5900 5000 2    50   Input ~ 0
 Current_Sense_SciLog
 Wire Wire Line
 	5900 5000 5800 5000
+Text HLabel 5900 5100 2    50   Input ~ 0
+Current_Sense_AuxLog
+Wire Wire Line
+	5900 5100 5800 5100
 $EndSCHEMATC
