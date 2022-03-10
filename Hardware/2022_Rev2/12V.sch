@@ -13,109 +13,36 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1450 900  2300 1800
-U 621219B0
-F0 "Low Current Out" 50
-F1 "Low Current Out.sch" 50
-F2 "Current_Sense_BlackBox" O R 3750 1050 50 
-F3 "Anderson_BlackBox" O R 3750 2100 50 
-F4 "Driver_BlackBox" I L 1450 1450 50 
-F5 "5V" I L 1450 1000 50 
-F6 "Current_Sense_Multimedia" O R 3750 1150 50 
-F7 "Anderson_Multimedia" O R 3750 2200 50 
-F8 "Driver_Multimedia" I L 1450 1550 50 
-F9 "Current_Sense_Drive" O R 3750 1250 50 
-F10 "Anderson_Drive" O R 3750 2300 50 
-F11 "Driver_Drive" I L 1450 1650 50 
-F12 "Current_Sense_Nav" O R 3750 1350 50 
-F13 "Anderson_Nav" O R 3750 2400 50 
-F14 "Driver_Nav" I L 1450 1750 50 
-F15 "Current_Sense_Gimbal" O R 3750 1450 50 
-F16 "Anderson_Gimbal" O R 3750 2500 50 
-F17 "Driver_Gimbal" I L 1450 1850 50 
-F18 "Current_Sense_Spare" O R 3750 1550 50 
-F19 "Anderson_Spare" O R 3750 2600 50 
-F20 "Driver_Spare" I L 1450 1950 50 
-$EndSheet
 Text HLabel 1350 1000 0    50   Input ~ 0
 5V
 Text HLabel 1350 1450 0    50   Input ~ 0
-Driver_BlackBox
-Text HLabel 1350 1550 0    50   Input ~ 0
-Driver_Multimedia
-Text HLabel 1350 1650 0    50   Input ~ 0
 Driver_Drive
 Text HLabel 1350 1750 0    50   Input ~ 0
 Driver_Nav
-Text HLabel 1350 1850 0    50   Input ~ 0
-Driver_Gimbal
-Text HLabel 1350 1950 0    50   Input ~ 0
-Driver_Spare
 Wire Wire Line
 	1350 1000 1450 1000
 Wire Wire Line
 	1350 1450 1450 1450
 Wire Wire Line
-	1450 1550 1350 1550
-Wire Wire Line
-	1350 1650 1450 1650
-Wire Wire Line
 	1450 1750 1350 1750
-Wire Wire Line
-	1350 1850 1450 1850
-Wire Wire Line
-	1450 1950 1350 1950
-Text HLabel 3850 1050 2    50   Output ~ 0
-Current_Sense_BlackBox
-Text HLabel 3850 1150 2    50   Output ~ 0
-Current_Sense_Multimedia
-Text HLabel 3850 1250 2    50   Output ~ 0
-Current_Sense_Drive
-Text HLabel 3850 1350 2    50   Output ~ 0
-Current_Sense_Nav
 Text HLabel 3850 1450 2    50   Output ~ 0
-Current_Sense_Gimbal
-Text HLabel 3850 1550 2    50   Output ~ 0
-Current_Sense_Spare
+Current_Sense_Drive
+Text HLabel 3850 1750 2    50   Output ~ 0
+Current_Sense_Nav
 Wire Wire Line
-	3850 1550 3750 1550
+	3850 1750 3750 1750
 Wire Wire Line
 	3750 1450 3850 1450
-Wire Wire Line
-	3850 1350 3750 1350
-Wire Wire Line
-	3750 1250 3850 1250
-Wire Wire Line
-	3850 1150 3750 1150
-Wire Wire Line
-	3750 1050 3850 1050
-Text HLabel 3850 2100 2    50   Output ~ 0
-Anderson_BlackBox
-Text HLabel 3850 2200 2    50   Output ~ 0
-Anderson_Multimedia
-Text HLabel 3850 2300 2    50   Output ~ 0
-Anderson_Drive
-Text HLabel 3850 2400 2    50   Output ~ 0
-Anderson_Nav
 Text HLabel 3850 2500 2    50   Output ~ 0
-Anderson_Gimbal
-Text HLabel 3850 2600 2    50   Output ~ 0
-Anderson_Spare
-Wire Wire Line
-	3850 2100 3750 2100
-Wire Wire Line
-	3750 2200 3850 2200
-Wire Wire Line
-	3850 2300 3750 2300
-Wire Wire Line
-	3750 2400 3850 2400
+Anderson_Drive
+Text HLabel 3850 2800 2    50   Output ~ 0
+Anderson_Nav
 Wire Wire Line
 	3850 2500 3750 2500
 Wire Wire Line
-	3750 2600 3850 2600
+	3750 2800 3850 2800
 $Sheet
-S 1550 3450 2200 1450
+S 1500 5400 2200 1450
 U 622EFCD1
 F0 "High Current Outputs" 50
 F1 "High Current Outputs.sch" 50
@@ -345,9 +272,9 @@ Wire Wire Line
 Wire Wire Line
 	10000 3550 10000 3500
 Text HLabel 10400 3850 3    50   Output ~ 0
-Current_Sense_Drive
+Current_Sense_GimAct
 Text HLabel 10250 4500 3    50   Output ~ 0
-Anderson_Drive
+Anderson_GimAct
 Wire Wire Line
 	9550 4500 10250 4500
 Wire Wire Line
@@ -355,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3750 6600 3600
 Text HLabel 7000 3900 3    50   Input ~ 0
-Driver_Drive
+Driver_GimAct
 Text HLabel 6600 3600 1    50   Input ~ 0
 5V
 Text HLabel 10000 3500 0    50   Input ~ 0
@@ -585,9 +512,9 @@ Wire Wire Line
 Wire Wire Line
 	9800 1150 9800 1100
 Text HLabel 10200 1450 3    50   Output ~ 0
-Current_Sense_Drive
+Current_Sense_SciAct
 Text HLabel 10050 2100 3    50   Output ~ 0
-Anderson_Drive
+Anderson_SciAct
 Wire Wire Line
 	9350 2100 10050 2100
 Wire Wire Line
@@ -595,9 +522,43 @@ Wire Wire Line
 Wire Wire Line
 	6400 1350 6400 1200
 Text HLabel 6800 1500 3    50   Input ~ 0
-Driver_Drive
+Driver_ScitAct
 Text HLabel 6400 1200 1    50   Input ~ 0
 5V
 Text HLabel 9800 1100 0    50   Input ~ 0
 5V
+$Sheet
+S 1450 900  2300 3250
+U 621219B0
+F0 "Low Current Out" 50
+F1 "Low Current Out.sch" 50
+F2 "5V" I L 1450 1000 50 
+F3 "Current_Sense_Drive" O R 3750 1450 50 
+F4 "Anderson_Drive" O R 3750 2500 50 
+F5 "Driver_Drive" I L 1450 1450 50 
+F6 "Current_Sense_Nav" O R 3750 1750 50 
+F7 "Anderson_Nav" O R 3750 2800 50 
+F8 "Driver_Nav" I L 1450 1750 50 
+F9 "Current_Sense_BBB" O R 3750 1150 50 
+F10 "Anderson_BBB" O R 3750 2200 50 
+F11 "Current_Sense_Multi" O R 3750 1650 50 
+F12 "Anderson_Multi" O R 3750 2700 50 
+F13 "Current_Sense_Cam1" O R 3750 1250 50 
+F14 "Anderson_Cam1" O R 3750 2300 50 
+F15 "Driver_Cam1" I L 1450 1250 50 
+F16 "Current_Sense_NetSwitch" O R 3750 1850 50 
+F17 "Anderson_NetSwitch" O R 3750 2900 50 
+F18 "Current_Sense_Cam2" O R 3750 1350 50 
+F19 "Anderson_Cam2" O R 3750 2400 50 
+F20 "Driver_Cam2" I L 1450 1350 50 
+F21 "Driver_BBB" I L 1450 1150 50 
+F22 "Driver_Multi" I L 1450 1650 50 
+F23 "Current_Sense_GimLog" O R 3750 1550 50 
+F24 "Anderson_GimLog" O R 3750 2600 50 
+F25 "Driver_GimLog" I L 1450 1550 50 
+F26 "Driver_NetSwitch" I L 1450 1850 50 
+F27 "Current_Sense_SciLog" O R 3750 1950 50 
+F28 "Anderson_SciLog" O R 3750 3000 50 
+F29 "Driver_SciLog" I L 1450 1950 50 
+$EndSheet
 $EndSCHEMATC

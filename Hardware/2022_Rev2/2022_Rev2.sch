@@ -447,7 +447,7 @@ Wire Wire Line
 Wire Notes Line
 	500  500  5350 500 
 Text Label 450  2500 0    315  Italic 63
-Tiva
+Teensy
 Wire Notes Line
 	500  2500 5350 2500
 Wire Notes Line
