@@ -511,7 +511,7 @@ U 2 1 6257C05F
 P 9500 650
 F 0 "Conn4" V 9450 750 60  0000 C CNN
 F 1 "AndersonPP" V 9350 750 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 100 60  0001 C CNN
 F 3 "" H 9350 100 60  0001 C CNN
 	2    9500 650 
 	0    1    1    0   
@@ -522,7 +522,7 @@ U 1 1 62580F86
 P 10600 3650
 F 0 "Conn9" V 10550 3750 60  0000 C CNN
 F 1 "AndersonPP" V 10450 3750 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 10450 3100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10450 3100 60  0001 C CNN
 F 3 "" H 10450 3100 60  0001 C CNN
 	1    10600 3650
 	0    1    1    0   
@@ -533,7 +533,7 @@ U 1 1 62591263
 P 10050 650
 F 0 "Conn4" V 10000 750 60  0000 C CNN
 F 1 "AndersonPP" V 9900 750 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 100 60  0001 C CNN
 F 3 "" H 9900 100 60  0001 C CNN
 	1    10050 650 
 	0    1    1    0   
@@ -544,7 +544,7 @@ U 1 1 625C36EB
 P 10050 1250
 F 0 "Conn5" V 10000 1350 60  0000 C CNN
 F 1 "AndersonPP" V 9900 1350 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 700 60  0001 C CNN
 F 3 "" H 9900 700 60  0001 C CNN
 	1    10050 1250
 	0    1    1    0   
@@ -555,7 +555,7 @@ U 1 1 625C795B
 P 10050 1850
 F 0 "Conn6" V 10000 1950 60  0000 C CNN
 F 1 "AndersonPP" V 9900 1950 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 1300 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 1300 60  0001 C CNN
 F 3 "" H 9900 1300 60  0001 C CNN
 	1    10050 1850
 	0    1    1    0   
@@ -566,7 +566,7 @@ U 1 1 625CBD75
 P 10050 2450
 F 0 "Conn7" V 10000 2550 60  0000 C CNN
 F 1 "AndersonPP" V 9900 2550 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 1900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 1900 60  0001 C CNN
 F 3 "" H 9900 1900 60  0001 C CNN
 	1    10050 2450
 	0    1    1    0   
@@ -577,7 +577,7 @@ U 3 1 6257FC90
 P 9700 3900
 F 0 "Conn9" H 9800 4150 60  0000 C CNN
 F 1 "AndersonPP" V 9600 4000 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 9550 3350 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9550 3350 60  0001 C CNN
 F 3 "" H 9550 3350 60  0001 C CNN
 	3    9700 3900
 	0    -1   -1   0   
@@ -588,7 +588,7 @@ U 1 1 625DF808
 P 10050 4250
 F 0 "Conn10" V 10000 4350 60  0000 C CNN
 F 1 "AndersonPP" V 9900 4350 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 3700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 3700 60  0001 C CNN
 F 3 "" H 9900 3700 60  0001 C CNN
 	1    10050 4250
 	0    1    1    0   
@@ -599,7 +599,7 @@ U 1 1 625E3A96
 P 10050 4850
 F 0 "Conn11" V 10000 4950 60  0000 C CNN
 F 1 "AndersonPP" V 9900 4950 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 4300 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 4300 60  0001 C CNN
 F 3 "" H 9900 4300 60  0001 C CNN
 	1    10050 4850
 	0    1    1    0   
@@ -610,7 +610,7 @@ U 1 1 625EBE27
 P 10050 5450
 F 0 "Conn12" V 10000 5550 60  0000 C CNN
 F 1 "AndersonPP" V 9900 5550 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 4900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 4900 60  0001 C CNN
 F 3 "" H 9900 4900 60  0001 C CNN
 	1    10050 5450
 	0    1    1    0   
@@ -680,7 +680,7 @@ U 4 1 6265DE23
 P 9500 1250
 F 0 "Conn5" V 9450 1200 60  0000 L CNN
 F 1 "AndersonPP" V 9350 1100 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 700 60  0001 C CNN
 F 3 "" H 9350 700 60  0001 C CNN
 	4    9500 1250
 	0    1    1    0   
@@ -696,7 +696,7 @@ U 4 1 62664C16
 P 9500 1850
 F 0 "Conn6" V 9450 1800 60  0000 L CNN
 F 1 "AndersonPP" V 9350 1700 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 1300 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 1300 60  0001 C CNN
 F 3 "" H 9350 1300 60  0001 C CNN
 	4    9500 1850
 	0    1    1    0   
@@ -707,7 +707,7 @@ U 4 1 62669E3D
 P 9500 2450
 F 0 "Conn7" V 9450 2400 60  0000 L CNN
 F 1 "AndersonPP" V 9350 2300 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 1900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 1900 60  0001 C CNN
 F 3 "" H 9350 1900 60  0001 C CNN
 	4    9500 2450
 	0    1    1    0   
@@ -718,7 +718,7 @@ U 4 1 62679AA7
 P 9500 3050
 F 0 "Conn8" V 9450 3000 60  0000 L CNN
 F 1 "AndersonPP" V 9350 2900 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 2500 60  0001 C CNN
 F 3 "" H 9350 2500 60  0001 C CNN
 	4    9500 3050
 	0    1    1    0   
@@ -729,7 +729,7 @@ U 1 1 6267E2AF
 P 10050 3050
 F 0 "Conn8" V 10000 3150 60  0000 C CNN
 F 1 "AndersonPP" V 9900 3150 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9900 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 2500 60  0001 C CNN
 F 3 "" H 9900 2500 60  0001 C CNN
 	1    10050 3050
 	0    1    1    0   
@@ -757,7 +757,7 @@ U 4 1 62690D22
 P 9500 4250
 F 0 "Conn10" V 9450 4200 60  0000 L CNN
 F 1 "AndersonPP" V 9350 4100 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 3700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 3700 60  0001 C CNN
 F 3 "" H 9350 3700 60  0001 C CNN
 	4    9500 4250
 	0    1    1    0   
@@ -768,7 +768,7 @@ U 4 1 626957E9
 P 9500 4850
 F 0 "Conn11" V 9450 4800 60  0000 L CNN
 F 1 "AndersonPP" V 9350 4700 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 4300 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 4300 60  0001 C CNN
 F 3 "" H 9350 4300 60  0001 C CNN
 	4    9500 4850
 	0    1    1    0   
@@ -779,7 +779,7 @@ U 4 1 6269A40C
 P 9500 5450
 F 0 "Conn12" V 9450 5400 60  0000 L CNN
 F 1 "AndersonPP" V 9350 5300 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side_PV" H 9350 4900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 4900 60  0001 C CNN
 F 3 "" H 9350 4900 60  0001 C CNN
 	4    9500 5450
 	0    1    1    0   
@@ -792,7 +792,7 @@ U 2 1 62580207
 P 10050 3650
 F 0 "Conn9" H 10200 3600 60  0000 C CNN
 F 1 "AndersonPP" V 10000 3750 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 9900 3100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9900 3100 60  0001 C CNN
 F 3 "" H 9900 3100 60  0001 C CNN
 	2    10050 3650
 	0    1    1    0   
