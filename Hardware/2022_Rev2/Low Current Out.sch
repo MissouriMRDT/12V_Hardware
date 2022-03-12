@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:2022_Rev2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -141,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4950 2550 4950
 Wire Wire Line
-	2650 4650 3200 4650
+	2650 4650 2800 4650
 Connection ~ 2650 4650
 Wire Wire Line
 	3200 5050 3200 5200
@@ -356,8 +357,6 @@ Wire Wire Line
 	2750 3050 2750 3150
 Wire Wire Line
 	2750 3150 2400 3150
-Wire Wire Line
-	2500 2850 3050 2850
 Connection ~ 2500 2850
 Wire Wire Line
 	3050 3250 3050 3400
@@ -573,7 +572,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1400 2450 1400
 Wire Wire Line
-	2550 1100 3100 1100
+	2550 1100 2700 1100
 Connection ~ 2550 1100
 Wire Wire Line
 	3100 1500 3100 1650
@@ -789,7 +788,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 1500 9200 1500
 Wire Wire Line
-	9300 1200 9850 1200
+	9300 1200 9450 1200
 Connection ~ 9300 1200
 Wire Wire Line
 	9850 1600 9850 1750
@@ -1004,8 +1003,6 @@ Wire Wire Line
 	9500 3300 9500 3400
 Wire Wire Line
 	9500 3400 9150 3400
-Wire Wire Line
-	9250 3100 9800 3100
 Connection ~ 9250 3100
 Wire Wire Line
 	9800 3500 9800 3650
@@ -1078,9 +1075,9 @@ Wire Wire Line
 Wire Wire Line
 	10650 2900 10650 2850
 Text HLabel 11050 3200 3    50   Output ~ 0
-Current_Sense_GimLog
+Current_Sense_Gim
 Text HLabel 10900 3850 3    50   Output ~ 0
-Anderson_GimLog
+Anderson_Gim
 Wire Wire Line
 	10200 3850 10900 3850
 Wire Wire Line
@@ -1088,7 +1085,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 3100 7250 2950
 Text HLabel 7650 3250 3    50   Input ~ 0
-Driver_GimLog
+Driver_Gim
 Text HLabel 7250 2950 1    50   Input ~ 0
 5V
 Text HLabel 10650 2850 0    50   Input ~ 0
@@ -1221,7 +1218,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 5200 9150 5200
 Wire Wire Line
-	9250 4900 9800 4900
+	9250 4900 9400 4900
 Connection ~ 9250 4900
 Wire Wire Line
 	9800 5300 9800 5450
@@ -1436,8 +1433,6 @@ Wire Wire Line
 	2850 6500 2850 6600
 Wire Wire Line
 	2850 6600 2500 6600
-Wire Wire Line
-	2600 6300 3150 6300
 Connection ~ 2600 6300
 Wire Wire Line
 	3150 6700 3150 6850
@@ -1652,8 +1647,6 @@ Wire Wire Line
 	6400 6100 6300 6100
 Wire Wire Line
 	6300 6100 6300 5750
-Wire Wire Line
-	6600 5850 6600 6400
 Connection ~ 6600 5850
 Wire Wire Line
 	6200 6400 6050 6400
@@ -1741,4 +1734,350 @@ Text HLabel 6750 3850 2    50   Input ~ 0
 5V
 Text HLabel 6850 7250 1    50   Input ~ 0
 5V
+Text HLabel 2700 950  1    50   Input ~ 0
+12VA
+Wire Wire Line
+	2700 950  2700 1100
+Connection ~ 2700 1100
+Wire Wire Line
+	2700 1100 3100 1100
+Text HLabel 2700 2300 1    50   Input ~ 0
+12VA
+Wire Wire Line
+	2700 2300 2700 2450
+Text HLabel 2800 4500 1    50   Input ~ 0
+12VA
+Wire Wire Line
+	2800 4500 2800 4650
+Connection ~ 2800 4650
+Wire Wire Line
+	2800 4650 3200 4650
+Text HLabel 2750 5800 1    50   Input ~ 0
+12VA
+Wire Wire Line
+	2750 5800 2750 5950
+Text HLabel 7150 4050 0    50   Input ~ 0
+12VA
+Connection ~ 9400 4900
+Wire Wire Line
+	9400 4900 9800 4900
+Text HLabel 9400 2600 1    50   Input ~ 0
+12VA
+Wire Wire Line
+	9400 2600 9400 2750
+Text HLabel 9450 1050 1    50   Input ~ 0
+12VA
+Wire Wire Line
+	9450 1050 9450 1200
+Connection ~ 9450 1200
+Wire Wire Line
+	9450 1200 9850 1200
+Wire Wire Line
+	6600 5850 6600 6100
+$Comp
+L Device:Fuse F?
+U 1 1 624B2049
+P 7500 4200
+F 0 "F?" H 7560 4246 50  0000 L CNN
+F 1 "5A" H 7560 4155 50  0000 L CNN
+F 2 "" V 7430 4200 50  0001 C CNN
+F 3 "~" H 7500 4200 50  0001 C CNN
+	1    7500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4050 7500 4050
+Wire Wire Line
+	7500 4350 7500 4500
+Wire Wire Line
+	7500 4500 9400 4500
+Wire Wire Line
+	9400 4500 9400 4900
+Wire Wire Line
+	6600 6100 7100 6100
+Wire Wire Line
+	7100 6100 7100 4500
+Wire Wire Line
+	7100 4500 7500 4500
+Connection ~ 6600 6100
+Wire Wire Line
+	6600 6100 6600 6400
+Connection ~ 7500 4500
+$Comp
+L Device:Fuse F?
+U 1 1 62509FF4
+P 2700 2600
+F 0 "F?" H 2760 2646 50  0000 L CNN
+F 1 "5A" H 2760 2555 50  0000 L CNN
+F 2 "" V 2630 2600 50  0001 C CNN
+F 3 "~" H 2700 2600 50  0001 C CNN
+	1    2700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2850 2700 2850
+Wire Wire Line
+	2700 2750 2700 2850
+Connection ~ 2700 2850
+Wire Wire Line
+	2700 2850 3050 2850
+Wire Wire Line
+	9250 3100 9400 3100
+$Comp
+L Device:Fuse F?
+U 1 1 6256217B
+P 9400 2900
+F 0 "F?" H 9460 2946 50  0000 L CNN
+F 1 "5A" H 9460 2855 50  0000 L CNN
+F 2 "" V 9330 2900 50  0001 C CNN
+F 3 "~" H 9400 2900 50  0001 C CNN
+	1    9400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3050 9400 3100
+Connection ~ 9400 3100
+Wire Wire Line
+	9400 3100 9800 3100
+$Comp
+L Device:Fuse F?
+U 1 1 625A5139
+P 2750 6100
+F 0 "F?" H 2810 6146 50  0000 L CNN
+F 1 "5A" H 2810 6055 50  0000 L CNN
+F 2 "" V 2680 6100 50  0001 C CNN
+F 3 "~" H 2750 6100 50  0001 C CNN
+	1    2750 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6300 2750 6300
+Wire Wire Line
+	2750 6250 2750 6300
+Connection ~ 2750 6300
+Wire Wire Line
+	2750 6300 3150 6300
+$Comp
+L Device:R R?
+U 1 1 6263D3BB
+P 5300 4250
+F 0 "R?" V 5400 4250 50  0000 C CNN
+F 1 "5.1k" V 5300 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5230 4250 50  0001 C CNN
+F 3 "~" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L 2022_Rev2-rescue:LT1910-MRDT_ICs U?
+U 1 1 6263D3C1
+P 5700 3550
+F 0 "U?" H 6075 4237 60  0000 C CNN
+F 1 "LT1910" H 6075 4131 60  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 3550 60  0001 C CNN
+F 3 "" H 5700 3550 60  0001 C CNN
+	1    5700 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6263D3C7
+P 6000 3750
+F 0 "C?" H 6115 3796 50  0000 L CNN
+F 1 "0.1uF" H 6115 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6038 3600 50  0001 C CNN
+F 3 "~" H 6000 3750 50  0001 C CNN
+	1    6000 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6263D3CD
+P 6150 3150
+F 0 "#PWR?" H 6150 2900 50  0001 C CNN
+F 1 "GND" H 6155 2977 50  0000 C CNN
+F 2 "" H 6150 3150 50  0001 C CNN
+F 3 "" H 6150 3150 50  0001 C CNN
+	1    6150 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6263D3D3
+P 5900 2500
+F 0 "C?" H 6015 2546 50  0000 L CNN
+F 1 "10uF" H 6015 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5938 2350 50  0001 C CNN
+F 3 "~" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:BUK7M9R9-60EX Q?
+U 1 1 6263D3D9
+P 5500 2050
+F 0 "Q?" H 5650 1900 50  0000 L CNN
+F 1 "BUK768R3-60E" H 5200 1800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 5700 1975 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 5500 2050 50  0001 L CNN
+	1    5500 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6263D3DF
+P 6150 1650
+F 0 "R?" V 6050 1650 50  0000 C CNN
+F 1 "330" V 6150 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6080 1650 50  0001 C CNN
+F 3 "~" H 6150 1650 50  0001 C CNN
+	1    6150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 6263D3E5
+P 6150 1250
+F 0 "D?" H 6150 1350 50  0000 C CNN
+F 1 "LED" H 6150 1450 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 1250 50  0001 C CNN
+F 3 "~" H 6150 1250 50  0001 C CNN
+	1    6150 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L 2022_Rev2-rescue:INA281-MRDT_ICs U?
+U 1 1 6263D3EB
+P 5400 1100
+F 0 "U?" H 5650 1400 50  0000 L CNN
+F 1 "INA281" H 5600 1300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5650 1300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ina281.pdf?ts=1602621825218&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA281" H 5650 1300 50  0001 C CNN
+	1    5400 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4100 5300 3750
+Wire Wire Line
+	5450 3750 5450 4100
+Wire Wire Line
+	5600 3750 5850 3750
+Wire Wire Line
+	6150 3750 6150 3150
+Wire Wire Line
+	5900 3150 6150 3150
+Connection ~ 6150 3150
+Wire Wire Line
+	6150 3150 6150 2500
+Wire Wire Line
+	6150 2500 6050 2500
+Wire Wire Line
+	5750 2500 5450 2500
+Wire Wire Line
+	5450 2500 5450 2600
+Wire Wire Line
+	5300 2600 5300 2500
+Wire Wire Line
+	5300 2500 5450 2500
+Connection ~ 5450 2500
+Wire Wire Line
+	5500 2250 5600 2250
+Wire Wire Line
+	5600 2250 5600 2600
+Wire Wire Line
+	5300 2500 5300 2350
+Connection ~ 5300 2500
+Wire Wire Line
+	5700 1950 5850 1950
+Wire Wire Line
+	6150 1950 6150 1800
+Wire Wire Line
+	6150 1500 6150 1400
+Wire Wire Line
+	6150 1100 6150 1000
+Wire Wire Line
+	6150 1000 6300 1000
+$Comp
+L power:GND #PWR?
+U 1 1 6263D407
+P 6300 1000
+F 0 "#PWR?" H 6300 750 50  0001 C CNN
+F 1 "GND" H 6305 827 50  0000 C CNN
+F 2 "" H 6300 1000 50  0001 C CNN
+F 3 "" H 6300 1000 50  0001 C CNN
+	1    6300 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6263D40D
+P 5550 1550
+F 0 "R?" H 5600 1600 50  0000 L CNN
+F 1 "0.0025" V 5550 1450 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 5480 1550 50  0001 C CNN
+F 3 "~" H 5550 1550 50  0001 C CNN
+	1    5550 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 1950 5850 1700
+Wire Wire Line
+	5850 1700 5300 1700
+Wire Wire Line
+	5300 1700 5300 1550
+Connection ~ 5850 1950
+Wire Wire Line
+	5850 1950 6150 1950
+Wire Wire Line
+	5300 1550 5400 1550
+Connection ~ 5300 1550
+Wire Wire Line
+	5300 1550 5300 1300
+Wire Wire Line
+	5700 1550 5750 1550
+Wire Wire Line
+	5750 1550 5750 1300
+Wire Wire Line
+	5750 1300 5500 1300
+Connection ~ 5750 1550
+$Comp
+L power:GND #PWR?
+U 1 1 6263D41F
+P 5800 1100
+F 0 "#PWR?" H 5800 850 50  0001 C CNN
+F 1 "GND" H 5805 927 50  0000 C CNN
+F 2 "" H 5800 1100 50  0001 C CNN
+F 3 "" H 5800 1100 50  0001 C CNN
+	1    5800 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 1550 6050 1550
+Wire Wire Line
+	5700 1100 5800 1100
+Wire Wire Line
+	5100 1100 5050 1100
+Text HLabel 5400 700  2    50   Output ~ 0
+Current_Sense_Spare
+Text HLabel 6050 850  2    50   Output ~ 0
+Anderson_Spare
+Wire Wire Line
+	6050 1550 6050 850 
+Wire Wire Line
+	5300 4400 5300 4500
+Wire Wire Line
+	5300 4500 5150 4500
+Text HLabel 5450 4100 2    50   Input ~ 0
+Driver_Spare
+Text HLabel 5150 4500 0    50   Input ~ 0
+5V
+Text HLabel 5050 1100 3    50   Input ~ 0
+5V
+Text HLabel 5150 2350 0    50   Input ~ 0
+12VA
+Wire Wire Line
+	5150 2350 5300 2350
+Connection ~ 5300 2350
+Wire Wire Line
+	5300 2350 5300 1950
 $EndSCHEMATC
