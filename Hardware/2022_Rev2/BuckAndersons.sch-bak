@@ -19,8 +19,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 4 1 621C7125
 P 6250 4250
 AR Path="/621C7125" Ref="Conn?"  Part="4" 
-AR Path="/6217B740/621C7125" Ref="Conn16"  Part="4" 
-F 0 "Conn16" H 6458 4637 60  0000 C CNN
+AR Path="/6217B740/621C7125" Ref="Conn14"  Part="4" 
+F 0 "Conn14" H 6458 4637 60  0000 C CNN
 F 1 "Aux_Out" H 6458 4531 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6100 3700 60  0001 C CNN
 F 3 "" H 6100 3700 60  0001 C CNN
@@ -32,8 +32,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 621C871C
 P 6250 4800
 AR Path="/621C871C" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/621C871C" Ref="Conn16"  Part="1" 
-F 0 "Conn16" H 6458 5187 60  0000 C CNN
+AR Path="/6217B740/621C871C" Ref="Conn14"  Part="1" 
+F 0 "Conn14" H 6458 5187 60  0000 C CNN
 F 1 "Aux_Out" H 6458 5081 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6100 4250 60  0001 C CNN
 F 3 "" H 6100 4250 60  0001 C CNN
@@ -64,8 +64,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 62262695
 P 7550 4250
 AR Path="/62262695" Ref="Conn?"  Part="3" 
-AR Path="/6217B740/62262695" Ref="Conn17"  Part="3" 
-F 0 "Conn17" H 7758 4637 60  0000 C CNN
+AR Path="/6217B740/62262695" Ref="Conn15"  Part="3" 
+F 0 "Conn15" H 7758 4637 60  0000 C CNN
 F 1 "Aux_In" H 7758 4531 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7400 3700 60  0001 C CNN
 F 3 "" H 7400 3700 60  0001 C CNN
@@ -77,8 +77,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 62264AAC
 P 7550 4750
 AR Path="/62264AAC" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/62264AAC" Ref="Conn17"  Part="1" 
-F 0 "Conn17" H 7758 5137 60  0000 C CNN
+AR Path="/6217B740/62264AAC" Ref="Conn15"  Part="1" 
+F 0 "Conn15" H 7758 5137 60  0000 C CNN
 F 1 "Aux_In" H 7758 5031 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7400 4200 60  0001 C CNN
 F 3 "" H 7400 4200 60  0001 C CNN
@@ -105,8 +105,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 4 1 6226B6C1
 P 7750 1400
 AR Path="/6226B6C1" Ref="Conn?"  Part="4" 
-AR Path="/6217B740/6226B6C1" Ref="Conn18"  Part="4" 
-F 0 "Conn18" H 7958 1787 60  0000 C CNN
+AR Path="/6217B740/6226B6C1" Ref="Conn16"  Part="4" 
+F 0 "Conn16" H 7958 1787 60  0000 C CNN
 F 1 "Aux_GP_Out" H 7958 1681 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7600 850 60  0001 C CNN
 F 3 "" H 7600 850 60  0001 C CNN
@@ -118,8 +118,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6226B6CD
 P 7750 1900
 AR Path="/6226B6CD" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/6226B6CD" Ref="Conn18"  Part="1" 
-F 0 "Conn18" H 7958 2287 60  0000 C CNN
+AR Path="/6217B740/6226B6CD" Ref="Conn16"  Part="1" 
+F 0 "Conn16" H 7958 2287 60  0000 C CNN
 F 1 "Aux_GP_Out" H 7958 2181 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7600 1350 60  0001 C CNN
 F 3 "" H 7600 1350 60  0001 C CNN
@@ -150,8 +150,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 6226B6DF
 P 9250 1400
 AR Path="/6226B6DF" Ref="Conn?"  Part="3" 
-AR Path="/6217B740/6226B6DF" Ref="Conn19"  Part="3" 
-F 0 "Conn19" H 9458 1787 60  0000 C CNN
+AR Path="/6217B740/6226B6DF" Ref="Conn17"  Part="3" 
+F 0 "Conn17" H 9458 1787 60  0000 C CNN
 F 1 "Aux_GP_In" H 9458 1681 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9100 850 60  0001 C CNN
 F 3 "" H 9100 850 60  0001 C CNN
@@ -163,8 +163,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6226B6E5
 P 9250 1900
 AR Path="/6226B6E5" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/6226B6E5" Ref="Conn19"  Part="1" 
-F 0 "Conn19" H 9458 2287 60  0000 C CNN
+AR Path="/6217B740/6226B6E5" Ref="Conn17"  Part="1" 
+F 0 "Conn17" H 9458 2287 60  0000 C CNN
 F 1 "Aux_GP_In" H 9458 2181 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9100 1350 60  0001 C CNN
 F 3 "" H 9100 1350 60  0001 C CNN
@@ -464,10 +464,10 @@ L MRDT_Connectors:AndersonPP Conn?
 U 2 1 627009DB
 P 3150 2200
 AR Path="/627009DB" Ref="Conn?"  Part="2" 
-AR Path="/6217B740/627009DB" Ref="Conn10"  Part="2" 
-F 0 "Conn10" V 3100 2300 60  0000 C CNN
+AR Path="/6217B740/627009DB" Ref="Conn1"  Part="2" 
+F 0 "Conn1" V 3100 2300 60  0000 C CNN
 F 1 "AndersonPP" V 3000 2300 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3000 1650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 1650 60  0001 C CNN
 F 3 "" H 3000 1650 60  0001 C CNN
 	2    3150 2200
 	-1   0    0    1   
@@ -477,10 +477,10 @@ L MRDT_Connectors:AndersonPP Conn?
 U 2 1 62720DB6
 P 3150 5150
 AR Path="/62720DB6" Ref="Conn?"  Part="2" 
-AR Path="/6217B740/62720DB6" Ref="Conn11"  Part="2" 
-F 0 "Conn11" V 3100 5250 60  0000 C CNN
+AR Path="/6217B740/62720DB6" Ref="Conn13"  Part="2" 
+F 0 "Conn13" V 3100 5250 60  0000 C CNN
 F 1 "AndersonPP" V 3000 5250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3000 4600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 4600 60  0001 C CNN
 F 3 "" H 3000 4600 60  0001 C CNN
 	2    3150 5150
 	-1   0    0    1   
@@ -499,8 +499,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 62724E2B
 P 3150 1650
 AR Path="/62724E2B" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/62724E2B" Ref="Conn14"  Part="1" 
-F 0 "Conn14" V 3100 1750 60  0000 C CNN
+AR Path="/6217B740/62724E2B" Ref="Conn1"  Part="1" 
+F 0 "Conn1" V 3100 1750 60  0000 C CNN
 F 1 "AndersonPP" V 3000 1800 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 1100 60  0001 C CNN
 F 3 "" H 3000 1100 60  0001 C CNN
@@ -525,8 +525,8 @@ L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 6272AE84
 P 3150 4500
 AR Path="/6272AE84" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/6272AE84" Ref="Conn15"  Part="1" 
-F 0 "Conn15" V 3100 4600 60  0000 C CNN
+AR Path="/6217B740/6272AE84" Ref="Conn13"  Part="1" 
+F 0 "Conn13" V 3100 4600 60  0000 C CNN
 F 1 "AndersonPP" V 3000 4650 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 3950 60  0001 C CNN
 F 3 "" H 3000 3950 60  0001 C CNN
