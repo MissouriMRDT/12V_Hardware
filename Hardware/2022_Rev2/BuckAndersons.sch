@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:2022_Rev2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,538 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 4 1 621C7125
-P 6250 4250
-AR Path="/621C7125" Ref="Conn?"  Part="4" 
-AR Path="/6217B740/621C7125" Ref="Conn14"  Part="4" 
-F 0 "Conn14" H 6458 4637 60  0000 C CNN
-F 1 "Aux_Out" H 6458 4531 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6100 3700 60  0001 C CNN
-F 3 "" H 6100 3700 60  0001 C CNN
-	4    6250 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 621C871C
-P 6250 4800
-AR Path="/621C871C" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/621C871C" Ref="Conn14"  Part="1" 
-F 0 "Conn14" H 6458 5187 60  0000 C CNN
-F 1 "Aux_Out" H 6458 5081 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6100 4250 60  0001 C CNN
-F 3 "" H 6100 4250 60  0001 C CNN
-	1    6250 4800
-	1    0    0    -1  
-$EndComp
-Text HLabel 6850 4150 2    50   Input ~ 0
-PV
-Wire Wire Line
-	6850 4150 6650 4150
-$Comp
-L power:GND #PWR021
-U 1 1 621C96CD
-P 6850 4750
-F 0 "#PWR021" H 6850 4500 50  0001 C CNN
-F 1 "GND" H 6855 4577 50  0000 C CNN
-F 2 "" H 6850 4750 50  0001 C CNN
-F 3 "" H 6850 4750 50  0001 C CNN
-	1    6850 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 4700 6850 4700
-Wire Wire Line
-	6850 4700 6850 4750
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 62262695
-P 7550 4250
-AR Path="/62262695" Ref="Conn?"  Part="3" 
-AR Path="/6217B740/62262695" Ref="Conn15"  Part="3" 
-F 0 "Conn15" H 7758 4637 60  0000 C CNN
-F 1 "Aux_In" H 7758 4531 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7400 3700 60  0001 C CNN
-F 3 "" H 7400 3700 60  0001 C CNN
-	3    7550 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 62264AAC
-P 7550 4750
-AR Path="/62264AAC" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/62264AAC" Ref="Conn15"  Part="1" 
-F 0 "Conn15" H 7758 5137 60  0000 C CNN
-F 1 "Aux_In" H 7758 5031 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7400 4200 60  0001 C CNN
-F 3 "" H 7400 4200 60  0001 C CNN
-	1    7550 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 62264AB2
-P 8150 4700
-F 0 "#PWR022" H 8150 4450 50  0001 C CNN
-F 1 "GND" H 8155 4527 50  0000 C CNN
-F 2 "" H 8150 4700 50  0001 C CNN
-F 3 "" H 8150 4700 50  0001 C CNN
-	1    8150 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 4650 8150 4650
-Wire Wire Line
-	8150 4650 8150 4700
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 4 1 6226B6C1
-P 7750 1400
-AR Path="/6226B6C1" Ref="Conn?"  Part="4" 
-AR Path="/6217B740/6226B6C1" Ref="Conn16"  Part="4" 
-F 0 "Conn16" H 7958 1787 60  0000 C CNN
-F 1 "Aux_GP_Out" H 7958 1681 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7600 850 60  0001 C CNN
-F 3 "" H 7600 850 60  0001 C CNN
-	4    7750 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 6226B6CD
-P 7750 1900
-AR Path="/6226B6CD" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/6226B6CD" Ref="Conn16"  Part="1" 
-F 0 "Conn16" H 7958 2287 60  0000 C CNN
-F 1 "Aux_GP_Out" H 7958 2181 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7600 1350 60  0001 C CNN
-F 3 "" H 7600 1350 60  0001 C CNN
-	1    7750 1900
-	1    0    0    -1  
-$EndComp
-Text HLabel 8350 1300 2    50   Input ~ 0
-PV
-Wire Wire Line
-	8350 1300 8150 1300
-$Comp
-L power:GND #PWR023
-U 1 1 6226B6D5
-P 8350 1850
-F 0 "#PWR023" H 8350 1600 50  0001 C CNN
-F 1 "GND" H 8355 1677 50  0000 C CNN
-F 2 "" H 8350 1850 50  0001 C CNN
-F 3 "" H 8350 1850 50  0001 C CNN
-	1    8350 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 1800 8350 1800
-Wire Wire Line
-	8350 1800 8350 1850
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 3 1 6226B6DF
-P 9250 1400
-AR Path="/6226B6DF" Ref="Conn?"  Part="3" 
-AR Path="/6217B740/6226B6DF" Ref="Conn17"  Part="3" 
-F 0 "Conn17" H 9458 1787 60  0000 C CNN
-F 1 "Aux_GP_In" H 9458 1681 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9100 850 60  0001 C CNN
-F 3 "" H 9100 850 60  0001 C CNN
-	3    9250 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 6226B6E5
-P 9250 1900
-AR Path="/6226B6E5" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/6226B6E5" Ref="Conn17"  Part="1" 
-F 0 "Conn17" H 9458 2287 60  0000 C CNN
-F 1 "Aux_GP_In" H 9458 2181 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9100 1350 60  0001 C CNN
-F 3 "" H 9100 1350 60  0001 C CNN
-	1    9250 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 6226B6EB
-P 9850 1850
-F 0 "#PWR027" H 9850 1600 50  0001 C CNN
-F 1 "GND" H 9855 1677 50  0000 C CNN
-F 2 "" H 9850 1850 50  0001 C CNN
-F 3 "" H 9850 1850 50  0001 C CNN
-	1    9850 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 1800 9850 1800
-Wire Wire Line
-	9850 1800 9850 1850
-Text GLabel 1100 2700 1    50   Input ~ 0
-PV
-$Comp
-L Converter_DCDC:OKI-78SR-5_1.5-W36-C U2
-U 1 1 622A6C98
-P 1950 2900
-F 0 "U2" H 1950 3142 50  0000 C CNN
-F 1 "OKI-78SR-5_1.5-W36-C" H 1950 3051 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2000 2650 50  0001 L CIN
-F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 1950 2900 50  0001 C CNN
-	1    1950 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 2700 1100 2900
-Wire Wire Line
-	1100 2900 1400 2900
-$Comp
-L Device:CP1 C4
-U 1 1 622A6CA0
-P 1400 3250
-F 0 "C4" H 1200 3300 50  0000 L CNN
-F 1 "22uF" H 1100 3200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1400 3250 50  0001 C CNN
-F 3 "~" H 1400 3250 50  0001 C CNN
-	1    1400 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 2900 1400 3100
-Connection ~ 1400 2900
-Wire Wire Line
-	1400 2900 1650 2900
-Wire Wire Line
-	1400 3400 1400 3700
-$Comp
-L Device:CP1 C8
-U 1 1 622A6CAB
-P 2950 3250
-F 0 "C8" H 2700 3300 50  0000 L CNN
-F 1 "47uF" H 2650 3200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2950 3250 50  0001 C CNN
-F 3 "~" H 2950 3250 50  0001 C CNN
-	1    2950 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 622A6CB1
-P 2550 3250
-F 0 "C6" H 2300 3300 50  0000 L CNN
-F 1 "10uF" H 2250 3200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2588 3100 50  0001 C CNN
-F 3 "~" H 2550 3250 50  0001 C CNN
-	1    2550 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 2900 2550 3100
-Connection ~ 2550 2900
-Wire Wire Line
-	2550 2900 2250 2900
-Wire Wire Line
-	2550 3400 2550 3700
-Wire Wire Line
-	2550 3700 2950 3700
-Wire Wire Line
-	2950 3700 2950 3400
-Wire Wire Line
-	2950 3100 2950 2900
-$Comp
-L Device:R R2
-U 1 1 622A6CBE
-P 3400 2900
-F 0 "R2" V 3193 2900 50  0000 C CNN
-F 1 "800" V 3284 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3330 2900 50  0001 C CNN
-F 3 "~" H 3400 2900 50  0001 C CNN
-	1    3400 2900
-	0    1    1    0   
-$EndComp
-Connection ~ 2950 2900
-Wire Wire Line
-	3550 2900 3800 2900
-$Comp
-L Device:D D2
-U 1 1 622A6CC7
-P 3950 2900
-F 0 "D2" H 3950 2683 50  0000 C CNN
-F 1 "LED" H 3950 2774 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3950 2900 50  0001 C CNN
-F 3 "~" H 3950 2900 50  0001 C CNN
-	1    3950 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1400 3700 1950 3700
-Connection ~ 2550 3700
-Wire Wire Line
-	1950 3200 1950 3700
-Connection ~ 1950 3700
-Wire Wire Line
-	1950 3700 2550 3700
-Wire Wire Line
-	1950 3700 1950 3800
-$Comp
-L power:GND #PWR015
-U 1 1 622A6CD6
-P 1950 3800
-F 0 "#PWR015" H 1950 3550 50  0001 C CNN
-F 1 "GND" H 1955 3627 50  0000 C CNN
-F 2 "" H 1950 3800 50  0001 C CNN
-F 3 "" H 1950 3800 50  0001 C CNN
-	1    1950 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2900 4250 2900
-Wire Wire Line
-	4250 2900 4250 3000
-$Comp
-L power:GND #PWR019
-U 1 1 622A6CDE
-P 4250 3000
-F 0 "#PWR019" H 4250 2750 50  0001 C CNN
-F 1 "GND" H 4255 2827 50  0000 C CNN
-F 2 "" H 4250 3000 50  0001 C CNN
-F 3 "" H 4250 3000 50  0001 C CNN
-	1    4250 3000
-	1    0    0    -1  
-$EndComp
-Text GLabel 1150 5750 1    50   Input ~ 0
-PV
-$Comp
-L Converter_DCDC:OKI-78SR-5_1.5-W36-C U3
-U 1 1 622AB052
-P 2000 5950
-F 0 "U3" H 2000 6192 50  0000 C CNN
-F 1 "OKI-78SR-5_1.5-W36-C" H 2000 6101 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" H 2050 5700 50  0001 L CIN
-F 3 "https://power.murata.com/data/power/oki-78sr.pdf" H 2000 5950 50  0001 C CNN
-	1    2000 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 5750 1150 5950
-Wire Wire Line
-	1150 5950 1450 5950
-$Comp
-L Device:CP1 C5
-U 1 1 622AB05A
-P 1450 6300
-F 0 "C5" H 1250 6350 50  0000 L CNN
-F 1 "22uF" H 1150 6250 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1450 6300 50  0001 C CNN
-F 3 "~" H 1450 6300 50  0001 C CNN
-	1    1450 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 5950 1450 6150
-Connection ~ 1450 5950
-Wire Wire Line
-	1450 5950 1700 5950
-Wire Wire Line
-	1450 6450 1450 6750
-Wire Wire Line
-	3000 5950 2750 5950
-$Comp
-L Device:CP1 C9
-U 1 1 622AB065
-P 3000 6300
-F 0 "C9" H 2750 6350 50  0000 L CNN
-F 1 "47uF" H 2700 6250 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3000 6300 50  0001 C CNN
-F 3 "~" H 3000 6300 50  0001 C CNN
-	1    3000 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 622AB06B
-P 2600 6300
-F 0 "C7" H 2350 6350 50  0000 L CNN
-F 1 "10uF" H 2300 6250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2638 6150 50  0001 C CNN
-F 3 "~" H 2600 6300 50  0001 C CNN
-	1    2600 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 5950 2600 6150
-Connection ~ 2600 5950
-Wire Wire Line
-	2600 5950 2300 5950
-Wire Wire Line
-	2600 6450 2600 6750
-Wire Wire Line
-	2600 6750 3000 6750
-Wire Wire Line
-	3000 6750 3000 6450
-Wire Wire Line
-	3000 6150 3000 5950
-$Comp
-L Device:R R3
-U 1 1 622AB078
-P 3450 5950
-F 0 "R3" V 3243 5950 50  0000 C CNN
-F 1 "800" V 3334 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3380 5950 50  0001 C CNN
-F 3 "~" H 3450 5950 50  0001 C CNN
-	1    3450 5950
-	0    1    1    0   
-$EndComp
-Connection ~ 3000 5950
-Wire Wire Line
-	3600 5950 3850 5950
-$Comp
-L Device:D D3
-U 1 1 622AB081
-P 4000 5950
-F 0 "D3" H 4000 5733 50  0000 C CNN
-F 1 "LED" H 4000 5824 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4000 5950 50  0001 C CNN
-F 3 "~" H 4000 5950 50  0001 C CNN
-	1    4000 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1450 6750 2000 6750
-Connection ~ 2600 6750
-Wire Wire Line
-	2000 6250 2000 6750
-Connection ~ 2000 6750
-Wire Wire Line
-	2000 6750 2600 6750
-Wire Wire Line
-	2000 6750 2000 6850
-$Comp
-L power:GND #PWR016
-U 1 1 622AB090
-P 2000 6850
-F 0 "#PWR016" H 2000 6600 50  0001 C CNN
-F 1 "GND" H 2005 6677 50  0000 C CNN
-F 2 "" H 2000 6850 50  0001 C CNN
-F 3 "" H 2000 6850 50  0001 C CNN
-	1    2000 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 5950 4300 5950
-Wire Wire Line
-	4300 5950 4300 6050
-$Comp
-L power:GND #PWR020
-U 1 1 622AB098
-P 4300 6050
-F 0 "#PWR020" H 4300 5800 50  0001 C CNN
-F 1 "GND" H 4305 5877 50  0000 C CNN
-F 2 "" H 4300 6050 50  0001 C CNN
-F 3 "" H 4300 6050 50  0001 C CNN
-	1    4300 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 1300 10100 1300
-Wire Wire Line
-	2950 2900 3250 2900
-Wire Wire Line
-	3000 5950 3300 5950
-Connection ~ 2750 5950
-Wire Wire Line
-	2750 5950 2600 5950
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 627009DB
-P 3150 2200
-AR Path="/627009DB" Ref="Conn?"  Part="2" 
-AR Path="/6217B740/627009DB" Ref="Conn1"  Part="2" 
-F 0 "Conn1" V 3100 2300 60  0000 C CNN
-F 1 "AndersonPP" V 3000 2300 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 1650 60  0001 C CNN
-F 3 "" H 3000 1650 60  0001 C CNN
-	2    3150 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 62720DB6
-P 3150 5150
-AR Path="/62720DB6" Ref="Conn?"  Part="2" 
-AR Path="/6217B740/62720DB6" Ref="Conn13"  Part="2" 
-F 0 "Conn13" V 3100 5250 60  0000 C CNN
-F 1 "AndersonPP" V 3000 5250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 4600 60  0001 C CNN
-F 3 "" H 3000 4600 60  0001 C CNN
-	2    3150 5150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2750 5250 2750 5950
-Wire Wire Line
-	2550 2900 2750 2900
-Wire Wire Line
-	2750 2300 2750 2900
-Connection ~ 2750 2900
-Wire Wire Line
-	2750 2900 2950 2900
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 62724E2B
-P 3150 1650
-AR Path="/62724E2B" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/62724E2B" Ref="Conn1"  Part="1" 
-F 0 "Conn1" V 3100 1750 60  0000 C CNN
-F 1 "AndersonPP" V 3000 1800 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 1100 60  0001 C CNN
-F 3 "" H 3000 1100 60  0001 C CNN
-	1    3150 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 6272600D
-P 2750 1850
-F 0 "#PWR017" H 2750 1600 50  0001 C CNN
-F 1 "GND" H 2755 1677 50  0000 C CNN
-F 2 "" H 2750 1850 50  0001 C CNN
-F 3 "" H 2750 1850 50  0001 C CNN
-	1    2750 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 1750 2750 1850
-$Comp
-L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
-U 1 1 6272AE84
-P 3150 4500
-AR Path="/6272AE84" Ref="Conn?"  Part="1" 
-AR Path="/6217B740/6272AE84" Ref="Conn13"  Part="1" 
-F 0 "Conn13" V 3100 4600 60  0000 C CNN
-F 1 "AndersonPP" V 3000 4650 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3000 3950 60  0001 C CNN
-F 3 "" H 3000 3950 60  0001 C CNN
-	1    3150 4500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 6272AE8A
-P 2750 4700
-F 0 "#PWR018" H 2750 4450 50  0001 C CNN
-F 1 "GND" H 2755 4527 50  0000 C CNN
-F 2 "" H 2750 4700 50  0001 C CNN
-F 3 "" H 2750 4700 50  0001 C CNN
-	1    2750 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 4600 2750 4700
 $Comp
 L Device:R R?
 U 1 1 6274E458
@@ -691,8 +158,6 @@ Wire Wire Line
 	9350 4050 9450 4050
 Wire Wire Line
 	9450 4050 9450 4400
-Wire Wire Line
-	9150 4300 9150 4150
 Connection ~ 9150 4300
 Wire Wire Line
 	9550 3750 9700 3750
@@ -780,11 +245,6 @@ Wire Wire Line
 	9150 6300 9000 6300
 Text HLabel 9300 5900 2    50   Input ~ 0
 Driver_AuxAct
-Connection ~ 9150 4150
-Wire Wire Line
-	9150 4150 9150 3750
-Wire Wire Line
-	7950 4150 9150 4150
 $Comp
 L 2022_Rev2-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 627A29D2
@@ -832,19 +292,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 2650 10450 2650
 $Comp
-L power:+12VA #PWR?
-U 1 1 62AB6237
-P 10100 1300
-AR Path="/62118E70/621219B0/62AB6237" Ref="#PWR?"  Part="1" 
-AR Path="/6217B740/62AB6237" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 10100 1150 50  0001 C CNN
-F 1 "+12VA" H 10115 1473 50  0000 C CNN
-F 2 "" H 10100 1300 50  0001 C CNN
-F 3 "" H 10100 1300 50  0001 C CNN
-	1    10100 1300
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5V #PWR024
 U 1 1 62AB88C7
 P 8900 2900
@@ -870,4 +317,258 @@ Wire Wire Line
 	9250 2500 9250 2450
 Wire Wire Line
 	9250 2450 9300 2450
+$Comp
+L MRDT_Devices:Q36SR12020NRFA VR?
+U 1 1 6234DBD5
+P 6550 1825
+F 0 "VR?" H 7067 2640 50  0000 C CNN
+F 1 "Q36SR12020NRFA" H 7067 2549 50  0000 C CNN
+F 2 "" H 6850 2625 50  0001 C CNN
+F 3 "" H 6850 2625 50  0001 C CNN
+	1    6550 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62359551
+P 6225 1800
+F 0 "#PWR?" H 6225 1550 50  0001 C CNN
+F 1 "GND" H 6230 1627 50  0000 C CNN
+F 2 "" H 6225 1800 50  0001 C CNN
+F 3 "" H 6225 1800 50  0001 C CNN
+	1    6225 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6235AAA0
+P 6175 1575
+F 0 "C?" H 6375 1525 50  0000 R CNN
+F 1 "10 uF" H 6550 1600 50  0000 R CNN
+F 2 "" H 6175 1575 50  0001 C CNN
+F 3 "~" H 6175 1575 50  0001 C CNN
+	1    6175 1575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 1425 6175 1425
+Wire Wire Line
+	6175 1425 6175 1475
+Connection ~ 6175 1425
+Wire Wire Line
+	6350 1575 6300 1575
+Wire Wire Line
+	6300 1575 6300 1725
+Wire Wire Line
+	6300 1725 6225 1725
+Wire Wire Line
+	6225 1725 6225 1800
+Wire Wire Line
+	6300 1725 6350 1725
+Connection ~ 6300 1725
+Wire Wire Line
+	6225 1725 6175 1725
+Wire Wire Line
+	6175 1725 6175 1675
+Connection ~ 6225 1725
+$Comp
+L Device:C_Small C?
+U 1 1 62367E2E
+P 7725 1575
+F 0 "C?" H 7817 1621 50  0000 L CNN
+F 1 "10 uF" H 7817 1530 50  0000 L CNN
+F 2 "" H 7725 1575 50  0001 C CNN
+F 3 "~" H 7725 1575 50  0001 C CNN
+	1    7725 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1375 7575 1375
+Wire Wire Line
+	7725 1375 7725 1475
+Wire Wire Line
+	7500 1475 7575 1475
+Wire Wire Line
+	7575 1475 7575 1375
+Connection ~ 7575 1375
+Wire Wire Line
+	7575 1375 7650 1375
+Wire Wire Line
+	7500 1775 7575 1775
+Wire Wire Line
+	7725 1775 7725 1675
+Wire Wire Line
+	7500 1675 7575 1675
+Wire Wire Line
+	7575 1675 7575 1775
+Connection ~ 7575 1775
+Wire Wire Line
+	7575 1775 7650 1775
+$Comp
+L power:GND #PWR?
+U 1 1 62374650
+P 7650 1825
+F 0 "#PWR?" H 7650 1575 50  0001 C CNN
+F 1 "GND" H 7655 1652 50  0000 C CNN
+F 2 "" H 7650 1825 50  0001 C CNN
+F 3 "" H 7650 1825 50  0001 C CNN
+	1    7650 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12VA #PWR?
+U 1 1 623752AE
+P 7650 1325
+F 0 "#PWR?" H 7650 1175 50  0001 C CNN
+F 1 "+12VA" H 7665 1498 50  0000 C CNN
+F 2 "" H 7650 1325 50  0001 C CNN
+F 3 "" H 7650 1325 50  0001 C CNN
+	1    7650 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1325 7650 1375
+Connection ~ 7650 1375
+Wire Wire Line
+	7650 1375 7725 1375
+Wire Wire Line
+	7650 1825 7650 1775
+Connection ~ 7650 1775
+Wire Wire Line
+	7650 1775 7725 1775
+NoConn ~ 7500 1575
+$Comp
+L MRDT_Devices:Q36SR12020NRFA VR?
+U 1 1 62381D01
+P 6700 4425
+F 0 "VR?" H 7217 5240 50  0000 C CNN
+F 1 "Q36SR12020NRFA" H 7217 5149 50  0000 C CNN
+F 2 "" H 7000 5225 50  0001 C CNN
+F 3 "" H 7000 5225 50  0001 C CNN
+	1    6700 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62381D07
+P 6375 4400
+F 0 "#PWR?" H 6375 4150 50  0001 C CNN
+F 1 "GND" H 6380 4227 50  0000 C CNN
+F 2 "" H 6375 4400 50  0001 C CNN
+F 3 "" H 6375 4400 50  0001 C CNN
+	1    6375 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62381D0D
+P 6325 4175
+F 0 "C?" H 6525 4125 50  0000 R CNN
+F 1 "10 uF" H 6700 4200 50  0000 R CNN
+F 2 "" H 6325 4175 50  0001 C CNN
+F 3 "~" H 6325 4175 50  0001 C CNN
+	1    6325 4175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 4025 6325 4025
+Wire Wire Line
+	6325 4025 6325 4075
+Wire Wire Line
+	6500 4175 6450 4175
+Wire Wire Line
+	6450 4175 6450 4325
+Wire Wire Line
+	6450 4325 6375 4325
+Wire Wire Line
+	6375 4325 6375 4400
+Wire Wire Line
+	6450 4325 6500 4325
+Connection ~ 6450 4325
+Wire Wire Line
+	6375 4325 6325 4325
+Wire Wire Line
+	6325 4325 6325 4275
+Connection ~ 6375 4325
+$Comp
+L Device:C_Small C?
+U 1 1 62381D20
+P 7875 4175
+F 0 "C?" H 7967 4221 50  0000 L CNN
+F 1 "10 uF" H 7967 4130 50  0000 L CNN
+F 2 "" H 7875 4175 50  0001 C CNN
+F 3 "~" H 7875 4175 50  0001 C CNN
+	1    7875 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3975 7725 3975
+Wire Wire Line
+	7875 3975 7875 4075
+Wire Wire Line
+	7650 4075 7725 4075
+Wire Wire Line
+	7725 4075 7725 3975
+Connection ~ 7725 3975
+Wire Wire Line
+	7650 4375 7725 4375
+Wire Wire Line
+	7875 4375 7875 4275
+Wire Wire Line
+	7650 4275 7725 4275
+Wire Wire Line
+	7725 4275 7725 4375
+Connection ~ 7725 4375
+Wire Wire Line
+	7725 4375 7800 4375
+$Comp
+L power:GND #PWR?
+U 1 1 62381D32
+P 7800 4425
+F 0 "#PWR?" H 7800 4175 50  0001 C CNN
+F 1 "GND" H 7805 4252 50  0000 C CNN
+F 2 "" H 7800 4425 50  0001 C CNN
+F 3 "" H 7800 4425 50  0001 C CNN
+	1    7800 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4425 7800 4375
+Connection ~ 7800 4375
+Wire Wire Line
+	7800 4375 7875 4375
+NoConn ~ 7650 4175
+Wire Wire Line
+	9150 3750 9150 3975
+Wire Wire Line
+	7725 3975 7875 3975
+Wire Wire Line
+	9150 3975 7875 3975
+Connection ~ 9150 3975
+Wire Wire Line
+	9150 3975 9150 4300
+Connection ~ 7875 3975
+$Comp
+L power:+36V #PWR?
+U 1 1 623A0899
+P 6175 1425
+F 0 "#PWR?" H 6175 1275 50  0001 C CNN
+F 1 "+36V" H 6190 1598 50  0000 C CNN
+F 2 "" H 6175 1425 50  0001 C CNN
+F 3 "" H 6175 1425 50  0001 C CNN
+	1    6175 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+36V #PWR?
+U 1 1 623A7358
+P 6325 4025
+F 0 "#PWR?" H 6325 3875 50  0001 C CNN
+F 1 "+36V" H 6340 4198 50  0000 C CNN
+F 2 "" H 6325 4025 50  0001 C CNN
+F 3 "" H 6325 4025 50  0001 C CNN
+	1    6325 4025
+	1    0    0    -1  
+$EndComp
+Connection ~ 6325 4025
 $EndSCHEMATC
