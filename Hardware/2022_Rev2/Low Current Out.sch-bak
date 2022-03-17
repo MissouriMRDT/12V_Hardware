@@ -73,9 +73,9 @@ L Transistor_FET:BUK7M9R9-60EX Q6
 U 1 1 62125A74
 P 3100 4850
 F 0 "Q6" H 3250 4700 50  0000 L CNN
-F 1 "BUK768R3-60E" H 2800 4600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 3300 4775 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 3100 4850 50  0001 L CNN
+F 1 "IRLML2803TRPBF" H 2800 4600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 4775 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" V 3100 4850 50  0001 L CNN
 	1    3100 4850
 	1    0    0    -1  
 $EndComp
@@ -272,9 +272,9 @@ L Transistor_FET:BUK7M9R9-60EX Q3
 U 1 1 621E878E
 P 2950 3050
 F 0 "Q3" H 3100 2900 50  0000 L CNN
-F 1 "BUK768R3-60E" H 2650 2800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 3150 2975 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 2950 3050 50  0001 L CNN
+F 1 "FDC855N" H 2650 2800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-6" H 3150 2975 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/fdc855n-d.pdf" V 2950 3050 50  0001 L CNN
 	1    2950 3050
 	1    0    0    -1  
 $EndComp
@@ -482,9 +482,9 @@ L Transistor_FET:BUK7M9R9-60EX Q4
 U 1 1 621F563D
 P 3000 1300
 F 0 "Q4" H 3150 1150 50  0000 L CNN
-F 1 "BUK768R3-60E" H 2700 1050 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 3200 1225 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 3000 1300 50  0001 L CNN
+F 1 "IRLML2803TRPBF" H 2700 1050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3200 1225 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" V 3000 1300 50  0001 L CNN
 	1    3000 1300
 	1    0    0    -1  
 $EndComp
@@ -694,9 +694,9 @@ L Transistor_FET:BUK7M9R9-60EX Q11
 U 1 1 6222B783
 P 9750 1400
 F 0 "Q11" H 9900 1250 50  0000 L CNN
-F 1 "BUK768R3-60E" H 9450 1150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 9950 1325 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 9750 1400 50  0001 L CNN
+F 1 "IRLML2803TRPBF" H 9450 1150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9950 1325 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" V 9750 1400 50  0001 L CNN
 	1    9750 1400
 	1    0    0    -1  
 $EndComp
@@ -906,9 +906,9 @@ L Transistor_FET:BUK7M9R9-60EX Q9
 U 1 1 62237A13
 P 9700 3300
 F 0 "Q9" H 9850 3150 50  0000 L CNN
-F 1 "BUK768R3-60E" H 9400 3050 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 9900 3225 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 9700 3300 50  0001 L CNN
+F 1 "FDC855N" H 9400 3050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-6" H 9900 3225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/fdc855n-d.pdf" V 9700 3300 50  0001 L CNN
 	1    9700 3300
 	1    0    0    -1  
 $EndComp
@@ -1116,9 +1116,9 @@ L Transistor_FET:BUK7M9R9-60EX Q10
 U 1 1 622534DF
 P 9700 5100
 F 0 "Q10" H 9850 4950 50  0000 L CNN
-F 1 "BUK768R3-60E" H 9400 4850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 9900 5025 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 9700 5100 50  0001 L CNN
+F 1 "FDC855N" H 9400 4850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-6" H 9900 5025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/fdc855n-d.pdf" V 9700 5100 50  0001 L CNN
 	1    9700 5100
 	1    0    0    -1  
 $EndComp
@@ -1328,9 +1328,9 @@ L Transistor_FET:BUK7M9R9-60EX Q8
 U 1 1 623DF59D
 P 6400 6300
 F 0 "Q8" H 6550 6150 50  0000 L CNN
-F 1 "BUK768R3-60E" H 6100 6050 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 6600 6225 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 6400 6300 50  0001 L CNN
+F 1 "FDC855N" H 6100 6050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SuperSOT-6" H 6600 6225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/fdc855n-d.pdf" V 6400 6300 50  0001 L CNN
 	1    6400 6300
 	0    1    1    0   
 $EndComp
@@ -1627,9 +1627,9 @@ L Transistor_FET:BUK7M9R9-60EX Q7
 U 1 1 6263D3D9
 P 5500 2050
 F 0 "Q7" H 5650 1900 50  0000 L CNN
-F 1 "BUK768R3-60E" H 5200 1800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:LFPAK33" H 5700 1975 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf" V 5500 2050 50  0001 L CNN
+F 1 "IRLML2803TRPBF" H 5200 1800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 1975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml2803pbf.pdf?fileId=5546d462533600a4015356682aff260f" V 5500 2050 50  0001 L CNN
 	1    5500 2050
 	0    -1   -1   0   
 $EndComp

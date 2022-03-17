@@ -155,7 +155,7 @@ Current_Sense_Spare
 Wire Wire Line
 	3850 1950 3750 1950
 Text HLabel 3850 3000 2    50   Output ~ 0
-Anderson_Spare_Logic
+Anderson_Spare
 Wire Wire Line
 	3850 3000 3750 3000
 Text HLabel 1350 2050 0    50   Input ~ 0
