@@ -47,10 +47,6 @@ Text HLabel 3850 1650 2    50   Output ~ 0
 Current_Sense_Multi
 Wire Wire Line
 	3750 1650 3850 1650
-Text HLabel 3850 1850 2    50   Output ~ 0
-Current_Sense_NetSwitch
-Wire Wire Line
-	3750 1850 3850 1850
 Text HLabel 4150 2200 2    50   Output ~ 0
 Anderson_BBB
 Text HLabel 3850 2300 2    50   Output ~ 0
@@ -83,10 +79,6 @@ Text HLabel 1350 1650 0    50   Input ~ 0
 Driver_Multi
 Wire Wire Line
 	1350 1650 1450 1650
-Text HLabel 1350 1850 0    50   Input ~ 0
-Driver_NetSwitch
-Wire Wire Line
-	1350 1850 1450 1850
 Text HLabel 5750 2600 2    50   Output ~ 0
 Anderson_GimLog
 Text HLabel 5750 2400 2    50   Output ~ 0
@@ -135,20 +127,18 @@ F11 "Anderson_Multi" O R 3750 2700 50
 F12 "Current_Sense_Cam1" O R 3750 1250 50 
 F13 "Anderson_Cam1" O R 3750 2300 50 
 F14 "Driver_Cam1" I L 1450 1250 50 
-F15 "Current_Sense_NetSwitch" O R 3750 1850 50 
-F16 "Anderson_NetSwitch" O R 3750 2900 50 
-F17 "Current_Sense_Cam2" O R 3750 1350 50 
-F18 "Anderson_Cam2" O R 3750 2400 50 
-F19 "Driver_Cam2" I L 1450 1350 50 
-F20 "Driver_BBB" I L 1450 1150 50 
-F21 "Driver_Multi" I L 1450 1650 50 
-F22 "Current_Sense_Gim" O R 3750 1550 50 
-F23 "Anderson_Gim" O R 3750 2600 50 
-F24 "Driver_Gim" I L 1450 1550 50 
-F25 "Driver_NetSwitch" I L 1450 1850 50 
-F26 "Current_Sense_Spare" O R 3750 1950 50 
-F27 "Anderson_Spare" O R 3750 3000 50 
-F28 "Driver_Spare" I L 1450 2050 50 
+F15 "Anderson_NetSwitch" O R 3750 2900 50 
+F16 "Current_Sense_Cam2" O R 3750 1350 50 
+F17 "Anderson_Cam2" O R 3750 2400 50 
+F18 "Driver_Cam2" I L 1450 1350 50 
+F19 "Driver_BBB" I L 1450 1150 50 
+F20 "Driver_Multi" I L 1450 1650 50 
+F21 "Current_Sense_Gim" O R 3750 1550 50 
+F22 "Anderson_Gim" O R 3750 2600 50 
+F23 "Driver_Gim" I L 1450 1550 50 
+F24 "Current_Sense_Spare" O R 3750 1950 50 
+F25 "Anderson_Spare" O R 3750 3000 50 
+F26 "Driver_Spare" I L 1450 2050 50 
 $EndSheet
 Text HLabel 3850 1950 2    50   Output ~ 0
 Current_Sense_Spare

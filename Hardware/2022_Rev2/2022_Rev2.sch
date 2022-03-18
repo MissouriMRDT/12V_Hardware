@@ -21,7 +21,7 @@ AR Path="/62118E70/62120188" Ref="Conn?"  Part="4"
 AR Path="/62120188" Ref="Conn2"  Part="4" 
 F 0 "Conn2" H 5558 7187 60  0000 C CNN
 F 1 "Pack" H 5558 7081 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 5200 6250 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked" H 5200 6250 60  0001 C CNN
 F 3 "" H 5200 6250 60  0001 C CNN
 	4    5350 6800
 	1    0    0    -1  
@@ -34,7 +34,7 @@ AR Path="/62118E70/6212018E" Ref="Conn?"  Part="1"
 AR Path="/6212018E" Ref="Conn2"  Part="1" 
 F 0 "Conn2" H 5558 7687 60  0000 C CNN
 F 1 "Pack" H 5558 7581 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Side_by_Side_PV" H 5200 6750 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked" H 5200 6750 60  0001 C CNN
 F 3 "" H 5200 6750 60  0001 C CNN
 	1    5350 7300
 	1    0    0    -1  
@@ -64,8 +64,8 @@ L Device:C C2
 U 1 1 62141D04
 P 2200 6950
 F 0 "C2" H 2315 6996 50  0000 L CNN
-F 1 "10uF" H 2315 6905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2238 6800 50  0001 C CNN
+F 1 "22uF" H 2315 6905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2238 6800 50  0001 C CNN
 F 3 "~" H 2200 6950 50  0001 C CNN
 	1    2200 6950
 	1    0    0    -1  
@@ -81,7 +81,7 @@ U 1 1 621430A4
 P 3050 6600
 F 0 "R1" V 2843 6600 50  0000 C CNN
 F 1 "330" V 2934 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2980 6600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 6600 50  0001 C CNN
 F 3 "~" H 3050 6600 50  0001 C CNN
 	1    3050 6600
 	0    1    1    0   
@@ -212,7 +212,7 @@ U 2 1 6257C05F
 P 5750 2525
 F 0 "Conn4" V 5700 2625 60  0000 C CNN
 F 1 "Aux" V 5600 2625 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5600 1975 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 5600 1975 60  0001 C CNN
 F 3 "" H 5600 1975 60  0001 C CNN
 	2    5750 2525
 	-1   0    0    1   
@@ -223,7 +223,7 @@ U 1 1 62580F86
 P 10600 3650
 F 0 "Conn9" V 10550 3750 60  0000 C CNN
 F 1 "Gimbal" V 10450 3750 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 10450 3100 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 10450 3100 60  0001 C CNN
 F 3 "" H 10450 3100 60  0001 C CNN
 	1    10600 3650
 	0    1    1    0   
@@ -234,7 +234,7 @@ U 1 1 625C36EB
 P 10050 1250
 F 0 "Conn5" V 10000 1350 60  0000 C CNN
 F 1 "BBB" V 9900 1350 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 700 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9900 700 60  0001 C CNN
 F 3 "" H 9900 700 60  0001 C CNN
 	1    10050 1250
 	0    1    1    0   
@@ -245,7 +245,7 @@ U 1 1 625C795B
 P 10050 1850
 F 0 "Conn6" V 10000 1950 60  0000 C CNN
 F 1 "Cam1" V 9900 1950 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 1300 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9900 1300 60  0001 C CNN
 F 3 "" H 9900 1300 60  0001 C CNN
 	1    10050 1850
 	0    1    1    0   
@@ -256,7 +256,7 @@ U 1 1 625CBD75
 P 10050 2450
 F 0 "Conn7" V 10000 2550 60  0000 C CNN
 F 1 "Cam2" V 9900 2550 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 1900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9900 1900 60  0001 C CNN
 F 3 "" H 9900 1900 60  0001 C CNN
 	1    10050 2450
 	0    1    1    0   
@@ -267,7 +267,7 @@ U 3 1 6257FC90
 P 9700 3900
 F 0 "Conn9" V 9950 4000 60  0000 C CNN
 F 1 "Gimbal" V 10050 4000 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9550 3350 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 9550 3350 60  0001 C CNN
 F 3 "" H 9550 3350 60  0001 C CNN
 	3    9700 3900
 	0    -1   -1   0   
@@ -278,7 +278,7 @@ U 1 1 625DF808
 P 10050 4250
 F 0 "Conn10" V 10000 4350 60  0000 C CNN
 F 1 "Nav" V 9900 4350 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 3700 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9900 3700 60  0001 C CNN
 F 3 "" H 9900 3700 60  0001 C CNN
 	1    10050 4250
 	0    1    1    0   
@@ -289,7 +289,7 @@ U 1 1 625E3A96
 P 10050 4850
 F 0 "Conn11" V 10000 4950 60  0000 C CNN
 F 1 "Network Switch" V 9900 4950 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 4300 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9900 4300 60  0001 C CNN
 F 3 "" H 9900 4300 60  0001 C CNN
 	1    10050 4850
 	0    1    1    0   
@@ -300,7 +300,7 @@ U 1 1 625EBE27
 P 10600 5450
 F 0 "Conn12" V 10550 5550 60  0000 C CNN
 F 1 "Multimedia" V 10450 5550 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 10450 4900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 10450 4900 60  0001 C CNN
 F 3 "" H 10450 4900 60  0001 C CNN
 	1    10600 5450
 	0    1    1    0   
@@ -325,7 +325,7 @@ U 1 1 6267E2AF
 P 10050 3050
 F 0 "Conn8" V 10000 3150 60  0000 C CNN
 F 1 "Drive" V 9900 3150 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9900 2500 60  0001 C CNN
 F 3 "" H 9900 2500 60  0001 C CNN
 	1    10050 3050
 	0    1    1    0   
@@ -346,7 +346,7 @@ U 2 1 62580207
 P 10050 5450
 F 0 "Conn12" V 10000 5550 60  0000 C CNN
 F 1 "Multimedia" V 9900 5550 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9900 4900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 9900 4900 60  0001 C CNN
 F 3 "" H 9900 4900 60  0001 C CNN
 	2    10050 5450
 	0    1    1    0   
@@ -381,28 +381,6 @@ Wire Wire Line
 	9100 3250 9100 5850
 Wire Wire Line
 	9100 5850 9600 5850
-$Comp
-L MRDT_Connectors:Molex_SL_10 Conn18
-U 1 1 622C6D4E
-P 2300 1550
-F 0 "Conn18" H 2428 2108 60  0000 L CNN
-F 1 "Molex_SL_10" H 2428 2002 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 2300 2050 60  0001 C CNN
-F 3 "" H 2300 2050 60  0001 C CNN
-	1    2300 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_10 Conn19
-U 1 1 622C9F32
-P 3800 1550
-F 0 "Conn19" H 3928 2108 60  0000 L CNN
-F 1 "Molex_SL_10" H 3928 2002 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_10_Vertical" H 3800 2050 60  0001 C CNN
-F 3 "" H 3800 2050 60  0001 C CNN
-	1    3800 1550
-	-1   0    0    -1  
-$EndComp
 Text GLabel 1950 1100 0    50   Output ~ 0
 Current_Sense_Drive
 Text GLabel 1950 1400 0    50   Output ~ 0
@@ -565,7 +543,7 @@ U 2 1 6260ECDF
 P 10050 3650
 F 0 "Conn9" V 10000 3750 60  0000 C CNN
 F 1 "Gimbal" V 9900 3750 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 9900 3100 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 9900 3100 60  0001 C CNN
 F 3 "" H 9900 3100 60  0001 C CNN
 	2    10050 3650
 	0    1    1    0   
@@ -576,7 +554,7 @@ U 2 1 6260F9B1
 P 9500 3050
 F 0 "Conn8" V 9450 3150 60  0000 C CNN
 F 1 "Drive" V 9350 3150 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9350 2500 60  0001 C CNN
 F 3 "" H 9350 2500 60  0001 C CNN
 	2    9500 3050
 	0    1    1    0   
@@ -587,7 +565,7 @@ U 2 1 62612532
 P 9500 1250
 F 0 "Conn5" V 9450 1350 60  0000 C CNN
 F 1 "BBB" V 9350 1350 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 700 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9350 700 60  0001 C CNN
 F 3 "" H 9350 700 60  0001 C CNN
 	2    9500 1250
 	0    1    1    0   
@@ -598,20 +576,20 @@ U 2 1 6261309F
 P 9500 4250
 F 0 "Conn10" V 9450 4350 60  0000 C CNN
 F 1 "Nav" V 9350 4350 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 3700 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9350 3700 60  0001 C CNN
 F 3 "" H 9350 3700 60  0001 C CNN
 	2    9500 4250
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn11
-U 3 1 62616106
+U 2 1 62616106
 P 9500 4850
 F 0 "Conn11" V 9450 4750 60  0000 L CNN
 F 1 "Network Switch" V 9350 4650 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 4300 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9350 4300 60  0001 C CNN
 F 3 "" H 9350 4300 60  0001 C CNN
-	3    9500 4850
+	2    9500 4850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -620,31 +598,31 @@ U 3 1 62616C4A
 P 9500 5450
 F 0 "Conn12" V 9450 5400 60  0000 L CNN
 F 1 "Multimedia" V 9350 5300 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 4900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 9350 4900 60  0001 C CNN
 F 3 "" H 9350 4900 60  0001 C CNN
 	3    9500 5450
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn7
-U 3 1 626170BB
+U 2 1 626170BB
 P 9500 2450
 F 0 "Conn7" V 9450 2400 60  0000 L CNN
 F 1 "Cam2" V 9350 2300 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 1900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9350 1900 60  0001 C CNN
 F 3 "" H 9350 1900 60  0001 C CNN
-	3    9500 2450
+	2    9500 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn6
-U 3 1 62618652
+U 2 1 62618652
 P 9500 1850
 F 0 "Conn6" V 9450 1800 60  0000 L CNN
 F 1 "Cam1" V 9350 1700 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9350 1300 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Stacked_PV" H 9350 1300 60  0001 C CNN
 F 3 "" H 9350 1300 60  0001 C CNN
-	3    9500 1850
+	2    9500 1850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -673,7 +651,7 @@ U 1 1 6266BD47
 P 7650 4450
 F 0 "Conn3" V 7600 4550 60  0000 C CNN
 F 1 "Spare" V 7500 4550 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7500 3900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 7500 3900 60  0001 C CNN
 F 3 "" H 7500 3900 60  0001 C CNN
 	1    7650 4450
 	0    -1   -1   0   
@@ -684,13 +662,13 @@ U 2 1 6266BD53
 P 8250 4450
 F 0 "Conn3" V 8200 4400 60  0000 L CNN
 F 1 "Spare" V 8100 4300 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8100 3900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 8100 3900 60  0001 C CNN
 F 3 "" H 8100 3900 60  0001 C CNN
 	2    8250 4450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8150 4050 8150 3450
+	8150 4050 8150 3875
 Wire Wire Line
 	8150 3450 8000 3450
 $Comp
@@ -775,15 +753,13 @@ F 3 "" H 750 6400 50  0001 C CNN
 	1    750  6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 6600 2750 6600
 $Comp
 L Device:C C1
 U 1 1 624BFFEE
 P 1050 6950
 F 0 "C1" H 1165 6996 50  0000 L CNN
 F 1 "10uF" H 1165 6905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1088 6800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1088 6800 50  0001 C CNN
 F 3 "~" H 1050 6950 50  0001 C CNN
 	1    1050 6950
 	1    0    0    -1  
@@ -799,7 +775,7 @@ AR Path="/6217B740/624DC9B9" Ref="R?"  Part="1"
 AR Path="/624DC9B9" Ref="R3"  Part="1" 
 F 0 "R3" V 4800 3750 50  0000 C CNN
 F 1 "1k" V 4900 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4830 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4830 3750 50  0001 C CNN
 F 3 "~" H 4900 3750 50  0001 C CNN
 	1    4900 3750
 	1    0    0    -1  
@@ -860,9 +836,9 @@ AR Path="/62118E70/621219B0/624DC9E6" Ref="R?"  Part="1"
 AR Path="/6217B740/624DC9E6" Ref="R?"  Part="1" 
 AR Path="/624DC9E6" Ref="R2"  Part="1" 
 F 0 "R2" H 4350 3700 50  0000 L CNN
-F 1 "0.003" V 4300 3550 50  0000 L CNN
-F 2 "Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder" V 4230 3650 50  0001 C CNN
-F 3 "~" H 4300 3650 50  0001 C CNN
+F 1 "0.0015" V 4300 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 4230 3650 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773449-3&DocType=DS&DocLang=English" H 4300 3650 50  0001 C CNN
 	1    4300 3650
 	0    -1   -1   0   
 $EndComp
@@ -909,7 +885,7 @@ AR Path="/624DCA06" Ref="Conn4"  Part="1"
 AR Path="/6217B740/624DCA06" Ref="Conn?"  Part="1" 
 F 0 "Conn4" V 5700 3350 60  0000 C CNN
 F 1 "Aux" V 5600 3500 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5600 2700 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 5600 2700 60  0001 C CNN
 F 3 "" H 5600 2700 60  0001 C CNN
 	1    5750 3250
 	-1   0    0    1   
@@ -922,7 +898,7 @@ AR Path="/624DCA0C" Ref="Conn4"  Part="3"
 AR Path="/6217B740/624DCA0C" Ref="Conn?"  Part="3" 
 F 0 "Conn4" V 5700 2800 60  0000 L CNN
 F 1 "Aux" V 5600 2700 60  0000 L CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 5600 2300 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 5600 2300 60  0001 C CNN
 F 3 "" H 5600 2300 60  0001 C CNN
 	3    5750 2850
 	-1   0    0    1   
@@ -971,7 +947,7 @@ AR Path="/6217B740/624DCA29" Ref="VR?"  Part="1"
 AR Path="/624DCA29" Ref="VR2"  Part="1" 
 F 0 "VR2" H 2267 4315 50  0000 C CNN
 F 1 "Q36SR12020NRFA" H 2267 4224 50  0000 C CNN
-F 2 "" H 2050 4300 50  0001 C CNN
+F 2 "MRDT_Devices:Q36SR12020NRFA" H 2050 4300 50  0001 C CNN
 F 3 "" H 2050 4300 50  0001 C CNN
 	1    1750 3500
 	1    0    0    -1  
@@ -989,24 +965,8 @@ F 3 "" H 1425 3475 50  0001 C CNN
 	1    1425 3475
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 624DCA35
-P 1375 3250
-AR Path="/6217B740/624DCA35" Ref="C?"  Part="1" 
-AR Path="/624DCA35" Ref="C4"  Part="1" 
-F 0 "C4" H 1575 3200 50  0000 R CNN
-F 1 "10 uF" H 1750 3275 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1375 3250 50  0001 C CNN
-F 3 "~" H 1375 3250 50  0001 C CNN
-	1    1375 3250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1550 3100 1375 3100
-Wire Wire Line
-	1375 3100 1375 3150
-Connection ~ 1375 3100
 Wire Wire Line
 	1550 3250 1500 3250
 Wire Wire Line
@@ -1019,27 +979,7 @@ Wire Wire Line
 	1500 3400 1550 3400
 Connection ~ 1500 3400
 Wire Wire Line
-	1425 3400 1375 3400
-Wire Wire Line
-	1375 3400 1375 3350
-Connection ~ 1425 3400
-$Comp
-L Device:C_Small C?
-U 1 1 624DCA47
-P 2925 3250
-AR Path="/6217B740/624DCA47" Ref="C?"  Part="1" 
-AR Path="/624DCA47" Ref="C6"  Part="1" 
-F 0 "C6" H 3017 3296 50  0000 L CNN
-F 1 "10 uF" H 3017 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2925 3250 50  0001 C CNN
-F 3 "~" H 2925 3250 50  0001 C CNN
-	1    2925 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2700 3050 2775 3050
-Wire Wire Line
-	2925 3050 2925 3150
 Wire Wire Line
 	2700 3150 2775 3150
 Wire Wire Line
@@ -1049,8 +989,6 @@ Wire Wire Line
 	2775 3050 2850 3050
 Wire Wire Line
 	2700 3450 2775 3450
-Wire Wire Line
-	2925 3450 2925 3350
 Wire Wire Line
 	2700 3350 2775 3350
 Wire Wire Line
@@ -1086,28 +1024,9 @@ F 3 "" H 2850 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 3000 2850 3050
-Connection ~ 2850 3050
-Wire Wire Line
-	2850 3050 2925 3050
 Wire Wire Line
 	2850 3500 2850 3450
-Connection ~ 2850 3450
-Wire Wire Line
-	2850 3450 2925 3450
 NoConn ~ 2700 3250
-$Comp
-L MRDT_Devices:Q36SR12020NRFA VR?
-U 1 1 624DCA6C
-P 1600 4725
-AR Path="/6217B740/624DCA6C" Ref="VR?"  Part="1" 
-AR Path="/624DCA6C" Ref="VR1"  Part="1" 
-F 0 "VR1" H 2117 5540 50  0000 C CNN
-F 1 "Q36SR12020NRFA" H 2117 5449 50  0000 C CNN
-F 2 "" H 1900 5525 50  0001 C CNN
-F 3 "" H 1900 5525 50  0001 C CNN
-	1    1600 4725
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 624DCA72
@@ -1121,43 +1040,8 @@ F 3 "" H 1275 4700 50  0001 C CNN
 	1    1275 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 624DCA78
-P 1225 4475
-AR Path="/6217B740/624DCA78" Ref="C?"  Part="1" 
-AR Path="/624DCA78" Ref="C3"  Part="1" 
-F 0 "C3" H 1375 4425 50  0000 R CNN
-F 1 "10 uF" H 1500 4550 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1225 4475 50  0001 C CNN
-F 3 "~" H 1225 4475 50  0001 C CNN
-	1    1225 4475
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1275 4625 1275 4700
-Wire Wire Line
-	1275 4625 1225 4625
-Wire Wire Line
-	1225 4625 1225 4575
-Connection ~ 1275 4625
-$Comp
-L Device:C_Small C?
-U 1 1 624DCA89
-P 2775 4475
-AR Path="/6217B740/624DCA89" Ref="C?"  Part="1" 
-AR Path="/624DCA89" Ref="C5"  Part="1" 
-F 0 "C5" H 2867 4521 50  0000 L CNN
-F 1 "10 uF" H 2867 4430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2775 4475 50  0001 C CNN
-F 3 "~" H 2775 4475 50  0001 C CNN
-	1    2775 4475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2775 4275 2775 4375
-Wire Wire Line
-	2775 4675 2775 4575
 $Comp
 L power:GND #PWR?
 U 1 1 624DCA9A
@@ -1174,8 +1058,6 @@ $EndComp
 Wire Wire Line
 	2700 4725 2700 4675
 Connection ~ 2700 4675
-Wire Wire Line
-	2700 4675 2775 4675
 $Comp
 L power:+36V #PWR?
 U 1 1 624DCAAA
@@ -1231,10 +1113,7 @@ Connection ~ 5275 2950
 Wire Wire Line
 	5275 2950 5350 2950
 Wire Wire Line
-	2775 4275 4050 4275
-Wire Wire Line
 	4050 3650 4050 4025
-Connection ~ 2775 4275
 Wire Wire Line
 	4900 3900 4900 4025
 Wire Wire Line
@@ -1256,12 +1135,8 @@ Wire Wire Line
 	2700 4375 2700 4275
 Connection ~ 2700 4275
 Wire Wire Line
-	2700 4275 2775 4275
-Wire Wire Line
 	1275 4625 1400 4625
 NoConn ~ 2550 4475
-NoConn ~ 4000 600 
-NoConn ~ 2100 600 
 Wire Wire Line
 	4150 700  4000 700 
 Wire Wire Line
@@ -1271,10 +1146,64 @@ Wire Wire Line
 Wire Wire Line
 	5900 6700 5900 6600
 Wire Wire Line
-	1225 4375 1225 4325
-Wire Wire Line
 	1400 4325 1225 4325
-Connection ~ 1225 4325
 Wire Wire Line
 	1225 4325 1225 4275
+$Comp
+L MRDT_Devices:Q36SR12020NRFA VR?
+U 1 1 624DCA6C
+P 1600 4725
+AR Path="/6217B740/624DCA6C" Ref="VR?"  Part="1" 
+AR Path="/624DCA6C" Ref="VR1"  Part="1" 
+F 0 "VR1" H 2117 5540 50  0000 C CNN
+F 1 "Q36SR12020NRFA" H 2117 5449 50  0000 C CNN
+F 2 "MRDT_Devices:Q36SR12020NRFA" H 1900 5525 50  0001 C CNN
+F 3 "" H 1900 5525 50  0001 C CNN
+	1    1600 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4275 4050 4275
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 3 1 6246BADA
+P 8625 4450
+F 0 "Conn3" V 8886 4422 60  0000 R CNN
+F 1 "Spare" V 8780 4422 60  0000 R CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 8475 3900 60  0001 C CNN
+F 3 "" H 8475 3900 60  0001 C CNN
+	3    8625 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8525 4050 8525 3875
+Wire Wire Line
+	8525 3875 8150 3875
+Connection ~ 8150 3875
+Wire Wire Line
+	8150 3875 8150 3450
+Wire Wire Line
+	2200 6600 2750 6600
+$Comp
+L MRDT_Connectors:Molex_SL_09 Conn1
+U 1 1 6248B82D
+P 2300 1550
+F 0 "Conn1" H 2428 2058 60  0000 L CNN
+F 1 "Molex_SL_09" H 2428 1952 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_09_Horizontal" H 2300 1950 60  0001 C CNN
+F 3 "" H 2300 1950 60  0001 C CNN
+	1    2300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_09 Conn13
+U 1 1 6248CE53
+P 3800 650
+F 0 "Conn13" H 3742 463 60  0000 C CNN
+F 1 "Molex_SL_09" H 3742 569 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_09_Horizontal" H 3800 1050 60  0001 C CNN
+F 3 "" H 3800 1050 60  0001 C CNN
+	1    3800 650 
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
