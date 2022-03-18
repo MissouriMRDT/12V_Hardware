@@ -1206,4 +1206,6 @@ F 3 "" H 3800 1050 60  0001 C CNN
 	1    3800 650 
 	-1   0    0    1   
 $EndComp
+Text Notes 2650 7730 0    50   ~ 0
+-All current sensors are the INA281A4\n-Note that the A and B chips have different pinouts and the number refers to the GAIN of the I sense chip
 $EndSCHEMATC
